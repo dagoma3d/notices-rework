@@ -1,0 +1,22 @@
+.right {
+    float:right;
+}
+
+.left {
+    float:left;
+}
+
+.home-icon {
+    height:18px;
+    top:2px;
+    position:relative;
+}
+
+.top-lang {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-bottom: 1px solid #ff8200;
+}
