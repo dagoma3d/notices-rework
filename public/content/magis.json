@@ -1,0 +1,8 @@
+{
+  "title": "Magis",
+  "pictos": [
+    { "href": "/printer/magis", "src": "magis", "title": "home.start" },
+    { "href": "/addon/box/neva-magis", "src": "caisson-neva-magis", "title": "home.box" },
+    { "href": "/cura-by-dagoma/magis", "src": "cura", "title": "home.cbd" }
+  ]
+}

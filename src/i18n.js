@@ -17,12 +17,15 @@ i18n
   .init({
     fallbackLng: 'fr',
     debug: true,
-    
+
     saveMissing: true, // send not translated keys to endpoint
 
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
+    react: {
+      useSuspense: false
+    }
   });
 
 export default i18n;

@@ -5,6 +5,25 @@
     "title": "Premiers pas",
     "subtitle": "C'est parti !",
     "description": "Félicitations ! Si vous êtes ici c'est que vous avez fait un (bon) choix : vous lancer dans l'aventure de l'impression 3D. Nous allons vous accompagner étape par étape, du montage à la première utilisation de votre machine ou de vos nouveaux composants. Vous êtes prêts ?",
-    "printer_choice": "Choisissez votre imprimante 3D pour commencer"
+    "printer_choice": "Choisissez votre imprimante 3D pour commencer",
+    "check_neva_version": "Comment vérifier la version de votre Neva ?",
+    "magis_serial_number": "Magis : Numéro de série > 6000",
+    "neva_serial_number": "Neva : Numéro de série < 6000 ou pas de numéro de série",
+    "find_neva_version": "Trouver le numéro de série de ma Neva/Magis",
+    "magis": "Magis",
+    "neva": "Neva",
+    "de200": "DiscoEasy200",
+    "du": "Disco Ultimate",
+    "cbd": "Cura by Dagoma",
+    "box": "Caisson",
+    "instruction":  "Notice de montage",
+    "start": "Premier pas",
+    "screen": "Ecran",
+    "eplus": "Extrudeur+",
+    "expert": "Pack expert",
+    "bicolor": "Pack bi-couleur",
+    "pbox": "Caisson de protection",
+    "evolution": "Pack évolution Ultimate",
+    "xl": "Pack XL"
   }
 }

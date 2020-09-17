@@ -1,26 +1,31 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
-// page uses the hook
-function Header(props) {
+function Header() {
   const { t, i18n } = useTranslation();
 
-  const changeLanguage = lng => {
+  const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
 
+  const handleKeyPress = (event) => {
+    if (event.key === 'e') changeLanguage('en');
+    if (event.key === 'f') changeLanguage('fr');
+  }
+
   useEffect(() => {
-    document.title = t("title");
+    document.title = t('title');
   });
 
   return (
-    <section id="header" className="top-lang row">
+    <section className="top-lang row">
       <div className="wrap row">
         <div className="left">
-          <a href="//www.dagoma3d.com" target="_blank" rel="noopener noreferrer"><img src='/logo.png' className="home-icon" alt="home"/></a> | <a href="/"><i className="fa fa-home"></i></a>
+          <Link href="/"><i className="fa fa-home" /></Link>
         </div>
         <div className="right">
-          <a href="#header" className="user-locale" onClick={()=> changeLanguage('en')}>en</a> | <a href="#header" className="user-locale" onClick={()=> changeLanguage('fr')}>fr</a>
+          <span className='language-choice' onClick={() => changeLanguage('en')} onKeyPress={handleKeyPress} role='button' tabIndex={0}>en</span> | <span className='language-choice' onClick={() => changeLanguage('fr')} onKeyPress={handleKeyPress} role='button' tabIndex={-1}>fr</span>
         </div>
       </div>
     </section>

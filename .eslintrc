@@ -94,6 +94,7 @@
         "aspects": ["invalidHref"]
       }
     ],
-    "react/jsx-props-no-spreading": 0
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-fragments": ["warn", "element"]
   }
 }

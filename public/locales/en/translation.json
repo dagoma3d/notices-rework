@@ -5,6 +5,25 @@
     "title": "First steps",
     "subtitle": "Let's do it!",
     "description": "Congratulations! If you are here it is because you have made a (good) choice: to embark on the adventure of 3D printing. We will support you step by step, from the assembling to the first use of your machine or your new components. Are you ready to come onboard?",
-    "printer_choice": "Choose your 3D printer to get started"
+    "printer_choice": "Choose your 3D printer to get started",
+    "check_neva_version": "How to check the version of your Neva?",
+    "magis_serial_number": "Magis: Serial number > 6000",
+    "neva_serial_number": "Neva : Serial number < 6000 or no serial number",
+    "find_neva_version": "Find the version of my Neva/Magis",
+    "magis": "Magis",
+    "neva": "Neva",
+    "de200": "DiscoEasy200",
+    "du": "Disco Ultimate",
+    "cbd": "Cura by Dagoma",
+    "box": "Box",
+    "instruction": "Installation instructions",
+    "start": "First steps",
+    "screen": "Screen",
+    "eplus": "Extruder+",
+    "expert": "Expert pack",
+    "bicolor": "Bicolor pack",
+    "pbox": "Protection box",
+    "evolution": "Ultimate evolution pack",
+    "xl": "Pack XL"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "title": "Disco Ultimate",
+  "pictos": [
+    { "href": "/printer/du", "src": "disco-ultimate", "title": "home.instruction" },
+    { "href": "/addon/screen", "src": "addon", "title": "home.screen" },
+    { "href": "/addon/bicolor/du", "src": "addon", "title": "home.bicolor" },
+    { "href": "/addon/xl/du/demontage", "src": "addon", "title": "home.xl" },
+    { "href": "/addon/box/disco", "src": "caisson-disco", "title": "home.pbox" },
+    { "href": "/cura-by-dagoma/du", "src": "cura", "title": "home.cbd" }
+  ]
+}

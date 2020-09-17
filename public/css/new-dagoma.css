@@ -2661,8 +2661,6 @@ button:disabled { opacity:0.5; pointer-events:none; }
     border:2px solid #404041;
 }
 
-.btn-sub-step { cursor:pointer; }
-
 .carousel { overflow:hidden; position:relative; }
 .carousel-container { position:relative; left:-100%; }
 .carousel-container.transition { transition:all .4s ease; }
