@@ -16,9 +16,11 @@ i18n
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
     fallbackLng: 'fr',
-    debug: true,
+    debug: false,
 
     saveMissing: true, // send not translated keys to endpoint
+
+    keySeparator: false,
 
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default

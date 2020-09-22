@@ -1,49 +1,38 @@
-import React, { Fragment, useState } from 'react';
-import Block from '../components/Block';
-import Title from '../components/Title';
-import HomeSection from '../components/HomeSection';
-import Pictogram from '../components/Pictogram';
+import React, { Fragment, useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import Choices from '../components/home/Choices';
 
 function Home() {
-  const [subMenu, setSubMenu] = useState();
+  const { t } = useTranslation();
 
-  const handleClick = (choice) => {
-    fetch(`./content/${choice}.json`).then(response => {
+  const [content, setContent] = useState();
+
+  useEffect(() => {
+    fetch('./content/home.json').then(response => {
       response.json().then(data => {
-        setSubMenu(data);
+        setContent(data);
       });
     });
-  }
+  }, [])
+
+  if (!content) return null;
 
   return (
     <Fragment>
-      <Block
-        img="FirstStep/premier-pas.jpg"
-        content={[
-          { text: 'home.title', classes: 'title big tleft', tag: 'h1' },
-          { text: 'home.subtitle', classes: 'tleft big-title' },
-          { text: 'home.description', classes: 'ijustify light' },
-        ]} />
-      <Title
-        content={[
-          { text: 'home.printer_choice', classes: 'big-title' }
-        ]} />
-      <HomeSection>
-        <Pictogram src='magis' title='Magis' onClick={() => handleClick('magis')} />
-        <Pictogram src='neva' title='Neva' onClick={() => handleClick('neva')} />
-        <Pictogram src='discoeasy' title='DiscoEasy200' onClick={() => handleClick('de200')} />
-        <Pictogram src='disco-ultimate' title='Disco Ultimate' onClick={() => handleClick('du')} />
-        <Pictogram href='cura-by-dagoma' src='cura' title='Cura by Dagoma' />
-      </HomeSection>
-      {
-        (subMenu)
-          ? <HomeSection id='submenu' title={subMenu.title}>
-            {
-              subMenu.pictos.map((p, k) => <Pictogram key={k} href={p.href} src={p.src} title={p.title} />)
-            }
-          </HomeSection>
-          : null
-      }
+      <section className="col-xl-24 notice-mask row">
+        <figure className="row col-xl-24">
+          <img className="col-xl-24" src={`/img/${content.welcome.src}`} alt="" />
+        </figure>
+        <section className='block-caption-classic block-caption-right'>
+          <h1 className='title big tleft'>{t(content.welcome.title)}</h1>
+          <p className='tleft big-title'>{t(content.welcome.subtitle)}</p>
+          <p className='ijustify light'>{t(content.welcome.description)}</p>
+        </section>
+      </section>
+      <section className="col-xl-24 block-big-white-space bg-gradient-orange row">
+        <p className="big-title">{t('Choisissez votre imprimante 3D pour commencer')}</p>
+      </section>
+      <Choices content={content.choices} />
     </Fragment>
   );
 }

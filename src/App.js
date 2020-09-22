@@ -5,8 +5,8 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
+import Header from './components/common/Header';
 import Home from './pages/Home';
-import Header from './components/Header';
 import CuraByDagoma from './pages/CuraByDagoma';
 
 // here app catches the suspense from page in case translations are not yet loaded

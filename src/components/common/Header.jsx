@@ -15,14 +15,14 @@ function Header() {
   }
 
   useEffect(() => {
-    document.title = t('title');
+    document.title = t('Notices de montage et d\'utilisation');
   });
 
   return (
     <section className="top-lang row">
       <div className="wrap row">
         <div className="left">
-          <Link href="/"><i className="fa fa-home" /></Link>
+          <Link to={{ pathname: '/' }} onClick={() => document.body.scrollIntoView({ behavior: 'smooth' })}><i className="fa fa-home" /></Link>
         </div>
         <div className="right">
           <span className='language-choice' onClick={() => changeLanguage('en')} onKeyPress={handleKeyPress} role='button' tabIndex={0}>en</span> | <span className='language-choice' onClick={() => changeLanguage('fr')} onKeyPress={handleKeyPress} role='button' tabIndex={-1}>fr</span>
