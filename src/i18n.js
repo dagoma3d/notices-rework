@@ -20,6 +20,8 @@ i18n
 
     saveMissing: true, // send not translated keys to endpoint
 
+    // allow keys to be phrases having `:`, `.`
+    nsSeparator: false,
     keySeparator: false,
 
     interpolation: {

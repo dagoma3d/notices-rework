@@ -15,8 +15,8 @@ function VersionPicture({ display }) {
   return (
     <div className="block-sub row col-xl-24">
       <div className="col-xl-24 block-white-space">
-        <p className="tcenter bold col-vspace">{t('Magis + Numéro de série > 6000')}</p>
-        <p className="tcenter bold col-vspace">{t('Neva + Numéro de série < 6000 ou pas de numéro de série')}</p>
+        <p className="tcenter bold col-vspace">{t('Magis : Numéro de série > 6000')}</p>
+        <p className="tcenter bold col-vspace">{t('Neva : Numéro de série < 6000 ou pas de numéro de série')}</p>
         <figure className="col-xl-18 col-xl-offset-3 col-l-20 col-l-offset-2 col-m-24 col-m-offset-0 col-space">
           <img className="col-xl-24" src="/img/home/n-serie-neva.jpg" alt={t('Trouver numéro de série de ma Neva')} ref={ref} />
         </figure>

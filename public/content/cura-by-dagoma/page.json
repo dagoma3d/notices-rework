@@ -38,7 +38,7 @@
         "button": {
           "color": "white",
           "to": "//road.dagoma.fr",
-          "text": "Visiter ROAD"
+          "label": "Visiter ROAD"
         }
       }
     },
@@ -50,12 +50,12 @@
       "title": "CURA",
       "description": {
         "text": [
-          "CURA by Dagoma est un logiciel qui vous permet de transformer en Gcode les fichiers 3D trouvés sur Internet au format STL (compatible également avec + obj, 3mf, amf, ...). Vous pourrez modifier vos paramètres d'impression (taille de la pièce, finition, ...). CURA est un logiciel gratuit et open-source, que Dagoma a simplifié pour optimiser l'utilisation de votre imprimante."
+          "CURA by Dagoma est un logiciel qui vous permet de transformer en Gcode les fichiers 3D trouvés sur Internet au format STL (compatible également avec : obj, 3mf, amf, ...). Vous pourrez modifier vos paramètres d'impression (taille de la pièce, finition, ...). CURA est un logiciel gratuit et open-source, que Dagoma a simplifié pour optimiser l'utilisation de votre imprimante."
         ],
         "button": {
           "color": "orange",
           "to": "//dist.dagoma3d.com/CuraByDagoma",
-          "text": "Télécharger"
+          "label": "Télécharger"
         }
       }
     },
@@ -71,7 +71,7 @@
         ]
       }
     },
-    { "id": "interface" },
+    { "type": "interface" },
     {
       "id": "pause",
       "media": {
@@ -84,10 +84,147 @@
           "Ouvrez un fichier dans Cura.",
           "Appuyez sur le bouton \"Changement(s) de couleur\".",
           "Choisissez la couche grâce au slider.",
-          "Cliquez sur le (+) de \"Ajouter une pause\" + vous verrez s'afficher une nouvelle ligne juste en dessous indiquant le numéro de la couche et la hauteur correspondante.",
+          "Cliquez sur le (+) de \"Ajouter une pause\" : vous verrez s'afficher une nouvelle ligne juste en dessous indiquant le numéro de la couche et la hauteur correspondante.",
           "Une fois terminé, appuyez sur \"Préparer l'impression\" pour générer le Gcode."
         ]
       }
+    },
+    {
+      "id": "pause-2",
+      "media": {
+        "src": "NevaMagis/Notice/3-b-copie.jpg"
+      },
+      "title": "L'intérêt de faire une pause",
+      "description": {
+        "text": [
+          "Programmer une pause a plusieurs intérêts : le changement de couleur, de filament ou l'insertion d'un objet au milieu de l'impression (écrou, aimant, ...).",
+          "Voici le rendu final de la pièce préparée juste au dessus."
+        ],
+        "button": {
+          "text": "Il s'agit d'une partie des pièces imprimées dans ",
+          "to": "/start/neva-magis/notice-1",
+          "label": "la notice de la Magis"
+        }
+      }
+    },
+    {
+      "type": "banner",
+      "title": "Les paramètres d'impression",
+      "subtitle": "Concrètement ça donne quoi ?"
+    },
+    {
+      "id": "qualite",
+      "media": {
+        "src": "Cura/Notice/g-qualite.jpg"
+      },
+      "title": "Choisir sa qualité",
+      "description": {
+        "text": [
+          "Nos imprimantes 3D fonctionnent avec la technologie FDM. Elles déposent du plastique chaud couche par couche pour obtenir une pièce.",
+          "Plus la hauteur de couche est basse, plus la qualité de la pièce sera haute. Cependant ce paramètre a une forte influence sur le temps d'impression. Il faut donc choisir en fonction de la taille de la pièce, le niveau de détail attendu pour avoir le meilleur compromis.",
+          "Nous vous recommandons de commencer par des impressions en 0,2 mm."
+        ]
+      }
+    },
+    {
+      "id": "remplissage",
+      "media": {
+        "src": "Cura/Notice/h-remplissage.jpg"
+      },
+      "title": "Choisir son remplissage",
+      "description": {
+        "text": [
+          "Cura vous permet de définir le taux de remplissage de la pièce. plusieurs choix sont possibles.",
+          "Vase : seule la couche extérieure de votre objet sera imprimée (en spirale). Ce mode ultra rapide est adapté aux objets creux et ouverts sur leur dessus (bref un vase !).",
+          "Creux (0%) : pour une impression sans remplissage et rapide (limite les géométries imprimables, on vous explique ça juste après avec le support).",
+          "Rempli (17%) : pour une impression simple et efficace.",
+          "Renforcé (33%) : pour une pièce résistante.",
+          "Plus il y a de remplissage plus le temps d'impression augmentera."
+        ]
+      }
+    },
+    {
+      "type": "banner",
+      "title": "Les autres ajustements",
+      "subtitle": "Deux autres paramètres sont disponibles sur Cura, le support et l'amélioration de la surface d'accroche."
+    },
+    {
+      "id": "support",
+      "media": {
+        "src": "Cura/Notice/i-support-pourquoi.jpg"
+      },
+      "title": "Le support, c'est quoi ? ça sert à quoi ?",
+      "description": {
+        "text": [
+          "La gravité (nom de zeus) nous empêche d'imprimer au-dessus du vide. Par conséquent chaque couche d'impression doit donc être supportée par celle du dessous (a minima chevauchée à 50%). Le support soutien donc les parties de la pièce qui se trouvent au-dessus du vide.",
+          "Le YHT ci-contre montre les différentes possibilités.",
+          "Y : il est possible d'imprimer au dessus du vide tant que l'angle de la surface ne dépasse pas 45°.",
+          "H : il est possible d'imprimer entre deux tours (nous appelons ça un bridge). A partir d'une certaine longueur, le bridge ne tiendra pas, Il faudra du support.",
+          "T : Sans support il est impossible d'imprimer un surplomb comme les branches du T."
+        ]
+      }
+    },
+    {
+      "id": "support-2",
+      "media": {
+        "src": "Cura/Notice/i-support-avec-sans.jpg"
+      },
+      "title": "Avec et sans support",
+      "description": {
+        "text": [
+          "L'image ci-contre illustre bien le résultat obtenu lorsqu'un objet aurait dû être imprimé avec support. Le support garantit la réussite d'une impression complexe.",
+          "Toute l'ingéniosité d'une pièce bien conçue pour l'impression 3D réside dans l'orientation des géométries évitant au maximum l'utilisation du support."
+        ]
+      }
+    },
+    {
+      "id": "support-3",
+      "media": {
+        "src": "Cura/Notice/i-support-post-pro.jpg"
+      },
+      "title": "Le côté obscur du support",
+      "description": {
+        "text": [
+          "Il n'y a pas que des avantages dans l'utilisation du support. C'est de la matière perdue puisqu'elle ne fait pas partie de la pièce finale. C'est également une opération manuelle supplémentaire pour le retirer. Il laisse une surface grossière qu'il faut parfois gratter et poncer pour obtenir un résultat propre."
+        ]
+      }
+    },
+    {
+      "id": "warp",
+      "media": {
+        "src": "Cura/Notice/j-warp.jpg"
+      },
+      "title": "Le décollement des pièces",
+      "description": {
+        "text": [
+          "C'est malheureusement un impondérable de l'impression 3D. Selon les géométries, la qualité de la première couche, la qualité des surfaces d'accroches, la pièce peut se décoller. Un décollement partiel comme sur l'image (appelé warping) est gênant puisqu'il a déformé la pièce. Un décollement complet entraîne un échec total de l'impression et peut endommager l'imprimante.",
+          "La case à cocher \"Amélioration de la surface d'adhésion\" permet de limiter ce phénomène. Cette option vient ajouter une fine couche tout autour de la pièce et la stabilise sur la surface. Il faudra la retirer à la fin de l'impression."
+        ]
+      }
+    },
+    {
+      "id": "filaments",
+      "media": {
+        "src": "Cura/Notice/k-les-filaments.png"
+      },
+      "title": "Les filaments",
+      "description": {
+        "text": [
+          "Dans Cura, il est nécessaire de choisir le type et la couleur du filament utilisé pour fabriquer votre pièce. Ce choix permet d'ajuster plusieurs paramètres afin d'imprimer la pièce de manière optimale (la température de la buse, la quantité de matière extrudée, la rétractation, etc...)."
+        ],
+        "button": {
+          "text": "Cura by Dagoma a été conçu pour vous éviter de régler tous ces paramètres. Tous les filaments disponibles sur Cura et sur notre site ont été testés et approuvés. Nous ne pouvons pas vous assurer une bonne qualité d'impression avec un filament ne figurant pas dans la liste. L'idéal pour débuter est la gamme de filaments Chromatik que nous vous proposons ",
+          "to": "//www.dagoma3d.com/shop/category/filaments-2",
+          "label": "ici"
+        }
+      }
     }
-  ]
+  ],
+  "footer": {
+    "img": "Cura/Notice/a-intro.jpg",
+    "subtitle": "Vous savez tout sur Cura by Dagoma",
+    "text": [
+      "Merci d'avoir suivi cette notice. Nous mettons tout en oeuvre pour vous simplifier l'expérience de l'impression 3D avec Dagoma. Pour nous aider à améliorer cette notice, pourriez-vous prendre dix secondes (promis pas plus) pour nous donnez votre avis ?"
+    ]
+  }
 }

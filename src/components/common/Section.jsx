@@ -23,11 +23,22 @@ function List({ content }) {
 function Button({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
-  const { color, to, text } = content;
-  const classes = (color === 'white') ? 'new-btn btn-classic btn-grey btn-wide' : 'new-btn btn-valid btn-wide';
+  const { text, color, to, label } = content;
+  let classes;
+  switch (color) {
+    case 'white':
+      classes = 'new-btn btn-classic btn-grey btn-wide';
+      break;
+    case 'orange':
+      classes = 'new-btn btn-valid btn-wide';
+      break;
+    default:
+      classes = 'link-classic';
+  }
+
   return (
     <p className="tleft">
-      <Link to={to} className={classes}>{t(text)}</Link>
+      {text}<Link to={to} className={classes}>{t(label)}</Link>
     </p>
   );
 }

@@ -1,7 +1,19 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import PageHeader from '../components/common/PageHeader';
-import PageSection from '../components/common/PageSection';
+import Banner from '../components/common/Banner';
+import Ribbon from '../components/common/Ribbon';
+import Section from '../components/common/Section';
 import Interface from '../components/cura-by-dagoma/Interface';
+
+function Block({ index, content }) {
+  switch (content.type) {
+    case 'interface':
+      return <Interface />;
+    case 'banner':
+      return <Banner content={content} />;
+    default:
+      return <Section index={index} content={content} />;
+  };
+}
 
 function CuraByDagoma() {
   const [content, setContent] = useState();
@@ -18,8 +30,9 @@ function CuraByDagoma() {
 
   return (
     <Fragment>
-      <PageHeader content={content.header} />
-      {content.sections.map((i, k) => (i.id === 'interface') ? <Interface key={k} /> : <PageSection key={k} index={k} content={i} />)}
+      <Ribbon content={content.header} />
+      {content.sections.map((i, k) => <Block key={k} index={k} content={i} />)}
+      <Ribbon content={content.footer} />
     </Fragment>
   );
 }
