@@ -1,0 +1,13 @@
+.zone:hover {
+  box-shadow: none;
+  border: 1px solid rgba(255, 130, 0, 1);
+}
+
+.Interface-description {
+  background-color: white;
+  border: 1px solid #404041;
+  border-radius: 5px;
+  padding: 15px 10px 15px 10px !important;
+  text-align: left;
+  font-size: 1.3em;
+}

@@ -1,0 +1,93 @@
+{
+  "header": {
+    "img": "Cura/Notice/a-intro.jpg",
+    "title": "Notice d'utilisation du logiciel Cura",
+    "subtitle": "Cura, Slicer, ... On vous explique tout !",
+    "text": [
+      "Ajustez la taille, la qualité ou le remplissage et maîtrisez la personnalisation de vos objets 3D à l'aide du logiciel Cura by Dagoma.",
+      "Dans ce tutoriel, vous découvrirez en quoi consiste ce logiciel."
+    ]
+  },
+  "sections": [
+    {
+      "id": "formats",
+      "media": {
+        "src": "Cura/Notice/b-stl-gcode.jpg"
+      },
+      "title": "Quels sont les formats utilisés ?",
+      "description": {
+        "text": [
+          "Le STL est à l'impression 3D ce que le MP3 est à la musique, ou le JPEG à la photo.",
+          "La plupart des logiciels de modélisation 3D permettent l'export des fichiers en STL.",
+          "Cependant, ce format est une coquille vide pour votre imprimante. Elle ne saura pas s'en servir.",
+          "Le Gcode est une suite d'instructions pour faire fonctionner votre imprimante 3D. Ces instructions représentent l'ensemble des trajectoires que va parcourir la tête d'impression, couche par couche. Il est spécifique à un type d'imprimante.",
+          "Il s'obtient après transformation du STL en Gcode dans un slicer (c'est là que Cura by Dagoma intervient). Une fois mis sur une carte SD, il est reconnu par l'imprimante 3D."
+        ]
+      }
+    },
+    {
+      "id": "road",
+      "media": {
+        "src": "NevaMagis/Notice/4-c-road.jpg"
+      },
+      "title": "ROAD",
+      "description": {
+        "text": [
+          "ROAD est une plateforme de téléchargement de fichiers 3D optimisés pour la NEVA et la Magis (ou des fichiers STL pour la DiscoEasy200). Tous les objets de la plateforme ROAD ont été testés et approuvés par Dagoma. L'endroit idéal pour s'inspirer et débuter."
+        ],
+        "button": {
+          "color": "white",
+          "to": "//road.dagoma.fr",
+          "text": "Visiter ROAD"
+        }
+      }
+    },
+    {
+      "id": "cura",
+      "media": {
+        "src": "NevaMagis/Software/a-cura.jpg"
+      },
+      "title": "CURA",
+      "description": {
+        "text": [
+          "CURA by Dagoma est un logiciel qui vous permet de transformer en Gcode les fichiers 3D trouvés sur Internet au format STL (compatible également avec + obj, 3mf, amf, ...). Vous pourrez modifier vos paramètres d'impression (taille de la pièce, finition, ...). CURA est un logiciel gratuit et open-source, que Dagoma a simplifié pour optimiser l'utilisation de votre imprimante."
+        ],
+        "button": {
+          "color": "orange",
+          "to": "//dist.dagoma3d.com/CuraByDagoma",
+          "text": "Télécharger"
+        }
+      }
+    },
+    {
+      "id": "cura-2",
+      "media": {
+        "src": "Cura/Notice/d-installation.png"
+      },
+      "title": "CURA",
+      "description": {
+        "text": [
+          "Vous changez d'imprimantes ou vous en avez plusieurs ? Aucun problème, vous pourrez modifier ce choix depuis l'onglet \"Préférences\"."
+        ]
+      }
+    },
+    { "id": "interface" },
+    {
+      "id": "pause",
+      "media": {
+        "id": "WuJM4WPaNmk"
+      },
+      "title": "Programmer une pause",
+      "description": {
+        "text": ["Cura vous permet de programmer à l'avance des pauses durant l'impression."],
+        "list": [
+          "Ouvrez un fichier dans Cura.",
+          "Appuyez sur le bouton \"Changement(s) de couleur\".",
+          "Choisissez la couche grâce au slider.",
+          "Cliquez sur le (+) de \"Ajouter une pause\" + vous verrez s'afficher une nouvelle ligne juste en dessous indiquant le numéro de la couche et la hauteur correspondante.",
+          "Une fois terminé, appuyez sur \"Préparer l'impression\" pour générer le Gcode."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "top": "12%",
+        "left": "3.5%",
+        "title": "Ouvrir des fichiers"
+      },
+      "description": {
+        "messages": [
+          "Accès rapide pour ouvrir un nouveau fichier STL. Vous pouvez aussi ouvrir plusieurs fichiers sur un même plateau."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "top": "2%",
+        "left": "15.7%",
+        "title": "Fichier"
+      },
+      "description": {
+        "messages": [
+          "Depuis l'onglet \"Fichier\" , ouvrez un nouveau fichier STL, sauvegardez le contenu de vos plateaux pour une prochaine impression, transformez votre STL en Gcode, et accédez aux objets récemment ouverts."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "top": "2%",
+        "left": "22%",
+        "title": "Préférences"
+      },
+      "description": {
+        "messages": [
+          "Depuis l'onglet \"Préférences\", changez la langue du logiciel (prise en compte à la prochaine ouverture du logiciel) ou de modèle d'imprimante 3D Dagoma."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "type": "big",
+        "top": "52%",
+        "left": "37.5%",
+        "title": "Mon objet"
+      },
+      "description": {
+        "messages": [
+          "Depuis l'onglet \"Préférences\", changez la langue du logiciel (prise en compte à la prochaine ouverture du logiciel) ou de modèle d'imprimante 3D Dagoma."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "type": "medium",
+        "top": "47.5%",
+        "left": "50.5%",
+        "title": "Clic droit"
+      },
+      "description": {
+        "messages": ["Avec le clic droit sur un objet, un sous-menu s'affiche +"],
+        "list": [
+          "Centrer l'objet sur le plateau",
+          "Supprimer l'objet",
+          "Multiplier l'objet",
+          "Diviser l'objet en plusieurs parties"
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "top": "12%",
+        "left": "71.5%",
+        "title": "Mode couches"
+      },
+      "description": {
+        "messages": [
+          "Ici, vous pouvez accéder à un autre mode de visualisation. Passez en mode couches permet de voir le travail réel de l'imprimante, le remplissage et les trajectoires par exemple."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "type": "medium",
+        "top": "11%",
+        "left": "87%",
+        "title": "Sélection de couleurs"
+      },
+      "description": {
+        "messages": [
+          "Choisissez ici la marque du filament que vous utilisez dans \"PLA Chromatik\" ainsi que sa couleur dans \"Générique\". Sachez que tous les filaments dans la liste ont été testés. Si vous utilisez un autre filament que ceux présents dans la liste, il se peut que l'impression échoue."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "type": "big",
+        "top": "36%",
+        "left": "87%",
+        "title": "Paramètres d'impression"
+      },
+      "description": {
+        "messages": [
+          "Choisissez ici les paramètres de l'impression, le remplissage et la qualité (plus bas nous allons expliquer tout ça)."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "type": "medium",
+        "top": "57.5%",
+        "left": "87.5%",
+        "title": "Supports pour impression"
+      },
+      "description": {
+        "messages": [
+          "Ici d'autres paramètres plus spécifiques. Ce sont des ajouts à faire en fonction de la forme de l'objet. Nous expliquerons plus bas ces éléments."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "top": "66.5%",
+        "left": "82%",
+        "title": "Changement(s) de couleur"
+      },
+      "description": {
+        "messages": [
+          "Avec ce bouton vous pouvez paramétrer un changement de filament. Juste en dessous vous avez une vidéo qui montre la programmation d'une pause."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "top": "70%",
+        "left": "93%",
+        "title": "Préparer l'impression"
+      },
+      "description": {
+        "messages": [
+          "En cliquant sur \"Préparer l'impression\" vous allez valider votre préparation.",
+          "Si une carte SD est déjà dans le lecteur, le fichier s'enregistre directement dessus. Sinon, une boîte de dialogue s'ouvre pour choisir l'emplacement d'enregistrement.",
+          "Le fichier s'enregistre sous le nom \"dagoma0.g\" c'est le seul nom de fichier qui permet de démarrer une impression."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "type": "medium",
+        "top": "91%",
+        "left": "69%",
+        "title": "Informations"
+      },
+      "description": {
+        "messages": [
+          "Toutes les informations pratiques se trouvent ici. Le temps d'impression est estimé, il peut varier."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "top": "91%",
+        "left": "3.5%",
+        "title": "Orientation"
+      },
+      "description": {
+        "messages": [
+          "Ce bouton apparaît uniquement si un objet est sélectionné. Il permet de modifier l'orientation de la pièce. Des anneaux sont apparus autour de la pièce pour la manoeuvrer. Par défaut, la pièce bougera par pas de 15° (pour plus de précision appuyez sur ⇧SHIFT en bougeant la pièce)."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "top": "91%",
+        "left": "8.5%",
+        "title": "Dimensions"
+      },
+      "description": {
+        "messages": [
+          "Ce bouton apparaît uniquement si un objet est sélectionné. Il permet de changer la taille de la pièce. Décochez le verrou pour modifier une dimension dans un axe uniquement."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "top": "91%",
+        "left": "13.5%",
+        "title": "Symétrie"
+      },
+      "description": {
+        "messages": [
+          "Ce bouton apparaît uniquement si un objet est sélectionné. Il sert à symétriser. Si vous vous posez la question, oui ça sert à quelque chose."
+        ]
+      }
+    }
+  ]
+}

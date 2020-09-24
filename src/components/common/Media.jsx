@@ -9,4 +9,19 @@ function Youtube({ id, children }) {
   );
 }
 
-export default Youtube;
+function Image({ src }) {
+  return (
+    <figure>
+      <img src={`/img/${src}`} alt="" />
+    </figure>
+  );
+}
+
+function Media({ content }) {
+  const { id, src } = content;
+  if (id) return <Youtube id={id} />;
+  if (src) return <Image src={src} />;
+  return null;
+}
+
+export default Media;
