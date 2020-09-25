@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 function Title({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
-  return <h1 className="title tleft">{t(content)}</h1>;
+  return content.map((i, k) => <h1 key={k} className="title tleft">{t(i)}</h1>);
 }
 
 function SubTitle({ content }) {
@@ -25,20 +25,25 @@ function Texts({ content }) {
 }
 
 function Ribbon({ content }) {
-  const { img, title, subtitle, text } = content;
+  const { flip, img, title, subtitle, text } = content;
+  const flipClass = (flip) ? 'block-caption-left' : 'block-caption-right';
   return (
     <section className="col-xl-24 notice-mask row">
       <figure className="row col-xl-24">
         <img className="col-xl-24" src={`/img/${img}`} alt="" />
       </figure>
 
-      <section className="block-caption-classic block-caption-right">
+      <section className={`block-caption-classic ${flipClass}`}>
         <Title content={title} />
         <SubTitle content={subtitle} />
         <Texts content={text} />
       </section>
     </section>
   );
+}
+
+Ribbon.defaultProps = {
+  flip: false
 }
 
 export default Ribbon;

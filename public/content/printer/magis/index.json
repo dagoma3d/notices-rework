@@ -4,7 +4,7 @@
   },
   "header": {
     "img": "NevaMagis/Notice/0-a-magis-bobine.jpg",
-    "title": "Notice de première utilisation - Introduction",
+    "title": ["Notice de première utilisation - Introduction", "Premiers pas"],
     "subtitle": "ça y est, vous avez reçu votre Magis.",
     "text": [
       "Ensemble, nous allons découvrir votre imprimante et vous accompagner dans une expérience : celle de l'impression 3D avec Dagoma.",

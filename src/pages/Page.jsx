@@ -6,18 +6,42 @@ import NavBar from '../components/common/NavBar';
 import NotFound from '../components/common/NotFound';
 import Ribbon from '../components/common/Ribbon';
 
-function Page() {
+function Blocks({ content }) {
+  if (!content) return null;
+  return content.map((i, k) => <Block key={k} index={k} content={i} />);
+}
+
+function Page({ path }) {
   const [content, setContent] = useState();
   const match = useRouteMatch();
   console.log(match);
 
+  let active;
+  switch (match.params.printer) {
+    case 'magis':
+      active = 5;
+      break;
+    case 'de200':
+      active = 13;
+      break;
+    case 'du':
+      active = 12;
+      break;
+    default:
+      active = 0;
+  }
+
+  let resource;
+  if (match.url.includes('cura-by-dagoma')) resource = '/content/cura-by-dagoma/index.json';
+  else resource = `/content/printer/${match.params.printer}/${match.params.step || 'index'}.json`;
+
+
   useEffect(() => {
-    const path = `/content${match.url}/index.json`;
-    fetch(path)
+    fetch(resource)
       .then(response => response.json())
       .then(data => { setContent(data); })
       .catch(error => { setContent({ 'error': error.message }); });
-  }, [match]);
+  }, [resource]);
 
   if (!content) return null;
 
@@ -25,10 +49,10 @@ function Page() {
 
   return (
     <Fragment>
-      <NavBar path={match.params.option} />
+      <NavBar path={match.params.printer} active={active} />
       <Banner small content={content.time} />
       <Ribbon content={content.header} />
-      {content.blocks.map((i, k) => <Block key={k} index={k} content={i} />)}
+      <Blocks content={content.blocks} />
       <Ribbon content={content.footer} />
     </Fragment>
   );
