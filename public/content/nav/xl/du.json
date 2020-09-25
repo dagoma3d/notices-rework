@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Démontage",
+    "href": "/addon/xl/du/demontage"
+  },
+  {
+    "label": "Montage base",
+    "href": "/addon/xl/du/montage-base"
+  },
+  {
+    "label": "Montage Z",
+    "href": "/addon/xl/du/montage-z"
+  },
+  {
+    "label": "Electronique et plateau",
+    "href": "/addon/xl/du/electronique-plateau"
+  },
+  {
+    "label": "Mise à jour",
+    "href": "/firmware/du/xl"
+  },
+  {
+    "label": "Calibration",
+    "href": "/calibration/du/xl"
+  }
+]

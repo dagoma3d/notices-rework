@@ -18,7 +18,7 @@ i18n
     fallbackLng: 'fr',
     debug: false,
 
-    saveMissing: true, // send not translated keys to endpoint
+    // saveMissing: true, // send not translated keys to endpoint
 
     // allow keys to be phrases having `:`, `.`
     nsSeparator: false,

@@ -9,19 +9,27 @@ function Youtube({ id, children }) {
   );
 }
 
-function Image({ src }) {
+function Image({ small, src }) {
+  const classes = small ? 'notice-small-img' : null;
   return (
-    <figure>
+    <figure className={classes}>
       <img src={`/img/${src}`} alt="" />
     </figure>
   );
 }
 
-function Media({ content }) {
-  const { id, src } = content;
-  if (id) return <Youtube id={id} />;
-  if (src) return <Image src={src} />;
-  return null;
+function Media({ index, content }) {
+  const { id, src, small, gray } = content;
+  const color = gray ? 'color-anthracite' : 'bg-white';
+  const flip = (index % 2 === 0) ? 'col-xl-push-12 col-m-push-0' : null;
+  let media = null;
+  if (id) media = <Youtube id={id} />;
+  else if (src) media = <Image small={small || gray} src={src} />;
+  return (
+    <section className={`col col-xl-12 col-m-24 block-info-cursor row ${color} ${flip}`}>
+      {media}
+    </section>
+  );
 }
 
 export default Media;

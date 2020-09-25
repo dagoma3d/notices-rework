@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Préparation",
+    "href": "/addon/bicolor/du"
+  },
+  {
+    "label": "Installation",
+    "href": "/addon/bicolor/du/notice-2"
+  },
+  {
+    "label": "Finitions",
+    "href": "/addon/bicolor/du/notice-3"
+  },
+  {
+    "label": "Mise à jour",
+    "href": "/firmware/du/bicolor"
+  },
+  {
+    "label": "Calibration",
+    "href": "/calibration/du/bicolor"
+  },
+  {
+    "label": "Imprimer",
+    "href": "/addon/bicolor/du/notice-7"
+  },
+  {
+    "label": "GCode",
+    "href": "/addon/bicolor/du/notice-8"
+  }
+]

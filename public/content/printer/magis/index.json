@@ -1,0 +1,130 @@
+{
+  "time": {
+    "subtitle": "Temps approximatif : 10 minutes"
+  },
+  "header": {
+    "img": "NevaMagis/Notice/0-a-magis-bobine.jpg",
+    "title": "Notice de première utilisation - Introduction",
+    "subtitle": "ça y est, vous avez reçu votre Magis.",
+    "text": [
+      "Ensemble, nous allons découvrir votre imprimante et vous accompagner dans une expérience : celle de l'impression 3D avec Dagoma.",
+      "Nous vous avons préparé 4 objets à imprimer.",
+      "Pour toute cette initiation, vous aurez besoin d'environ 75g de PLA Chromatik. Une bobine de 250g fera donc amplement l'affaire."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Dans ce carton vous avez trouvé..."
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/0-c-a-gris-contenu.jpg",
+        "gray": true
+      },
+      "title": "Les indispensables",
+      "description": {
+        "text": [
+          "Avec votre Magis vous recevrez à part les éléments indispensables pour lancer votre première impression.",
+          "L'échantillon de filament ne vous servira pas dans ce tutoriel."
+        ],
+        "list": ["A. Bras aimantés", "B. Alimentation", "C. Échantillon de fil", "D. Carte SD"]
+      }
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/0-c-b-gris-contenu.jpg",
+        "gray": true
+      },
+      "title": "Les accessoires",
+      "description": {
+        "text": [
+          "Bien sûr, ce n'est pas tout, voilà un petit kit pour prendre soin de votre Magis."
+        ],
+        "list": ["E. Adaptateur SD", "F. Lingettes isopropyliques", "G. Cable USB", "H. Spatule"]
+      }
+    },
+    {
+      "media": {
+        "id": "XQffsa3x-Z4"
+      },
+      "title": "Préparation",
+      "description": {
+        "text": ["Avant de commencer, retirez les 3 cales oranges qui se trouvent sous le plateau."]
+      }
+    },
+    {
+      "type": "banner",
+      "title": "Place au montage"
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/0-d-a-maintien.jpg"
+      },
+      "title": "Nouveauté",
+      "description": {
+        "text": [
+          "Depuis juin 2020, les imprimantes 3D Magis sont équipées d'une pièce supplémentaire sur la tête d'impression et sur l’extrudeur pour maintenir davantage le tube blanc PTFE.",
+          "Pour la suite de la notice, cet accessoire n'est pas présent sur les visuels."
+        ],
+        "button": {
+          "text": "Si cet accessoire n'est pas présent sur votre imprimante 3D, nous vous invitons à l'imprimer en le téléchargeant ",
+          "to": "//www.thingiverse.com/thing:4088130",
+          "label": "ici"
+        }
+      }
+    },
+    {
+      "media": {
+        "id": "XP9uQXxCgoY"
+      },
+      "pretitle": "Étape 1",
+      "title": "Les bras",
+      "description": {
+        "text": [
+          "Placez la Neva face à vous, le bouton vers l'avant.",
+          "Déposez la tête au centre de l'imprimante.",
+          "Orientez le ventilateur face à la pièce orange, située à l'arrière de l'imprimante.",
+          "Reliez la tête aux chariots à l'aide des bras aimantés."
+        ]
+      }
+    },
+    {
+      "id": "calilbration",
+      "media": {
+        "id": "sr70uUg7MM8"
+      },
+      "pretitle": "Étape 2",
+      "title": "La calibration",
+      "description": {
+        "text": [
+          "Calibrez la machine en suivant les instructions sur l'illustration (effectuez l'étape à chaque fois que vous déplacez l'imprimante).",
+          "Cette étape dure 5 minutes pendant lesquelles votre imprimante va palper le plateau à différents endroits.",
+          "Attendez qu'elle ait fini avant de passer à la suite."
+        ]
+      }
+    },
+    {
+      "media": {
+        "id": "l4K7ZllXZ1k"
+      },
+      "pretitle": "Étape 3",
+      "title": "Chaaargez !",
+      "description": {
+        "text": [
+          "Prenez votre bobine et déroulez un peu de filament à la main.",
+          "N'utilisez pas l'échantillon fournis avec l'imprimante.",
+          "Avant chaque insertion, coupez le filament pour que le bout soit propre.",
+          "Présentez le filament dans l'extrudeur. Poussez-le jusqu'à ce qu'il soit entraîné par la machine sur quelques centimètres.",
+          "Ensuite attendez quelques secondes, elle chauffe.",
+          "Elle aspirera le reste du filament toute seule.",
+          "Assurez-vous que le filament soit bien arrivé jusqu'à la tête."
+        ]
+      }
+    }
+  ],
+  "footer": {
+    "img": "NevaMagis/Notice/0-a-magis-bobine.jpg",
+    "subtitle": "Premiers réglages : CHECK !"
+  }
+}

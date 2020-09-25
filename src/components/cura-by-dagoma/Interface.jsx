@@ -36,7 +36,7 @@ function Interface() {
   const [items, setItems] = useState();
   const [description, setDescription] = useState();
   useEffect(() => {
-    fetch('./content/cura-by-dagoma/interface.json').then(response => {
+    fetch('/content/cura-by-dagoma/interface.json').then(response => {
       response.json().then(data => {
         setItems(data.items);
       });
@@ -49,7 +49,7 @@ function Interface() {
     <section className="col-xl-24 block-big-white-space bg-gradient-orange row">
       <div className="wrap row margin-bottom-shop">
         <div className="col-xl-24 row container-interface">
-          <img src="img/Cura/Notice/e-interface-cura.jpg" alt='Interface Cura by Dagoma' />
+          <img src="/img/Cura/Notice/e-interface-cura.jpg" alt='Interface Cura by Dagoma' />
           {items.map((i, k) => <Bubble key={k} content={i.bubble} onMouseEnter={() => setDescription(i.description)} onMouseLeave={() => setDescription()} />)}
         </div>
         <Description content={description} />

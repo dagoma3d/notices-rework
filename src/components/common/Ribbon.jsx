@@ -19,6 +19,11 @@ function Text({ content }) {
   return <p>{t(content)}</p>;
 }
 
+function Texts({ content }) {
+  if (!content) return null;
+  return content.map((i, k) => <Text key={k} content={i} />);
+}
+
 function Ribbon({ content }) {
   const { img, title, subtitle, text } = content;
   return (
@@ -30,7 +35,7 @@ function Ribbon({ content }) {
       <section className="block-caption-classic block-caption-right">
         <Title content={title} />
         <SubTitle content={subtitle} />
-        {text.map((i, k) => <Text key={k} content={i} />)}
+        <Texts content={text} />
       </section>
     </section>
   );

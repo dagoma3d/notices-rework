@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Démontage",
+    "href": "/addon/xl/de200/demontage"
+  },
+  {
+    "label": "Montage base",
+    "href": "/addon/xl/de200/montage-base"
+  },
+  {
+    "label": "Montage Z",
+    "href": "/addon/xl/de200/montage-z"
+  },
+  {
+    "label": "Electronique et plateau",
+    "href": "/addon/xl/de200/electronique-plateau"
+  },
+  {
+    "label": "Mise à jour",
+    "href": "/firmware/de200/xl"
+  },
+  {
+    "label": "Calibration",
+    "href": "/calibration/de200/xl"
+  }
+]

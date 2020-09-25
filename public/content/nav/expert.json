@@ -1,0 +1,26 @@
+[
+  {
+    "label": "1 - Démontage",
+    "href": "/addon/expert/de200"
+  },
+  {
+    "label": "2 - Transfert",
+    "href": "/addon/expert/de200/notice-2"
+  },
+  {
+    "label": "3 - Montage",
+    "href": "/addon/expert/de200/notice-3"
+  },
+  {
+    "label": "4 - Finitions",
+    "href": "/addon/expert/de200/notice-4"
+  },
+  {
+    "label": "5 - Mise à jour",
+    "href": "/firmware/de200/expert"
+  },
+  {
+    "label": "6 - Calibration",
+    "href": "/calibration/de200/expert"
+  }
+]
