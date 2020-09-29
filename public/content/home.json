@@ -35,13 +35,13 @@
       "src": "discoeasy",
       "options": [
         { "to": "/printer/de200", "src": "discoeasy", "title": "Notice de montage" },
-        { "to": "/addon/screen", "src": "addon", "title": "Ecran" },
-        { "to": "/addon/extruder-plus/de200", "src": "addon", "title": "Extrudeur+" },
-        { "to": "/addon/expert/de200", "src": "addon", "title": "Pack expert" },
-        { "to": "/addon/bicolor/de200", "src": "addon", "title": "Pack bi-couleur" },
+        { "to": "/addon/screen", "title": "Ecran" },
+        { "to": "/addon/extruder-plus/de200", "title": "Extrudeur+" },
+        { "to": "/addon/expert/de200", "title": "Pack expert" },
+        { "to": "/addon/bicolor/de200", "title": "Pack bi-couleur" },
         { "to": "/addon/box/disco", "src": "caisson-disco", "title": "Caisson de protection" },
         { "to": "/addon/evo/de200", "src": "pack-evo", "title": "Pack évolution Ultimate" },
-        { "to": "/addon/xl/de200/demontage", "src": "addon", "title": "Pack XL" },
+        { "to": "/addon/xl/de200/demontage", "title": "Pack XL" },
         { "to": "/cura-by-dagoma/de200", "src": "cura", "title": "Cura by Dagoma" }
       ]
     },
@@ -50,9 +50,9 @@
       "src": "disco-ultimate",
       "options": [
         { "to": "/printer/du", "src": "disco-ultimate", "title": "Notice de montage" },
-        { "to": "/addon/screen", "src": "addon", "title": "Ecran" },
-        { "to": "/addon/bicolor/du", "src": "addon", "title": "Pack bi-couleur" },
-        { "to": "/addon/xl/du/demontage", "src": "addon", "title": "Pack XL" },
+        { "to": "/addon/screen", "title": "Ecran" },
+        { "to": "/addon/bicolor/du", "title": "Pack bi-couleur" },
+        { "to": "/addon/xl/du/demontage", "title": "Pack XL" },
         { "to": "/addon/box/disco", "src": "caisson-disco", "title": "Caisson de protection" },
         { "to": "/cura-by-dagoma/du", "src": "cura", "title": "Cura by Dagoma" }
       ]

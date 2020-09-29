@@ -11,29 +11,33 @@ function Blocks({ content }) {
   return content.map((i, k) => <Block key={k} index={k} content={i} />);
 }
 
-function Page({ path }) {
+function Page() {
   const [content, setContent] = useState();
   const match = useRouteMatch();
   console.log(match);
 
-  let active;
-  switch (match.params.printer) {
-    case 'magis':
-      active = 5;
-      break;
-    case 'de200':
-      active = 13;
-      break;
-    case 'du':
-      active = 12;
-      break;
-    default:
-      active = 0;
-  }
-
   let resource;
-  if (match.url.includes('cura-by-dagoma')) resource = '/content/cura-by-dagoma/index.json';
-  else resource = `/content/printer/${match.params.printer}/${match.params.step || 'index'}.json`;
+  let active;
+  if (match.url.includes('cura-by-dagoma')) {
+    resource = '/content/cura-by-dagoma/index.json';
+    switch (match.params.printer) {
+      case 'magis':
+        active = 5;
+        break;
+      case 'de200':
+        active = 13;
+        break;
+      case 'du':
+        active = 12;
+        break;
+      default:
+        active = 0;
+    }
+
+  } else {
+    resource = `/content/printer/${match.params.printer}/${match.params.step || '0'}.json`;
+    active = parseInt(match.params.step) || 0;
+  }
 
 
   useEffect(() => {
