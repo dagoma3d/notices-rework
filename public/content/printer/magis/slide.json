@@ -1,0 +1,12 @@
+{
+  "left": {
+    "img": "NevaMagis/Notice/1-e-buse-sale.jpg",
+    "title": "Tête avec PLA",
+    "text": "Si vous imprimez comme ça, votre première couche sera trop haute. Votre impression n'accrochera pas au plateau car il reste du PLA sur la tête. Attention, ça peut être chaud."
+  },
+  "right": {
+    "img": "NevaMagis/Notice/1-e-buse-propre.jpg",
+    "title": "Tête propre",
+    "text": "Super ! Elle est prête à imprimer."
+  }
+}

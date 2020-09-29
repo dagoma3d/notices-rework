@@ -16,10 +16,14 @@ function Title({ content }) {
 }
 
 
-function Text({ content }) {
+function Text({ content, italic, frame, important }) {
   const { t } = useTranslation();
   if (!content) return null;
-  return <p>{t(content)}</p>;
+  const classes = [];
+  if (italic) classes.push('italic');
+  if (frame) classes.push('bg-orange text-white col-space');
+  if (important) classes.push('red');
+  return <p className={classes.join(' ')}>{t(content)}</p>;
 }
 
 function List({ content }) {
@@ -32,9 +36,9 @@ function List({ content }) {
   );
 }
 
-function Button({ text, color, to, label }) {
+function Button({ text, color, to, href, download, label }) {
   const { t } = useTranslation();
-  if (!to) return null;
+  if (!to && !href) return null;
   let classes;
   switch (color) {
     case 'white':
@@ -48,9 +52,10 @@ function Button({ text, color, to, label }) {
   }
   const pre = (text) ? `${t(text)} ` : null;
   const post = (text) ? '.' : null;
+  const link = (to) ? <Link to={to} className={classes} download={download}>{t(label)}</Link> : <a href={href} className={classes} download={download} target='_blank' rel='noopener noreferrer'>{t(label)}</a>;
   return (
     <p className="tleft">
-      {pre}<Link to={to} className={classes}>{t(label)}</Link>{post}
+      {pre}{link}{post}
     </p>
   );
 }
@@ -68,10 +73,14 @@ function Item({ content }) {
       return <Title content={v} />;
     case 'text':
       return <Text content={v} />;
+    case 'italic':
+      return <Text content={v} italic />;
+    case 'frame':
+      return <Text content={v} frame />;
     case 'list':
       return <List content={v} />;
     case 'button':
-      return <Button text={v.text} color={v.color} to={v.to} label={v.label} />;
+      return <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} />;
     default:
       return null;
   }

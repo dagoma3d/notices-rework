@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { useTranslation } from 'react-i18next';
 
 function Title({ content }) {
@@ -10,8 +10,12 @@ function Title({ content }) {
 function SubTitle({ small, content }) {
   const { t } = useTranslation();
   if (!content) return null;
-  const classes = small ? 'col-vspace' : null;
-  return <p className={classes}>{t(content)}</p>;
+  const classes = small ? (content.length === 1 ? ['col-vspace'] : ['col-vtspace', 'col-vbspace']) : null;
+  return (
+    <Fragment>
+      {content.map((i, k) => <p key={k} className={classes ? classes[k] : null}>{t(i)}</p>)}
+    </Fragment>
+  );
 }
 
 function Banner({ small, content }) {
