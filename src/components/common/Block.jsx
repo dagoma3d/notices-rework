@@ -4,11 +4,14 @@ import Section from './Section';
 import Item from './Item';
 import GoogleDocument from './GoogleDocument';
 import Interface from '../cura-by-dagoma/Interface';
+import Slide from '../magis/Slide';
 
 function Block({ index, content }) {
   switch (content.type) {
     case 'interface':
       return <Interface />;
+    case 'slide':
+      return <Slide />;
     case 'banner':
       return <Banner content={content} />;
     case 'google-document':

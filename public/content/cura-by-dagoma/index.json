@@ -46,7 +46,7 @@
         {
           "button": {
             "color": "white",
-            "to": "//road.dagoma.fr",
+            "href": "//road.dagoma.fr",
             "label": "Visiter ROAD"
           }
         }
@@ -65,7 +65,7 @@
         {
           "button": {
             "color": "orange",
-            "to": "//dist.dagoma3d.com/CuraByDagoma",
+            "href": "//dist.dagoma3d.com/CuraByDagoma",
             "label": "Télécharger"
           }
         }
@@ -117,7 +117,7 @@
         {
           "button": {
             "text": "Il s'agit d'une partie des pièces imprimées dans",
-            "to": "/start/neva-magis/notice-1",
+            "to": "/printer/magis/1",
             "label": "la notice de la Magis"
           }
         }
@@ -126,7 +126,7 @@
     {
       "type": "banner",
       "title": "Les paramètres d'impression",
-      "subtitle": "Concrètement ça donne quoi ?"
+      "subtitle": ["Concrètement ça donne quoi ?"]
     },
     {
       "id": "qualite",
@@ -168,7 +168,9 @@
     {
       "type": "banner",
       "title": "Les autres ajustements",
-      "subtitle": "Deux autres paramètres sont disponibles sur Cura, le support et l'amélioration de la surface d'accroche."
+      "subtitle": [
+        "Deux autres paramètres sont disponibles sur Cura, le support et l'amélioration de la surface d'accroche."
+      ]
     },
     {
       "id": "support",
@@ -247,7 +249,7 @@
         {
           "button": {
             "text": "Cura by Dagoma a été conçu pour vous éviter de régler tous ces paramètres. Tous les filaments disponibles sur Cura et sur notre site ont été testés et approuvés. Nous ne pouvons pas vous assurer une bonne qualité d'impression avec un filament ne figurant pas dans la liste. L'idéal pour débuter est la gamme de filaments Chromatik que nous vous proposons",
-            "to": "//www.dagoma3d.com/shop/category/filaments-2"
+            "href": "//www.dagoma3d.com/shop/category/filaments-2"
           }
         }
       ]

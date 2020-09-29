@@ -2,10 +2,14 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-function Text({ content }) {
+function Text({ content, italic, frame, warning }) {
   const { t } = useTranslation();
   if (!content) return null;
-  return <p>{t(content)}</p>;
+  const classes = [];
+  if (italic) classes.push('italic');
+  if (frame) classes.push('bg-orange text-white col-space');
+  if (warning) classes.push('text-red');
+  return <p className={classes.join(' ')}>{t(content)}</p>;
 }
 
 function PreTitle({ content }) {
@@ -30,9 +34,9 @@ function List({ content }) {
   );
 }
 
-function Button({ text, color, to, label }) {
+function Button({ text, color, to, href, download, label }) {
   const { t } = useTranslation();
-  if (!to) return null;
+  if (!to && !href) return null;
   let classes;
   switch (color) {
     case 'white':
@@ -46,18 +50,23 @@ function Button({ text, color, to, label }) {
   }
   const pre = (text) ? `${t(text)} ` : null;
   const post = (text) ? '.' : null;
+  const link = (to) ? <Link to={to} className={classes} download={download}>{t(label)}</Link> : <a href={href} className={classes} download={download} target='_blank' rel='noopener noreferrer'>{t(label)}</a>;
   return (
     <p className="tleft">
-      {pre}<Link to={to} className={classes}>{t(label)}</Link>{post}
+      {pre}{link}{post}
     </p>
   );
+}
+
+Button.defaultProps = {
+  label: 'ici'
 }
 
 function Container({ content }) {
   if (!content) return null;
   return (
     <div className="col-xl-10 col-xl-offset-7 col-s-10 col-s-offset-7 margin-bottom-shop">
-      {content.map((i, k) => <Item content={i} />)}
+      {content.map((i, k) => <Item key={k} content={i} />)}
     </div>
   )
 }
@@ -77,10 +86,16 @@ function Item({ content }) {
       return <Title content={v} />;
     case 'text':
       return <Text content={v} />;
+    case 'italic':
+      return <Text content={v} italic />;
+    case 'frame':
+      return <Text content={v} frame />;
+    case 'warning':
+      return <Text content={v} warning />;
     case 'list':
       return <List content={v} />;
     case 'button':
-      return <Button text={v.text} color={v.color} to={v.to} label={v.label} />;
+      return <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} />;
     default:
       return null;
   }

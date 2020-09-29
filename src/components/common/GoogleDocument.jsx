@@ -15,12 +15,12 @@ function GoogleDocument({ content }) {
       <div className="row">
         <div className="col-xl-20 col-xl-offset-2 col-s-24 col-s-offset-0 iframe-width margin-bottom-shop">
           <iframe
+            title={title}
             align="middle"
             frameBorder="0"
             height="569"
             width="960"
-            src={"https://docs.google.com/presentation/d/" + id + "/embed?start=false&amp;loop=false&amp;delayms=3000"}>
-          </iframe>
+            src={`https://docs.google.com/presentation/d/${id}/embed?start=false&amp;loop=false&amp;delayms=3000`} />
         </div>
       </div>
       {children}

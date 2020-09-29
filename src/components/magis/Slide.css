@@ -1,0 +1,38 @@
+.fa-hand-pointer-o {
+  cursor: pointer;
+}
+
+.fa-hand-pointer-o span {
+  display: none;
+}
+
+.moving-banner-top {
+  min-height: 500px;
+}
+
+.moving-banner-top figure {
+  width: 100%;
+}
+
+.moving-banner-top figure figcaption {
+  top: 10%;
+  bottom: auto;
+}
+
+.moving-banner-top article.covered figure figcaption {
+  display: none;
+}
+
+.moving-banner-top figure figcaption.valid {
+  right: 5%;
+  left: auto;
+}
+
+.moving-banner-top figure figcaption.error {
+  left: 5%;
+  right: auto;
+}
+
+.moving-banner-top article.covered {
+  width: 80%;
+}
