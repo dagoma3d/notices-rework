@@ -1,0 +1,24 @@
+{
+  "blocks": [
+    {
+      "type": "google-document",
+      "title": "Notice première utilisation",
+      "id": "1QPEbmE2F604CEGzvQjbHRF3qNiB6OI1p5-GPUAfnMWM"
+    },
+    {
+      "type": "item",
+      "container": [
+        {
+          "text": "Cette notice de première utilisation vous permettra :"
+        },
+        {
+          "list": [
+            "de calibrer votre imprimante",
+            "de télécharger et d'utiliser Cura by Dagoma",
+            "de lancer votre première impression 3D"
+          ]
+        }
+      ]
+    }
+  ]
+}

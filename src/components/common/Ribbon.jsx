@@ -25,6 +25,7 @@ function Texts({ content }) {
 }
 
 function Ribbon({ content }) {
+  if (!content) return null;
   const { flip, img, title, subtitle, text } = content;
   const flipClass = (flip) ? 'block-caption-left' : 'block-caption-right';
   return (
