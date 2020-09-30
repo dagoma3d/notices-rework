@@ -1,0 +1,91 @@
+{
+  "header": {
+    "img": "DiscoEasy/Notice/2-a-intro.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 1 - Préparation"
+    ],
+    "subtitle": "Préparons nous au montage",
+    "text": [
+      "Nous allons préparer tous les éléments nécessaires au montage du kit.",
+      "Temps approximatif de montage : 3 heures 30 minutes."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/2-b-prerequis.jpg",
+        "gray": true
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "text": "Un kit Discoeasy200"
+        },
+        {
+          "list": [
+            "1 tournevis hexagonal 2.5mm (fourni)",
+            "1 tournevis cruciforme PH1",
+            {
+              "button": {
+                "text": "1 cutter ou",
+                "label": "1 ébavureur",
+                "href": "https://www.dagoma3d.com/shop/product/dku000813-ebavureur-3318?page=2&category=3"
+              }
+            },
+            "1 cutter ou 1 ébavureur",
+            "1 maillet",
+            {
+              "button": {
+                "label": "De l'huile liquide",
+                "href": "https://www.dagoma3d.com/shop/product/dku000809-huile-liquide-3538?category=3"
+              }
+            }
+          ]
+        },
+        {
+          "button": {
+            "label": "LES ACCESSOIRES",
+            "color": "orange",
+            "href": "https://www.dagoma3d.com/shop/category/accessoires-3"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/2-d-contenu.jpg",
+        "gray": false
+      },
+      "article": [
+        {
+          "title": "Dans le carton du kit vous allez trouver..."
+        },
+        {
+          "list": [
+            "1 sachet de composants mécaniques (courroies, roulements, ressorts...)",
+            "1 sachet de vis (7 types de visserie)",
+            "1 sachet de câbles",
+            "1 sachet de composants électroniques",
+            "1 tête d'impression prémontée",
+            "1 carte de contrôle"
+          ]
+        },
+        {
+          "text": "1 tournevis hexagonal 2.5 mm et une spatule"
+        },
+        {
+          "text": "Dans le carton, il vous reste 5 moteurs (2 avec poulie, 1 avec roue dentée, 2 plus petits), un ensemble de barres (dans le filet jaune : 5 courtes, 8 longues, 2 filetées), les pièces imprimées, un outil imprimé, un plateau, des éléments de finition et une alimentation. (2 avec poulie, 1 avec roue dentée, 2 plus petits), un ensemble de barres (dans le filet jaune : 5 courtes, 8 longues, 2 filetées), les pièces imprimées, un outil imprimé, un plateau, des éléments de finition et une alimentation."
+        },
+        {
+          "text": "Conseil : Sortez les vis et regroupez-les par type. Utilisez un récipient pour ne pas les perdre. Laissez les roulements dans leur sachet."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/2-a-intro.jpg",
+    "subtitle": "Je suis prêt : CHECK !"
+  }
+}
