@@ -29,7 +29,7 @@ function List({ content }) {
   if (!content) return null;
   return (
     <ul className="list-classic tleft-child">
-      {content.map((i, k) => <li key={k}><p>{t(i)}</p></li>)}
+      {content.map((i, k) => <li key={k}><p>{typeof i == "string" ? t(i) : <Item key={k} content={i} />}</p></li>)}
     </ul>
   );
 }
