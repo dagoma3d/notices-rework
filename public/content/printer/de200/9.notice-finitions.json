@@ -1,17 +1,11 @@
 {
   "time": {
-    "subtitle": [
-      "Temps approximatif : 25 minutes"
-    ]
+    "subtitle": ["Temps approximatif : 25 minutes"]
   },
   "header": {
     "img": "DiscoEasy/Notice/11-a-intro.jpg",
-    "title": [
-      "Notice de montage DiscoEasy200 - Page 10 - Finition"
-    ],
-    "subtitle": [
-      "Les dernières finitions"
-    ],
+    "title": ["Notice de montage DiscoEasy200 - Page 10 - Finition"],
+    "subtitle": ["Les dernières finitions"],
     "text": [
       "Nous allons maintenant mettre la touche finale avant de commencer à la mettre en marche."
     ]
@@ -61,7 +55,7 @@
     },
     {
       "media": {
-        "id": "UrbF3gU6H24",
+        "id": "DiscoEasy/Notice/9-c-controle.jpg",
         "type": "yt"
       },
       "article": [
@@ -260,8 +254,6 @@
   "footer": {
     "img": "DiscoEasy/Notice/11-k-fin.jpg",
     "subtitle": "Finitions : CHECK !",
-    "text": [
-      "Le montage est terminé. Soufflez, profitez, maintenant on va la mettre en marche."
-    ]
+    "text": ["Le montage est terminé. Soufflez, profitez, maintenant on va la mettre en marche."]
   }
 }
