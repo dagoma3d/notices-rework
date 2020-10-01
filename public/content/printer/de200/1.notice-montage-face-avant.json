@@ -1,0 +1,135 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 15 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Notice/3-a-intro.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 2 - Montage de la face avant"
+    ],
+    "subtitle": [
+      "Montage de la face avant"
+    ],
+    "text": [
+      "Nous allons monter la première partie de l'imprimante 3D."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/3-b-prerequis.jpg"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "list": [
+            "1 face avant",
+            "1 moteur avec poulie",
+            "1 butée courte (sachet de câbles)",
+            "4 roulements de courroie (sachet de composants mécaniques)",
+            "4 écrous M3 (il doit en rester 21)",
+            "6 vis M3x16 (il doit en rester 23)",
+            "3 vis M3x6 (il doit en rester 11)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "XWGzA1HvZnc",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Mise en place des vis de serrage"
+        },
+        {
+          "text": "Prenez 4 écrous et 4 vis moyennes (M3x16). Placez les écrous dans les logements comme sur la vidéo. Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "1lBJU6nMfg4",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Installation des 2 roulements de courroie"
+        },
+        {
+          "text": "Nous allons placer les roulements qui feront le renvoi de courroie du plateau de l'imprimante."
+        },
+        {
+          "text": "Prenez le petit outil imprimé pour vous aider à placer les roulements. Prenez 1 vis M3x16, placez la dans le trou correspondant et vissez à travers les 2 roulements. Vérifiez que les roulements tournent bien après serrage. Répétez l'opération pour le deuxième emplacement."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "nnsbsWUvgmk",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Mise en place de la butée de Y"
+        },
+        {
+          "text": "Prenez la butée avec le câble le plus court. Introduisez la dans le logement en commençant par faire passer la prise."
+        },
+        {
+          "text": "Orientez le comme sur la vidéo."
+        },
+        {
+          "text": "Pliez les pattes en dessous puis enfoncez la butée. Elle dépasse d'un millimètre par rapport au plastique."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "zFQDMFbY8yk",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Installation du moteur de Y"
+        },
+        {
+          "text": "Posez-la face avant à plat."
+        },
+        {
+          "text": "Rentrez le moteur dans son support avec le connecteur vers le haut."
+        },
+        {
+          "text": "La poulie se trouvera en face des roulements."
+        },
+        {
+          "text": "Vissez le moteur avec 3 vis M3x6."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/3-g-fin.jpg",
+    "subtitle": "Montage de la face avant : CHECK !",
+    "text": [
+      "Mettez-la de côté, elle nous servira plus tard."
+    ]
+  }
+}
