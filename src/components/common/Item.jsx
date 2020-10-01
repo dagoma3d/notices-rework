@@ -2,11 +2,12 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-function Text({ content, italic, frame, warning }) {
+function Text({ content, italic, frame, warning, bold }) {
   const { t } = useTranslation();
   if (!content) return null;
   const classes = [];
   if (italic) classes.push('italic');
+  if (bold) classes.push('bold');
   if (frame) classes.push('bg-orange text-white col-space');
   if (warning) classes.push('text-red');
   return <p className={classes.join(' ')}>{t(content)}</p>;
@@ -86,6 +87,8 @@ function Item({ content }) {
       return <Title content={v} />;
     case 'text':
       return <Text content={v} />;
+    case 'bold':
+      return <Text content={v} bold />
     case 'italic':
       return <Text content={v} italic />;
     case 'frame':
