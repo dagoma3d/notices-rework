@@ -1,0 +1,267 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 25 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Notice/11-a-intro.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 10 - Finition"
+    ],
+    "subtitle": [
+      "Les dernières finitions"
+    ],
+    "text": [
+      "Nous allons maintenant mettre la touche finale avant de commencer à la mettre en marche."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/11-b-prerequis.jpg"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "list": [
+            "1 gaine torsadée",
+            "1 tube blanc (PTFE)",
+            "2 pièces en plastique (appelées top)",
+            "8 patins antidérapants",
+            "4 colliers de serrage",
+            "2 barres courtes",
+            "8 écrous M3 (il doit en rester 1)",
+            "8 vis M3x16 (il doit en rester 1)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "y3MpRMjUmyQ",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Mise en place des vis de serrage"
+        },
+        {
+          "text": "Normalement vous êtes rodé. Prenez 8 écrous et 8 vis. Placez les écrous dans les logements comme sur la vidéo. Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+        },
+        {
+          "text": "Faites de même pour la deuxième pièce."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "DiscoEasy/Notice/9-c-controle.jpg",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Mise en place des barres"
+        },
+        {
+          "text": "Mettez les deux pièces à plat, en symétrie."
+        },
+        {
+          "text": "Introduisez les barres."
+        },
+        {
+          "text": "Placez l'ensemble sur l'imprimante, la partie la plus haute vers l'avant."
+        },
+        {
+          "text": "Appuyez fort pour que les pièces soient bien enfoncées."
+        },
+        {
+          "text": "Serrez les 8 vis du haut et les 4 vis présentes sur les côtés des fixations latérales."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "fG_7xwTHC0E",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Ajustement de la tension de courroie de la tête"
+        },
+        {
+          "text": "Placez la tête à gauche."
+        },
+        {
+          "text": "Détachez la courroie du côté droit."
+        },
+        {
+          "text": "Tirez sur le bout libre sans effort."
+        },
+        {
+          "text": "Forcez pour ajouter 2 crans de tension et re-verrouiller la courroie."
+        },
+        {
+          "text": "Couper le bout pour laisser 3 cm de mou."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "d8nT5L8Z9Zg",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Ajustement de la tension de courroie du plateau"
+        },
+        {
+          "text": "Mettez la machine à l'envers."
+        },
+        {
+          "text": "Débloquez le bout replié de la courroie, puis déverouillez-la en la poussant vers la droite."
+        },
+        {
+          "text": "Faites-la passer entre la face avant et le plateau."
+        },
+        {
+          "text": "Tirez sur le bout libre sans effort."
+        },
+        {
+          "text": "Forcez pour ajouter 2 crans de tension et re-verrouiller la courroie."
+        },
+        {
+          "text": "Repliez le bout libre dans l'encoche de départ."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "CO99gtptxz8",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Mise en place de la gaine"
+        },
+        {
+          "text": "Placez la tête à droite de la machine (en vue de face)."
+        },
+        {
+          "text": "Engagez la gaine torsadé sur le début des câbles de la tête sur quelques centimètres."
+        },
+        {
+          "text": "Sur la tête, replacez les câbles convenablement."
+        },
+        {
+          "text": "Faites passer la gaine dans la forme sur la tête."
+        },
+        {
+          "text": "Prenez un collier de serrage, placez-le dans le trou comme sur la vidéo."
+        },
+        {
+          "text": "Serrez-le puis coupez le surplus qui dépasse."
+        },
+        {
+          "text": "Continuez de torsader la gaine jusqu'à atteindre l'angle supérieur opposé de l'imprimante."
+        },
+        {
+          "text": "Clipsez la gaine sur le chariot de gauche."
+        },
+        {
+          "text": "Récupérez les câbles du moteur et de la butée de X et continuez la gaine."
+        },
+        {
+          "text": "Egalisez la longueur des câbles en les tirants vers l'intérieur de l'imprimante."
+        },
+        {
+          "text": "Continuez la gaine jusqu'à l'entrée de la fixation latérale (coupez le surplus si besoin)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "HBTfuzBZo9A",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Gestion des câbles"
+        },
+        {
+          "text": "Dans cette étape, nous allons faire en sorte de bien maintenir les câbles. Notre solution n'est pas unique mais si vous ne vous sentez pas inspiré, suivez la vidéo."
+        },
+        {
+          "text": "Il est important qu'aucun câble ne se balade au dessus de la carte pour éviter d'être abîmé par le plateau."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "gUpfMXQvzCo",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 7"
+        },
+        {
+          "title": "Mise en place des patins antidérapant"
+        },
+        {
+          "text": "Des emplacements sont prévus sous la machine sur la face avant, la face arrière et les fixations latérales, collez-y un patin sur chacun."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "fjdKJRYabq4",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 8"
+        },
+        {
+          "title": "Installation du tube PTFE"
+        },
+        {
+          "text": "Ce tube va guider le filament de l'extrudeur jusqu'à la tête d'impression."
+        },
+        {
+          "text": "Il est maintenu par des raccords pneumatique. Poussez-le bien jusqu'au fond à chaque extrémité. Faites-le passer entre les deux barres du haut de l'imprimante pour le guider."
+        },
+        {
+          "text": "Attention, sur la tête d'impression, il est important que ce dernier soit bien enfoncé. Regardez sur la vidéo pour avoir une idée de la longueur. Appuyez sur la collerette noire pour retirer le tube."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/11-k-fin.jpg",
+    "subtitle": "Finitions : CHECK !",
+    "text": [
+      "Le montage est terminé. Soufflez, profitez, maintenant on va la mettre en marche."
+    ]
+  }
+}

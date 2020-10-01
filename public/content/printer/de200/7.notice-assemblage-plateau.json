@@ -1,0 +1,231 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 25 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Notice/9-a-intro.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 8 - Assemblage du plateau"
+    ],
+    "subtitle": [
+      "Assemblage du plateau"
+    ],
+    "text": [
+      "Nous allons maintenant assembler la pièce qui viendra accueillir vos impression : le plateau."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/9-b-prerequis.jpg"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "list": [
+            "1 grappe de support plateau",
+            "1 plateau",
+            "1 courroie de 85cm",
+            "4 vis fraisées M3x10 cruciforme (il doit en rester 1)",
+            "4 écrous freins M3 (il doit en rester 1)",
+            "1 tournevis cruciforme PH1 (non fourni)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "58eId8oO5qc",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Montage des supports plateau"
+        },
+        {
+          "text": "Détachez et nettoyez les pièces à l'aide de la spatule."
+        },
+        {
+          "text": "Mettez en place les écrous dans les pièces, côté caoutchouc de l'écrou vers les logements qui accueilleront les roulements"
+        },
+        {
+          "text": "Prenez le grand support, positionnez la lettre A vers le côté le plus court du plateau."
+        },
+        {
+          "bold": "Allez à l'étape d'en dessous pour vérifier le sens."
+        },
+        {
+          "text": "Retirez le scotch qui déborde sur les trous de vis."
+        },
+        {
+          "text": "Vissez légèrement uniquement pour maintenir les pièces."
+        },
+        {
+          "text": "Répétez l'opération pour les deux autres pièces (écrous vers l'extérieur)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/9-c-controle.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Vérifions tout ça"
+        },
+        {
+          "text": "Voilà le rendu final. Faites bien attention au sens des éléments."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "K8kYzaHjzzw",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Installation sur l'imprimante"
+        },
+        {
+          "text": "Faites monter l'axe X pour laisser passer le plateau (tourner les deux coupleurs dans le sens des aiguilles d'une montre)."
+        },
+        {
+          "text": "Pré-positionnez les roulements sur les barres."
+        },
+        {
+          "text": "Prenez le plateau avec le support long vers la face avant (comme sur la vidéo)."
+        },
+        {
+          "text": "Posez le sur les roulements."
+        },
+        {
+          "text": "Sur un côté, alignez les roulements au milieu des pièces orange."
+        },
+        {
+          "text": "Appuyez sur le plateau pour clipser les roulements."
+        },
+        {
+          "text": "Répétez l'opération de l'autre côté."
+        },
+        {
+          "text": "Faites des aller-retours avec le plateau pour que l'assemblage coulisse bien."
+        },
+        {
+          "text": "Serrez les vis du plateau (sans forcer)."
+        },
+        {
+          "text": "Assurez-vous qu'il coulisse toujours après serrage. Si ce n'est pas le cas, desserrez légèrement les vis."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "H0yMALquw8A",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Contrôle de la perpendicularité de la base"
+        },
+        {
+          "text": "Maintenant que le plateau est monté, nous pouvons effectuer une vérification importante."
+        },
+        {
+          "text": "Avancez le plateau jusqu'à la face avant."
+        },
+        {
+          "text": "Vérifiez que les deux soient parallèles (quelques mm d'écart sont acceptables)."
+        },
+        {
+          "text": "Faites pareil avec la face arrière."
+        },
+        {
+          "text": "Si ce n'est pas le cas, une barre doit être mal enfoncée (voir page 7)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "Nf-nci005Ao",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Installation de la courroie du plateau"
+        },
+        {
+          "warning": "Attention, le plateau est encore mobile, faites attention à vos doigts !"
+        },
+        {
+          "text": "Prenez la courroie de 85cm."
+        },
+        {
+          "text": "Retournez la Discoeasy200 pour avoir accès au dessous de la machine."
+        },
+        {
+          "italic": "Dans cette vidéo n'hésitez pas à utiliser le bouton pause."
+        },
+        {
+          "text": "Faites passer le bout de l'inscription A vers B dans le support plateau avant (crans vers le bas de la machine)."
+        },
+        {
+          "text": "Laissez-le dépasser du côté B d'environ 2cm."
+        },
+        {
+          "text": "Faites-le coulisser vers le bas pour le verrouiller."
+        },
+        {
+          "text": "Prenez l'autre bout et faites-le passer au dessus du premier roulement en haut de la face avant (crans vers le roulement)."
+        },
+        {
+          "text": "Récupérez-le en dessous et tirez pour retirer le mou (faites la même chose à chaque étape). Attention aux vrilles dans la courroie."
+        },
+        {
+          "text": "Faites passer le bout entre la poulie moteur et le second roulement."
+        },
+        {
+          "text": "Passez la courroie entre la barre transversale et le plateau."
+        },
+        {
+          "text": "Sur la face arrière, faites passer la courroie sous le roulement et poussez pour le récupérer au dessus."
+        },
+        {
+          "text": "Repassez entre la barre et le plateau et faites entrer le bout dans le support plateau avant de B vers A."
+        },
+        {
+          "text": "Tirez sans forcer sur la courroie pour la tendre et pousser vers le bas pour la verrouiller."
+        },
+        {
+          "text": "Repliez le bout et faites-le passer dans le clips pour finir."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/9-g-fin.jpg",
+    "subtitle": "Assemblage du plateau : CHECK !",
+    "text": [
+      "On approche de la fin. Prochaine étape, le câblage."
+    ]
+  }
+}
