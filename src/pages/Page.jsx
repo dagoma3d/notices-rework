@@ -44,8 +44,9 @@ function Page() {
     active = parseInt(match.params.step) || 0;
     if (match.params.printer.includes('magis')) nav = 'box';
   } else {
+    let step = match.params.step;
     resource = `/content/${match.params.product}/${match.params.ref}/${match.params.step || '0'}.json`;
-    active = parseInt(match.params.step) || parseInt(match.params.step.replace(/^\D+-/g, '')) - 1 || 0;
+    active = step ? parseInt(step) || parseInt(step.replace(/^\D+-/g, '')) - 1 : 0;
   }
 
 
