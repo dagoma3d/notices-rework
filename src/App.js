@@ -22,6 +22,8 @@ export default function App() {
           <Route path='/firmware/:printer?' component={Page} />
           <Route path='/calibration/:printer?' component={Page} />
           <Route path='/addon/box/:printer/:step?' component={Page} />
+          <Route path='/addon/xl/:printer/:step?' component={Page} />
+          <Route path='/addon/bicolor/:printer/:step?' component={Page} />
           <Route path='/:product/:ref/:step?' component={Page} />
           <Route component={NotFound} />
         </Switch>

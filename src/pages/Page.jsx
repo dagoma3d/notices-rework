@@ -16,8 +16,10 @@ function Page() {
   const match = useRouteMatch();
   console.log(match);
 
+  let step = match.params.step;
+  let active = step ? parseInt(step) || parseInt(step.replace(/^\D+-/g, '')) - 1 : 0;;
+
   let resource;
-  let active;
   let nav;
   if (match.url.includes('cura-by-dagoma')) {
     resource = '/content/cura-by-dagoma/index.json';
@@ -41,12 +43,16 @@ function Page() {
     resource = '/content/calibration/index.json';
   } else if (match.url.includes('box')) {
     resource = `/content/box/${match.params.printer}/${match.params.step || '0'}.json`;
-    active = parseInt(match.params.step) || 0;
     if (match.params.printer.includes('magis')) nav = 'box';
+  } else if (match.url.includes('addon/xl/du')) {
+    resource = `/content/printer/du/xl/${match.params.step || '0'}.json`;
+    nav = 'xl/du';
+  } else if (match.url.includes('addon/bicolor/du')) {
+    resource = `/content/printer/du/bicolor/${match.params.step || '0'}.json`;
+    nav = 'bicolor/du';
   } else {
-    let step = match.params.step;
     resource = `/content/${match.params.product}/${match.params.ref}/${match.params.step || '0'}.json`;
-    active = step ? parseInt(step) || parseInt(step.replace(/^\D+-/g, '')) - 1 : 0;
+
   }
 
 
