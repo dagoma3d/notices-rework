@@ -13,11 +13,6 @@ function Text({ content, italic, frame, warning, bold }) {
   return <p className={classes.join(' ')}>{t(content)}</p>;
 }
 
-function Texts({ content }) {
-  if (!content) return null;
-  return content.map((i, k) => <Text key={k} content={i} />);
-}
-
 function PreTitle({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
@@ -49,25 +44,34 @@ function Frame({ content }) {
   );
 }
 
-function Button({ text, color, to, href, download, label }) {
+function Button({ text, color, to, href, download, label, position }) {
   const { t } = useTranslation();
   if (!to && !href) return null;
-  let classes;
-  switch (color) {
-    case 'white':
-      classes = 'new-btn btn-classic btn-grey btn-wide';
-      break;
-    case 'orange':
-      classes = 'new-btn btn-valid btn-wide';
-      break;
-    default:
-      classes = 'link-classic';
+
+  const getClasses = (color) => {
+    const classes = {
+      'white': 'new-btn btn-classic btn-grey btn-wide',
+      'orange': 'new-btn btn-valid btn-wide',
+      'default': 'link-classic'
+    }
+    return classes[color] || classes['default']
   }
+
+  const getPosition = (position) => {
+    const classes = {
+      'left': 'tleft',
+      'center': 'tcenter',
+      'right': 'tright',
+      'default': 'tleft'
+    }
+    return classes[position] || classes['default']
+  }
+
   const pre = (text) ? `${t(text)} ` : null;
   const post = (text) ? '.' : null;
-  const link = (to) ? <Link to={to} className={classes} download={download}>{t(label)}</Link> : <a href={href} className={classes} download={download} target='_blank' rel='noopener noreferrer'>{t(label)}</a>;
+  const link = (to) ? <Link to={to} className={getClasses(color)} download={download}>{t(label)}</Link> : <a href={href} className={getClasses(color)} download={download} target='_blank' rel='noopener noreferrer'>{t(label)}</a>;
   return (
-    <p className="tleft">
+    <p className={getPosition(position)}>
       {pre}{link}{post}
     </p>
   );
@@ -113,7 +117,7 @@ function Item({ content }) {
     case 'list':
       return <List content={v} />;
     case 'button':
-      return <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} />;
+      return <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} position={v.position} />;
     default:
       return null;
   }
