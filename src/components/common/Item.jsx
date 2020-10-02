@@ -13,6 +13,11 @@ function Text({ content, italic, frame, warning, bold }) {
   return <p className={classes.join(' ')}>{t(content)}</p>;
 }
 
+function Texts({ content }) {
+  if (!content) return null;
+  return content.map((i, k) => <Text key={k} content={i} />);
+}
+
 function PreTitle({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
@@ -32,6 +37,15 @@ function List({ content }) {
     <ul className="list-classic tleft-child">
       {content.map((i, k) => <li key={k}><p>{typeof i == "string" ? t(i) : <Item key={k} content={i} />}</p></li>)}
     </ul>
+  );
+}
+
+function Frame({ content }) {
+  if (!content) return null;
+  return (
+    <div className='bg-orange text-white col-space tleft-child'>
+      {content.map((i, k) => <Item key={k} content={i} />)}
+    </div>
   );
 }
 
@@ -92,7 +106,8 @@ function Item({ content }) {
     case 'italic':
       return <Text content={v} italic />;
     case 'frame':
-      return <Text content={v} frame />;
+      if (typeof v == "string") return <Text content={v} frame />;
+      return <Frame content={v} />;
     case 'warning':
       return <Text content={v} warning />;
     case 'list':
