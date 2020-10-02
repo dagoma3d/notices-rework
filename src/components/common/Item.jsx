@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
@@ -11,6 +11,11 @@ function Text({ content, italic, frame, warning, bold }) {
   if (frame) classes.push('bg-orange text-white col-space');
   if (warning) classes.push('text-red');
   return <p className={classes.join(' ')}>{t(content)}</p>;
+}
+
+function Texts({ content }) {
+  if (!content) return null;
+  return content.map((i, k) => <Text key={k} content={i} />);
 }
 
 function PreTitle({ content }) {
@@ -44,7 +49,11 @@ function Frame({ content }) {
   );
 }
 
+<<<<<<< HEAD
 function Button({ text, color, to, href, download, label, position }) {
+=======
+function Button({ text, color, to, href, download, label }) {
+>>>>>>> master
   const { t } = useTranslation();
   if (!to && !href) return null;
 
@@ -94,6 +103,40 @@ Button.defaultProps = {
   label: 'ici'
 }
 
+function AdditionalInfo({ content }) {
+  const { t } = useTranslation();
+  if (!content) return null;
+  return content.map((p, k) => <p className="tleft col-vbspace" key={k}>{t(p)}</p>);
+}
+
+function Video({ content }) {
+  const { text, id } = content;
+  const { t } = useTranslation();
+  const [active, setActive] = useState(false);
+  const handleKeyPress = (event) => {
+    if (event.key === 's') setActive(!active);
+  }
+
+  return (
+    <section>
+      <p className="tleft col-vbspace">
+        <button className="new-btn btn-classic btn-grey btn-wide btn-show-video" type='button' onClick={() => setActive(!active)}>{t('Lire la vidéo')}</button>
+      </p>
+      <AdditionalInfo content={text} />
+      <section className={`col-xl-24 row block-video block-video-hidden ${active ? 'active' : null}`} style={{ border: 'none' }}>
+        <div className="block-video-yt">
+          <iframe title={id} src={`https://www.youtube.com/embed/${id}`} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+          <div className="close-video">
+            <i className="fa fa-close" onClick={() => setActive(!active)} onKeyPress={handleKeyPress} tabIndex={0} role='button'>
+              <span>s</span>
+            </i>
+          </div>
+        </div>
+      </section>
+    </section>
+  );
+}
+
 function Item({ content }) {
   const [k, v] = Object.entries(content)[0];
   switch (k) {
@@ -117,7 +160,13 @@ function Item({ content }) {
     case 'list':
       return <List content={v} />;
     case 'button':
+<<<<<<< HEAD
       return <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} position={v.position} />;
+=======
+      return <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} />;
+    case 'video':
+      return <Video content={v} />
+>>>>>>> master
     default:
       return null;
   }
