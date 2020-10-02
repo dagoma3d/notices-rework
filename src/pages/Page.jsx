@@ -38,6 +38,8 @@ function Page() {
     resource = '/content/firmware/index.json';
   } else if (match.url.includes('calibration')) {
     resource = '/content/calibration/index.json';
+  } else if (match.url.includes('box')) {
+    resource = `/content/box/${match.params.printer}/${match.params.step || '0'}.json`;
   } else {
     resource = `/content/${match.params.product}/${match.params.ref}/${match.params.step || '0'}.json`;
     active = parseInt(match.params.step) || 0;

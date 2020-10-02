@@ -21,6 +21,7 @@ export default function App() {
           <Route path='/cura-by-dagoma/:printer?' component={Page} />
           <Route path='/firmware/:printer?' component={Page} />
           <Route path='/calibration/:printer?' component={Page} />
+          <Route path='/addon/box/:printer/:step?' component={Page} />
           <Route path='/:product/:ref/:step?' component={Page} />
           <Route component={NotFound} />
         </Switch>
