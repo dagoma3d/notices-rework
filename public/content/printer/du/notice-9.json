@@ -1,0 +1,375 @@
+{
+  "header": {
+    "img": "DiscoUltimate/Notice/9-a-intro.jpg",
+    "title": [
+      "Notice de montage DISCO ULTIMATE - câblage"
+    ],
+    "subtitle": "Câblage",
+    "text": [
+      "Et si nous commencions à lui donner vie ?"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Câblage"
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/9-b-prerequis.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "text": "Les pré-requis"
+        },
+        {
+          "list": [
+            "A. Carte de contrôle",
+            "B. Sachet de câbles",
+            "C. Petit sachet électronique + lecteur SD"
+          ]
+        },
+        {
+          "text": "Visserie :"
+        },
+        {
+          "list": [
+            "3x vis M3x6 (reste 0)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "QYGzMbwyWIA"
+      },
+      "article": [
+        {
+          "title": "Repérage du câble ventilateur arrière"
+        },
+        {
+          "text": "Prenez le câble du ventilateur arrière et faites un noeud à 2cm du bout."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "50a1FM7_5sw"
+      },
+      "article": [
+        {
+          "title": "Mise en place de la gaine de tête"
+        },
+        {
+          "text": "Prenez la gaine de tête et l'outil imprimé."
+        },
+        {
+          "text": "Nous vous invitons à suivre la vidéo avec attention et de refaire pareil."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "md_qbmMm7rc"
+      },
+      "article": [
+        {
+          "title": "Installation de la carte de contrôle"
+        },
+        {
+          "text": "Sortez-la carte du sachet."
+        },
+        {
+          "text": "Placez-la avec les connecteur face à vous, en diagonale, le lecteur USB vers la barre transversale."
+        },
+        {
+          "text": "Serrez-la à l'aide de deux vis M3x6."
+        },
+        {
+          "text": "Ne serrez pas trop fort pour éviter d'endommager la carte."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "nsVMYjsB44Q"
+      },
+      "article": [
+        {
+          "title": "Câblage du moteur de X"
+        },
+        {
+          "text": "Prenez le câble moteur le plus long dans le sachet."
+        },
+        {
+          "text": "Branchez-le au moteur (pas de soucis de sens, il y a des détrompeurs)."
+        },
+        {
+          "text": "Faites-le ensuite passer au niveau de la fixation latérale gauche, passez dans la pièce plastique comme sur la vidéo."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le connecteur X adapté."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "rVgAaNeTDmA"
+      },
+      "article": [
+        {
+          "title": "Câblage de la butée de X"
+        },
+        {
+          "text": "Récupérez le câble de la butée de X."
+        },
+        {
+          "text": "Faites-le suivre le câble du moteur de X."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le connecteur X adapté."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "wJoQ2XgS2BU"
+      },
+      "article": [
+        {
+          "title": "Passage des câbles de la tête"
+        },
+        {
+          "text": "Prenez l'ensemble des câbles de la tête."
+        },
+        {
+          "text": "Faites les passer dans la fixation latérale."
+        },
+        {
+          "text": "Passez entre la barre arrière et la tige du moteur de Z."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "JdfAnVkq19E"
+      },
+      "article": [
+        {
+          "title": "Branchement du palpeur"
+        },
+        {
+          "text": "Branchez le câble du palpeur (câble gris) sur le connecteur Z."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "qGup4l14zkU"
+      },
+      "article": [
+        {
+          "title": "Branchement de la sonde"
+        },
+        {
+          "text": "Branchez la sonde (câbles noires avec connecteur blanc) sur le connecteur T0."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "v-JsMGu6HQE"
+      },
+      "article": [
+        {
+          "title": "Branchement des câbles restants"
+        },
+        {
+          "text": "Dénudez tous les câbles avant de les brancher."
+        },
+        {
+          "text": "Branchez les câbles marrons sur le bornier Heater."
+        },
+        {
+          "text": "Branchez les câbles du ventilateur repéré (ceux avec la boucle)  sur le bornier FAN2."
+        },
+        {
+          "text": "Branchez les câbles du ventilateur restant sur le bornier FAN1."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "ILxua5HxRsk"
+      },
+      "article": [
+        {
+          "title": "Câblage de la butée de Y"
+        },
+        {
+          "text": "Récupérez le câble de la butée de Y (celui qui vient de la face avant)."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le connecteur Y adapté."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "iXJM7TA8Tf4"
+      },
+      "article": [
+        {
+          "title": "Câblage du moteur de Y"
+        },
+        {
+          "text": "Récupérez le câble moteur le plus court."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le moteur de la face avant puis sur le connecteur Y adapté."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "xIVoaCOR8wQ"
+      },
+      "article": [
+        {
+          "title": "Branchement des moteurs de Z"
+        },
+        {
+          "text": "Récupérez le câble moteur double."
+        },
+        {
+          "text": "Raccordez-le sur le connecteur Z adapté."
+        },
+        {
+          "text": "Raccordez-le ensuite sur les moteurs de Z en passant entre la barre inférieure et la pièce plastique."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "yI-7p9plZhI"
+      },
+      "article": [
+        {
+          "title": "Branchement du moteur d'extrudeur"
+        },
+        {
+          "text": "Récupérez le dernier câble moteur."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le moteur d'extrudeur (sur la face arrière) puis sur le connecteur E0."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "DProRp7sjDY"
+      },
+      "article": [
+        {
+          "title": "Branchement des capteurs de l'extrudeur+"
+        },
+        {
+          "text": "Raccordez le câble rouge venant de l'extrudeur E0 sur le connecteur 2."
+        },
+        {
+          "text": "Raccordez le câble rouge venant du bouton sur le connecteur 3."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "Sl4kKxnIUv0"
+      },
+      "article": [
+        {
+          "title": "Installation de l'interrupteur"
+        },
+        {
+          "text": "Clipsez l'interrupteur sur la face avant (le bouton 1 vers le haut de la face avant)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "LzLgUxfijVA"
+      },
+      "article": [
+        {
+          "title": "Branchement de l'alimentation (positive)"
+        },
+        {
+          "text": "Récupérez le câble d'alimentation simple."
+        },
+        {
+          "text": "Branchez-le sur le connecteur de l'interrupteur (le plus bas). Recouvrez-le avec la protection en plastique."
+        },
+        {
+          "text": "Raccordez-le sur le + du bornier PWR IN."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "neajSepsKoI"
+      },
+      "article": [
+        {
+          "title": "Branchement de l'alimentation (négative)"
+        },
+        {
+          "text": "Récupérez le câble d'alimentation double avec le connecteur d'alimentation."
+        },
+        {
+          "text": "Dénudez le fil seul."
+        },
+        {
+          "text": "Branchez l'autre bout sur le connecteur de l'interrupteur."
+        },
+        {
+          "text": "Recouvrez-le avec la protection en plastique."
+        },
+        {
+          "text": "Raccordez-le sur le - du bornier PWR IN."
+        },
+        {
+          "text": "Rentrez le connecteur d'alimentation de biais dans la pièce plastique arrière gauche prévue à cet effet. Poussez dessus pour le clipser."
+        },
+        {
+          "italic": "Astuce : Présentez-le de biais, poussez-le au fond et ensuite poussez vers le bas pour l'enclencher)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "vS4anebn7ZA"
+      },
+      "article": [
+        {
+          "title": "Installation du lecteur SD"
+        },
+        {
+          "text": "Retirez le cache côté avant gauche."
+        },
+        {
+          "text": "Récupérez le lecteur SD."
+        },
+        {
+          "text": "Installez-le comme sur la vidéo. Enfoncez-le bien jusqu'au bout."
+        },
+        {
+          "text": "Bloquez-le avec une vis M3x6."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Notice/9-v-fin.jpg",
+    "subtitle": "Le câblage terminé."
+  }
+}

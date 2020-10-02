@@ -1,0 +1,107 @@
+{
+  "header": {
+    "img": "DiscoUltimate/Notice/6-a-intro.jpg",
+    "title": [
+      "Notice de montage DISCO ULTIMATE - assemblage du plateau"
+    ],
+    "subtitle": "Assemblage du plateau",
+    "text": [
+      "Nous allons maintenant assembler la pièce qui viendra accueillir vos impression : le plateau."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Plateau"
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/6-b-prerequis.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "text": "Les pré-requis"
+        },
+        {
+          "list": [
+            "A. Plateau",
+            "B. Supports plateau (3 pièces)",
+            "C. Courroie longue (85cm)"
+          ]
+        },
+        {
+          "text": "Visserie :"
+        },
+        {
+          "list": [
+            "4x vis fraisées M3x10 (reste 1)",
+            "4x écrous freins M3 (reste 1)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "PiLo3g9H1cY"
+      },
+      "article": [
+        {
+          "title": "Installation des supports plateau"
+        },
+        {
+          "text": "Prenez le grand support plateau."
+        },
+        {
+          "text": "Placez le repère R (Right) à droite et le L (Left) à gauche."
+        },
+        {
+          "text": "La lettre B vers la face avant."
+        },
+        {
+          "text": "Prenez les deux petits supports et utilisez les mêmes repères pour les aligner convenablement."
+        }
+      ]
+    },
+    {
+      "id": "du-courroie-y",
+      "media": {
+        "id": "FzEq9P_YXcM"
+      },
+      "article": [
+        {
+          "title": "Installation de la courroie de Y"
+        },
+        {
+          "text": "Nous vous conseillons de suivre la vidéo avec attention."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "siw6DgPf74g"
+      },
+      "article": [
+        {
+          "title": "Installation du plateau"
+        },
+        {
+          "text": "Alignez les trous du plateau avec ceux des supports."
+        },
+        {
+          "text": "Mettez en place les écrous dans les pièces, côté caoutchouc de l'écrou vers les logements qui accueilleront les roulements."
+        },
+        {
+          "text": "Serrez fermement à l'aide de 4 vis fraisée M3x12."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Notice/6-f-fin.jpg",
+    "subtitle": "Assemblage du plateau terminé",
+    "text": [
+      "Et hop, la base est prête."
+    ]
+  }
+}

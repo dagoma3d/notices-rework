@@ -1,96 +1,146 @@
 {
   "header": {
     "img": "DiscoUltimate/Notice/3-a-intro.jpg",
-    "title": ["Notice de montage DISCO ULTIMATE - montage de la face arrière"],
+    "title": [
+      "Notice de montage DISCO ULTIMATE - montage de la face arrière"
+    ],
     "subtitle": "Montage de la face arrière",
-    "text": ["Nous allons monter la deuxième partie de l'imprimante 3D."]
+    "text": [
+      "Nous allons monter la deuxième partie de l'imprimante 3D."
+    ]
   },
   "blocks": [
-    { "type": "banner", "title": "Face arrière" },
+    {
+      "type": "banner",
+      "title": "Face arrière"
+    },
     {
       "media": {
-        "src": "DiscoEasy/Notice/2-b-prerequis.jpg",
+        "src": "DiscoUltimate/Notice/3-b-prerequis.jpg",
         "small": true
       },
       "article": [
-        { "text": "Les pré-requis" },
+        {
+          "text": "Les pré-requis"
+        },
         {
           "list": [
-            "A. Face avant imprimée",
-            "B. 4x roulements de courroie",
-            "C. Butée Y (180mm)",
-            "D. Moteur NEMA avec poulie"
+            "A. Face arrière imprimée",
+            "B. 1x Poulie",
+            "C. Corps d'extrudeur",
+            "D. Moteur NEMA avec roue d'extrusion",
+            "E. Bras d'extrudeur",
+            "F. Ressort d'extrudeur"
           ]
         },
-        { "text": "Visserie :" },
         {
-          "list": ["3x vis M3x6 (reste 11)", "6x vis M3x16 (reste 23)", "4x écrous M3 (reste 21)"]
+          "text": "Visserie :"
+        },
+        {
+          "list": [
+            "1x vis M3x6 (reste 10)",
+            "4x vis M3x16 (reste 19)",
+            "4x vis M3x25 (reste 1)",
+            "4x écrous M3 (reste 17)"
+          ]
         }
       ]
     },
     {
       "media": {
-        "id": "8EtcssCRZE0"
+        "id": "VcLIic94jkk"
       },
       "article": [
-        { "title": "Mise en place des vis de serrage" },
         {
-          "text": "Prenez 4 écrous et 4 vis moyennes (M3x16). Placez les écrous dans les logements comme sur la vidéo. Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+          "title": "Mise en place des vis de serrage"
+        },
+        {
+          "text": "Comme tout à l'heure, prenez 4 écrous et 4 vis moyennes (M3x16). Placez les écrous dans les logements comme sur la vidéo. Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
         }
       ]
     },
     {
       "media": {
-        "id": "KEMoSfwTW5M"
+        "id": "3WS5rHREMFc"
       },
       "article": [
-        { "title": "Installation des 2 roulements de courroie" },
         {
-          "text": "Nous allons placer les roulements qui feront le renvoi de courroie du plateau de l'imprimante."
+          "title": "Installation de la poulie de Y"
         },
         {
-          "text": "Prenez le petit outil imprimé pour vous aider à placer les roulements. Prenez 1 vis M3x16, placez la dans le trou correspondant et vissez à travers les 2 roulements. Vérifiez que les roulements tournent bien après serrage. Répétez l'opération pour le deuxième emplacement."
+          "text": "Nous allons placer la poulie qui fera le renvoi de courroie du plateau de l'imprimante."
+        },
+        {
+          "text": "Placez la poulie et alignez la avec le trou de passage de la vis."
+        },
+        {
+          "text": "Prenez 1 vis M3x25, placez la dans le trou correspondant et vissez à travers la poulie."
         }
       ]
     },
     {
       "media": {
-        "id": "8H-AvMm-PaQ"
+        "id": "qk1dzkg9u2s"
       },
       "article": [
-        { "title": "Mise en place de la butée de Y" },
         {
-          "text": "Prenez la butée avec le câble le plus court. Introduisez la dans le logement en commençant par faire passer la prise."
+          "title": "Installation du moteur d'extrudeur"
         },
         {
-          "text": "Orientez le comme sur la vidéo."
+          "text": "Placez le moteur dans le logement repéré E0."
         },
         {
-          "text": "Pliez les pattes en dessous puis enfoncez la butée. Elle dépasse d'un millimètre par rapport au plastique."
+          "text": "Positionnez le connecteur vers l'intérieur."
+        },
+        {
+          "text": "Prenez une vis M3x6, placez la dans le trou supérieur droit et serrez le moteur."
         }
       ]
     },
     {
       "media": {
-        "id": "1nd98ce2bnI"
+        "id": "5wUaRbwQdZM"
       },
       "article": [
-        { "title": "Installation du moteur de Y" },
         {
-          "text": "Posez-la face avant à plat."
+          "title": "Pré-montage de l'extrudeur"
         },
         {
-          "text": "Rentrez le moteur dans son support avec le connecteur vers le haut."
+          "text": "Montez le bras d'extrudeur."
         },
         {
-          "text": "La roue dentée se trouvera en face des roulements."
+          "text": "Placez le ressort dans l'empreinte sur le corps de l'extrudeur."
+        },
+        {
+          "text": "Prenez le bras, placez le pour que le ressort soit pris dans la seconde empreinte."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "N9D9hVvK1Jo"
+      },
+      "article": [
+        {
+          "title": "Installation du corps d'extrudeur"
+        },
+        {
+          "text": "Passez le fil du capteur dans le trou comme sur la vidéo."
+        },
+        {
+          "text": "Orientez l'extrudeur puis vissez les 3 vis M3x25."
+        },
+        {
+          "text": "La tête de la vis M3x6 rentre dans un logement prévu dans le corps d'extrudeur."
         }
       ]
     }
   ],
   "footer": {
-    "img": "DiscoEasy/Notice/3-g-fin.jpg",
-    "subtitle": "Montage de la face avant terminé",
-    "text": ["Mettez-la de côté, elle nous servira plus tard."]
+    "img": "DiscoUltimate/Notice/3-h-fin.jpg",
+    "subtitle": "Montage de la face arrière terminé",
+    "text": [
+      "Mettez-la de côté, elle nous servira plus tard."
+    ]
   }
 }
