@@ -49,11 +49,7 @@ function Frame({ content }) {
   );
 }
 
-<<<<<<< HEAD
 function Button({ text, color, to, href, download, label, position }) {
-=======
-function Button({ text, color, to, href, download, label }) {
->>>>>>> master
   const { t } = useTranslation();
   if (!to && !href) return null;
 
@@ -160,13 +156,7 @@ function Item({ content }) {
     case 'list':
       return <List content={v} />;
     case 'button':
-<<<<<<< HEAD
       return <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} position={v.position} />;
-=======
-      return <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} />;
-    case 'video':
-      return <Video content={v} />
->>>>>>> master
     default:
       return null;
   }
