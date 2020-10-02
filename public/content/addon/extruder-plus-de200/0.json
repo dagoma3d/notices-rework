@@ -1,0 +1,219 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps de préparation : 15 minutes"
+    ]
+  },
+  "header": {
+    "flip": true,
+    "img": "DiscoEasy/Add-on/ExtrudeurPlus/A-a-intro.jpg",
+    "title": [
+      "Notice - Montage"
+    ],
+    "subtitle": "ça y est, vous avez reçu votre Extrudeur+.",
+    "text": [
+      "Nous allons vous accompagner dans le montage et l'utilisation de cette amélioration pour votre DiscoEasy200."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/ExtrudeurPlus/A-c-contenu.jpg"
+      },
+      "article": [
+        {
+          "title": "Dans ce carton vous avez trouvé..."
+        },
+        {
+          "list": [
+            "Un nouveau cache côté intégrant un bouton",
+            "Un extrudeur+",
+            "Un bras d'extrudeur+",
+            "Deux colliers de fixation"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/ExtrudeurPlus/A-c-prerequis-extru-plus.jpg"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "list": [
+            "Il vous faut une DiscoEasy200",
+            "Un pack extrudeur+",
+            "Un tournevis hex 2.5mm (fourni dans le kit DiscoEasy200)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Place au montage"
+    },
+    {
+      "media": {
+        "id": "FTDxVs_7Ftw",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Démontage de l'extrudeur"
+        },
+        {
+          "text": "Commencez par retirer le tube blanc en appuyant sur la collerette noire."
+        },
+        {
+          "text": "En maintenant le bras d'extrudeur enfoncé, retirez les 3 vis qui maintiennent l'extrudeur."
+        },
+        {
+          "text": "Retirez ensuite l'ensemble."
+        },
+        {
+          "text": "Conservez le ressort et les vis, ils vont vite reprendre du service."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "Uv5jl_fAe2A",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Montage du bras d'extrudeur"
+        },
+        {
+          "text": "Placez le ressort dans l'empreinte sur le corps de l'extrudeur."
+        },
+        {
+          "text": "Prenez le bras, placez le pour que le ressort soit pris dans la seconde empreinte."
+        },
+        {
+          "text": "Comprimez le ressort pour que le bras rentre dans l'encoche."
+        },
+        {
+          "text": "Déplacez le bras pour que le trou de vis soit aligné avec celui du corps."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "A9TxRSN6GOc",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Montage de l'extrudeur+"
+        },
+        {
+          "text": "Placez les vis de l'ancien extrudeur sur le nouveau."
+        },
+        {
+          "text": "Faites passer le câble dans le trou en haut à gauche."
+        },
+        {
+          "text": "Présentez l'extrudeur en face du moteur."
+        },
+        {
+          "text": "Vissez-le fermement en maintenant le moteur."
+        },
+        {
+          "text": "Assurez-vous que le bras d'extrudeur bouge encore après serrage. (Voir vidéo)"
+        },
+        {
+          "text": "Rebranchez le tube blanc sur le nouvel extrudeur. Enfoncez-le d'environ 15mm."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "lBPJc91AZ5w",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Montage du cache côté"
+        },
+        {
+          "text": "Retirez l'ancien cache côté."
+        },
+        {
+          "text": "Faites passer les câbles entre les deux barres."
+        },
+        {
+          "text": "Glissez-le cache côté en appuyant sur la pièce centrale."
+        },
+        {
+          "text": "Clipsez-le ensuite sur la barre du bas."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "MahJtpdnp0I",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Câblage"
+        },
+        {
+          "text": "Posez votre DiscoEasy200 sur sa face avant pour accéder au câblage."
+        },
+        {
+          "text": "Connectez ensuite les câbles sur la carte."
+        },
+        {
+          "text": "Branchez le câble de l'extrudeur sur le plot Z+."
+        },
+        {
+          "text": "Branchez le câble du cache côté sur le plot Z-."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "HZmzzUSpcH8",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Finition"
+        },
+        {
+          "text": "Utilisez les colliers pour fixer proprement les câbles sous la machine."
+        },
+        {
+          "text": "Vos anciennes pièces ne serviront plus, pensez au recyclage."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Add-on/ExtrudeurPlus/A-a-intro.jpg",
+    "subtitle": "Montage de l'extrudeur+ : CHECK !"
+  }
+}

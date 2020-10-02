@@ -74,11 +74,11 @@
           "title": "Extrudeur+"
         },
         {
-          "to": "/addon/expert/de200",
+          "to": "/addon/expert-de200",
           "title": "Pack expert"
         },
         {
-          "to": "/addon/bicolor/de200",
+          "to": "/addon/bicolor-de200",
           "title": "Pack bi-couleur"
         },
         {
@@ -87,7 +87,7 @@
           "title": "Caisson de protection"
         },
         {
-          "to": "/addon/evo/de200",
+          "to": "/addon/evo-de200",
           "src": "pack-evo",
           "title": "Pack évolution Ultimate"
         },
