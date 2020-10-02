@@ -35,7 +35,7 @@ function Page() {
     }
 
   } else {
-    resource = `/content/printer/${match.params.printer}/${match.params.step || '0'}.json`;
+    resource = `/content/${match.params.product}/${match.params.ref}/${match.params.step || '0'}.json`;
     active = parseInt(match.params.step) || 0;
   }
 
@@ -53,7 +53,7 @@ function Page() {
 
   return (
     <Fragment>
-      <NavBar path={match.params.printer} active={active} />
+      <NavBar path={match.params.ref} active={active} />
       <Banner small content={content.time} />
       <Ribbon content={content.header} />
       <Blocks content={content.blocks} />

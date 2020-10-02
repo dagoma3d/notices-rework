@@ -19,7 +19,7 @@ export default function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/cura-by-dagoma/:printer?' component={Page} />
-          <Route path='/printer/:printer/:step?' component={Page} />
+          <Route path='/:product/:ref/:step?' component={Page} />
           <Route component={NotFound} />
         </Switch>
       </div>
