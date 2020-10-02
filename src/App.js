@@ -19,6 +19,8 @@ export default function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/cura-by-dagoma/:printer?' component={Page} />
+          <Route path='/firmware/:printer?' component={Page} />
+          <Route path='/calibration/:printer?' component={Page} />
           <Route path='/printer/:printer/:step?' component={Page} />
           <Route component={NotFound} />
         </Switch>

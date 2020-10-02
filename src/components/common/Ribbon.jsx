@@ -19,6 +19,12 @@ function Text({ content }) {
   return <p>{t(content)}</p>;
 }
 
+function Note({ content }) {
+  const { t } = useTranslation();
+  if (!content) return null;
+  return <p className='small tleft light italic'>{t(content)}</p>;
+}
+
 function Texts({ content }) {
   if (!content) return null;
   return content.map((i, k) => <Text key={k} content={i} />);
@@ -26,7 +32,7 @@ function Texts({ content }) {
 
 function Ribbon({ content }) {
   if (!content) return null;
-  const { flip, img, title, subtitle, text } = content;
+  const { flip, img, title, subtitle, text, note } = content;
   const flipClass = (flip) ? 'block-caption-left' : 'block-caption-right';
   return (
     <section className="col-xl-24 notice-mask row">
@@ -38,6 +44,7 @@ function Ribbon({ content }) {
         <Title content={title} />
         <SubTitle content={subtitle} />
         <Texts content={text} />
+        <Note content={note} />
       </section>
     </section>
   );

@@ -34,6 +34,10 @@ function Page() {
         active = 0;
     }
 
+  } else if (match.url.includes('firmware')) {
+    resource = '/content/firmware/index.json';
+  } else if (match.url.includes('calibration')) {
+    resource = '/content/calibration/index.json';
   } else {
     resource = `/content/printer/${match.params.printer}/${match.params.step || '0'}.json`;
     active = parseInt(match.params.step) || 0;

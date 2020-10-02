@@ -1,0 +1,17 @@
+{
+  "time": {
+    "subtitle": ["Préparation"]
+  },
+  "header": {
+    "img": "NevaMagis/Notice/Addons/Caisson/1-a-intro.jpg",
+    "title": "Notice de montage caisson Magis et Neva - préparation",
+    "subtitle": "Vous avez reçu votre caisson pour Magis et Neva",
+    "text": [
+      "Nous allons vous accompagner pour le montage et l'installation de votre protection pour l'imprimante 3D Magis et Neva."
+    ]
+  },
+  "footer": {
+    "img": "NevaMagis/Notice/Addons/Caisson/1-a-intro.jpg",
+    "subtitle": "Préparation des éléments terminée"
+  }
+}
