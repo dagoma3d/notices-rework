@@ -1,0 +1,40 @@
+{
+  "header": {
+    "img": "DiscoUltimate/Notice/1-a-intro.jpg",
+    "title": ["Notice de montage DISCO ULTIMATE - préparation"],
+    "subtitle": "Préparons nous au montage",
+    "text": [
+      "Nous allons préparer tous les éléments nécessaires au montage du kit.",
+      "Temps approximatif de montage : 3 heures 30 minutes."
+    ]
+  },
+  "blocks": [
+    { "type": "banner", "title": "Préparation" },
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/2-b-prerequis.jpg",
+        "gray": true
+      },
+      "article": [
+        { "title": "Les pré-requis" },
+        {
+          "text": "Un kit Discoeasy200"
+        },
+        {
+          "list": [
+            "1 tournevis hexagonal 2.5mm (fourni)",
+            "1 tournevis cruciforme PH1",
+            "1 tournevis plat de 3mm",
+            "1 cutter ou 1 ébavureur",
+            "1 maillet",
+            "De l'huile liquide"
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Notice/1-a-intro.jpg",
+    "subtitle": "A vos marques ... Go !"
+  }
+}

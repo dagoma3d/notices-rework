@@ -1,0 +1,232 @@
+{
+  "time": {
+    "subtitle": ["Temps approximatif : 20 min"]
+  },
+  "header": {
+    "img": "NevaMagis/Notice/Addons/Caisson/2-a-intro.jpg",
+    "title": ["Notice de montage caisson Magis - assemblage du caisson"],
+    "subtitle": "Assemblage du caisson de protection",
+    "text": ["Nous allons assembler le caisson de protection qui entourera votre imprimante 3D."]
+  },
+  "blocks": [
+    {
+      "media": {
+        "id": "7asohpm9Y_A"
+      },
+      "article": [
+        { "title": "Préparation de la vitre" },
+        {
+          "text": "La vitre vous a été livrée à plat. Nous allons fixer les bouts pour former un tube."
+        },
+        {
+          "list": [
+            "Retirez partiellement les films protecteurs de chaque face sur les deux bouts.",
+            "Repliez les deux bords, entrelacez les encoches pour qu'elles se prennent les unes dans les autres. Relâchez en vous assurant que chaque encoche est bien enclenchée.",
+            "Tirez de part et d'autre de la couture pour verrouiller le tout."
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "k8Zf0oeg_f0"
+      },
+      "article": [
+        { "title": "Serrage de la vitre" },
+        {
+          "text": "Tirez de part et d'autre de la couture pour la serrer."
+        },
+        {
+          "text": "Recommencez de l'autre côté."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/Addons/Caisson/2-c-montage-guide-sup-ar-prepa.jpg"
+      },
+      "article": [
+        { "title": "Préparation des cerclages supérieurs" },
+        {
+          "text": "Disposez les 3 premiers cerclages comme indiqué sur l'image."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "09mqSkudGZ8"
+      },
+      "article": [
+        { "title": "Montage du cerclage arrière supérieur" },
+        {
+          "text": "L'arrière du caisson est représenté par la couture. Le bas du caisson présente des encoches comme sur la vidéo."
+        },
+        {
+          "text": "Placez vous du côté sans encoche. Récupérez le cerclage supérieur arrière."
+        },
+        {
+          "text": "Appuyez sur le caisson pour le plier, enclenchez le cerclage dans trous prévu à cet effet et relâchez pour le bloquer. Tous les ergots doivent entrer dans les trous sur la vitre."
+        },
+        {
+          "text": "Ensuite, prenez 2 élastiques et installez les autours des 2 ergots arrières."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/Addons/Caisson/2-c-montage-guide-sup-ar-control.jpg"
+      },
+      "article": [
+        { "title": "Vérification" },
+        {
+          "text": "L'ergot doit être centré dans le trou de la vitre. Tirez sur la vitre pour l'aligner."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "KnO79In9AL4"
+      },
+      "article": [
+        { "title": "Montage des cerclages avant supérieur" },
+        {
+          "text": "Prenez 2 cerclages avant. Pincez la vitre pour la plier au milieu des deux trous comme sur la vidéo et installez le premier cerclage. Orientez le pour compléter l'encoche présente sur le cerclage arrière."
+        },
+        {
+          "text": "Prenez 3 élastique et verrouillez les 3 ergots disponibles."
+        },
+        {
+          "text": "Faites de même avec le second cerclage. Cette fois ci, il faudra 4 élastiques."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/Addons/Caisson/2-d-montage-guide-sup-av-control.jpg"
+      },
+      "article": [
+        { "title": "Vérification" },
+        {
+          "text": "Assurez-vous d'obtenir la même chose que sur la photo. La vitre doit bien suivre le cerclage."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/Addons/Caisson/2-e-montage-guide-inf-ar-prepa.jpg"
+      },
+      "article": [
+        { "title": "Préparation des cerclages inférieurs" },
+        {
+          "text": "Disposez les 3 premiers cerclages comme indiqué sur l'image."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "WMMHlas7r30"
+      },
+      "article": [
+        { "title": "Montage du cerclage arrière inférieur" },
+        {
+          "text": "Retournez le caisson pour installer le prochain cerclage. Prenez le cerclage inférieur arrière. Pliez le caisson au niveau de la couture et placez les ergots dans les trous."
+        },
+        {
+          "text": "Récupérez 2 élastiques pour verrouiller les ergots disponibles."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "36G_2rFRBiM"
+      },
+      "article": [
+        { "title": "Montage des cerclages avant inférieur" },
+        {
+          "text": "Prenez les 2 derniers cerclages. Pincez la vitre pour la plier au milieu des deux trous comme sur la vidéo et installez le premier cerclage. Orientez le pour compléter l'encoche présente sur le cerclage arrière. Faites de même avec le second cerclage."
+        },
+        {
+          "text": "Prenez 7 élastiques et verrouillez les 7 ergots disponibles."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/Addons/Caisson/2-f-montage-guide-inf-av-controle.jpg"
+      },
+      "article": [
+        { "title": "Vérification" },
+        {
+          "text": "Assurez-vous d'obtenir la même chose que sur la photo. La vitre doit bien suivre le cerclage."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/Addons/Caisson/2-g-retrait-film-vitre.jpg"
+      },
+      "article": [
+        { "title": "Retrait des films protecteur" },
+        {
+          "text": "Retirez le film présent sur la vitre."
+        },
+        {
+          "italic": "Astuce : Vous pouvez écarter la vitre du cerclage pour retirer les morceaux restant."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "O3PW5eITQcY"
+      },
+      "article": [
+        { "title": "Installation du chariot" },
+        {
+          "text": "Prenez le chariot et 2 vis bombées."
+        },
+        {
+          "text": "Insérez les vis dans les trous du cerclage."
+        },
+        {
+          "text": "Retirez la butée aimantée."
+        },
+        {
+          "text": "Présentez le chariot pour aligner les trous."
+        },
+        {
+          "text": "Vissez le ensuite fermement à l'aide de la petite clef fournie."
+        },
+        {
+          "text": "Prenez ensuite le verrou et 2 vis fraisées."
+        },
+        {
+          "text": "Présentez le verrou en face des trou à l'extérieur du caisson pour pincer la vitre entre le chariot et le verrou."
+        },
+        {
+          "text": "Vissez ensuite fermement à l'aide de la petite clef fournie."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "mYBrmVXwDsI"
+      },
+      "article": [
+        { "title": "Installation des guides câbles" },
+        {
+          "text": "Prenez les deux guides câbles."
+        },
+        {
+          "text": "Orientez les pour les aligner aux différentes formes."
+        },
+        {
+          "text": "Vissez les ensuite à l'aide des deux dernières vis fraisées."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "NevaMagis/Notice/Addons/Caisson/1-a-intro.jpg",
+    "subtitle": "Préparation des éléments terminée"
+  }
+}

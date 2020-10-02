@@ -4,12 +4,80 @@
   },
   "header": {
     "img": "NevaMagis/Notice/Addons/Caisson/1-a-intro.jpg",
-    "title": "Notice de montage caisson Magis et Neva - préparation",
+    "title": ["Notice de montage caisson Magis et Neva - préparation"],
     "subtitle": "Vous avez reçu votre caisson pour Magis et Neva",
     "text": [
       "Nous allons vous accompagner pour le montage et l'installation de votre protection pour l'imprimante 3D Magis et Neva."
     ]
   },
+  "blocks": [
+    {
+      "media": {
+        "src": "NevaMagis/Notice/Addons/Caisson/1-d-contenu.jpg"
+      },
+      "article": [
+        { "title": "Dans ce carton vous avez trouvé" },
+        {
+          "list": [
+            "x2 guides câbles",
+            "x1 fixation chariot",
+            "x1 butée aimantée (aimantée au chariot)",
+            "x3 pieds de Magis",
+            "x1 chariot",
+            "x1 sachet de vis et outils (clef de 6, clef de 2.5, 2 vis M8x20, 4 vis fraisées M3x10, 2 vis bombées M3x12, 6 patins, 20 élastiques, 2 clips imprimés)",
+            "x1 rail",
+            "x1 socle en bois noir",
+            "x6 cerclages (1 fixation arrière supérieure, 1 fixation arrière inférieure, 4 fixations avant)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "UV6Ou05TRn0"
+      },
+      "article": [
+        { "title": "Installation des patins" },
+        {
+          "text": "Prenez les 6 patins dans le petit sachet de vis."
+        },
+        {
+          "text": "Sous le socle en bois, enfoncez 3 patins dans les angles comme sur la vidéo."
+        },
+        {
+          "text": "Ensuite sous chacun des trois pieds, enfoncez un patin."
+        },
+        {
+          "text": "Mettez le socle de côté, il servira plus tard."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "SNk-jH1j_dM"
+      },
+      "article": [
+        { "title": "Installation des pieds sur la Magis" },
+        {
+          "text": "Reprenez les 3 pieds et installez les sur votre imprimante 3D."
+        },
+        {
+          "text": "Rentrez l'ergo dans le trou prévu à cet effet."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/Addons/Caisson/1-g-retrait-dibon.jpg"
+      },
+      "article": [
+        { "title": "Préparation des cerclages" },
+        {
+          "text": "Retirez le film protecteur présent sur les pièces."
+        }
+      ]
+    }
+  ],
   "footer": {
     "img": "NevaMagis/Notice/Addons/Caisson/1-a-intro.jpg",
     "subtitle": "Préparation des éléments terminée"

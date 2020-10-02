@@ -1,0 +1,96 @@
+{
+  "header": {
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg",
+    "title": ["Notice de montage DISCO ULTIMATE - montage de la face avant"],
+    "subtitle": "Montage de la face avant",
+    "text": ["Nous allons monter la première partie de l'imprimante 3D."]
+  },
+  "blocks": [
+    { "type": "banner", "title": "Face avant" },
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/2-b-prerequis.jpg",
+        "small": true
+      },
+      "article": [
+        { "text": "Les pré-requis" },
+        {
+          "list": [
+            "A. Face avant imprimée",
+            "B. 4x roulements de courroie",
+            "C. Butée Y (180mm)",
+            "D. Moteur NEMA avec poulie"
+          ]
+        },
+        { "text": "Visserie :" },
+        {
+          "list": ["3x vis M3x6 (reste 11)", "6x vis M3x16 (reste 23)", "4x écrous M3 (reste 21)"]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "8EtcssCRZE0"
+      },
+      "article": [
+        { "title": "Mise en place des vis de serrage" },
+        {
+          "text": "Prenez 4 écrous et 4 vis moyennes (M3x16). Placez les écrous dans les logements comme sur la vidéo. Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "KEMoSfwTW5M"
+      },
+      "article": [
+        { "title": "Installation des 2 roulements de courroie" },
+        {
+          "text": "Nous allons placer les roulements qui feront le renvoi de courroie du plateau de l'imprimante."
+        },
+        {
+          "text": "Prenez le petit outil imprimé pour vous aider à placer les roulements. Prenez 1 vis M3x16, placez la dans le trou correspondant et vissez à travers les 2 roulements. Vérifiez que les roulements tournent bien après serrage. Répétez l'opération pour le deuxième emplacement."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "8H-AvMm-PaQ"
+      },
+      "article": [
+        { "title": "Mise en place de la butée de Y" },
+        {
+          "text": "Prenez la butée avec le câble le plus court. Introduisez la dans le logement en commençant par faire passer la prise."
+        },
+        {
+          "text": "Orientez le comme sur la vidéo."
+        },
+        {
+          "text": "Pliez les pattes en dessous puis enfoncez la butée. Elle dépasse d'un millimètre par rapport au plastique."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "1nd98ce2bnI"
+      },
+      "article": [
+        { "title": "Installation du moteur de Y" },
+        {
+          "text": "Posez-la face avant à plat."
+        },
+        {
+          "text": "Rentrez le moteur dans son support avec le connecteur vers le haut."
+        },
+        {
+          "text": "La roue dentée se trouvera en face des roulements."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/3-g-fin.jpg",
+    "subtitle": "Montage de la face avant terminé",
+    "text": ["Mettez-la de côté, elle nous servira plus tard."]
+  }
+}

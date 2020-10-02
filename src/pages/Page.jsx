@@ -18,6 +18,7 @@ function Page() {
 
   let resource;
   let active;
+  let nav;
   if (match.url.includes('cura-by-dagoma')) {
     resource = '/content/cura-by-dagoma/index.json';
     switch (match.params.printer) {
@@ -40,9 +41,11 @@ function Page() {
     resource = '/content/calibration/index.json';
   } else if (match.url.includes('box')) {
     resource = `/content/box/${match.params.printer}/${match.params.step || '0'}.json`;
+    active = parseInt(match.params.step) || 0;
+    if (match.params.printer.includes('magis')) nav = 'box';
   } else {
     resource = `/content/${match.params.product}/${match.params.ref}/${match.params.step || '0'}.json`;
-    active = parseInt(match.params.step) || 0;
+    active = parseInt(match.params.step) || parseInt(match.params.step.replace(/^\D+-/g, '')) - 1 || 0;
   }
 
 
@@ -59,7 +62,7 @@ function Page() {
 
   return (
     <Fragment>
-      <NavBar path={match.params.ref} active={active} />
+      <NavBar path={match.params.ref || nav} active={active} />
       <Banner small content={content.time} />
       <Ribbon content={content.header} />
       <Blocks content={content.blocks} />
