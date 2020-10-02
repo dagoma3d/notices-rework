@@ -1,0 +1,245 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 30 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Notice/11-k-fin.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 15 - Utilisation"
+    ],
+    "subtitle": [
+      "Lançons une première impression"
+    ],
+    "text": [
+      "Dernière étape avant le grand large. Nous allons vous montrer les bonnes pratiques et les rudiments de l'impression 3D sur la Discoeasy200."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "NevaMagis/Notice/b-derouleur.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Choisir un fichier"
+        },
+        {
+          "text": "Nous vous proposons ici un dérouleur de bobine. Il vous sera bien utile lors de chacune de vos impressions."
+        },
+        {
+          "text": "Téléchargez le fichier ci-dessous. Nous allons ensuite le préparer sur Cura."
+        },
+        {
+          "button": {
+            "href": "https://drive.google.com/file/d/1_1N0OnGBdfcMY00hV2dENDK4LJA5IRyw/view?usp=sharing",
+            "label": "Télécharger",
+            "color": "orange"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/16-c-slicer-cura.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Préparation du fichier sur Cura"
+        },
+        {
+          "text": "Ouvrez le fichier sur cura by dagoma."
+        },
+        {
+          "text": "Nous vous proposons les paramètres d'impression suivant : 33% en rapide."
+        },
+        {
+          "text": "Insérez la carte SD dans l'ordinateur et cliquez sur \"préparer l'impression\"."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "OkfM4_sDQ00",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Insertion du filament"
+        },
+        {
+          "text": "Avant chaque insertion, coupez le filament pour que le bout soit propre."
+        },
+        {
+          "text": "Normalement à cette étape, le filament est déjà en place."
+        },
+        {
+          "text": "Nous allons quand même vous remontrer la technique."
+        },
+        {
+          "text": "Sur un extrudeur standard, appuyez sur le bras pour le débrider."
+        },
+        {
+          "text": "Passez le filament à la main en poussant et en effectuant de légères torsions pour faciliter son entrée."
+        },
+        {
+          "text": "Poussez le filament jusqu'à la tête d'impression."
+        },
+        {
+          "text": "Avec l'extrudeur+, c'est automatique."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "V4tu5wQuJn4",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Lancement d'une impression"
+        },
+        {
+          "text": "Insérez la carte SD dans le lecteur."
+        },
+        {
+          "text": "Elle doit avoir un fichier GCODE nommé \"dagoma0.g\" pour être reconnu."
+        },
+        {
+          "text": "Mettez la machine sous tension en mettant l'interrupteur sur 1."
+        },
+        {
+          "italic": "Info : si l'interrupteur est sur 1, que vous débranchez puis rebranchez l'imprimante 3D, elle sera mise sous tension et le fonctionnement sera le même. L'impression se lancera."
+        },
+        {
+          "text": "Explication du rituel de démarrage :"
+        },
+        {
+          "list": [
+            "Prise d'origine des axes",
+            "Temps de préchauffage",
+            "Repérage du plateau (si l'option \"utilisation du palpeur\" est activée)",
+            "Dernier temps de chauffe",
+            "L'impression commence"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "cdmfZ8FZ2I8",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Ajustement de la première couche"
+        },
+        {
+          "text": "La qualité de la première couche dépend de votre calibration sur Dagom'App. Il se peut que ce réglage varie entre deux lancements."
+        },
+        {
+          "text": "Nous vous conseillons de refaire une calibration de temps en temps lorsque la première couche perd en précision."
+        },
+        {
+          "text": "Il vous est possible d'agir sur les coupleurs pour ajuster la hauteur de la première couche."
+        },
+        {
+          "text": "En tournant les deux en même temps dans le sens inverse des aiguilles d'une montre, la couche sera plus basse (trop basse sur lavidéo)."
+        },
+        {
+          "text": "En tournant dans l'autre sens, elle sera plus haute (trop haute sur la vidéo)."
+        },
+        {
+          "text": "Regardez à la fin de la vidéo pour voir les 3 niveaux d'appréciations de hauteur de première couche."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "A6-EyRaKC0g",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Arrêter proprement la Discoeasy200"
+        },
+        {
+          "text": "Pendant une impression, passez l'interrupteur à 0."
+        },
+        {
+          "text": "Retirez la carte SD."
+        },
+        {
+          "text": "Rallumez la machine pour que la tête refroidisse convenablement."
+        },
+        {
+          "text": "Quand le ventilateur avant s'arrête, vous pouvez l'éteindre sans soucis."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/c-assemblage-derouleur.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 7"
+        },
+        {
+          "title": "Assemblage du dérouleur"
+        },
+        {
+          "text": "N'hésitez pas à le faire tourner un peu à la main si vous voyez que l'assemblage ne pivote pas bien."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/d-assemblage-derouleur.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 8"
+        },
+        {
+          "title": "Assemblage du dérouleur"
+        },
+        {
+          "text": "Déposez la bobine sur votre dérouleur."
+        },
+        {
+          "button": {
+            "href": "https://drive.google.com/file/d/1_1N0OnGBdfcMY00hV2dENDK4LJA5IRyw/view?usp=sharing",
+            "text": "Nous proposons un modèle plus évolué"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/11-k-fin.jpg",
+    "subtitle": "Votre Discoeasy est prête",
+    "text": [
+      "Votre montage et votre initiation sont terminés."
+    ]
+  }
+}
