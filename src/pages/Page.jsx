@@ -52,7 +52,6 @@ function Page() {
     nav = 'bicolor/du';
   } else {
     resource = `/content/${match.params.product}/${match.params.ref}/${match.params.step || '0'}.json`;
-
   }
 
 
