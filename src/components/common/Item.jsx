@@ -151,7 +151,7 @@ function Item({ content }) {
     case 'list':
       return <List content={v} />;
     case 'button':
-      return <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} position={v.position} />;;
+      return <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} position={v.position} />;
     case 'video':
       return <Video content={v} />
     default:
