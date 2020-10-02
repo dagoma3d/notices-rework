@@ -1,0 +1,21 @@
+{
+  "blocks": [
+    {
+      "type": "google-document",
+      "title": "Premiers pas - Montage de l'écran",
+      "id": "1774LbOgxeGoOOIEKn5HgIWyJ-b739MpIEtiEWcbsrFY"
+    },
+    {
+      "type": "item",
+      "container": [
+        {
+          "button": {
+            "href": "/addon/screen/utilisation-de-l-ecran",
+            "text": "La suite de la notice",
+            "position": "center"
+          }
+        }
+      ]
+    }
+  ]
+}
