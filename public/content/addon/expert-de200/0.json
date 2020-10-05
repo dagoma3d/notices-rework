@@ -1,14 +1,10 @@
 {
   "time": {
-    "subtitle": [
-      "Temps de préparation : 15 minutes"
-    ]
+    "subtitle": ["Temps de préparation : 15 minutes"]
   },
   "header": {
     "img": "DiscoEasy/Add-on/Trapezoidales/1-a-intro.jpg",
-    "title": [
-      "Notice de montage pack expert - Préparation et démontage"
-    ],
+    "title": ["Notice de montage pack expert - Préparation et démontage"],
     "subtitle": "Ça y est, vous avez reçu votre pack expert.",
     "text": [
       "Nous allons vous accompagner dans le montage et l'utilisation de cette amélioration pour votre DiscoEasy200."
@@ -38,9 +34,7 @@
           "bold": "Part 2"
         },
         {
-          "list": [
-            "2 moteurs de Z avec tiges filetées intégrées + écrous anti-backslash"
-          ]
+          "list": ["2 moteurs de Z avec tiges filetées intégrées + écrous anti-backslash"]
         }
       ]
     },
@@ -71,6 +65,179 @@
           ]
         }
       ]
+    },
+    {
+      "type": "banner",
+      "title": "Place au démontage",
+      "subtitle": ["A chaque étape, conservez les vis."]
+    },
+    {
+      "media": {
+        "id": "JfXcz6X6Q-I",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Etape 1"
+        },
+        {
+          "title": "Retrait de la gaine torsadée"
+        },
+        {
+          "text": "Retirez la gaine de la fixation latérale jusqu'au chariot."
+        },
+        {
+          "text": "Libérez les câbles de moteur et de butée."
+        },
+        {
+          "text": "Déclipsez la gaine du chariot."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "NEL9QAZYD7U",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Débranchez le moteur de X"
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "gUff07C2Cs0",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Débranchement de la butée et des moteurs de Z"
+        },
+        {
+          "text": "Retournez la machine."
+        },
+        {
+          "text": "Débranchez la butée de X connectée sur la borne X+."
+        },
+        {
+          "text": "Retirez complètement le câble du dessous de la machine."
+        },
+        {
+          "text": "Débranchez les moteurs de Z."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "6vOO6vM12Yk",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Démontage de la partie supérieure de la machine"
+        },
+        {
+          "italic": "S'il vous reste du filament dans la tête d'impression, retirez-le."
+        },
+        {
+          "text": "Débranchez le tube PTFE en appuyant sur le connecteur noir et retirez-le du top."
+        },
+        {
+          "text": "Desserrez les 4 vis latérales."
+        },
+        {
+          "text": "Retirez la partie supérieure de l'imprimante."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "GBHMcmeivSA",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Retrait de l'axe X"
+        },
+        {
+          "text": "Dévissez les vis supérieures des coupleurs."
+        },
+        {
+          "text": "Retirez les tiges filetées des coupleurs."
+        },
+        {
+          "text": "Tirez ensuite l'ensemble vers le haut pour le sortir de la machine."
+        },
+        {
+          "text": "Retirez ensuite les deux tiges filetées."
+        },
+        {
+          "italic": "Attention, elles sont recouvertes d'huile."
+        },
+        {
+          "text": "Retenez les écrous supérieurs pour éviter qu'ils ne partent d'un coup."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "b7WDTcIH9W4",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Démontage des moteurs de Z"
+        },
+        {
+          "text": "Dévissez les moteurs de Z."
+        },
+        {
+          "text": "Soulevez la base et retirez-les."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "gRgkJ2cegXs",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 7"
+        },
+        {
+          "title": "Démontage de l'axe X"
+        },
+        {
+          "text": "Retirez la courroie de la tête."
+        },
+        {
+          "text": "Séparez tous les éléments."
+        },
+        {
+          "text": "Mettez les barres de côté."
+        }
+      ]
     }
-  ]
+  ],
+  "footer": {
+    "img": "DiscoEasy/Add-on/Trapezoidales/1-k-fin.jpg",
+    "subtitle": "Démontage de l'imprimante : CHECK !"
+  }
 }

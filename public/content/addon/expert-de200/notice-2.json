@@ -1,0 +1,259 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps de préparation : 30 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Add-on/Trapezoidales/1-a-intro.jpg",
+    "title": [
+      "Notice de montage pack expert - Transfert des composants"
+    ],
+    "subtitle": "Transfert des composants",
+    "text": [
+      "Nous allons transférer certains composants de votre ancienne imprimante dans les nouvelles pièces imprimées."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "id": "r2QiciuZN6U",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Etape 1"
+        },
+        {
+          "title": "Récupération des roulements de courroie"
+        },
+        {
+          "text": "Prenez le chariot droit de l'axe X."
+        },
+        {
+          "text": "Dévissez la vis qui maintient les 2 roulements de courroie."
+        },
+        {
+          "text": "Mettez l'ancienne pièce de côté."
+        },
+        {
+          "text": "Installez les roulements dans la nouvelle pièce en vous aidant de l'outil imprimé."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "QpEgkxH984c",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Récupération du moteur de X et de la butée"
+        },
+        {
+          "text": "Prenez le chariot gauche de l'axe X."
+        },
+        {
+          "text": "Retirez les vis qui tiennent le moteur."
+        },
+        {
+          "text": "Retirez le moteur."
+        },
+        {
+          "text": "Retirez la butée et remontez-la dans la nouvelle pièce (attention à l'orientation de la languette)."
+        },
+        {
+          "text": "Mettez le moteur en place dans la nouvelle pièce (respectez la même orientation)."
+        },
+        {
+          "text": "Revissez-le (aidez-vous de l'outil imprimé pour placer la dernière vis)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "SlSSmMk12Bw",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Déverrouillage de la tête d'impression"
+        },
+        {
+          "text": "Retirez les deux vis sur le côté de la tête."
+        },
+        {
+          "text": "Retirez le verrou qui maintient la buse."
+        },
+        {
+          "text": "Retirez ensuite la vis de l'autre côté."
+        },
+        {
+          "text": "Coupez le collier de fixation qui maintient les câbles."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "fPe-5PsKyKQ",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Démontage de la tête d'impression"
+        },
+        {
+          "italic": "Retirez chacun des composants avec soin."
+        },
+        {
+          "text": "Retirez les câbles du ventilateur arrière et placez-y un repère pour le remontage."
+        },
+        {
+          "text": "Retirez les deux ventilateurs."
+        },
+        {
+          "text": "Retirez la buse à l'aide d'un tournevis plat pour faire levier."
+        },
+        {
+          "text": "Retirez le palpeur."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "fRHl42YvCpM",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Remontage du palpeur"
+        },
+        {
+          "text": "Prenez la nouvelle pièce imprimée."
+        },
+        {
+          "text": "Placez la vis du palpeur dans son emplacement (la plus courte des 3 vis de la tête)."
+        },
+        {
+          "text": "Vissez-la pour qu'elle arrive à fleur dans l'emplacement du palpeur."
+        },
+        {
+          "text": "Positionnez le palpeur au plus bas en butée."
+        },
+        {
+          "text": "Serrez légèrement la vis pour le maintenir en place."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "b7WDTcIH9W4",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Remontage de la buse"
+        },
+        {
+          "text": "Prenez la buse et orientez-la pour que les câbles en sortie soient orientés vers le ventilateur avant (à l'opposé du palpeur)."
+        },
+        {
+          "text": "Enfoncez-la dans son logement comme sur la vidéo."
+        },
+        {
+          "text": "Assurez-vous qu'elle soit bien enfoncée et bien droite."
+        },
+        {
+          "frame": [
+            {
+              "text": "Attention, le bloc de chauffe (la partie carrée) ne doit pas toucher le plastique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "59thweJ84Us",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 7"
+        },
+        {
+          "title": "Remontage des ventilateurs"
+        },
+        {
+          "text": "Prenez le ventilateur avant."
+        },
+        {
+          "text": "Orientez l'étiquette du côté de la buse, elle ne doit pas être visible de l'extérieur."
+        },
+        {
+          "text": "Placez également la sortie des câbles vers vous."
+        },
+        {
+          "text": "Poussez le pour le rentrer dans son logement."
+        },
+        {
+          "text": "Faire de même pour le ventilateur arrière et retirez son repérage."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "59thweJ84Us",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 8"
+        },
+        {
+          "title": "Reverrouillage de la tête"
+        },
+        {
+          "text": "Faites une petite boucle avec le câble du ventilateur avant."
+        },
+        {
+          "text": "Récupérez le verrou et faites passer les câbles comme sur la vidéo."
+        },
+        {
+          "warning": "Clipsez-le sans pincer les câbles (risque de court-circuit)."
+        },
+        {
+          "text": "Revissez le fermement."
+        },
+        {
+          "text": "Faites passer les câbles du ventilateur arrière dans leur logement."
+        },
+        {
+          "text": "Récupérez la gaine, posez-la dans le passage arrière, puis maintenez-la à l'aide d'un collier de serrage."
+        },
+        {
+          "italic": "Ne serrez pas trop fort pour éviter d'abîmer les câbles."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Add-on/Trapezoidales/2-j-fin.jpg",
+    "subtitle": "Transfert des composants : CHECK !"
+  }
+}
