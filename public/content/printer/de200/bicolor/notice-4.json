@@ -1,0 +1,88 @@
+{
+  "header": {
+    "img": "DiscoEasy/Add-on/Bicouleur/0-a-intro.jpg",
+    "title": ["Notice de montage pack bi-couleur - finitions"],
+    "subtitle": "Finitions",
+    "text": [
+      "Nous allons maintenant remonter les derniers éléments de finitions avant de remettre en marche votre machine."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "id": "1uFVfI9Uogc"
+      },
+      "article": [
+        {
+          "title": "Remise en place du top"
+        },
+        {
+          "text": "Remettez le top en place. La partie la plus grande doit être vers la face avant."
+        },
+        { "text": "Assurez-vous qu'il soit bien enfoncé." },
+        { "text": "Revissez les vis de serrage." }
+      ]
+    },
+    {
+      "media": {
+        "id": "fG_7xwTHC0E"
+      },
+      "article": [
+        {
+          "title": "Ajustement de la tension de la courroie de la tête"
+        },
+        { "warning": "Placez la tête à gauche." },
+        { "text": "Détachez la courroie du côté droit." },
+        { "text": "Tirez sur le bout libre sans effort." },
+        { "text": "Forcez pour ajouter 2 crans de tension et re-verrouiller la courroie." }
+      ]
+    },
+    {
+      "media": {
+        "id": "CO99gtptxz8"
+      },
+      "article": [
+        {
+          "title": "Remise en place de la gaine"
+        },
+        {
+          "text": "Remettez la gaine en place en récupérant les câbles de la butée et du moteur."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "HBTfuzBZo9A"
+      },
+      "article": [
+        {
+          "title": "Gestion des câbles"
+        },
+        { "text": "Utilisez les colliers de serrage pour finir proprement votre montage." },
+        {
+          "text": "Il est important qu'aucun câble ne se balade au dessus de la carte pour éviter d'être abîmé par le plateau."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "7xdkl6ExGzI"
+      },
+      "article": [
+        {
+          "title": "Installation des tubes PTFE"
+        },
+        { "text": "Branchez-les deux tubes PTFE dans les extrudeurs." },
+        { "text": "Faites-les passer entre les barres du top." },
+        { "text": "Raccordez-les naturellement dans la tête (celui venant de droite à droite)." }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Add-on/Bicouleur/4-g-fin.jpg",
+    "subtitle": "Finitions terminées",
+    "text": [
+      "Nous allons maintenant mettre à jour la machine pour qu'elle intègre sa nouvelle installation."
+    ]
+  }
+}

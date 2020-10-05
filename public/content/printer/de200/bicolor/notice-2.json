@@ -1,0 +1,140 @@
+{
+  "header": {
+    "img": "DiscoEasy/Add-on/Bicouleur/2-a-intro.jpg",
+    "title": ["Notice de montage pack bi-couleur - préparation et démontage"],
+    "subtitle": "Transfert des composants.",
+    "text": [
+      "Nous allons transférer certains composants de votre ancienne imprimante dans les nouvelles pièces imprimées."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "id": "NrCEmVkD-IU"
+      },
+      "article": [
+        {
+          "title": "Montage des roulements linéaires"
+        },
+        {
+          "text": "Prenez les 6 roulements LM8UU livrés avec votre pack. Insérez les roulements dans les chariots que vous avez imprimés. Faites bien attention et insérez les bien droit pour éviter de casser votre pièce."
+        },
+        {
+          "note": "Astuce : Placez vous en bord de table et tapez à l'aide d'un maillet en caoutchouc."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "r2QiciuZN6U"
+      },
+      "article": [
+        {
+          "title": "Récupération des roulements de courroie X"
+        },
+        { "text": "Prenez le chariot droit de l'axe X." },
+        { "text": "Dévissez la vis qui maintient les 2 roulements de courroie." },
+        { "text": "Mettez l'ancienne pièce de côté." },
+        { "text": "Installez les roulements dans la nouvelle pièce." }
+      ]
+    },
+    {
+      "media": {
+        "id": "QpEgkxH984c"
+      },
+      "article": [
+        {
+          "title": "Récupération du moteur de x et de la butée"
+        },
+        { "text": "Prenez le chariot gauche de l'axe X." },
+        { "text": "Retirez les vis qui tiennent le moteur." },
+        { "text": "Retirez le moteur." },
+        {
+          "text": "Retirez la butée et remontez-la dans la nouvelle pièce (attention à l'orientation de la languette)."
+        },
+        {
+          "text": "Mettez le moteur en place dans la nouvelle pièce (respectez la même orientation)."
+        },
+        { "text": "Revissez-le (aidez-vous de l'outil imprimé pour placer la dernière vis)." }
+      ]
+    },
+    {
+      "media": {
+        "id": "GbbNgkJ-m90"
+      },
+      "article": [
+        {
+          "title": "Démontage de l'extrudeur"
+        },
+        { "text": "Retirez les 3 vis de l'extrudeur." },
+        { "text": "Retirez l'extrudeur une fois libéré." },
+        { "text": "Retirez le moteur." }
+      ]
+    },
+    {
+      "media": {
+        "id": "Vqim7MYfgDg"
+      },
+      "article": [
+        {
+          "title": "Récupération des roulements de courroie Y"
+        },
+        { "text": "Prenez la face arrière." },
+        { "text": "Dévissez la vis qui maintient les 2 roulements de courroie." },
+        { "text": "Installez les roulements dans la nouvelle face arrière." }
+      ]
+    },
+    {
+      "media": {
+        "id": "kCJ-efn9Ye"
+      },
+      "article": [
+        {
+          "title": "Retirez les vis de serrage"
+        },
+        { "text": "Toujours sur la face arrière, retirez les 4 vis de serrage." },
+        { "text": "Récupérez également les écrous." },
+        { "text": "Décollez les patins de l'ancienne pièce pour les mettres sur la nouvelle." }
+      ]
+    },
+    {
+      "media": {
+        "id": "hLLLwNQb0GQ"
+      },
+      "article": [
+        {
+          "title": "Remontage des extrudeurs"
+        },
+        { "text": "Montez l'extrudeur livré avec votre pack en suivant la vidéo." },
+        { "text": "Prenez vos moteurs d'extrudeur. Placez les dans le face arrière." },
+        { "warning": "Les connecteurs doivent se faire face." },
+        { "text": "Montez ensuite les extrudeur en suivant la vidéo." },
+        { "text": "Suivez les marquages E0 et E1 pour l'emplacement.", "classes": "text-red" },
+        {
+          "button": {
+            "text": "Pour plus de détails,",
+            "to": "/addon/extruder-plus/de200",
+            "label": "rendez-vous ici"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "kw9A0y43vqE"
+      },
+      "article": [
+        {
+          "title": "Serrage du bras d'extrudeur"
+        },
+        { "text": "Le bras ne doit pas être trop serré pour éviter de le bloquer." },
+        { "text": "Serrez jusqu'à voir disparaître le jour entre les deux pièces orange." },
+        { "text": "Desserrez d'un quart de tour pour le faire réapparaître." }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Add-on/Bicouleur/2-i-fin.jpg",
+    "subtitle": "Transfert des composants terminé"
+  }
+}

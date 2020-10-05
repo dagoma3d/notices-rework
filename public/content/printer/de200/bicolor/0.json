@@ -1,0 +1,35 @@
+{
+  "blocks": [
+    { "type": "banner", "title": "Avant de commencer" },
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Bicouleur/1-c-prerequis-impression.jpg"
+      },
+      "article": [
+        { "title": "Votre attention s'il vous plaît !" },
+        {
+          "text": "Avant de démonter votre imprimante 3D, assurez-vous d'avoir imprimé les pièces nécessaires."
+        },
+        {
+          "list": [
+            "Couleur : Gris anthracite.",
+            "Remplissage : 17%.",
+            "Qualité : 0,2mm.",
+            "Supports : Aucun."
+          ]
+        },
+        {
+          "button": {
+            "color": "orange",
+            "href": "//drive.google.com/file/d/15LPW7V7j40MBBrP8z23Rky9Fb-bYz5Up/view?usp=sharing",
+            "download": "stl_bicouleur.zip",
+            "label": "Télécharger"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "subtitle": "Impression terminée"
+  }
+}

@@ -47,6 +47,9 @@ function Page() {
   } else if (match.url.includes('addon/xl/du')) {
     resource = `/content/printer/du/xl/${match.params.step || '0'}.json`;
     nav = 'xl/du';
+  } else if (match.url.includes('addon/xl/de200')) {
+    resource = `/content/printer/de200/xl/${match.params.step || '0'}.json`;
+    nav = 'xl/de200';
   } else if (match.url.includes('addon/bicolor/du')) {
     resource = `/content/printer/du/bicolor/${match.params.step || '0'}.json`;
     nav = 'bicolor/du';
