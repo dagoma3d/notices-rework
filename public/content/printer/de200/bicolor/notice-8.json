@@ -1,7 +1,4 @@
 {
-  "time": {
-    "subtitle": ["GCode"]
-  },
   "header": {
     "img": "DiscoEasy/Add-on/Bicouleur/7-a-intro.jpg",
     "title": ["Notice de montage pack bi-couleur - préparation d'un gcode bi-couleur"],
@@ -54,7 +51,7 @@
           }
         },
         {
-          "text": "Une fois installé, sur l'écran de choix d'imprimante, cliquez sur DiscoUltimate, choisissez oui pour la double extrusion, et appuyez sur OK."
+          "text": "Une fois installé, sur l'écran de choix d'imprimante, cliquez sur DiscoEasy200, choisissez oui pour la double extrusion, et appuyez sur OK."
         },
         {
           "text": "Voilà ! Nous vous expliquons la nouvelle interface et son fonctionnement juste après."

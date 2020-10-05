@@ -161,13 +161,58 @@
         },
         { "text": "Rebranchez la butée sur le connecteur X+." }
       ]
+    },
+    {
+      "media": {
+        "id": "Hb01HZXPGlw"
+      },
+      "article": [
+        {
+          "title": "Câblage de la tête"
+        },
+        { "text": "Dénudez tous les câbles avant de les brancher." },
+        { "text": "Tous les fils doivent suivre le même passage que le câble de la butée." },
+        {
+          "text": "Récupérez le câble du palpeur (le gris) et raccordez-le ensuite sur le connecteur Y+."
+        },
+        {
+          "text": "Récupérez le câble de la sonde (le blanc) et raccordez-le ensuite sur le connecteur A13."
+        },
+        {
+          "text": "Récupérez les câbles du ventilateur arrière et repérez-les (nous avons fait un petit noeud)."
+        },
+        {
+          "text": "Raccordez les deux fils rouge (ou marron) sur le bornier E0 (pas de sens entre + et -)."
+        },
+        { "text": "Prenez ensuite les câbles du ventilateur non repéré (ventilateur avant)." },
+        { "text": "Raccordez les deux fils sur le bornier E1 (rouge sur + et noire sur -)." },
+        {
+          "text": "Raccordez les deux derniers fils repérés sur le bornier FAN (rouge sur + et noire sur -)."
+        },
+        { "note": "NB: Votre connecteur A13 est différent ?" },
+        { "video": { "id": "JInMwtu_4n4" } }
+      ]
+    },
+    {
+      "media": {
+        "id": "bRjaMLajTKU"
+      },
+      "article": [
+        {
+          "title": "Câblage des extrudeurs"
+        },
+        { "text": "Rebranchez le câble raccordé sur la borne E0_MOT à l'extrudeur E0." },
+        {
+          "text": "Prenez le câble fournis dans le pack et raccordez l'extrudeur E1 à la borne E1_MOT."
+        },
+        {
+          "text": "Branchez le fil rouge du capteur de fin de filament de l'extrudeur E1 sur la borne Y-."
+        }
+      ]
     }
   ],
   "footer": {
-    "img": "DiscoUltimate/Addon/Bicouleur/3-g-fin-bicouleur.jpg",
-    "subtitle": "Finitions terminées",
-    "text": [
-      "Nous allons maintenant mettre à jour la machine pour qu'elle intègre sa nouvelle installation."
-    ]
+    "img": "DiscoEasy/Add-on/Bicouleur/3-k-fin.jpg",
+    "subtitle": "Montage du pack bi-couleur terminé"
   }
 }
