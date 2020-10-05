@@ -1,13 +1,144 @@
 {
+  "time": {
+    "subtitle": ["Temps total de montage approximatif : 1h30min"]
+  },
   "header": {
-    "img": "DiscoUltimate/Notice/1-a-intro.jpg",
-    "title": [
-      "Notice de montage DISCO ULTIMATE - préparation"
-    ],
-    "subtitle": "Préparons nous au montage",
+    "img": "DiscoEasy/Add-on/Bicouleur/0-a-intro.jpg",
+    "title": ["Notice de montage pack bi-couleur Disco Ultimate - préparation et démontage"],
+    "subtitle": "Vous avez reçu votre pack bi-couleur.",
     "text": [
-      "Nous allons préparer tous les éléments nécessaires au montage du kit.",
-      "Temps approximatif de montage : 3 heures 30 minutes."
+      "Nous allons vous accompagner pour le montage et l'installation de ce 2ème add-on qui vous permettra d'imprimer avec deux couleurs différentes."
     ]
+  },
+  "blocks": [
+    { "type": "banner", "title": "Préparation" },
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Bicouleur/1-b-contenu.jpg"
+      },
+      "article": [
+        { "title": "Dans le pack vous avez trouvé..." },
+        {
+          "list": [
+            "A - Une tête d'impression bi-couleur",
+            "B - Un bras d'extrudeur+",
+            "C - Un corps d'extrudeur+ E1",
+            "D - Un tube PTFE",
+            "E - Un moteur d'extrudeur",
+            "F - Un ressort d'extrudeur",
+            "G - 3x grandes vis (M3x25mm) et 1x petite vis (M3x6mm)",
+            "H - 6 roulements linéaire (inutiles si vous avez le pack expert)",
+            "I - Câble pour le moteur d'extrudeur E1"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Trapezoidales/1-c-prerequis.jpg"
+      },
+      "article": [
+        { "title": "Les pré-requis" },
+        {
+          "list": [
+            "1. Un tournevis hexagonal 2.5 mm (fourni avec le kit Disco Ultimate)",
+            "2. Un tournevis plat",
+            "3. Un outil imprimé (fourni avec le kit Disco Ultimate)",
+            "4. Une pince coupante"
+          ]
+        },
+        {
+          "button": {
+            "color": "white",
+            "text": "Le modèle 3d de l'outil imprimé fourni est disponible en téléchargement.",
+            "href": "//drive.google.com/file/d/1L3hlUo7DIMBplNyQa-2iz6gVLtGwpeSG/view?usp=sharing",
+            "download": "palette-montage-petits-roulements.stl",
+            "label": "Télécharger"
+          }
+        }
+      ]
+    },
+    { "type": "banner", "title": "Place au démontage" },
+    {
+      "media": {
+        "id": "TlygdqeUFpI"
+      },
+      "article": [
+        {
+          "title": "Retrait du tube ptfe"
+        },
+        { "text": "S'il vous reste du filament dans la tête d'impression, retirez-le." },
+        {
+          "text": "Débranchez le tube PTFE en appuyant sur le connecteur noir et retirez-le du top."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "NYqUiCr_8n4"
+      },
+      "article": [
+        {
+          "title": "Démontage de la partie supérieure"
+        },
+        { "text": "Desserrez les 4 vis latérales." },
+        { "text": "Retirez la partie supérieure de l'imprimante." }
+      ]
+    },
+    {
+      "media": {
+        "id": "kdw6GuqZ6Bo"
+      },
+      "article": [
+        {
+          "title": "Retrait de l'axe X"
+        },
+        { "text": "Tournez les tiges pour faire monter l'axe X jusqu'en haut." },
+        { "text": "Retirez-le une fois désengagé." }
+      ]
+    },
+    {
+      "media": {
+        "id": "0if7P6y-JEU"
+      },
+      "article": [
+        {
+          "title": "Démontage de l'axe X"
+        },
+        { "text": "Retirez la courroie de la tête." },
+        { "text": "Séparez tous les éléments." },
+        { "text": "Mettez les barres de côté." }
+      ]
+    },
+    {
+      "media": {
+        "id": "EPB7hwdkFTI"
+      },
+      "article": [
+        {
+          "title": "Retrait de la plaque de fond"
+        },
+        { "text": "Déclipsez la plaque de fond en retirant les patins." },
+        { "text": "Gardez le tout de côté et ne les perdez pas." }
+      ]
+    },
+    {
+      "media": {
+        "id": "uGZcVd6WlkM"
+      },
+      "article": [
+        {
+          "title": "Débranchez la tête d'impression"
+        },
+        { "text": "Sous la machine, retirez les colliers de fixation." },
+        { "text": "Débranchez les fils connectés aux borniers Heater, FAN 1 et FAN 2." },
+        { "text": "Débranchez le palpeur connecté sur le connecteur Z." },
+        { "text": "Débranchez la sonde sur le connecteur T0." }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Addon/Bicouleur/1-j-fin.jpg",
+    "subtitle": "Démontage de l'imprimante terminé"
   }
 }

@@ -1,0 +1,81 @@
+{
+  "time": {
+    "subtitle": ["Temps total de montage approximatif : 1h30min"]
+  },
+  "header": {
+    "img": "DiscoUltimate/Addon/Bicouleur/2-m-fin.jpg",
+    "title": ["Notice de montage pack bi-couleur - finitions"],
+    "subtitle": "Finitions",
+    "text": [
+      "Nous allons maintenant remonter les derniers éléments de finitions avant de remettre en marche votre machine."
+    ]
+  },
+  "blocks": [
+    { "type": "banner", "title": "Finitions" },
+    {
+      "media": {
+        "id": "RMQ6gxwAdKs"
+      },
+      "article": [
+        {
+          "title": "Remise en place du top"
+        },
+        {
+          "text": "Remettez le top en place. La partie la plus grande doit être vers la face avant."
+        },
+        { "text": "Assurez-vous qu'il soit bien enfoncé." },
+        { "text": "Revissez les vis de serrage." }
+      ]
+    },
+    {
+      "media": {
+        "id": "abMPzUF0R04"
+      },
+      "article": [
+        {
+          "title": "Ajustement de la tension de la courroie de la tête"
+        },
+        { "text": "Placez la tête à gauche." },
+        { "text": "Détachez la courroie du côté droit." },
+        { "text": "Tirez sur le bout libre sans effort." },
+        { "text": "Forcez pour ajouter 2 crans de tension et re-verrouiller la courroie." }
+      ]
+    },
+    {
+      "media": {
+        "id": "3d4ci1Fne-s"
+      },
+      "article": [
+        {
+          "title": "Gestion des câbles"
+        },
+        { "text": "Commencez par fixer les câbles de la tête à l'aide d'un collier de serrage." },
+        { "text": "Ensuite, nous allons faire en sorte de bien maintenir les autres câbles." },
+        { "text": "Notre solution n'est pas unique." }
+      ]
+    },
+    {
+      "media": {
+        "id": "Z6FIeW6HVqY"
+      },
+      "article": [
+        {
+          "title": "Installation du tube PTFE"
+        },
+        { "text": "Ce tube va guider le filament de l'extrudeur jusqu'à la tête d'impression." },
+        { "text": "Il est maintenu par des raccords pneumatique." },
+        { "text": "Poussez-le bien jusqu'au fond à chaque extrémité." },
+        {
+          "text": "Attention, sur la tête d'impression, il est important que ce dernier soit bien enfoncé. Regardez sur la vidéo pour avoir une idée de la longueur. Appuyez sur la collerette noire pour retirer le tube."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Addon/Bicouleur/3-g-fin-bicouleur.jpg",
+    "subtitle": "Finitions terminées",
+    "text": [
+      "Nous allons maintenant mettre à jour la machine pour qu'elle intègre sa nouvelle installation."
+    ]
+  }
+}

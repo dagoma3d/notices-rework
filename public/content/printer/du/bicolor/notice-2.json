@@ -1,0 +1,193 @@
+{
+  "time": {
+    "subtitle": ["Temps total de montage approximatif : 1h30min"]
+  },
+  "header": {
+    "img": "DiscoUltimate/Addon/Bicouleur/1-j-fin.jpg",
+    "title": ["Notice de montage pack bi-couleur"],
+    "subtitle": "Installation du pack bi-couleur",
+    "text": [
+      "Nous allons maintenant remonter votre Disco Ultimate avec les éléments du pack bi-couleur."
+    ]
+  },
+  "blocks": [
+    { "type": "banner", "title": "Montage" },
+    {
+      "media": {
+        "id": "AcqJKAH2guw"
+      },
+      "article": [
+        {
+          "title": "Retrait plaque arrière"
+        },
+        { "text": "Retirez les 4 vis CHC M3x10 qui tiennent la plaque supérieure arrière." }
+      ]
+    },
+    {
+      "media": {
+        "id": "crLJFBdJMxU"
+      },
+      "article": [
+        {
+          "title": "Ouverture de l'emplacement E1"
+        },
+        {
+          "text": "Soulevez la plaque et découpez l'emplacement du moteur E1 à l'aide d'une pince coupante."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "5wUaRbwQdZM"
+      },
+      "article": [
+        {
+          "title": "Pré-montage de l'extrudeur"
+        },
+        { "text": "Montez le bras d'extrudeur." },
+        { "text": "Placez le ressort dans l'empreinte sur le corps de l'extrudeur." },
+        {
+          "text": "Prenez le bras, placez-le pour que le ressort soit pris dans la seconde empreinte."
+        },
+        { "text": "Comprimez le ressort pour que le bras rentre dans l'encoche." },
+        { "text": "Déplacez le bras pour que le trou de vis soit aligné avec celui du corps." },
+        { "text": "Mettez en place les 3 vis M3x25." }
+      ]
+    },
+    {
+      "media": {
+        "id": "TPPm76A1qNQ"
+      },
+      "article": [
+        {
+          "title": "Installation de l'extrudeur"
+        },
+        { "text": "Placez le moteur dans le logement repéré E1." },
+        { "text": "Positionnez le connecteur vers l'intérieur." },
+        {
+          "text": "Prenez une vis M3x6, placez la dans le trou supérieur droit et serrez le moteur."
+        },
+        { "text": "Retirez le tube PTFE s'il vous gène." },
+        { "text": "Passez le fil du capteur dans le trou comme sur la vidéo." },
+        { "text": "Orientez l'extrudeur puis vissez les 3 vis M3x25." },
+        {
+          "text": "La tête de la vis M3x6 rentre dans un logement prévu dans le corps d'extrudeur."
+        },
+        { "text": "Le bras doit pouvoir bouger après serrage." }
+      ]
+    },
+    {
+      "media": {
+        "id": "UarcMOEOouA"
+      },
+      "article": [
+        {
+          "title": "Branchement de l'extrudeur"
+        },
+        { "text": "Branchez le câble du moteur comme sur la vidéo." },
+        { "text": "Remettez la plaque en place et vissez la avec les 4 vis M3x10." },
+        { "text": "Branchez le capteur du nouvel extrudeur sur le connecteur 1." },
+        { "text": "Branchez le câble moteur sur le connecteur E1." }
+      ]
+    },
+    {
+      "media": {
+        "id": "mahkE1oUPX0"
+      },
+      "article": [
+        {
+          "title": "Montage des barres de l'axe X"
+        },
+        { "text": "Prenez 2 barres courtes." },
+        {
+          "text": "Introduisez-les avec délicatesse dans les roulements (faites quelques rotations pour faciliter leur entrée). Une fois en place, faites quelques allers-retours pour vérifier que tout va bien."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "EyjtEGkGawg"
+      },
+      "article": [
+        {
+          "title": "Installation de la courroie de la tête"
+        },
+        { "text": "Nous vous conseillons de suivre la vidéo avec attention." }
+      ]
+    },
+    {
+      "media": {
+        "id": "WSnrP3lVfgM"
+      },
+      "article": [
+        {
+          "title": "Installation de l'axe X"
+        },
+        {
+          "text": "Prenez l'axe X, orientez-le pour que le moteur de X soit à gauche de la machine lorsque la face avant est devant vous."
+        },
+        { "text": "Insérez les barres dans les roulements sans forcer." },
+        { "text": "Vissez les tiges trapézoïdales dans les écrous pour faire descendre l'axe." },
+        { "text": "Descendez les deux chariots en même temps." }
+      ]
+    },
+    {
+      "media": {
+        "id": "QYGzMbwyWIA"
+      },
+      "article": [
+        {
+          "title": "Repérage du câble ventilateur arrière"
+        },
+        { "text": "Prenez le câble du ventilateur arrière et faites un noeud à 2cm du bout." }
+      ]
+    },
+    {
+      "media": {
+        "id": "50a1FM7_5sw"
+      },
+      "article": [
+        {
+          "title": "Mise en place de la gaine de tête"
+        },
+        { "text": "Prenez la gaine de tête et l'outil imprimé livré avec votre Disco Ultimate." },
+        { "text": "Nous vous invitons à suivre la vidéo avec attention et de refaire pareil." }
+      ]
+    },
+    {
+      "media": {
+        "id": "wJoQ2XgS2BU"
+      },
+      "article": [
+        {
+          "title": "Passage des câbles de la tête"
+        },
+        { "text": "Prenez l'ensemble des câbles de la tête." },
+        { "text": "Faites-les passer dans la fixation latérale." },
+        { "text": "Passez entre la barre arrière et la tige du moteur de Z." }
+      ]
+    },
+    {
+      "media": {
+        "id": "SoUGAu42pb0"
+      },
+      "article": [
+        {
+          "title": "Branchement de la nouvelle tête d'impression"
+        },
+        { "text": "Dénudez tous les câbles avant de les brancher." },
+        { "text": "Branchez le palpeur (câble gris) sur le connecteur Z." },
+        { "text": "Branchez la sonde (deux câbles noires) sur le connecteur T0." },
+        { "text": "Branchez les câbles marrons sur le bornier Heater." },
+        {
+          "text": "Branchez les câbles du ventilateur repéré (ceux avec la boucle) sur le bornier FAN2."
+        },
+        { "text": "Branchez les câbles du ventilateur restant sur le bornier FAN1." }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Addon/Bicouleur/2-m-fin.jpg",
+    "subtitle": "Montage du pack bi-couleur terminé"
+  }
+}
