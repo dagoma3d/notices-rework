@@ -1,0 +1,76 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps de préparation : 15 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Add-on/Trapezoidales/1-a-intro.jpg",
+    "title": [
+      "Notice de montage pack expert - Préparation et démontage"
+    ],
+    "subtitle": "Ça y est, vous avez reçu votre pack expert.",
+    "text": [
+      "Nous allons vous accompagner dans le montage et l'utilisation de cette amélioration pour votre DiscoEasy200."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Trapezoidales/1-b-contenu.jpg"
+      },
+      "article": [
+        {
+          "title": "Dans ces deux cartons vous avez trouvé..."
+        },
+        {
+          "bold": "Part 1"
+        },
+        {
+          "list": [
+            "1 tête d'impression non montée",
+            "2 chariots de X",
+            "6 vis M4x12",
+            "3 colliers de fixation (blancs ou noirs)"
+          ]
+        },
+        {
+          "bold": "Part 2"
+        },
+        {
+          "list": [
+            "2 moteurs de Z avec tiges filetées intégrées + écrous anti-backslash"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Trapezoidales/1-c-prerequis.jpg"
+      },
+      "article": [
+        {
+          "title": "Les prérequis"
+        },
+        {
+          "text": "Pendant une impression, vous êtes capable de mettre l'imprimante en pause en appuyant sur le bouton. Elle continuera d'imprimer pendant quelques secondes avant de s'arrêter."
+        },
+        {
+          "list": [
+            "Une DiscoEasy200 montée et un pack expert",
+            "Un tournevis hexagonal 2.5 mm (fourni avec le kit DiscoEasy200)",
+            "Un tournevis plat",
+            {
+              "button": {
+                "text": "Un outil imprimé (fourni avec le kit DiscoEasy200)",
+                "href": "/medias/DiscoEasy/Add-on/Trapezoidales/palette-montage-petits-roulements.STL",
+                "label": "Téléchargeable ici"
+              }
+            },
+            "Une pince coupante"
+          ]
+        }
+      ]
+    }
+  ]
+}
