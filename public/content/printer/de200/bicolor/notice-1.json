@@ -1,0 +1,204 @@
+{
+  "time": {
+    "subtitle": ["Temps total de montage approximatif : 1h30min"]
+  },
+  "header": {
+    "img": "DiscoEasy/Add-on/Bicouleur/0-a-intro.jpg",
+    "title": ["Notice de montage pack bi-couleur - préparation et démontage"],
+    "subtitle": "ça y est, vous avez reçu votre pack bi-couleur.",
+    "text": [
+      "Nous allons vous accompagner pour le montage et l'installation de ce 4ème add-on qui vous permettra d'imprimer avec deux couleurs différentes."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Bicouleur/1-b-contenu.jpg"
+      },
+      "article": [
+        { "title": "Dans le pack vous avez trouvé..." },
+        {
+          "list": [
+            "A - Une tête d'impression bi-couleur",
+            "B - Un bras d'extrudeur+",
+            "C - Un corps d'extrudeur+ E1",
+            "D - Un tube PTFE",
+            "E - Un moteur d'extrudeur",
+            "F - Un ressort d'extrudeur",
+            "G - 3x grandes vis (M3x25mm) et 1x petite vis (M3x6mm)",
+            "H - 6 roulements linéaire (inutiles si vous avez le pack expert)",
+            "I - Câble pour le moteur d'extrudeur E1"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Trapezoidales/1-c-prerequis.jpg"
+      },
+      "article": [
+        { "title": "Les pré-requis" },
+        {
+          "list": [
+            "1. Un tournevis hexagonal 2.5 mm (fourni avec le kit DiscoEasy200)",
+            "2. Un tournevis plat",
+            "3. Un outil imprimé (fourni avec le kit DiscoEasy200)",
+            "4. Une pince coupante"
+          ]
+        },
+        {
+          "button": {
+            "color": "white",
+            "text": "Le modèle 3d de l'outil imprimé fourni est disponible en téléchargement.",
+            "href": "//drive.google.com/file/d/1L3hlUo7DIMBplNyQa-2iz6gVLtGwpeSG/view?usp=sharing",
+            "download": "palette-montage-petits-roulements.stl",
+            "label": "Télécharger"
+          }
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "PLACE AU DÉMONTAGE",
+      "text": ["A chaque étape, conservez les vis."]
+    },
+    {
+      "media": {
+        "id": "mrA0RmPybS8"
+      },
+      "article": [
+        {
+          "title": "Retrait de la gaine torsadée"
+        },
+        { "text": "Retirez la gaine de la fixation latérale jusqu'au chariot." },
+        { "text": "Libérez les câbles de moteur et de butée." },
+        { "text": "Déclipsez la gaine du chariot." },
+        { "text": "Retirer le reste de la gaine." }
+      ]
+    },
+    {
+      "media": {
+        "id": "NEL9QAZYD7U"
+      },
+      "article": [
+        {
+          "title": "Débranchez le moteur de X"
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "Nz4377yFvD0"
+      },
+      "article": [
+        {
+          "title": "Débranchez la butée de l'axe X"
+        },
+        { "text": "Retournez la machine." },
+        { "text": "Débranchez la butée de X connectée sur la borne X+." },
+        { "text": "Retirez complètement le câble du dessous de la machine." }
+      ]
+    },
+    {
+      "media": {
+        "id": "RfhmRKd_AQ0"
+      },
+      "article": [
+        {
+          "title": "Débranchez la tête d'impression"
+        },
+        { "text": "Sous la machine, débranchez le palpeur connecté sur la borne Y+." },
+        { "text": "Débranchez la sonde connectée sur la borne A13." },
+        { "text": "Retirez ensuite les fils connectés aux borniers E0, E1 et FAN." }
+      ]
+    },
+    {
+      "media": {
+        "id": "RfhmRKd_AQ0"
+      },
+      "article": [
+        {
+          "title": "Démontage de la partie supérieure"
+        },
+        { "text": "S'il vous reste du filament dans la tête d'impression, retirez-le." },
+        {
+          "text": "Débranchez le tube PTFE en appuyant sur le connecteur noir et retirez-le du top."
+        },
+        { "text": "Desserrez les 4 vis latérales." },
+        { "text": "Retirez la partie supérieure de l'imprimante." }
+      ]
+    },
+    {
+      "media": {
+        "id": "GBHMcmeivSA"
+      },
+      "article": [
+        {
+          "title": "Retrait de l'axe X"
+        },
+        { "text": "Dévissez les vis supérieures des coupleurs." },
+        { "text": "Retirez les tiges filetées des coupleurs." },
+        { "text": "Tirez ensuite l'ensemble vers le haut pour le sortir de la machine." },
+        { "text": "Retirez ensuite les deux tiges filetées." },
+        { "text": "Attention, elles sont recouvertes d'huile." },
+        { "text": "Retenez les écrous supérieurs pour éviter qu'ils ne partent d'un coup." }
+      ]
+    },
+    {
+      "media": {
+        "id": "gRgkJ2cegXs"
+      },
+      "article": [
+        {
+          "title": "Démontage de l'axe X"
+        },
+        { "text": "Retirez la courroie de la tête." },
+        { "text": "Séparez tous les éléments." },
+        { "text": "Mettez les barres de côté." }
+      ]
+    },
+    {
+      "media": {
+        "id": "LVf6CotYz-4"
+      },
+      "article": [
+        {
+          "title": "Débranchez le moteur d'extrudeur"
+        },
+        { "text": "Retournez la machine pour accéder au câblage." },
+        { "text": "Retirez le tube PTFE." },
+        { "text": "Débranchez le câble relié au moteur d'extrudeur." }
+      ]
+    },
+    {
+      "media": {
+        "id": "Q5v3I_cXVkI"
+      },
+      "article": [
+        {
+          "title": "Retrait de la courroie du plateau"
+        },
+        { "text": "Toujours sous la machine, débloquez le premier brin de la courroie." },
+        { "text": "Retirez le second brin." },
+        { "text": "Tirez sur la courroie pour la retirer totalement." }
+      ]
+    },
+    {
+      "media": {
+        "id": "2ig2x5VGUow"
+      },
+      "article": [
+        {
+          "title": "Retrait de la face arrière"
+        },
+        { "text": "Desserez les vis sur les côtés de la face arrière (il y en a 4)." },
+        { "text": "Tirez sur la pièce en maintenant le reste de la machine." },
+        { "text": "Soyez délicat" }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Add-on/Bicouleur/1-o-fin.jpg",
+    "subtitle": "Démontage de l'imprimante terminé"
+  }
+}

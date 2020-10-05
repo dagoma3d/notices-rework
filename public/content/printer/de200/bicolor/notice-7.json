@@ -1,0 +1,75 @@
+{
+  "time": {
+    "subtitle": ["Impression"]
+  },
+  "header": {
+    "img": "DiscoEasy/Add-on/Bicouleur/7-a-intro.jpg",
+    "title": ["Notice de montage pack bi-couleur - première impression"],
+    "subtitle": "Imprimer en bicouleur",
+    "text": ["Ça y est, votre Discoeasy200 est prête pour imprimer en bi-couleur."]
+  },
+  "blocks": [
+    { "type": "banner", "title": "Impression" },
+    {
+      "media": {
+        "id": "7voM9UhFRek"
+      },
+      "article": [
+        {
+          "title": "Installation du filament"
+        },
+        { "text": "Avant chaque insertion, coupez le filament pour que le bout soit propre." },
+        {
+          "text": "Dans l'extrudeur n°2, présentez le filament dans l'extrudeur. Poussez-le jusqu'à ce qu'il soit entrainé par l'extrudeur."
+        },
+        { "text": "Si la tête d'impression est déjà chaude, le filament entrera directement." },
+        {
+          "text": "Si la tête est froide, l'imprimante commencera par chauffer avant d'insérer le filament."
+        },
+        { "text": "Retirez l'excédent de purge en sortie de la buse, attention c'est chaud." },
+        {
+          "text": "Si vous avez déjà l'extrudeur+, vous connaissez déjà. Faites de même dans l'extrudeur n°1."
+        },
+        {
+          "text": "Si vous n'avez pas l'extrudeur+, chargez le filament manuellement comme à votre habitude."
+        },
+        { "text": "Arrêtez le filament à l'extrémité du tube PTFE côté tête d'impression." }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Bicouleur/7-c-fichier.jpg"
+      },
+      "article": [
+        {
+          "title": "Un gcode déjà tout prêt"
+        },
+        {
+          "text": "Si vous êtes impatient de lancer votre première impression bicouleur, nous vous avons préparer un gcode. Téléchargez le et mettez le sur votre carte SD. Il doit s'appeler dagoma0.g."
+        },
+        {
+          "button": {
+            "color": "white",
+            "text": "Le modèle 3d de l'outil imprimé fourni est disponible en téléchargement.",
+            "href": "//drive.google.com/file/d/15NlVlYH7SCRBE2rW9YwX9w9JVSuAn9dK/view?usp=sharing",
+            "download": "dagoma0.g",
+            "label": "Télécharger"
+          }
+        },
+        {
+          "text": "Si vous voulez lancer votre propre fichier, rendez-vous dans la prochaine page !"
+        },
+        {
+          "text": "Vous connaissez la chanson, c'est un lancement tout à fait normal : téléchargez le fichier, transférez-le sur la carte SD, insérez la carte dans l'imprimante 3D puis allumez-la."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Add-on/Bicouleur/7-a-intro.jpg",
+    "subtitle": "Première impression terminée",
+    "text": [
+      "Nous allons maintenant voir comment préparer vous même un gcode bi-couleur à l'aide de notre nouveau cura."
+    ]
+  }
+}
