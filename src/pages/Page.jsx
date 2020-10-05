@@ -53,6 +53,9 @@ function Page() {
   } else if (match.url.includes('addon/bicolor/du')) {
     resource = `/content/printer/du/bicolor/${match.params.step || '0'}.json`;
     nav = 'bicolor/du';
+  } else if (match.url.includes('addon/bicolor/de200')) {
+    resource = `/content/printer/du/de200/${match.params.step || '0'}.json`;
+    nav = 'bicolor/de200';
   } else {
     resource = `/content/${match.params.product}/${match.params.ref}/${match.params.step || '0'}.json`;
   }
