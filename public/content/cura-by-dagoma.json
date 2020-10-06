@@ -1,9 +1,7 @@
 {
   "header": {
     "img": "Cura/Notice/a-intro.jpg",
-    "title": [
-      "Notice d'utilisation du logiciel Cura"
-    ],
+    "title": ["Notice d'utilisation du logiciel Cura"],
     "subtitle": "Cura, Slicer, ... On vous explique tout !",
     "text": [
       "Ajustez la taille, la qualité ou le remplissage et maîtrisez la personnalisation de vos objets 3D à l'aide du logiciel Cura by Dagoma.",
@@ -146,9 +144,7 @@
     {
       "type": "banner",
       "title": "Les paramètres d'impression",
-      "subtitle": [
-        "Concrètement ça donne quoi ?"
-      ]
+      "subtitle": ["Concrètement ça donne quoi ?"]
     },
     {
       "id": "qualite",

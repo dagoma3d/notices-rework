@@ -19,7 +19,7 @@ function Page() {
   console.log(match);
 
   useEffect(() => {
-    fetch(`content/${match.url}.json`)
+    fetch(`content${match.url}.json`)
       .then((response) => response.json())
       .then((data) => {
         setContent(data);
@@ -30,7 +30,7 @@ function Page() {
   }, [match]);
 
   useEffect(() => {
-    fetch(`nav/${match.url}.json`)
+    fetch(`nav${match.url}.json`)
       .then((response) => response.json())
       .then((data) => {
         setNav(data);
