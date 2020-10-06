@@ -14,8 +14,8 @@ export default function App() {
       <div className="mb-25">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/:product/:step?" component={Page} />
           <Route path="/:product/:addon/:step?" component={Page} />
+          <Route path="/:product/:step?" component={Page} />
           <Route component={NotFound} />
         </Switch>
       </div>

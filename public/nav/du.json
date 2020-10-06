@@ -1,68 +1,68 @@
 [
   {
-    "href": "/printer/du",
+    "href": "/du",
     "label": "1 - Préparation",
     "img": "DiscoUltimate/Notice/1-a-intro.jpg"
   },
   {
-    "href": "/printer/du/notice-2",
+    "href": "/du/1.notice",
     "label": "2 - Face av.",
     "img": "DiscoUltimate/Notice/2-a-intro.jpg"
   },
   {
-    "href": "/printer/du/notice-3",
+    "href": "/du/2.notice",
     "label": "3 - Face ar.",
     "img": "DiscoUltimate/Notice/3-a-intro.jpg"
   },
   {
-    "href": "/printer/du/notice-4",
+    "href": "/du/3.notice",
     "label": "4 - Fix. latérales",
     "img": "DiscoUltimate/Notice/4-a-intro.jpg"
   },
   {
-    "href": "/printer/du/notice-5",
+    "href": "/du/4.notice",
     "label": "5 - Base",
     "img": "DiscoUltimate/Notice/5-a-intro.jpg"
   },
   {
-    "href": "/printer/du/notice-6",
+    "href": "/du/5.notice",
     "label": "6 - Plateau",
     "img": "DiscoUltimate/Notice/6-a-intro.jpg"
   },
   {
-    "href": "/printer/du/notice-7",
+    "href": "/du/6.notice",
     "label": "7 - Axe X",
     "img": "DiscoUltimate/Notice/7-a-intro.jpg"
   },
   {
-    "href": "/printer/du/notice-8",
+    "href": "/du/7.notice",
     "label": "8 - Axe Z",
     "img": "DiscoUltimate/Notice/8-a-intro.jpg"
   },
   {
-    "href": "/printer/du/notice-9",
+    "href": "/du/8.notice",
     "label": "9 - Câblage",
     "img": "DiscoUltimate/Notice/9-a-intro.jpg"
   },
   {
-    "href": "/printer/du/notice-10",
+    "href": "/du/9.notice",
     "label": "10 - Finitions",
     "img": "DiscoUltimate/Notice/10-a-intro.jpg"
   },
   {
-    "href": "/firmware/du",
+    "href": "/du/10.firmware",
     "label": "11 - Mise à jour"
   },
   {
-    "href": "/calibration/du",
+    "href": "/du/11.calibration",
     "label": "12 - Calibration"
   },
   {
-    "href": "/cura-by-dagoma/du",
+    "href": "/du/12.cura-by-dagoma",
     "label": "13 - Cura"
   },
   {
-    "href": "/printer/du/notice-14",
+    "href": "/du/13.notice",
     "label": "14 - Utilisation"
   }
 ]

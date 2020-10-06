@@ -1,14 +1,14 @@
 [
   {
     "label": "Préparation",
-    "href": "/addon/box/neva-magis"
+    "href": "/magis/box"
   },
   {
     "label": "Assemblage",
-    "href": "/addon/box/neva-magis/1"
+    "href": "/magis/box/1"
   },
   {
     "label": "Installation",
-    "href": "/addon/box/neva-magis/2"
+    "href": "/magis/box/2"
   }
 ]

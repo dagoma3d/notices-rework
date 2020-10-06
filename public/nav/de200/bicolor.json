@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Avertissement",
+    "href": "/de200/bicolor"
+  },
+  {
+    "label": "Préparation",
+    "href": "/de200/bicolor/1.notice"
+  },
+  {
+    "label": "Transfert",
+    "href": "/de200/bicolor/2.notice"
+  },
+  {
+    "label": "Installation",
+    "href": "/de200/bicolor/3.notice"
+  },
+  {
+    "label": "Finitions",
+    "href": "/de200/bicolor/4.notice"
+  },
+  {
+    "label": "Mise à jour",
+    "href": "/de200/bicolor/5.notice"
+  },
+  {
+    "label": "Calibration",
+    "href": "/de200/bicolor/6.notice"
+  },
+  {
+    "label": "Imprimer",
+    "href": "/de200/bicolor/7.notice"
+  },
+  {
+    "label": "GCode",
+    "href": "/de200/bicolor/8.notice"
+  }
+]

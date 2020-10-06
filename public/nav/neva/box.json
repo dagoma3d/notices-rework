@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Préparation",
+    "href": "/neva/box"
+  },
+  {
+    "label": "Assemblage",
+    "href": "/neva/box/1"
+  },
+  {
+    "label": "Installation",
+    "href": "/neva/box/2"
+  }
+]

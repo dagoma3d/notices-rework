@@ -1,9 +1,7 @@
 {
   "header": {
     "img": "FirstStep/premier-pas.jpg",
-    "title": [
-      "Premiers pas"
-    ],
+    "title": ["Premiers pas"],
     "subtitle": "C'est parti !",
     "text": [
       "Félicitations ! Si vous êtes ici c'est que vous avez fait un (bon) choix : vous lancer dans l'aventure de l'impression 3D. Nous allons vous accompagner étape par étape, du montage à la première utilisation de votre machine ou de vos nouveaux composants. Vous êtes prêts ?"
@@ -70,15 +68,15 @@
           "title": "Ecran"
         },
         {
-          "to": "/de200/extruder-plus-de200",
+          "to": "/de200/extruder-plus",
           "title": "Extrudeur+"
         },
         {
-          "to": "/de200/expert-de200",
+          "to": "/de200/expert",
           "title": "Pack expert"
         },
         {
-          "to": "/de200/bicolor-de200",
+          "to": "/de200/bicolor",
           "title": "Pack bi-couleur"
         },
         {
@@ -87,7 +85,7 @@
           "title": "Caisson de protection"
         },
         {
-          "to": "/de200/evo-de200",
+          "to": "/de200/pack-evo-ultimate",
           "src": "pack-evo",
           "title": "Pack évolution Ultimate"
         },
@@ -96,7 +94,7 @@
           "title": "Pack XL"
         },
         {
-          "to": "/cura-by-dagoma/de200",
+          "to": "/cura-by-dagoma",
           "src": "cura",
           "title": "Cura by Dagoma"
         }

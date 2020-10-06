@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Préparation",
+    "href": "/du/bicolor"
+  },
+  {
+    "label": "Installation",
+    "href": "/du/bicolor/1.notice"
+  },
+  {
+    "label": "Finitions",
+    "href": "/du/bicolor/2.notice"
+  },
+  {
+    "label": "Mise à jour",
+    "href": "/du/bicolor/3.notice"
+  },
+  {
+    "label": "Calibration",
+    "href": "/du/bicolor/4.notice"
+  },
+  {
+    "label": "Imprimer",
+    "href": "/du/bicolor/5.notice"
+  },
+  {
+    "label": "GCode",
+    "href": "/du/bicolor/6.notice"
+  }
+]
