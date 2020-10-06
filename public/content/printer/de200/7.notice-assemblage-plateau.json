@@ -224,8 +224,10 @@
   "footer": {
     "img": "DiscoEasy/Notice/9-g-fin.jpg",
     "subtitle": "Assemblage du plateau : CHECK !",
-    "text": [
-      "On approche de la fin. Prochaine étape, le câblage."
+    "items": [
+      {
+        "text": "On approche de la fin. Prochaine étape, le câblage."
+      }
     ]
   }
 }

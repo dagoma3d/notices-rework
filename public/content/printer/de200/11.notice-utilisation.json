@@ -238,8 +238,10 @@
   "footer": {
     "img": "DiscoEasy/Notice/11-k-fin.jpg",
     "subtitle": "Votre Discoeasy est prête",
-    "text": [
-      "Votre montage et votre initiation sont terminés."
+    "items": [
+      {
+        "text": "Votre montage et votre initiation sont terminés."
+      }
     ]
   }
 }

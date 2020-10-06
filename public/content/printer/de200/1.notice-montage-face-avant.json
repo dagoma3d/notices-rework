@@ -128,8 +128,10 @@
   "footer": {
     "img": "DiscoEasy/Notice/3-g-fin.jpg",
     "subtitle": "Montage de la face avant : CHECK !",
-    "text": [
-      "Mettez-la de côté, elle nous servira plus tard."
+    "items": [
+      {
+        "text": "Mettez-la de côté, elle nous servira plus tard."
+      }
     ]
   }
 }

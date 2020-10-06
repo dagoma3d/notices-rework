@@ -108,8 +108,10 @@
   "footer": {
     "img": "DiscoEasy/Add-on/Trapezoidales/1-a-intro.jpg",
     "subtitle": "Finitions : CHECK !",
-    "text": [
-      "Nous allons maintenant mettre à jour la machine pour qu'elle intègre sa nouvelle installation."
+    "items": [
+      {
+        "text": "Nous allons maintenant mettre à jour la machine pour qu'elle intègre sa nouvelle installation."
+      }
     ]
   }
 }

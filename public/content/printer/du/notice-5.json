@@ -249,8 +249,10 @@
   "footer": {
     "img": "DiscoUltimate/Notice/5-m-fin.jpg",
     "subtitle": "Assemblage de la base terminé.",
-    "text": [
-      "Mettez la base de côté, nous continuons le montage."
+    "items": [
+      {
+        "text": "Mettez la base de côté, nous continuons le montage."
+      }
     ]
   }
 }

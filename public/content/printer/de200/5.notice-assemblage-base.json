@@ -279,9 +279,13 @@
   "footer": {
     "img": "DiscoEasy/Notice/7-l-fin.jpg",
     "subtitle": "Montage de la base : CHECK !",
-    "text": [
-      "Vérifiez que le sens des pièces correspond à la photo.",
-      "Gardez la, l'assemblage continue."
+    "items": [
+      {
+        "text": "Vérifiez que le sens des pièces correspond à la photo."
+      },
+      {
+        "text": "Gardez la, l'assemblage continue."
+      }
     ]
   }
 }

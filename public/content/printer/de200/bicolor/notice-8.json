@@ -1,14 +1,19 @@
 {
   "header": {
     "img": "DiscoEasy/Add-on/Bicouleur/7-a-intro.jpg",
-    "title": ["Notice de montage pack bi-couleur - préparation d'un gcode bi-couleur"],
+    "title": [
+      "Notice de montage pack bi-couleur - préparation d'un gcode bi-couleur"
+    ],
     "subtitle": "Préparer un gcode",
     "text": [
       "Nous avons ajouté dans notre dernier cura la possibilité de préparer des gcodes pour la double extrusion."
     ]
   },
   "blocks": [
-    { "type": "banner", "title": "GCode" },
+    {
+      "type": "banner",
+      "title": "GCode"
+    },
     {
       "media": {
         "src": "DiscoEasy/Add-on/Bicouleur/8-b-stl.jpg"
@@ -20,7 +25,9 @@
         {
           "text": "Les fichiers pour imprimer en bi-couleurs sont spécifique, ils doivent être au préalable séparés en deux avec la même origine. Cura peut ensuite les rassembler et les slicers en un seul et même gcode."
         },
-        { "text": "Nous vous avons préparé un pack de 15 objets pour la bi-couleur." },
+        {
+          "text": "Nous vous avons préparé un pack de 15 objets pour la bi-couleur."
+        },
         {
           "button": {
             "color": "white",
@@ -42,7 +49,9 @@
         {
           "text": "Si vous êtes impatient de lancer votre première impression bicouleur, nous vous avons préparer un gcode. Téléchargez le et mettez le sur votre carte SD. Il doit s'appeler dagoma0.g."
         },
-        { "warning": "Si ce n'est pas déjà fait, téléchargez la dernière version de Cura." },
+        {
+          "warning": "Si ce n'est pas déjà fait, téléchargez la dernière version de Cura."
+        },
         {
           "button": {
             "color": "orange",
@@ -85,12 +94,18 @@
         {
           "title": "Associer la couleur de filament"
         },
-        { "text": "Choisissez les paramètres des filaments chargés dans vos extrudeur 1 et 2." },
-        { "text": "Importez les STL." },
+        {
+          "text": "Choisissez les paramètres des filaments chargés dans vos extrudeur 1 et 2."
+        },
+        {
+          "text": "Importez les STL."
+        },
         {
           "text": "Faites un 'clic droit' sur un des deux puis 'Assemblage pour la double extrusion'."
         },
-        { "text": "Centrez le fichier." },
+        {
+          "text": "Centrez le fichier."
+        },
         {
           "note": "Astuce: Vous pouvez intervertir les couleurs au besoin dans le menu du clic droit."
         }
@@ -137,9 +152,15 @@
         {
           "text": "Pour des couleurs très contrastées (C) tel que le beige et le noir, passer sur \"Grand (125 mm3)\" permet de conserver la qualité, dans ce cas les pertes sont plus importante."
         },
-        { "text": "Pour la plupart des couleurs proches (B), \"Standard (90 mm3)\" suffira." },
-        { "text": "N'hésitez pas à nous partager vos expériences de mélange de filaments." },
-        { "text": "Remarque : Pour les mélanges de matière, préférez \"Grand (125 mm3)\"." }
+        {
+          "text": "Pour la plupart des couleurs proches (B), \"Standard (90 mm3)\" suffira."
+        },
+        {
+          "text": "N'hésitez pas à nous partager vos expériences de mélange de filaments."
+        },
+        {
+          "text": "Remarque : Pour les mélanges de matière, préférez \"Grand (125 mm3)\"."
+        }
       ]
     },
     {
@@ -152,8 +173,10 @@
   "footer": {
     "img": "DiscoEasy/Add-on/Bicouleur/7-a-intro.jpg",
     "subtitle": "Préparation d'un fichier bi-couleur terminée",
-    "text": [
-      "Vous savez tout sur l'impression bi-couleur. Partagez nous vos créations sur le Club Dagoma."
+    "items": [
+      {
+        "text": "Vous savez tout sur l'impression bi-couleur. Partagez nous vos créations sur le Club Dagoma."
+      }
     ]
   }
 }

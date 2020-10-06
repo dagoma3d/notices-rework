@@ -100,8 +100,10 @@
   "footer": {
     "img": "DiscoUltimate/Notice/6-f-fin.jpg",
     "subtitle": "Assemblage du plateau terminé",
-    "text": [
-      "Et hop, la base est prête."
+    "items": [
+      {
+        "text": "Et hop, la base est prête."
+      }
     ]
   }
 }

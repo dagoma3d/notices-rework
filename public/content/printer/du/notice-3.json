@@ -139,8 +139,10 @@
   "footer": {
     "img": "DiscoUltimate/Notice/3-h-fin.jpg",
     "subtitle": "Montage de la face arrière terminé",
-    "text": [
-      "Mettez-la de côté, elle nous servira plus tard."
+    "items": [
+      {
+        "text": "Mettez-la de côté, elle nous servira plus tard."
+      }
     ]
   }
 }

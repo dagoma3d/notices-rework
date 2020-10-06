@@ -17,7 +17,9 @@
         "src": "NevaMagis/Software/a-cura.jpg"
       },
       "article": [
-        { "pretitle": "Nécessaire pour fonctionner" },
+        {
+          "pretitle": "Nécessaire pour fonctionner"
+        },
         {
           "text": "Avant d'aller plus loin, téléchargez et installez Cura by Dagoma. Lors de l'installation, nous installons des éléments nécessaires au bon fonctionnement de Dagom'app."
         },
@@ -35,7 +37,9 @@
         "src": "DiscoEasy/Calibration/${printerInfo.img}"
       },
       "article": [
-        { "pretitle": "Les pré-requis" },
+        {
+          "pretitle": "Les pré-requis"
+        },
         {
           "list": [
             "Une ${printerInfo.name}",
@@ -50,13 +54,17 @@
             "label": "Télécharger Dagom'App"
           }
         },
-        { "text": "Et suivez le tutoriel ci-dessous, étape par étape." }
+        {
+          "text": "Et suivez le tutoriel ci-dessous, étape par étape."
+        }
       ]
     },
     {
       "type": "banner",
       "title": "Commençons !",
-      "text": ["Lancez dagom'app et suivez les instructions"]
+      "text": [
+        "Lancez dagom'app et suivez les instructions"
+      ]
     },
     {
       "media": {
@@ -64,7 +72,9 @@
         "small": true
       },
       "article": [
-        { "title": "Etape 1" },
+        {
+          "title": "Etape 1"
+        },
         {
           "text": "Cliquez sur \"Je configure mon imprimante\"."
         }
@@ -76,7 +86,9 @@
         "small": true
       },
       "article": [
-        { "title": "Etape 2" },
+        {
+          "title": "Etape 2"
+        },
         {
           "text": "Cochez les étapes une fois vérifiées."
         }
@@ -88,7 +100,9 @@
         "small": true
       },
       "article": [
-        { "title": "Etape 3" },
+        {
+          "title": "Etape 3"
+        },
         {
           "text": "Cliquez sur ${printerInfo.name}."
         }
@@ -100,7 +114,9 @@
         "small": true
       },
       "article": [
-        { "title": "Etape 4" },
+        {
+          "title": "Etape 4"
+        },
         {
           "text": "Reliez la ${printerInfo.name} à l'ordinateur via le cable USB fournis."
         },
@@ -108,7 +124,9 @@
           "text": "Pour le passage du câble regarde la vidéo suivante :"
         },
         {
-          "video": { "id": "printerInfo.video" }
+          "video": {
+            "id": "printerInfo.video"
+          }
         }
       ]
     },
@@ -118,7 +136,9 @@
         "small": true
       },
       "article": [
-        { "title": "Etape 5" },
+        {
+          "title": "Etape 5"
+        },
         {
           "text": "Choisissez \"Je donne de nouveaux pouvoirs\" puis cliquez sur la flèche bleue."
         }
@@ -130,7 +150,9 @@
         "small": true
       },
       "article": [
-        { "title": "Etape 6" },
+        {
+          "title": "Etape 6"
+        },
         {
           "text": "On y est presque !"
         },
@@ -158,7 +180,9 @@
         "small": true
       },
       "article": [
-        { "title": "Etape 7" },
+        {
+          "title": "Etape 7"
+        },
         {
           "text": "Une fois upload, cliquez sur \"Flasher\""
         },
@@ -173,7 +197,9 @@
         "small": true
       },
       "article": [
-        { "title": "Etape 8" },
+        {
+          "title": "Etape 8"
+        },
         {
           "text": "Votre ${printerInfo.name} a été mise à jour. Vous pouvez fermer Dagom'app."
         },
@@ -186,6 +212,10 @@
   "footer": {
     "img": "DiscoEasy/Software/a-intro-maj-disco.jpg",
     "subtitle": "Etape ${props.active + 1}",
-    "text": ["Après une mise à jour, il est nécessaire de recalibrer l'imprimante 3D."]
+    "items": [
+      {
+        "text": "Après une mise à jour, il est nécessaire de recalibrer l'imprimante 3D."
+      }
+    ]
   }
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Item from './Item';
 import { useTranslation } from 'react-i18next';
 
 function Title({ content }) {
@@ -25,14 +26,14 @@ function Note({ content }) {
   return <p className='small tleft light italic'>{t(content)}</p>;
 }
 
-function Texts({ content }) {
+function Items({ content }) {
   if (!content) return null;
-  return content.map((i, k) => <Text key={k} content={i} />);
+  return content.map((i, k) => <Item key={k} content={i} />);
 }
 
 function Ribbon({ content }) {
   if (!content) return null;
-  const { flip, img, title, subtitle, text, note } = content;
+  const { flip, img, title, subtitle, items, note } = content;
   const flipClass = (flip) ? 'block-caption-left' : 'block-caption-right';
   return (
     <section className="col-xl-24 notice-mask row">
@@ -43,7 +44,7 @@ function Ribbon({ content }) {
       <section className={`block-caption-classic ${flipClass}`}>
         <Title content={title} />
         <SubTitle content={subtitle} />
-        <Texts content={text} />
+        <Items content={items} />
         <Note content={note} />
       </section>
     </section>

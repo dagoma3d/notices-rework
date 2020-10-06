@@ -90,8 +90,10 @@
   "footer": {
     "img": "DiscoEasy/Notice/5-f-fin.jpg",
     "subtitle": "Montage des fixations latérales : CHECK !",
-    "text": [
-      "Mettez-les de côté, elles nous serviront plus tard."
+    "items": [
+      {
+        "text": "Mettez-les de côté, elles nous serviront plus tard."
+      }
     ]
   }
 }

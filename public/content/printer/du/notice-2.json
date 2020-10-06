@@ -1,19 +1,28 @@
 {
   "header": {
     "img": "DiscoUltimate/Notice/2-a-intro.jpg",
-    "title": ["Notice de montage DISCO ULTIMATE - montage de la face avant"],
+    "title": [
+      "Notice de montage DISCO ULTIMATE - montage de la face avant"
+    ],
     "subtitle": "Montage de la face avant",
-    "text": ["Nous allons monter la première partie de l'imprimante 3D."]
+    "text": [
+      "Nous allons monter la première partie de l'imprimante 3D."
+    ]
   },
   "blocks": [
-    { "type": "banner", "title": "Face avant" },
+    {
+      "type": "banner",
+      "title": "Face avant"
+    },
     {
       "media": {
         "src": "DiscoEasy/Notice/2-b-prerequis.jpg",
         "small": true
       },
       "article": [
-        { "text": "Les pré-requis" },
+        {
+          "text": "Les pré-requis"
+        },
         {
           "list": [
             "A. Face avant imprimée",
@@ -22,9 +31,15 @@
             "D. Moteur NEMA avec poulie"
           ]
         },
-        { "text": "Visserie :" },
         {
-          "list": ["3x vis M3x6 (reste 11)", "6x vis M3x16 (reste 23)", "4x écrous M3 (reste 21)"]
+          "text": "Visserie :"
+        },
+        {
+          "list": [
+            "3x vis M3x6 (reste 11)",
+            "6x vis M3x16 (reste 23)",
+            "4x écrous M3 (reste 21)"
+          ]
         }
       ]
     },
@@ -33,7 +48,9 @@
         "id": "8EtcssCRZE0"
       },
       "article": [
-        { "title": "Mise en place des vis de serrage" },
+        {
+          "title": "Mise en place des vis de serrage"
+        },
         {
           "text": "Prenez 4 écrous et 4 vis moyennes (M3x16). Placez les écrous dans les logements comme sur la vidéo. Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
         }
@@ -44,7 +61,9 @@
         "id": "KEMoSfwTW5M"
       },
       "article": [
-        { "title": "Installation des 2 roulements de courroie" },
+        {
+          "title": "Installation des 2 roulements de courroie"
+        },
         {
           "text": "Nous allons placer les roulements qui feront le renvoi de courroie du plateau de l'imprimante."
         },
@@ -58,7 +77,9 @@
         "id": "8H-AvMm-PaQ"
       },
       "article": [
-        { "title": "Mise en place de la butée de Y" },
+        {
+          "title": "Mise en place de la butée de Y"
+        },
         {
           "text": "Prenez la butée avec le câble le plus court. Introduisez la dans le logement en commençant par faire passer la prise."
         },
@@ -75,7 +96,9 @@
         "id": "1nd98ce2bnI"
       },
       "article": [
-        { "title": "Installation du moteur de Y" },
+        {
+          "title": "Installation du moteur de Y"
+        },
         {
           "text": "Posez-la face avant à plat."
         },
@@ -91,6 +114,10 @@
   "footer": {
     "img": "DiscoEasy/Notice/3-g-fin.jpg",
     "subtitle": "Montage de la face avant terminé",
-    "text": ["Mettez-la de côté, elle nous servira plus tard."]
+    "items": [
+      {
+        "text": "Mettez-la de côté, elle nous servira plus tard."
+      }
+    ]
   }
 }

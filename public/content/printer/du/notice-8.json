@@ -155,8 +155,10 @@
   "footer": {
     "img": "DiscoUltimate/Notice/8-h-fin.jpg",
     "subtitle": "Montage de l'axe Z terminé.",
-    "text": [
-      "Vérifiez que les pièces sont orientées comme sur la photo."
+    "items": [
+      {
+        "text": "Vérifiez que les pièces sont orientées comme sur la photo."
+      }
     ]
   }
 }

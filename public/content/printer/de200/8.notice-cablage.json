@@ -468,8 +468,10 @@
   "footer": {
     "img": "DiscoEasy/Notice/10-s-fin.jpg",
     "subtitle": "Cablâge : CHECK !",
-    "text": [
-      "Prochaine étape : les finitions."
+    "items": [
+      {
+        "text": "Prochaine étape : les finitions."
+      }
     ]
   }
 }

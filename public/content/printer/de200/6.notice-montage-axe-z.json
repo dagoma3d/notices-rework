@@ -209,8 +209,10 @@
   "footer": {
     "img": "DiscoEasy/Notice/8-h-fin.jpg",
     "subtitle": "Assemblage de l'axe Z : CHECK !",
-    "text": [
-      "Vérifiez que les pièces sont orientées comme sur la photo."
+    "items": [
+      {
+        "text": "Vérifiez que les pièces sont orientées comme sur la photo."
+      }
     ]
   }
 }

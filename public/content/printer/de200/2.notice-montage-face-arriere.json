@@ -142,8 +142,10 @@
   "footer": {
     "img": "DiscoEasy/Notice/4-f-fin.jpg",
     "subtitle": "Montage de la face arrière : CHECK !",
-    "text": [
-      "Mettez-la de côté, elle nous servira plus tard."
+    "items": [
+      {
+        "text": "Mettez-la de côté, elle nous servira plus tard."
+      }
     ]
   }
 }

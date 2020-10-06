@@ -202,9 +202,13 @@
   "footer": {
     "img": "DiscoEasy/Notice/6-i-fin.jpg",
     "subtitle": "Montage de l'axe X : CHECK !",
-    "text": [
-      "Vérifiez que le sens des pièces correspond à la photo.",
-      "Mettez le ensuite de côté, il nous servira plus tard."
+    "items": [
+      {
+        "text": "Vérifiez que le sens des pièces correspond à la photo."
+      },
+      {
+        "text": "Mettez le ensuite de côté, il nous servira plus tard."
+      }
     ]
   }
 }
