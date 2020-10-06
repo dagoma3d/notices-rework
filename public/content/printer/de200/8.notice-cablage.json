@@ -471,6 +471,9 @@
     "items": [
       {
         "text": "Prochaine étape : les finitions."
+      },
+      {
+        "validation": {}
       }
     ]
   }

@@ -1,7 +1,9 @@
 {
   "header": {
     "img": "DiscoUltimate/Notice/1-a-intro.jpg",
-    "title": ["Notice de montage DISCO ULTIMATE - préparation"],
+    "title": [
+      "Notice de montage DISCO ULTIMATE - préparation"
+    ],
     "subtitle": "Préparons nous au montage",
     "text": [
       "Nous allons préparer tous les éléments nécessaires au montage du kit.",
@@ -9,14 +11,19 @@
     ]
   },
   "blocks": [
-    { "type": "banner", "title": "Préparation" },
+    {
+      "type": "banner",
+      "title": "Préparation"
+    },
     {
       "media": {
         "src": "DiscoEasy/Notice/2-b-prerequis.jpg",
         "gray": true
       },
       "article": [
-        { "title": "Les pré-requis" },
+        {
+          "title": "Les pré-requis"
+        },
         {
           "text": "Un kit Discoeasy200"
         },
@@ -35,6 +42,11 @@
   ],
   "footer": {
     "img": "DiscoUltimate/Notice/1-a-intro.jpg",
-    "subtitle": "A vos marques ... Go !"
+    "subtitle": "A vos marques ... Go !",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

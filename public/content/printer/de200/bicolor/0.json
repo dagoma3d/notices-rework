@@ -1,12 +1,17 @@
 {
   "blocks": [
-    { "type": "banner", "title": "Avant de commencer" },
+    {
+      "type": "banner",
+      "title": "Avant de commencer"
+    },
     {
       "media": {
         "src": "DiscoEasy/Add-on/Bicouleur/1-c-prerequis-impression.jpg"
       },
       "article": [
-        { "title": "Votre attention s'il vous plaît !" },
+        {
+          "title": "Votre attention s'il vous plaît !"
+        },
         {
           "text": "Avant de démonter votre imprimante 3D, assurez-vous d'avoir imprimé les pièces nécessaires."
         },
@@ -30,6 +35,11 @@
     }
   ],
   "footer": {
-    "subtitle": "Impression terminée"
+    "subtitle": "Impression terminée",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

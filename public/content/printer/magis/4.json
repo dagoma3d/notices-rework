@@ -1,11 +1,17 @@
 {
   "time": {
-    "subtitle": ["Temps de préparation : 5 minutes", "Temps d'impression : 45 minutes"]
+    "subtitle": [
+      "Temps de préparation : 5 minutes",
+      "Temps d'impression : 45 minutes"
+    ]
   },
   "header": {
     "flip": true,
     "img": "NevaMagis/Notice/3-a-photophore-pp-3-1600x600.jpg",
-    "title": ["Notice de première utilisation - page 3", "Changement de couleur"],
+    "title": [
+      "Notice de première utilisation - page 3",
+      "Changement de couleur"
+    ],
     "subtitle": "L'apparition de la couleur",
     "text": [
       "Vous êtes maintenant prêt pour notre petit secret.",
@@ -18,8 +24,12 @@
         "src": "NevaMagis/Notice/3-b-copie.jpg"
       },
       "article": [
-        { "pretitle": "Étape 1" },
-        { "title": "J'imprime avec ma Magis" },
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "J'imprime avec ma Magis"
+        },
         {
           "text": "Tout d'abord, téléchargez le nouveau fichier que nous vous avons préparé."
         },
@@ -58,8 +68,12 @@
         "src": "NevaMagis/Notice/3-b-copie.jpg"
       },
       "article": [
-        { "pretitle": "Étape 2" },
-        { "title": "Lancez l'impression" },
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Lancez l'impression"
+        },
         {
           "text": "Placez le fichier dagoma0.g sur ta carte SD."
         },
@@ -83,8 +97,12 @@
         "id": "asF6cmYR6mo"
       },
       "article": [
-        { "pretitle": "Étape 3" },
-        { "title": "Surprise !" },
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Surprise !"
+        },
         {
           "text": "Votre Magis s'est arrêtée toute seule. Pas de panique, nous avons programmé une pause dans le fichier."
         },
@@ -115,8 +133,12 @@
         "id": "L6dqWNBu6W0"
       },
       "article": [
-        { "pretitle": "Étape 4" },
-        { "title": "Éjection du filament" },
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Éjection du filament"
+        },
         {
           "text": "Pressez trois secondes le bouton en façade."
         },
@@ -145,8 +167,12 @@
         "id": "y6_fnaPlbWk"
       },
       "article": [
-        { "pretitle": "Étape 5" },
-        { "title": "Relancez l'impression" },
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Relancez l'impression"
+        },
         {
           "text": "Appuyez sur le bouton pour relancer l'impression."
         }
@@ -156,15 +182,23 @@
       "media": {
         "id": "6BDuY4sffrg"
       },
-      "article": [{ "title": "Plus que 10 minutes d'impression" }]
+      "article": [
+        {
+          "title": "Plus que 10 minutes d'impression"
+        }
+      ]
     },
     {
       "media": {
         "src": "NevaMagis/Notice/3-i-photophore-pp-3-copie.jpg"
       },
       "article": [
-        { "pretitle": "Étape 6" },
-        { "title": "Assemblage" },
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Assemblage"
+        },
         {
           "text": "Reprenez le photophore, et assemblez-le avec le reste."
         }

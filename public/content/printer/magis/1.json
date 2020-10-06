@@ -1,11 +1,17 @@
 {
   "time": {
-    "subtitle": ["Temps de préparation : 5 minutes", "Temps d'impression : 2 heures"]
+    "subtitle": [
+      "Temps de préparation : 5 minutes",
+      "Temps d'impression : 2 heures"
+    ]
   },
   "header": {
     "flip": true,
     "img": "NevaMagis/Notice/1-a-photophore-pp-1-3.jpg",
-    "title": ["Notice de première utilisation - page 1", "Première impression"],
+    "title": [
+      "Notice de première utilisation - page 1",
+      "Première impression"
+    ],
     "subtitle": "Votre Magis est prête !",
     "text": [
       "C'est l'heure pour vous de réussir votre première impression.",
@@ -18,12 +24,18 @@
         "src": "NevaMagis/Notice/1-c-photophore-pp-1-copie.jpg"
       },
       "article": [
-        { "pretitle": "Étape 1" },
-        { "title": "J'imprime avec ma Magis" },
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "J'imprime avec ma Magis"
+        },
         {
           "text": "Tout d'abord, téléchargez le fichier que nous vous avons sélectionné avec soin."
         },
-        { "text": "Ceci est un... photophore." },
+        {
+          "text": "Ceci est un... photophore."
+        },
         {
           "button": {
             "color": "white",
@@ -38,7 +50,9 @@
         {
           "frame": "Assurez-vous que le fichier s'appelle bien dagoma0.g une fois copié sur la carte."
         },
-        { "italic": "Si vous préférez télécharger le modèle 3D..." },
+        {
+          "italic": "Si vous préférez télécharger le modèle 3D..."
+        },
         {
           "button": {
             "color": "white",
@@ -55,8 +69,12 @@
         "small": true
       },
       "article": [
-        { "pretitle": "Étape 2" },
-        { "title": "Préparez la carte SD" },
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Préparez la carte SD"
+        },
         {
           "text": "Déplacez le fichier dagoma0.g sur la carte SD."
         },
@@ -69,14 +87,20 @@
       "type": "banner",
       "title": "Pour une impression de qualité, votre buse doit être parfaitement propre."
     },
-    { "type": "slide" },
+    {
+      "type": "slide"
+    },
     {
       "media": {
         "id": "TaOm_8mrTH0"
       },
       "article": [
-        { "pretitle": "Étape 3" },
-        { "title": "Lancement de l'impression" },
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Lancement de l'impression"
+        },
         {
           "text": "Insérez la carte SD dans la machine et appuyez sur le bouton. Si le bouton est allumé de manière fixe, tout est ok."
         },
@@ -100,14 +124,20 @@
       "media": {
         "id": "VDuhngeIydk"
       },
-      "article": [{ "title": "Cette pièce s'imprime en 2 heures environ" }]
+      "article": [
+        {
+          "title": "Cette pièce s'imprime en 2 heures environ"
+        }
+      ]
     },
     {
       "media": {
         "id": "IhcGqLIXxHI"
       },
       "article": [
-        { "title": "Après chaque impression" },
+        {
+          "title": "Après chaque impression"
+        },
         {
           "text": "Retirez tout ce qu'il reste sur le plateau à l'aide de votre spatule."
         },
@@ -120,6 +150,11 @@
   "footer": {
     "flip": true,
     "img": "NevaMagis/Notice/1-a-photophore-pp-1-3.jpg",
-    "subtitle": "J'ai réussi ma première impression !"
+    "subtitle": "J'ai réussi ma première impression !",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

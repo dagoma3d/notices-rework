@@ -1,11 +1,17 @@
 {
   "time": {
-    "subtitle": ["Temps de préparation : 5 minutes", "Temps d'impression : 1 heures 30 minutes"]
+    "subtitle": [
+      "Temps de préparation : 5 minutes",
+      "Temps d'impression : 1 heures 30 minutes"
+    ]
   },
   "header": {
     "flip": true,
     "img": "NevaMagis/Notice/2-a-1600x600.jpg",
-    "title": ["Notice de première utilisation - page 2", "Utiliser la fonction Pause"],
+    "title": [
+      "Notice de première utilisation - page 2",
+      "Utiliser la fonction Pause"
+    ],
     "subtitle": "Accordez-vous une pause",
     "text": [
       "Dans ce nouveau chapitre du grand livre de la Magis, vous apprenez à vous servir de la fonction Pause. Nous allons vous montrer une de ses utilisations.",
@@ -18,8 +24,12 @@
         "src": "NevaMagis/Notice/2-b-photophore-pp-2-copie.jpg"
       },
       "article": [
-        { "pretitle": "Étape 1" },
-        { "title": "J'imprime avec ma Magis" },
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "J'imprime avec ma Magis"
+        },
         {
           "text": "Tout d'abord, téléchargez le nouveau fichier que nous vous avons préparé."
         },
@@ -58,8 +68,12 @@
         "src": "NevaMagis/Notice/2-b-photophore-pp-2-copie.jpg"
       },
       "article": [
-        { "pretitle": "Étape 2" },
-        { "title": "Lancez l'impression" },
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Lancez l'impression"
+        },
         {
           "text": "Placez le fichier dagoma0.g sur ta carte SD."
         },
@@ -83,8 +97,12 @@
         "id": "mszJtHNF6EE"
       },
       "article": [
-        { "pretitle": "Étape 3" },
-        { "title": "Comment faire une pause ?" },
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Comment faire une pause ?"
+        },
         {
           "text": "Laissez l'impression tourner pendant 45 minutes environ."
         },
@@ -101,8 +119,12 @@
         "id": "jE22QQ5yxOQ"
       },
       "article": [
-        { "pretitle": "Étape 4" },
-        { "title": "Mais pourquoi du sel ?" },
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Mais pourquoi du sel ?"
+        },
         {
           "text": "Le but est d'alourdir votre pièce pour la rendre plus stable."
         },
@@ -119,8 +141,12 @@
         "id": "0f8_B-f3x-g"
       },
       "article": [
-        { "pretitle": "Étape 5" },
-        { "title": "Et maintenant ?" },
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Et maintenant ?"
+        },
         {
           "text": "Appuyez sur le bouton pour relancer l'impression."
         }
@@ -130,15 +156,23 @@
       "media": {
         "id": "OzYBHb_jtnM"
       },
-      "article": [{ "title": "Il reste une demie-heure d'impression" }]
+      "article": [
+        {
+          "title": "Il reste une demie-heure d'impression"
+        }
+      ]
     },
     {
       "media": {
         "src": "NevaMagis/Notice/2-h-1-copie.jpg"
       },
       "article": [
-        { "pretitle": "Étape 6" },
-        { "title": "Assemblage" },
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Assemblage"
+        },
         {
           "text": "Reprenez le photophore, et assemblez-le avec son support. Il se visse comme un couvercle."
         }
@@ -148,6 +182,11 @@
   "footer": {
     "flip": true,
     "img": "NevaMagis/Notice/2-a-1600x600.jpg",
-    "subtitle": "J'ai réussi à assembler les deux premiers éléments !"
+    "subtitle": "J'ai réussi à assembler les deux premiers éléments !",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

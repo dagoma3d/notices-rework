@@ -1,10 +1,14 @@
 {
   "time": {
-    "subtitle": ["Préparation"]
+    "subtitle": [
+      "Préparation"
+    ]
   },
   "header": {
     "img": "NevaMagis/Notice/Addons/Caisson/1-a-intro.jpg",
-    "title": ["Notice de montage caisson Magis et Neva - préparation"],
+    "title": [
+      "Notice de montage caisson Magis et Neva - préparation"
+    ],
     "subtitle": "Vous avez reçu votre caisson pour Magis et Neva",
     "text": [
       "Nous allons vous accompagner pour le montage et l'installation de votre protection pour l'imprimante 3D Magis et Neva."
@@ -16,7 +20,9 @@
         "src": "NevaMagis/Notice/Addons/Caisson/1-d-contenu.jpg"
       },
       "article": [
-        { "title": "Dans ce carton vous avez trouvé" },
+        {
+          "title": "Dans ce carton vous avez trouvé"
+        },
         {
           "list": [
             "x2 guides câbles",
@@ -37,7 +43,9 @@
         "id": "UV6Ou05TRn0"
       },
       "article": [
-        { "title": "Installation des patins" },
+        {
+          "title": "Installation des patins"
+        },
         {
           "text": "Prenez les 6 patins dans le petit sachet de vis."
         },
@@ -57,7 +65,9 @@
         "id": "SNk-jH1j_dM"
       },
       "article": [
-        { "title": "Installation des pieds sur la Magis" },
+        {
+          "title": "Installation des pieds sur la Magis"
+        },
         {
           "text": "Reprenez les 3 pieds et installez les sur votre imprimante 3D."
         },
@@ -71,7 +81,9 @@
         "src": "NevaMagis/Notice/Addons/Caisson/1-g-retrait-dibon.jpg"
       },
       "article": [
-        { "title": "Préparation des cerclages" },
+        {
+          "title": "Préparation des cerclages"
+        },
         {
           "text": "Retirez le film protecteur présent sur les pièces."
         }
@@ -80,6 +92,11 @@
   ],
   "footer": {
     "img": "NevaMagis/Notice/Addons/Caisson/1-a-intro.jpg",
-    "subtitle": "Préparation des éléments terminée"
+    "subtitle": "Préparation des éléments terminée",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

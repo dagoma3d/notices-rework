@@ -11,7 +11,9 @@
     {
       "type": "banner",
       "title": "PARTIE 1 - démontage",
-      "text": ["Commençons par démonter l'imprimante 3D."]
+      "text": [
+        "Commençons par démonter l'imprimante 3D."
+      ]
     },
     {
       "media": {
@@ -37,7 +39,9 @@
         {
           "text": "Tout d'abord dévissez les 6 vis (3 par cotés) de maintient des tiges trapézoïdales."
         },
-        { "text": "Ensuite, enlevez les écrous anti back-lash." },
+        {
+          "text": "Ensuite, enlevez les écrous anti back-lash."
+        },
         {
           "text": "Enfin, vous pouvez faire coulisser vers le haut le chariot et l'enlever de l'imprimante."
         }
@@ -57,7 +61,9 @@
         {
           "text": "Débranchez soigneusement l'ensemble des câbles de la carte électronique. Nous vous invitons en amont à repérer et disssocier les ventilateurs Avant et Arrière de la tête d'impression."
         },
-        { "text": "Dé-visser les 2 vis de maintient de la carte F5, et retirez là." },
+        {
+          "text": "Dé-visser les 2 vis de maintient de la carte F5, et retirez là."
+        },
         {
           "text": "Vous pouvez maintenant retirer les cache cotés avant : le lecteur de carte SD (ou l'écran) ainsi que le bouton pause de l'autre coté."
         }
@@ -74,9 +80,15 @@
         {
           "text": "Afin de démonter la face avant, nous allons tout d'abord enlever la plaque de renfort noire avant. Pour cela, dévisser les 4 vis de maintien."
         },
-        { "text": "Ensuite, dévissez légèrement les 4 vis sur les cotés de la face avant." },
-        { "text": "N'oubliez pas d'enlever la courroie (le desserage se fait sous le plateau)." },
-        { "text": "Retirez soigneusement la face avant et placez là sur le coté tel quel." }
+        {
+          "text": "Ensuite, dévissez légèrement les 4 vis sur les cotés de la face avant."
+        },
+        {
+          "text": "N'oubliez pas d'enlever la courroie (le desserage se fait sous le plateau)."
+        },
+        {
+          "text": "Retirez soigneusement la face avant et placez là sur le coté tel quel."
+        }
       ]
     },
     {
@@ -127,6 +139,11 @@
   ],
   "footer": {
     "img": "banniere-XL.jpg",
-    "subtitle": "Démontage terminé"
+    "subtitle": "Démontage terminé",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

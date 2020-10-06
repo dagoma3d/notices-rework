@@ -1,11 +1,17 @@
 {
   "time": {
-    "subtitle": ["Temps de préparation : 5 minutes", "Temps d'impression : 1 heures 30 minutes"]
+    "subtitle": [
+      "Temps de préparation : 5 minutes",
+      "Temps d'impression : 1 heures 30 minutes"
+    ]
   },
   "header": {
     "flip": true,
     "img": "NevaMagis/Notice/a-derouleur.jpg",
-    "title": ["Notice de première utilisation - page 1 bis", "J'imprime mon dérouler de bobine"],
+    "title": [
+      "Notice de première utilisation - page 1 bis",
+      "J'imprime mon dérouler de bobine"
+    ],
     "subtitle": "ça (dé)roule ma poule !",
     "text": [
       "Vous avez remarqué qu'il manquait un accessoire à votre bobine ? Nous vous proposons ce dérouleur de bobine."
@@ -17,8 +23,12 @@
         "src": "NevaMagis/Notice/b-derouleur.jpg"
       },
       "article": [
-        { "pretitle": "Étape 1" },
-        { "title": "J'imprime avec ma Magis" },
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "J'imprime avec ma Magis"
+        },
         {
           "text": "Téléchargez le fichier que nous vous avons sélectionné avec soin."
         },
@@ -46,8 +56,12 @@
         "src": "NevaMagis/Notice/c-assemblage-derouleur.jpg"
       },
       "article": [
-        { "pretitle": "Étape 2" },
-        { "title": "Assemblage" },
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Assemblage"
+        },
         {
           "text": "N'hésitez pas à le faire tourner un peu à la main si vous voyez que l'assemblage ne pivote pas bien."
         }
@@ -58,8 +72,12 @@
         "src": "NevaMagis/Notice/d-assemblage-derouleur.jpg"
       },
       "article": [
-        { "pretitle": "Étape 3" },
-        { "title": "Assemblage - Le retour" },
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Assemblage - Le retour"
+        },
         {
           "text": "Déposez la bobine sur votre dérouleur."
         }
@@ -69,6 +87,11 @@
   "footer": {
     "flip": true,
     "img": "NevaMagis/Notice/a-derouleur.jpg",
-    "subtitle": "Je suis prêt à dérouler !"
+    "subtitle": "Je suis prêt à dérouler !",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

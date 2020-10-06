@@ -128,9 +128,9 @@ function Video({ content }) {
   );
 }
 
-function Validation(props) {
+function Validation({ content }) {
   const { t } = useTranslation();
-  const { step, text } = props;
+  const { step, text } = content;
   const label = text || "Je valide cette étape";
   return (
     <div className="checkbox-classic checkbox-full-width">

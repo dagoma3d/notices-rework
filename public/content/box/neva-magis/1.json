@@ -1,12 +1,18 @@
 {
   "time": {
-    "subtitle": ["Temps approximatif : 20 min"]
+    "subtitle": [
+      "Temps approximatif : 20 min"
+    ]
   },
   "header": {
     "img": "NevaMagis/Notice/Addons/Caisson/2-a-intro.jpg",
-    "title": ["Notice de montage caisson Magis - assemblage du caisson"],
+    "title": [
+      "Notice de montage caisson Magis - assemblage du caisson"
+    ],
     "subtitle": "Assemblage du caisson de protection",
-    "text": ["Nous allons assembler le caisson de protection qui entourera votre imprimante 3D."]
+    "text": [
+      "Nous allons assembler le caisson de protection qui entourera votre imprimante 3D."
+    ]
   },
   "blocks": [
     {
@@ -14,7 +20,9 @@
         "id": "7asohpm9Y_A"
       },
       "article": [
-        { "title": "Préparation de la vitre" },
+        {
+          "title": "Préparation de la vitre"
+        },
         {
           "text": "La vitre vous a été livrée à plat. Nous allons fixer les bouts pour former un tube."
         },
@@ -32,7 +40,9 @@
         "id": "k8Zf0oeg_f0"
       },
       "article": [
-        { "title": "Serrage de la vitre" },
+        {
+          "title": "Serrage de la vitre"
+        },
         {
           "text": "Tirez de part et d'autre de la couture pour la serrer."
         },
@@ -46,7 +56,9 @@
         "src": "NevaMagis/Notice/Addons/Caisson/2-c-montage-guide-sup-ar-prepa.jpg"
       },
       "article": [
-        { "title": "Préparation des cerclages supérieurs" },
+        {
+          "title": "Préparation des cerclages supérieurs"
+        },
         {
           "text": "Disposez les 3 premiers cerclages comme indiqué sur l'image."
         }
@@ -57,7 +69,9 @@
         "id": "09mqSkudGZ8"
       },
       "article": [
-        { "title": "Montage du cerclage arrière supérieur" },
+        {
+          "title": "Montage du cerclage arrière supérieur"
+        },
         {
           "text": "L'arrière du caisson est représenté par la couture. Le bas du caisson présente des encoches comme sur la vidéo."
         },
@@ -77,7 +91,9 @@
         "src": "NevaMagis/Notice/Addons/Caisson/2-c-montage-guide-sup-ar-control.jpg"
       },
       "article": [
-        { "title": "Vérification" },
+        {
+          "title": "Vérification"
+        },
         {
           "text": "L'ergot doit être centré dans le trou de la vitre. Tirez sur la vitre pour l'aligner."
         }
@@ -88,7 +104,9 @@
         "id": "KnO79In9AL4"
       },
       "article": [
-        { "title": "Montage des cerclages avant supérieur" },
+        {
+          "title": "Montage des cerclages avant supérieur"
+        },
         {
           "text": "Prenez 2 cerclages avant. Pincez la vitre pour la plier au milieu des deux trous comme sur la vidéo et installez le premier cerclage. Orientez le pour compléter l'encoche présente sur le cerclage arrière."
         },
@@ -105,7 +123,9 @@
         "src": "NevaMagis/Notice/Addons/Caisson/2-d-montage-guide-sup-av-control.jpg"
       },
       "article": [
-        { "title": "Vérification" },
+        {
+          "title": "Vérification"
+        },
         {
           "text": "Assurez-vous d'obtenir la même chose que sur la photo. La vitre doit bien suivre le cerclage."
         }
@@ -116,7 +136,9 @@
         "src": "NevaMagis/Notice/Addons/Caisson/2-e-montage-guide-inf-ar-prepa.jpg"
       },
       "article": [
-        { "title": "Préparation des cerclages inférieurs" },
+        {
+          "title": "Préparation des cerclages inférieurs"
+        },
         {
           "text": "Disposez les 3 premiers cerclages comme indiqué sur l'image."
         }
@@ -127,7 +149,9 @@
         "id": "WMMHlas7r30"
       },
       "article": [
-        { "title": "Montage du cerclage arrière inférieur" },
+        {
+          "title": "Montage du cerclage arrière inférieur"
+        },
         {
           "text": "Retournez le caisson pour installer le prochain cerclage. Prenez le cerclage inférieur arrière. Pliez le caisson au niveau de la couture et placez les ergots dans les trous."
         },
@@ -141,7 +165,9 @@
         "id": "36G_2rFRBiM"
       },
       "article": [
-        { "title": "Montage des cerclages avant inférieur" },
+        {
+          "title": "Montage des cerclages avant inférieur"
+        },
         {
           "text": "Prenez les 2 derniers cerclages. Pincez la vitre pour la plier au milieu des deux trous comme sur la vidéo et installez le premier cerclage. Orientez le pour compléter l'encoche présente sur le cerclage arrière. Faites de même avec le second cerclage."
         },
@@ -155,7 +181,9 @@
         "src": "NevaMagis/Notice/Addons/Caisson/2-f-montage-guide-inf-av-controle.jpg"
       },
       "article": [
-        { "title": "Vérification" },
+        {
+          "title": "Vérification"
+        },
         {
           "text": "Assurez-vous d'obtenir la même chose que sur la photo. La vitre doit bien suivre le cerclage."
         }
@@ -166,7 +194,9 @@
         "src": "NevaMagis/Notice/Addons/Caisson/2-g-retrait-film-vitre.jpg"
       },
       "article": [
-        { "title": "Retrait des films protecteur" },
+        {
+          "title": "Retrait des films protecteur"
+        },
         {
           "text": "Retirez le film présent sur la vitre."
         },
@@ -180,7 +210,9 @@
         "id": "O3PW5eITQcY"
       },
       "article": [
-        { "title": "Installation du chariot" },
+        {
+          "title": "Installation du chariot"
+        },
         {
           "text": "Prenez le chariot et 2 vis bombées."
         },
@@ -212,7 +244,9 @@
         "id": "mYBrmVXwDsI"
       },
       "article": [
-        { "title": "Installation des guides câbles" },
+        {
+          "title": "Installation des guides câbles"
+        },
         {
           "text": "Prenez les deux guides câbles."
         },
@@ -227,6 +261,11 @@
   ],
   "footer": {
     "img": "NevaMagis/Notice/Addons/Caisson/1-a-intro.jpg",
-    "subtitle": "Préparation des éléments terminée"
+    "subtitle": "Préparation des éléments terminée",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

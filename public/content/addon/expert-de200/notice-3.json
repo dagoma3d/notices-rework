@@ -201,6 +201,11 @@
   ],
   "footer": {
     "img": "DiscoEasy/Add-on/Trapezoidales/3-h-fin.jpg",
-    "subtitle": "Montage du pack expert : CHECK !"
+    "subtitle": "Montage du pack expert : CHECK !",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

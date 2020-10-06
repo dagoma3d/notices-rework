@@ -12,7 +12,9 @@
         {
           "title": "10 - montage des fix cotés"
         },
-        { "text": "Nous commençons par le montage des fixations cotés :" },
+        {
+          "text": "Nous commençons par le montage des fixations cotés :"
+        },
         {
           "text": "Prenez 8 écrous et 8 vis (M3x16). Placez les écrous dans les 4 logements comme sur la vidéo (sur les 2 fixations)."
         },
@@ -87,11 +89,15 @@
         {
           "title": "15 - ré-installation de la face avant"
         },
-        { "text": "Placez votre imprimante 3D sur le dos." },
+        {
+          "text": "Placez votre imprimante 3D sur le dos."
+        },
         {
           "text": "Positionnez la face avant et enfoncez fermement, afin que les 4 barres de la base soit enfoncés à fond dans la face avant."
         },
-        { "text": "Visser les 4 vis de la face avant afin qu'elle ne bouge pas." }
+        {
+          "text": "Visser les 4 vis de la face avant afin qu'elle ne bouge pas."
+        }
       ]
     },
     {
@@ -131,7 +137,9 @@
         {
           "text": "Placez tout d'abord le nouveau connecteur de plaques. Attention, le trou oblon doit se trouver vers l'arrière de votre disco."
         },
-        { "text": "Ensuite, placez la plaque avant noire." },
+        {
+          "text": "Ensuite, placez la plaque avant noire."
+        },
         {
           "text": "Visez tout d'abord les 2 vis de maintien des plaques sur le connecteur. Pour cela utilisez 2 vis M3-6mm (c'est-à-dire dire les plus petites)."
         },
@@ -148,7 +156,9 @@
         {
           "title": "19 - re-mise en place de la courroie de Y"
         },
-        { "text": "Glissez la courroie de Y dans son logement puis tendez-là correctement." },
+        {
+          "text": "Glissez la courroie de Y dans son logement puis tendez-là correctement."
+        },
         {
           "button": {
             "text": "Pour la mise en place de la courroie de Y, ",
@@ -160,6 +170,11 @@
     }
   ],
   "footer": {
-    "subtitle": "Montage de la base terminé"
+    "subtitle": "Montage de la base terminé",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

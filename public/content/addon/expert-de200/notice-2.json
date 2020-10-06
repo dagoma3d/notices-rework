@@ -254,6 +254,11 @@
   ],
   "footer": {
     "img": "DiscoEasy/Add-on/Trapezoidales/2-j-fin.jpg",
-    "subtitle": "Transfert des composants : CHECK !"
+    "subtitle": "Transfert des composants : CHECK !",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

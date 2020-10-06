@@ -31,7 +31,9 @@
         {
           "text": "Prenez également les nouvelles barres de 360mm, et installez les à l'image de la vidéo."
         },
-        { "text": "Glissez le chariot de X dans son emplacement sur la disco." }
+        {
+          "text": "Glissez le chariot de X dans son emplacement sur la disco."
+        }
       ]
     },
     {
@@ -45,12 +47,18 @@
         {
           "text": "Vissez les écrous à droite et a gauche sur les tiges trapézïdales. Placez les à meme hauteur."
         },
-        { "text": "Positionnez les 6 vis de vos tiges trapez, 3 par écrous." },
+        {
+          "text": "Positionnez les 6 vis de vos tiges trapez, 3 par écrous."
+        },
         {
           "text": "Montez et maintenez le chariot de X vers les écrous et vissez un premier coté légèrement."
         },
-        { "text": "Vissez ensuite le second coté plus fermement." },
-        { "text": "Puis revenez au premier coté, afin de finir le vissage." }
+        {
+          "text": "Vissez ensuite le second coté plus fermement."
+        },
+        {
+          "text": "Puis revenez au premier coté, afin de finir le vissage."
+        }
       ]
     },
     {
@@ -61,11 +69,15 @@
         {
           "title": "23 - installation du guide câble"
         },
-        { "text": "Prenez la nouvelle pièce plastique : le guide câble." },
+        {
+          "text": "Prenez la nouvelle pièce plastique : le guide câble."
+        },
         {
           "text": "Enlevez le colier plastique qui maintien les câbles de la tête, et installez le guide câble sur la tête afin de venir verouiller les câbles."
         },
-        { "text": "Placez un premier colier plastique dans l'emplacement." },
+        {
+          "text": "Placez un premier colier plastique dans l'emplacement."
+        },
         {
           "text": "Puis placez un second colier plastique à l'extrémité de ce câble afin de bien maintenir la gaine."
         }
@@ -124,7 +136,9 @@
         {
           "text": "Placez l'ensemble sur les barres verticales de votre disco, et enfoncez le TOP au maximum (vers le bas)."
         },
-        { "text": "Visez ensuite les 4 vis latérales." }
+        {
+          "text": "Visez ensuite les 4 vis latérales."
+        }
       ]
     },
     {
@@ -135,8 +149,12 @@
         {
           "title": "28 - installation de la courroie de X"
         },
-        { "text": "Utiliser pour cela la nouvelle courroie mise à votre disposition." },
-        { "text": "Suivez le guide vidéo pour son installation." },
+        {
+          "text": "Utiliser pour cela la nouvelle courroie mise à votre disposition."
+        },
+        {
+          "text": "Suivez le guide vidéo pour son installation."
+        },
         {
           "text": "Lorsque votre courroie est installée, vous pouvez coupez le surplus. Afin de pouvoir la re-tendre dans le futur, nous vous conseillons de laisser 2-3 cm tout de même !"
         },
@@ -151,6 +169,11 @@
     }
   ],
   "footer": {
-    "subtitle": "Montage de Z terminé"
+    "subtitle": "Montage de Z terminé",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

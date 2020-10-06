@@ -1,10 +1,14 @@
 {
   "time": {
-    "subtitle": ["Temps de préparation : 15 minutes"]
+    "subtitle": [
+      "Temps de préparation : 15 minutes"
+    ]
   },
   "header": {
     "img": "DiscoEasy/Add-on/Trapezoidales/1-a-intro.jpg",
-    "title": ["Notice de montage pack expert - Préparation et démontage"],
+    "title": [
+      "Notice de montage pack expert - Préparation et démontage"
+    ],
     "subtitle": "Ça y est, vous avez reçu votre pack expert.",
     "text": [
       "Nous allons vous accompagner dans le montage et l'utilisation de cette amélioration pour votre DiscoEasy200."
@@ -34,7 +38,9 @@
           "bold": "Part 2"
         },
         {
-          "list": ["2 moteurs de Z avec tiges filetées intégrées + écrous anti-backslash"]
+          "list": [
+            "2 moteurs de Z avec tiges filetées intégrées + écrous anti-backslash"
+          ]
         }
       ]
     },
@@ -69,7 +75,9 @@
     {
       "type": "banner",
       "title": "Place au démontage",
-      "subtitle": ["A chaque étape, conservez les vis."]
+      "subtitle": [
+        "A chaque étape, conservez les vis."
+      ]
     },
     {
       "media": {
@@ -238,6 +246,11 @@
   ],
   "footer": {
     "img": "DiscoEasy/Add-on/Trapezoidales/1-k-fin.jpg",
-    "subtitle": "Démontage de l'imprimante : CHECK !"
+    "subtitle": "Démontage de l'imprimante : CHECK !",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }

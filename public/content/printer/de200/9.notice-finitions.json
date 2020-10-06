@@ -263,6 +263,9 @@
     "items": [
       {
         "text": "Le montage est terminé. Soufflez, profitez, maintenant on va la mettre en marche."
+      },
+      {
+        "validation": {}
       }
     ]
   }

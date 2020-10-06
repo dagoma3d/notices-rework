@@ -88,6 +88,9 @@
     "items": [
       {
         "text": "Nous allons maintenant voir comment préparer vous même un gcode bi-couleur à l'aide de notre nouveau cura."
+      },
+      {
+        "validation": {}
       }
     ]
   }

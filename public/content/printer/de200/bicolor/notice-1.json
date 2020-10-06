@@ -1,10 +1,14 @@
 {
   "time": {
-    "subtitle": ["Temps total de montage approximatif : 1h30min"]
+    "subtitle": [
+      "Temps total de montage approximatif : 1h30min"
+    ]
   },
   "header": {
     "img": "DiscoEasy/Add-on/Bicouleur/0-a-intro.jpg",
-    "title": ["Notice de montage pack bi-couleur - préparation et démontage"],
+    "title": [
+      "Notice de montage pack bi-couleur - préparation et démontage"
+    ],
     "subtitle": "ça y est, vous avez reçu votre pack bi-couleur.",
     "text": [
       "Nous allons vous accompagner pour le montage et l'installation de ce 4ème add-on qui vous permettra d'imprimer avec deux couleurs différentes."
@@ -16,7 +20,9 @@
         "src": "DiscoEasy/Add-on/Bicouleur/1-b-contenu.jpg"
       },
       "article": [
-        { "title": "Dans le pack vous avez trouvé..." },
+        {
+          "title": "Dans le pack vous avez trouvé..."
+        },
         {
           "list": [
             "A - Une tête d'impression bi-couleur",
@@ -37,7 +43,9 @@
         "src": "DiscoEasy/Add-on/Trapezoidales/1-c-prerequis.jpg"
       },
       "article": [
-        { "title": "Les pré-requis" },
+        {
+          "title": "Les pré-requis"
+        },
         {
           "list": [
             "1. Un tournevis hexagonal 2.5 mm (fourni avec le kit DiscoEasy200)",
@@ -60,7 +68,9 @@
     {
       "type": "banner",
       "title": "PLACE AU DÉMONTAGE",
-      "text": ["A chaque étape, conservez les vis."]
+      "text": [
+        "A chaque étape, conservez les vis."
+      ]
     },
     {
       "media": {
@@ -70,10 +80,18 @@
         {
           "title": "Retrait de la gaine torsadée"
         },
-        { "text": "Retirez la gaine de la fixation latérale jusqu'au chariot." },
-        { "text": "Libérez les câbles de moteur et de butée." },
-        { "text": "Déclipsez la gaine du chariot." },
-        { "text": "Retirer le reste de la gaine." }
+        {
+          "text": "Retirez la gaine de la fixation latérale jusqu'au chariot."
+        },
+        {
+          "text": "Libérez les câbles de moteur et de butée."
+        },
+        {
+          "text": "Déclipsez la gaine du chariot."
+        },
+        {
+          "text": "Retirer le reste de la gaine."
+        }
       ]
     },
     {
@@ -94,9 +112,15 @@
         {
           "title": "Débranchez la butée de l'axe X"
         },
-        { "text": "Retournez la machine." },
-        { "text": "Débranchez la butée de X connectée sur la borne X+." },
-        { "text": "Retirez complètement le câble du dessous de la machine." }
+        {
+          "text": "Retournez la machine."
+        },
+        {
+          "text": "Débranchez la butée de X connectée sur la borne X+."
+        },
+        {
+          "text": "Retirez complètement le câble du dessous de la machine."
+        }
       ]
     },
     {
@@ -107,9 +131,15 @@
         {
           "title": "Débranchez la tête d'impression"
         },
-        { "text": "Sous la machine, débranchez le palpeur connecté sur la borne Y+." },
-        { "text": "Débranchez la sonde connectée sur la borne A13." },
-        { "text": "Retirez ensuite les fils connectés aux borniers E0, E1 et FAN." }
+        {
+          "text": "Sous la machine, débranchez le palpeur connecté sur la borne Y+."
+        },
+        {
+          "text": "Débranchez la sonde connectée sur la borne A13."
+        },
+        {
+          "text": "Retirez ensuite les fils connectés aux borniers E0, E1 et FAN."
+        }
       ]
     },
     {
@@ -120,12 +150,18 @@
         {
           "title": "Démontage de la partie supérieure"
         },
-        { "text": "S'il vous reste du filament dans la tête d'impression, retirez-le." },
+        {
+          "text": "S'il vous reste du filament dans la tête d'impression, retirez-le."
+        },
         {
           "text": "Débranchez le tube PTFE en appuyant sur le connecteur noir et retirez-le du top."
         },
-        { "text": "Desserrez les 4 vis latérales." },
-        { "text": "Retirez la partie supérieure de l'imprimante." }
+        {
+          "text": "Desserrez les 4 vis latérales."
+        },
+        {
+          "text": "Retirez la partie supérieure de l'imprimante."
+        }
       ]
     },
     {
@@ -136,12 +172,24 @@
         {
           "title": "Retrait de l'axe X"
         },
-        { "text": "Dévissez les vis supérieures des coupleurs." },
-        { "text": "Retirez les tiges filetées des coupleurs." },
-        { "text": "Tirez ensuite l'ensemble vers le haut pour le sortir de la machine." },
-        { "text": "Retirez ensuite les deux tiges filetées." },
-        { "text": "Attention, elles sont recouvertes d'huile." },
-        { "text": "Retenez les écrous supérieurs pour éviter qu'ils ne partent d'un coup." }
+        {
+          "text": "Dévissez les vis supérieures des coupleurs."
+        },
+        {
+          "text": "Retirez les tiges filetées des coupleurs."
+        },
+        {
+          "text": "Tirez ensuite l'ensemble vers le haut pour le sortir de la machine."
+        },
+        {
+          "text": "Retirez ensuite les deux tiges filetées."
+        },
+        {
+          "text": "Attention, elles sont recouvertes d'huile."
+        },
+        {
+          "text": "Retenez les écrous supérieurs pour éviter qu'ils ne partent d'un coup."
+        }
       ]
     },
     {
@@ -152,9 +200,15 @@
         {
           "title": "Démontage de l'axe X"
         },
-        { "text": "Retirez la courroie de la tête." },
-        { "text": "Séparez tous les éléments." },
-        { "text": "Mettez les barres de côté." }
+        {
+          "text": "Retirez la courroie de la tête."
+        },
+        {
+          "text": "Séparez tous les éléments."
+        },
+        {
+          "text": "Mettez les barres de côté."
+        }
       ]
     },
     {
@@ -165,9 +219,15 @@
         {
           "title": "Débranchez le moteur d'extrudeur"
         },
-        { "text": "Retournez la machine pour accéder au câblage." },
-        { "text": "Retirez le tube PTFE." },
-        { "text": "Débranchez le câble relié au moteur d'extrudeur." }
+        {
+          "text": "Retournez la machine pour accéder au câblage."
+        },
+        {
+          "text": "Retirez le tube PTFE."
+        },
+        {
+          "text": "Débranchez le câble relié au moteur d'extrudeur."
+        }
       ]
     },
     {
@@ -178,9 +238,15 @@
         {
           "title": "Retrait de la courroie du plateau"
         },
-        { "text": "Toujours sous la machine, débloquez le premier brin de la courroie." },
-        { "text": "Retirez le second brin." },
-        { "text": "Tirez sur la courroie pour la retirer totalement." }
+        {
+          "text": "Toujours sous la machine, débloquez le premier brin de la courroie."
+        },
+        {
+          "text": "Retirez le second brin."
+        },
+        {
+          "text": "Tirez sur la courroie pour la retirer totalement."
+        }
       ]
     },
     {
@@ -191,14 +257,25 @@
         {
           "title": "Retrait de la face arrière"
         },
-        { "text": "Desserez les vis sur les côtés de la face arrière (il y en a 4)." },
-        { "text": "Tirez sur la pièce en maintenant le reste de la machine." },
-        { "text": "Soyez délicat" }
+        {
+          "text": "Desserez les vis sur les côtés de la face arrière (il y en a 4)."
+        },
+        {
+          "text": "Tirez sur la pièce en maintenant le reste de la machine."
+        },
+        {
+          "text": "Soyez délicat"
+        }
       ]
     }
   ],
   "footer": {
     "img": "DiscoEasy/Add-on/Bicouleur/1-o-fin.jpg",
-    "subtitle": "Démontage de l'imprimante terminé"
+    "subtitle": "Démontage de l'imprimante terminé",
+    "items": [
+      {
+        "validation": {}
+      }
+    ]
   }
 }
