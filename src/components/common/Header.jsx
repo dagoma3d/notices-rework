@@ -10,8 +10,11 @@ function Header() {
   };
 
   const handleKeyPress = (event) => {
-    if (event.key === 'e') changeLanguage('en');
-    if (event.key === 'f') changeLanguage('fr');
+    const events = {
+      'e': changeLanguage('en'),
+      'f': changeLanguage('fr')
+    }
+    return events[event.key]
   }
 
   useEffect(() => {

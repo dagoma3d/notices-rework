@@ -7,21 +7,15 @@ import Interface from '../cura-by-dagoma/Interface';
 import Slide from '../magis/Slide';
 
 function Block({ index, content }) {
-  switch (content.type) {
-    case 'interface':
-      return <Interface />;
-    case 'slide':
-      return <Slide />;
-    case 'banner':
-      return <Banner content={content} />;
-    case 'google-document':
-      return <GoogleDocument content={content} />
-    case 'item':
-      delete content.type;
-      return <Item content={content} />
-    default:
-      return <Section index={index} content={content} />;
-  };
+  const blocks = {
+    'interface': <Interface />,
+    'slide': <Slide />,
+    'banner': <Banner content={content} />,
+    'google-document': <GoogleDocument content={content} />,
+    'item': () => { delete content.type; return <Item content={content} /> },
+    'default': <Section index={index} content={content} />
+  }
+  return blocks[content.type] || blocks['default']
 }
 
 export default Block
