@@ -19,7 +19,8 @@ function Page() {
   console.log(match);
 
   useEffect(() => {
-    fetch(`/content${match.url}.json`)
+    const resource = (match.params.step) ? `/content${match.url}.json` : `/content${match.url}/0.json`;
+    fetch(resource)
       .then((response) => response.json())
       .then((data) => {
         setContent(data);
@@ -30,7 +31,11 @@ function Page() {
   }, [match]);
 
   useEffect(() => {
-    fetch(`/nav${match.url}.json`)
+    const params = Object.values(match.params);
+    params.pop();
+    const resource = `/nav/${params.join('/')}.json`;
+    console.log(resource);
+    fetch(resource)
       .then((response) => response.json())
       .then((data) => {
         setNav(data);
