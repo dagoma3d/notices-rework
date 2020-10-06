@@ -48,23 +48,23 @@ function Button({ text, color, to, href, download, label, position }) {
   const { t } = useTranslation();
   if (!to && !href) return null;
 
-  const getClasses = (color) => {
+  const getClasses = (c) => {
     const classes = {
       'white': 'new-btn btn-classic btn-grey btn-wide',
       'orange': 'new-btn btn-valid btn-wide',
       'default': 'link-classic'
     }
-    return classes[color] || classes['default']
+    return classes[c] || classes['default']
   }
 
-  const getPosition = (position) => {
+  const getPosition = (p) => {
     const classes = {
       'left': 'tleft',
       'center': 'tcenter',
       'right': 'tright',
       'default': 'tleft'
     }
-    return classes[position] || classes['default']
+    return classes[p] || classes['default']
   }
 
   const pre = (text) ? `${t(text)} ` : null;
@@ -81,6 +81,10 @@ Button.defaultProps = {
   label: 'ici'
 }
 
+Button.defaultProps = {
+  label: 'ici'
+}
+
 function Container({ content }) {
   if (!content) return null;
   return (
@@ -88,10 +92,6 @@ function Container({ content }) {
       {content.map((i, k) => <Item key={k} content={i} />)}
     </div>
   )
-}
-
-Button.defaultProps = {
-  label: 'ici'
 }
 
 function AdditionalInfo({ content }) {
@@ -130,33 +130,21 @@ function Video({ content }) {
 
 function Item({ content }) {
   const [k, v] = Object.entries(content)[0];
-  switch (k) {
-    case 'container':
-      return <Container content={v} />
-    case 'pretitle':
-      return <PreTitle content={v} />;
-    case 'title':
-      return <Title content={v} />;
-    case 'text':
-      return <Text content={v} />;
-    case 'bold':
-      return <Text content={v} bold />
-    case 'italic':
-      return <Text content={v} italic />;
-    case 'frame':
-      if (typeof v === 'string') return <Text content={v} frame />;
-      return <Frame content={v} />;
-    case 'warning':
-      return <Text content={v} warning />;
-    case 'list':
-      return <List content={v} />;
-    case 'button':
-      return <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} position={v.position} />;
-    case 'video':
-      return <Video content={v} />
-    default:
-      return null;
+  const items = {
+    'container': <Container content={v} />,
+    'pretitle': <PreTitle content={v} />,
+    'title': <Title content={v} />,
+    'text': <Text content={v} />,
+    'bold': <Text content={v} bold />,
+    'italic': <Text content={v} italic />,
+    'warning': <Text content={v} warning />,
+    'list': <List content={v} />,
+    'frame': typeof v === 'string' ? <Text content={v} frame /> : <Frame content={v} />,
+    'button': <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} position={v.position} />,
+    'video': <Video content={v} />,
+    'default': null
   }
+  return items[k] || items['default']
 }
 
 export default Item;
