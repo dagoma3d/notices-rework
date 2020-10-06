@@ -13,60 +13,34 @@ function Blocks({ content }) {
 
 function Page() {
   const [content, setContent] = useState();
+  const [nav, setNav] = useState();
+  const [active, setActive] = useState();
   const match = useRouteMatch();
   console.log(match);
 
-  let step = match.params.step;
-  let active = step ? parseInt(step) || parseInt(step.replace(/^\D+-/g, '')) - 1 : 0;;
-
-  let resource;
-  let nav;
-  if (match.url.includes('cura-by-dagoma')) {
-    resource = '/content/cura-by-dagoma/index.json';
-    switch (match.params.printer) {
-      case 'magis':
-        active = 5;
-        break;
-      case 'de200':
-        active = 13;
-        break;
-      case 'du':
-        active = 12;
-        break;
-      default:
-        active = 0;
-    }
-
-  } else if (match.url.includes('firmware')) {
-    resource = '/content/firmware/index.json';
-  } else if (match.url.includes('calibration')) {
-    resource = '/content/calibration/index.json';
-  } else if (match.url.includes('box')) {
-    resource = `/content/box/${match.params.printer}/${match.params.step || '0'}.json`;
-    if (match.params.printer.includes('magis')) nav = 'box';
-  } else if (match.url.includes('addon/xl/du')) {
-    resource = `/content/printer/du/xl/${match.params.step || '0'}.json`;
-    nav = 'xl/du';
-  } else if (match.url.includes('addon/xl/de200')) {
-    resource = `/content/printer/de200/xl/${match.params.step || '0'}.json`;
-    nav = 'xl/de200';
-  } else if (match.url.includes('addon/bicolor/du')) {
-    resource = `/content/printer/du/bicolor/${match.params.step || '0'}.json`;
-    nav = 'bicolor/du';
-  } else if (match.url.includes('addon/bicolor/de200')) {
-    resource = `/content/printer/du/de200/${match.params.step || '0'}.json`;
-    nav = 'bicolor/de200';
-  } else {
-    resource = `/content/${match.params.product}/${match.params.ref}/${match.params.step || '0'}.json`;
-  }
-
+  useEffect(() => {
+    fetch(`content/${match.url}.json`)
+      .then((response) => response.json())
+      .then((data) => {
+        setContent(data);
+      })
+      .catch((error) => {
+        setContent({ error: error.message });
+      });
+  }, [match]);
 
   useEffect(() => {
-    fetch(resource)
-      .then(response => response.json())
-      .then(data => { setContent(data); })
-      .catch(error => { setContent({ 'error': error.message }); });
-  }, [resource]);
+    fetch(`nav/${match.url}.json`)
+      .then((response) => response.json())
+      .then((data) => {
+        setNav(data);
+        // TODO : active logic according to nav and route url
+        setActive(0);
+      })
+      .catch((error) => {
+        setNav();
+      });
+  }, [match]);
 
   if (!content) return null;
 
@@ -74,7 +48,7 @@ function Page() {
 
   return (
     <Fragment>
-      <NavBar path={match.params.ref || nav} active={active} />
+      <NavBar nav={nav} active={active} />
       <Banner small content={content.time} />
       <Ribbon content={content.header} />
       <Blocks content={content.blocks} />

@@ -1,9 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 function Image({ img }) {
   if (!img) return null;
-  return <figure><img src={`/img/${img}`} alt="" /></figure>;
+  return (
+    <figure>
+      <img src={`/img/${img}`} alt="" />
+    </figure>
+  );
 }
 
 function NavItem(props) {
@@ -19,16 +23,8 @@ function NavItem(props) {
   );
 }
 
-function NavBar({ path, active }) {
-  const [nav, setNav] = useState();
+function NavBar({ nav, active }) {
   const [opened, setOpened] = useState(false);
-
-  useEffect(() => {
-    fetch(`/content/nav/${path}.json`)
-      .then(response => response.json())
-      .then(data => { setNav(data); })
-      .catch(error => { setNav(); });
-  }, [path]);
 
   if (!nav) return null;
   return (
@@ -37,9 +33,11 @@ function NavBar({ path, active }) {
         <p>Navigation</p>
       </div>
       <ul className="col-xl-21 col-xl-offset-3 row notice-step lsn">
-        {nav.map((i, k) => <NavItem key={k} href={i.href} label={i.label} img={i.img} active={active === k} />)}
+        {nav.map((i, k) => (
+          <NavItem key={k} href={i.href} label={i.label} img={i.img} active={active === k} />
+        ))}
       </ul>
-      <button className="toggle-nav" onClick={() => setOpened(!opened)} type='button'>
+      <button className="toggle-nav" onClick={() => setOpened(!opened)} type="button">
         <i className="fa fa-arrow-right" />
       </button>
     </nav>
