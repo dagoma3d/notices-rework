@@ -19,7 +19,8 @@ function Page() {
   console.log(match);
 
   useEffect(() => {
-    fetch(`/content${match.url}.json`)
+    const resource = (match.params.step) ? `/content${match.url}.json` : `/content${match.url}/0.json`;
+    fetch(resource)
       .then((response) => response.json())
       .then((data) => {
         setContent(data);
