@@ -87,11 +87,6 @@
   "footer": {
     "flip": true,
     "img": "NevaMagis/Notice/a-derouleur.jpg",
-    "subtitle": "Je suis prêt à dérouler !",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Je suis prêt à dérouler !"
   }
 }

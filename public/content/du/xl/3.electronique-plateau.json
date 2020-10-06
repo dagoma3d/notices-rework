@@ -128,11 +128,6 @@
     }
   ],
   "footer": {
-    "subtitle": "Montage terminé",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Montage terminé"
   }
 }

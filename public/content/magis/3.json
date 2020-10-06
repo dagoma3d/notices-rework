@@ -182,11 +182,6 @@
   "footer": {
     "flip": true,
     "img": "NevaMagis/Notice/2-a-1600x600.jpg",
-    "subtitle": "J'ai réussi à assembler les deux premiers éléments !",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "J'ai réussi à assembler les deux premiers éléments !"
   }
 }

@@ -170,11 +170,6 @@
     }
   ],
   "footer": {
-    "subtitle": "Montage de la base terminé",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Montage de la base terminé"
   }
 }

@@ -193,11 +193,6 @@
   ],
   "footer": {
     "img": "NevaMagis/Notice/0-a-magis-bobine.jpg",
-    "subtitle": "Premiers réglages : CHECK !",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Premiers réglages : CHECK !"
   }
 }

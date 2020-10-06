@@ -266,11 +266,6 @@
   ],
   "footer": {
     "img": "DiscoUltimate/Notice/10-o-fin.jpg",
-    "subtitle": "Le montage de votre Disco Ultimate est terminé !",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Le montage de votre Disco Ultimate est terminé !"
   }
 }

@@ -188,11 +188,6 @@
   ],
   "footer": {
     "img": "DiscoEasy/Add-on/Bicouleur/2-i-fin.jpg",
-    "subtitle": "Transfert des composants terminé",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Transfert des composants terminé"
   }
 }

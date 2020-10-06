@@ -261,11 +261,6 @@
   ],
   "footer": {
     "img": "NevaMagis/Notice/Addons/Caisson/1-a-intro.jpg",
-    "subtitle": "Préparation des éléments terminée",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Préparation des éléments terminée"
   }
 }
