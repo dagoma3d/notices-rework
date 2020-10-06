@@ -1,7 +1,9 @@
 {
   "header": {
     "img": "FirstStep/premier-pas.jpg",
-    "title": ["Premiers pas"],
+    "title": [
+      "Premiers pas"
+    ],
     "subtitle": "C'est parti !",
     "text": [
       "Félicitations ! Si vous êtes ici c'est que vous avez fait un (bon) choix : vous lancer dans l'aventure de l'impression 3D. Nous allons vous accompagner étape par étape, du montage à la première utilisation de votre machine ou de vos nouveaux composants. Vous êtes prêts ?"
@@ -17,17 +19,17 @@
       "src": "magis",
       "options": [
         {
-          "to": "/printer/magis",
+          "to": "/magis",
           "src": "magis",
           "title": "Magis"
         },
         {
-          "to": "/addon/box/neva-magis",
+          "to": "/magis/box",
           "src": "caisson-neva-magis",
           "title": "Caisson"
         },
         {
-          "to": "/cura-by-dagoma/magis",
+          "to": "/cura-by-dagoma",
           "src": "cura",
           "title": "Notice de montage"
         }
@@ -38,12 +40,12 @@
       "src": "neva",
       "options": [
         {
-          "to": "/printer/neva",
+          "to": "/neva",
           "src": "neva",
           "title": "Neva"
         },
         {
-          "to": "/addon/box/neva-magis",
+          "to": "/neva/box",
           "src": "caisson-neva-magis",
           "title": "Caisson"
         },
@@ -59,38 +61,38 @@
       "src": "discoeasy",
       "options": [
         {
-          "to": "/printer/de200",
+          "to": "/de200",
           "src": "discoeasy",
           "title": "Notice de montage"
         },
         {
-          "to": "/addon/screen",
+          "to": "/de200/screen",
           "title": "Ecran"
         },
         {
-          "to": "/addon/extruder-plus-de200",
+          "to": "/de200/extruder-plus-de200",
           "title": "Extrudeur+"
         },
         {
-          "to": "/addon/expert-de200",
+          "to": "/de200/expert-de200",
           "title": "Pack expert"
         },
         {
-          "to": "/addon/bicolor-de200",
+          "to": "/de200/bicolor-de200",
           "title": "Pack bi-couleur"
         },
         {
-          "to": "/addon/box/disco",
+          "to": "/de200/box",
           "src": "caisson-disco",
           "title": "Caisson de protection"
         },
         {
-          "to": "/addon/evo-de200",
+          "to": "/de200/evo-de200",
           "src": "pack-evo",
           "title": "Pack évolution Ultimate"
         },
         {
-          "to": "/addon/xl/de200/demontage",
+          "to": "/de200/xl",
           "title": "Pack XL"
         },
         {
@@ -105,29 +107,29 @@
       "src": "disco-ultimate",
       "options": [
         {
-          "to": "/printer/du",
+          "to": "/du",
           "src": "disco-ultimate",
           "title": "Notice de montage"
         },
         {
-          "to": "/addon/screen",
+          "to": "/du/screen",
           "title": "Ecran"
         },
         {
-          "to": "/addon/bicolor/du",
+          "to": "/du/bicolor",
           "title": "Pack bi-couleur"
         },
         {
-          "to": "/addon/xl/du",
+          "to": "/du/xl",
           "title": "Pack XL"
         },
         {
-          "to": "/addon/box/disco",
+          "to": "/du/box",
           "src": "caisson-disco",
           "title": "Caisson de protection"
         },
         {
-          "to": "/cura-by-dagoma/du",
+          "to": "/cura-by-dagoma",
           "src": "cura",
           "title": "Cura by Dagoma"
         }
