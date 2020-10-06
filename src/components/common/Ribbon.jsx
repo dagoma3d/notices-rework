@@ -14,12 +14,6 @@ function SubTitle({ content }) {
   return <p className="big-title tleft">{t(content)}</p>;
 }
 
-function Text({ content }) {
-  const { t } = useTranslation();
-  if (!content) return null;
-  return <p>{t(content)}</p>;
-}
-
 function Note({ content }) {
   const { t } = useTranslation();
   if (!content) return null;

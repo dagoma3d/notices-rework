@@ -131,11 +131,11 @@ function Video({ content }) {
 function Validation(props) {
   const { t } = useTranslation();
   const { step, text } = props;
-  if (!text) text = "Je valide cette étape";
+  const label = text || "Je valide cette étape";
   return (
     <div className="checkbox-classic checkbox-full-width">
       <input id="yo" type="checkbox" />
-      <label className="tnormal valid-step" data-redirect={step} htmlFor="yo">{t(text)}</label>
+      <label className="tnormal valid-step" data-redirect={step} htmlFor="yo">{t(label)}</label>
     </div>
   );
 }
