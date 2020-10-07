@@ -12,8 +12,9 @@ jobs:
         run: |
           npm install
           npm run build
-      - name: npm install and build explorer
+      - name: Update matching Github page
         run: |
           cd ..
-          git clone git@github.com:dagoma3d/dagoma3d.github.io.git
+          pwd
+          git clone https://${{secrets.API_TOKEN_GITHUB}}@github.com/dagoma3d.github.io.git
           cd dagoma3d.github.io
