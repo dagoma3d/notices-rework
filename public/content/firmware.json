@@ -1,11 +1,11 @@
 {
   "header": {
     "img": "DiscoEasy/Software/a-intro-maj-disco.jpg",
-    "subtitle": "Mise à jour pour votre ${printerInfo.name}",
+    "subtitle": "Mise à jour pour votre Imprimante",
     "text": [
       "Profitez de la mise à jour de votre firmware et bénéficiez de nouvelles fonctionnalités sur votre imprimante."
     ],
-    "note": "Marlin ${printerInfo.abbr} - ${printerInfo.date}"
+    "note": "Marlin - 15/11/2019"
   },
   "blocks": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "media": {
-        "src": "DiscoEasy/Calibration/${printerInfo.img}"
+        "src": "DiscoEasy/Calibration/d-prerequis-du.jpg"
       },
       "article": [
         {
@@ -42,7 +42,7 @@
         },
         {
           "list": [
-            "Une ${printerInfo.name}",
+            "Une imprimante 3d",
             "Un câble USB-B (fournis avec ton imprimante)",
             "Un ordinateur et Dagom'app"
           ]
@@ -62,9 +62,7 @@
     {
       "type": "banner",
       "title": "Commençons !",
-      "text": [
-        "Lancez dagom'app et suivez les instructions"
-      ]
+      "text": ["Lancez dagom'app et suivez les instructions"]
     },
     {
       "media": {
@@ -104,7 +102,7 @@
           "title": "Etape 3"
         },
         {
-          "text": "Cliquez sur ${printerInfo.name}."
+          "text": "Cliquez sur l'icône correspondant au modèle de votre imprimante."
         }
       ]
     },
@@ -118,14 +116,14 @@
           "title": "Etape 4"
         },
         {
-          "text": "Reliez la ${printerInfo.name} à l'ordinateur via le cable USB fournis."
+          "text": "Reliez l'imprimante à l'ordinateur via le cable USB fournis."
         },
         {
           "text": "Pour le passage du câble regarde la vidéo suivante :"
         },
         {
           "video": {
-            "id": "printerInfo.video"
+            "id": "7xCQ0SH4ONg"
           }
         }
       ]
@@ -157,12 +155,12 @@
           "text": "On y est presque !"
         },
         {
-          "text": "Téléchargez le firmware HEX pour votre ${printerInfo.name} :"
+          "text": "Téléchargez le firmware HEX correspondant à votre imprimante et les options associées :"
         },
         {
           "button": {
             "color": "orange",
-            "href": "//dist.dagoma3d.com/Marlin-Firmwares/${printerInfo.firmware}",
+            "href": "//dist.dagoma3d.com/Marlin-Firmwares",
             "label": "Télécharger le firmware HEX"
           }
         },
@@ -201,7 +199,7 @@
           "title": "Etape 8"
         },
         {
-          "text": "Votre ${printerInfo.name} a été mise à jour. Vous pouvez fermer Dagom'app."
+          "text": "Votre imprimante a été mise à jour. Vous pouvez fermer Dagom'app."
         },
         {
           "text": "Encore une dernière étape."

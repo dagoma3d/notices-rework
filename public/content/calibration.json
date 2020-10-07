@@ -1,7 +1,7 @@
 {
   "header": {
     "img": "DiscoEasy/Software/a-intro-maj-disco.jpg",
-    "subtitle": "Calibrez votre ${printerInfo.name}",
+    "subtitle": "Calibrez votre imprimante",
     "text": [
       "Votre imprimante 3d a besoin de vous pour retrouver ses repères. Une bonne calibration permet d'obtenir une première couche propre."
     ]
@@ -9,7 +9,7 @@
   "blocks": [
     {
       "media": {
-        "src": "DiscoEasy/Calibration/${printerInfo.img}",
+        "src": "DiscoEasy/Calibration/b1-prerequis-du.jpg",
         "gray": true
       },
       "article": [
@@ -59,9 +59,7 @@
     {
       "type": "banner",
       "title": "Commençons !",
-      "subtitle": [
-        "Lancez Dagom'app et suivez les instructions"
-      ]
+      "subtitle": ["Lancez Dagom'app et suivez les instructions"]
     },
     {
       "media": {
@@ -101,7 +99,7 @@
           "title": "Etape 3"
         },
         {
-          "text": "Cliquez sur Disco ${printerInfo.name}"
+          "text": "Cliquez sur l'icône correspondant à votre modèle d'imprimante"
         }
       ]
     },
@@ -122,7 +120,7 @@
         },
         {
           "video": {
-            "id": "printerInfo.video"
+            "id": "7xCQ0SH4ONg"
           }
         }
       ]
