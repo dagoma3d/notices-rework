@@ -41,12 +41,12 @@ function Page() {
       .then((response) => response.json())
       .then((data) => {
         setNav(data);
-        data.forEach((d, i) => {
-
-          console.log(i);
-        });
-        // TODO : active logic according to nav and route url
-        setActive(0);
+        for (let i = 0; i < data.length; i += 1) {
+          if (data[i].href === match.url) {
+            setActive(i);
+            break;
+          }
+        }
       })
       .catch(() => {
         params.pop();
@@ -54,8 +54,12 @@ function Page() {
           .then((response) => response.json())
           .then((data) => {
             setNav(data);
-            // TODO : active logic according to nav and route url
-            setActive(0);
+            for (let i = 0; i < data.length; i += 1) {
+              if (data[i].href === match.url) {
+                setActive(i);
+                break;
+              }
+            }
           })
           .catch(() => {
             setNav();
