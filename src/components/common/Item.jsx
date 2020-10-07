@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Text({ content, italic, frame, warning, bold }) {
   const { t } = useTranslation();
   if (!content) return null;
-  if (Array.isArray(content)) return (content.map((v) => <Text content={v} />))
+  if (Array.isArray(content)) return (content.map((i, k) => <Text key={k} content={i} />))
   const classes = [];
   if (italic) classes.push('italic');
   if (bold) classes.push('bold');

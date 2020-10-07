@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import Item from './Item';
 import { useTranslation } from 'react-i18next';
@@ -27,15 +27,23 @@ function Items({ content }) {
 }
 
 function Validation({ content, validationUrl }) {
+  const { t } = useTranslation();
   if (!validationUrl) return null;
+  const handleOnClick = (e) => {
+    setTimeout(() => {
+      document.querySelector(`a[href='${validationUrl}']`).click()
+    }, 300);
+  }
+
   const label = content && content.text ? content.text : "Je valide cette étape";
   return (
-    <Link to={validationUrl}>
-      <div className="checkbox-classic checkbox-full-width">
+    <Fragment>
+      <div className="checkbox-classic checkbox-full-width" onClick={handleOnClick}>
         <input id="yo" type="checkbox" />
-        <label className="tnormal valid-step" htmlFor="yo">{label}</label>
+        <label className="tnormal valid-step" htmlFor="yo">{t(label)}</label>
       </div>
-    </Link>
+      <Link to={validationUrl} ></Link>
+    </Fragment>
   );
 }
 

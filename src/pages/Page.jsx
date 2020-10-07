@@ -18,7 +18,6 @@ function Page() {
   const match = useRouteMatch();
 
   const getValidationUrl = () => {
-    console.log(nav, active)
     if (!nav) return null
     if (active < nav.length - 1) return nav[active + 1].href
   }
@@ -73,7 +72,7 @@ function Page() {
       <Banner small content={content.time} />
       <Ribbon content={content.header} />
       <Blocks content={content.blocks} />
-      <Ribbon content={content.footer} validationUrl={getValidationUrl} />
+      <Ribbon content={content.footer} validationUrl={getValidationUrl()} />
     </Fragment>
   );
 }
