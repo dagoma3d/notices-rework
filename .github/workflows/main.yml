@@ -20,7 +20,7 @@ jobs:
           cd dagoma3d.github.io
           git status
           git config --global user.email "hello@dagoma3d.com"
-          git config --global user.name "Dagoma"
+          git config --global user.name "dagoma3d"
           git add .
           git commit -am "Update from github actions"
           git push
