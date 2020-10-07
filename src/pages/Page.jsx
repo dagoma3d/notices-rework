@@ -17,6 +17,12 @@ function Page() {
   const [active, setActive] = useState();
   const match = useRouteMatch();
 
+  const getValidationUrl = (nav, active) => {
+    console.log(nav, active)
+    if (!nav) return null
+    if (active < nav.length - 1) return nav[active + 1].href
+  }
+
   useEffect(() => {
     fetch(`/content${match.url}.json`)
       .then((response) => response.json())
@@ -77,7 +83,7 @@ function Page() {
       <Banner small content={content.time} />
       <Ribbon content={content.header} />
       <Blocks content={content.blocks} />
-      <Ribbon content={content.footer} />
+      <Ribbon content={content.footer} validationUrl={getValidationUrl(nav, active)} />
     </Fragment>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Item from './Item';
 import { useTranslation } from 'react-i18next';
 
@@ -25,9 +26,22 @@ function Items({ content }) {
   return content.map((i, k) => <Item key={k} content={i} />);
 }
 
-function Ribbon({ content }) {
+function Validation({ content, validationUrl }) {
+  if (!validationUrl) return null;
+  const label = content && content.text ? content.text : "Je valide cette étape";
+  return (
+    <Link to={validationUrl}>
+      <div className="checkbox-classic checkbox-full-width">
+        <input id="yo" type="checkbox" />
+        <label className="tnormal valid-step" htmlFor="yo">{label}</label>
+      </div>
+    </Link>
+  );
+}
+
+function Ribbon({ content, validationUrl }) {
   if (!content) return null;
-  const { flip, img, title, subtitle, items, note } = content;
+  const { flip, img, title, subtitle, items, note, validation } = content;
   const flipClass = (flip) ? 'block-caption-left' : 'block-caption-right';
   return (
     <section className="col-xl-24 notice-mask row">
@@ -39,6 +53,7 @@ function Ribbon({ content }) {
         <Title content={title} />
         <SubTitle content={subtitle} />
         <Items content={items} />
+        <Validation content={validation} validationUrl={validationUrl} />
         <Note content={note} />
       </section>
     </section>

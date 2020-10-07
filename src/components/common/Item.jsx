@@ -128,18 +128,6 @@ function Video({ content }) {
   );
 }
 
-function Validation({ content }) {
-  const { t } = useTranslation();
-  const { step, text } = content;
-  const label = text || "Je valide cette étape";
-  return (
-    <div className="checkbox-classic checkbox-full-width">
-      <input id="yo" type="checkbox" />
-      <label className="tnormal valid-step" data-redirect={step} htmlFor="yo">{t(label)}</label>
-    </div>
-  );
-}
-
 function Item({ content }) {
   const [k, v] = Object.entries(content)[0];
   const items = {
@@ -154,7 +142,6 @@ function Item({ content }) {
     'frame': typeof v === 'string' ? <Text content={v} frame /> : <Frame content={v} />,
     'button': <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} position={v.position} />,
     'video': <Video content={v} />,
-    'validation': <Validation content={v} />,
     'default': null
   }
   return items[k] || items['default']
