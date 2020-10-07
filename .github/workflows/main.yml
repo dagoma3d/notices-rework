@@ -14,7 +14,7 @@ jobs:
           npm run build
       - name: Update matching Github page
         run: |
-          cd ..
-          pwd
-          git clone https://${{secrets.API_TOKEN_GITHUB}}@github.com/dagoma3d.github.io.git
+          git clone https://github.com/dagoma3d/dagoma3d.github.io.git
+          cp -r ./build/* ./dagoma3d.github.io/
           cd dagoma3d.github.io
+          git status
