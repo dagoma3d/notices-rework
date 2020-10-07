@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 function Text({ content, italic, frame, warning, bold }) {
   const { t } = useTranslation();
   if (!content) return null;
+  if (Array.isArray(content)) return (content.map((v) => <Text content={v} />))
   const classes = [];
   if (italic) classes.push('italic');
   if (bold) classes.push('bold');
@@ -129,7 +130,9 @@ function Video({ content }) {
 }
 
 function Item({ content }) {
+  if (!content) return null
   const [k, v] = Object.entries(content)[0];
+  if (!v) return null
   const items = {
     'container': <Container content={v} />,
     'pretitle': <PreTitle content={v} />,

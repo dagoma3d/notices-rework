@@ -41,7 +41,7 @@ function Validation({ content, validationUrl }) {
 
 function Ribbon({ content, validationUrl }) {
   if (!content) return null;
-  const { flip, img, title, subtitle, items, note, validation } = content;
+  const { flip, img, title, subtitle, text, items, note, validation } = content;
   const flipClass = (flip) ? 'block-caption-left' : 'block-caption-right';
   return (
     <section className="col-xl-24 notice-mask row">
@@ -52,6 +52,7 @@ function Ribbon({ content, validationUrl }) {
       <section className={`block-caption-classic ${flipClass}`}>
         <Title content={title} />
         <SubTitle content={subtitle} />
+        <Item content={{ "text": text }} />
         <Items content={items} />
         <Validation content={validation} validationUrl={validationUrl} />
         <Note content={note} />
