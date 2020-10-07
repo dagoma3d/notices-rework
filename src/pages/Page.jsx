@@ -17,59 +17,49 @@ function Page() {
   const [active, setActive] = useState();
   const match = useRouteMatch();
 
-  const getValidationUrl = (nav, active) => {
+  const getValidationUrl = () => {
     console.log(nav, active)
     if (!nav) return null
     if (active < nav.length - 1) return nav[active + 1].href
   }
 
   useEffect(() => {
-    fetch(`/content${match.url}.json`)
+    const resources = [`/content${match.url}.json`, `/content${match.url}/0.json`];
+    fetch(resources[0])
       .then((response) => response.json())
-      .then((data) => {
-        setContent(data);
-      })
+      .then(data => setContent(data))
       .catch(() => {
-        fetch(`/content${match.url}/0.json`)
-          .then((response) => response.json())
-          .then((data) => {
-            setContent(data);
-          })
-          .catch((error) => {
-            setContent({ error: error.message });
-          });
-      })
+        fetch(resources[1])
+          .then(response => response.json())
+          .then(data => setContent(data))
+          .catch((error) => setContent({ error: error.message }));
+      });
   }, [match]);
 
   useEffect(() => {
     const params = Object.values(match.params).filter((i) => i !== undefined);
-    fetch(`/nav/${params.join('/')}.json`)
-      .then((response) => response.json())
-      .then((data) => {
-        setNav(data);
-        for (let i = 0; i < data.length; i += 1) {
-          if (data[i].href === match.url) {
-            setActive(i);
-            break;
-          }
+    const resources = [`/nav/${params.join('/')}.json`];
+    params.pop();
+    resources.push(`/nav/${params.join('/')}.json`);
+
+    const handleNav = (data) => {
+      setNav(data);
+      for (let i = 0; i < data.length; i += 1) {
+        if (data[i].href === match.url) {
+          setActive(i);
+          break;
         }
-      })
+      }
+    };
+
+    fetch(resources[0])
+      .then(response => response.json())
+      .then(data => handleNav(data))
       .catch(() => {
-        params.pop();
-        fetch(`/nav/${params.join('/')}.json`)
-          .then((response) => response.json())
-          .then((data) => {
-            setNav(data);
-            for (let i = 0; i < data.length; i += 1) {
-              if (data[i].href === match.url) {
-                setActive(i);
-                break;
-              }
-            }
-          })
-          .catch(() => {
-            setNav();
-          });
+        fetch(resources[1])
+          .then(response => response.json())
+          .then(data => handleNav(data))
+          .catch(() => setNav());
       });
   }, [match]);
 
@@ -83,7 +73,7 @@ function Page() {
       <Banner small content={content.time} />
       <Ribbon content={content.header} />
       <Blocks content={content.blocks} />
-      <Ribbon content={content.footer} validationUrl={getValidationUrl(nav, active)} />
+      <Ribbon content={content.footer} validationUrl={getValidationUrl} />
     </Fragment>
   );
 }
