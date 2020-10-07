@@ -108,9 +108,6 @@
     "items": [
       {
         "text": "Nous allons maintenant mettre à jour la machine pour qu'elle intègre sa nouvelle installation."
-      },
-      {
-        "validation": {}
       }
     ]
   }

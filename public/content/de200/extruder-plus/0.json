@@ -214,11 +214,6 @@
   ],
   "footer": {
     "img": "DiscoEasy/Add-on/ExtrudeurPlus/A-a-intro.jpg",
-    "subtitle": "Montage de l'extrudeur+ : CHECK !",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Montage de l'extrudeur+ : CHECK !"
   }
 }

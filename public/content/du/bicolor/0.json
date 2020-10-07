@@ -181,11 +181,6 @@
   ],
   "footer": {
     "img": "DiscoUltimate/Addon/Bicouleur/1-j-fin.jpg",
-    "subtitle": "Démontage de l'imprimante terminé",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Démontage de l'imprimante terminé"
   }
 }

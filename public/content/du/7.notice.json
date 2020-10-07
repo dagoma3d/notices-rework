@@ -158,9 +158,6 @@
     "items": [
       {
         "text": "Vérifiez que les pièces sont orientées comme sur la photo."
-      },
-      {
-        "validation": {}
       }
     ]
   }

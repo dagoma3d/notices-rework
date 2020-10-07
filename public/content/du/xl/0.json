@@ -139,11 +139,6 @@
   ],
   "footer": {
     "img": "banniere-XL.jpg",
-    "subtitle": "Démontage terminé",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Démontage terminé"
   }
 }

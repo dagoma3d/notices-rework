@@ -259,11 +259,6 @@
   ],
   "footer": {
     "img": "DiscoUltimate/Addon/Bicouleur/2-m-fin.jpg",
-    "subtitle": "Montage du pack bi-couleur terminé",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Montage du pack bi-couleur terminé"
   }
 }

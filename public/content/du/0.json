@@ -42,11 +42,6 @@
   ],
   "footer": {
     "img": "DiscoUltimate/Notice/1-a-intro.jpg",
-    "subtitle": "A vos marques ... Go !",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "A vos marques ... Go !"
   }
 }

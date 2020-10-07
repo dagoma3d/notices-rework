@@ -86,11 +86,6 @@
   ],
   "footer": {
     "img": "DiscoEasy/Notice/2-a-intro.jpg",
-    "subtitle": "Je suis prêt : CHECK !",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Je suis prêt : CHECK !"
   }
 }

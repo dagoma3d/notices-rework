@@ -35,11 +35,6 @@
     }
   ],
   "footer": {
-    "subtitle": "Impression terminée",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Impression terminée"
   }
 }

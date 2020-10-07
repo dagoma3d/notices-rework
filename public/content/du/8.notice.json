@@ -370,11 +370,6 @@
   ],
   "footer": {
     "img": "DiscoUltimate/Notice/9-v-fin.jpg",
-    "subtitle": "Le câblage terminé.",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Le câblage terminé."
   }
 }

@@ -169,11 +169,6 @@
     }
   ],
   "footer": {
-    "subtitle": "Montage de Z terminé",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Montage de Z terminé"
   }
 }

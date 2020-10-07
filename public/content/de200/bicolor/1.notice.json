@@ -271,11 +271,6 @@
   ],
   "footer": {
     "img": "DiscoEasy/Add-on/Bicouleur/1-o-fin.jpg",
-    "subtitle": "Démontage de l'imprimante terminé",
-    "items": [
-      {
-        "validation": {}
-      }
-    ]
+    "subtitle": "Démontage de l'imprimante terminé"
   }
 }
