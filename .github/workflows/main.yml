@@ -1,0 +1,19 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: npm install, check and build app
+        run: |
+          npm install
+          npm run build
+      - name: npm install and build explorer
+        run: |
+          cd ..
+          git clone git@github.com:dagoma3d/dagoma3d.github.io.git
+          cd dagoma3d.github.io
