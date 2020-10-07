@@ -38,6 +38,7 @@ function Page() {
   useEffect(() => {
     const params = Object.values(match.params).filter((i) => i !== undefined);
     const resources = [`/nav/${params.join('/')}.json`];
+    console.log(resources);
     params.pop();
     resources.push(`/nav/${params.join('/')}.json`);
 
