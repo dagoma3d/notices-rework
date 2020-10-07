@@ -16,35 +16,50 @@ function Page() {
   const [nav, setNav] = useState();
   const [active, setActive] = useState();
   const match = useRouteMatch();
-  console.log(match);
 
   useEffect(() => {
-    const resource = (match.params.step) ? `/content${match.url}.json` : `/content${match.url}/0.json`;
-    console.log(resource);
-    fetch(resource)
+    fetch(`/content${match.url}.json`)
       .then((response) => response.json())
       .then((data) => {
         setContent(data);
       })
-      .catch((error) => {
-        setContent({ error: error.message });
-      });
+      .catch(() => {
+        fetch(`/content${match.url}/0.json`)
+          .then((response) => response.json())
+          .then((data) => {
+            setContent(data);
+          })
+          .catch((error) => {
+            setContent({ error: error.message });
+          });
+      })
   }, [match]);
 
   useEffect(() => {
-    const params = Object.values(match.params);
-    params.pop();
-    const resource = `/nav/${params.join('/')}.json`;
-    console.log(resource);
-    fetch(resource)
+    const params = Object.values(match.params).filter((i) => i !== undefined);
+    fetch(`/nav/${params.join('/')}.json`)
       .then((response) => response.json())
       .then((data) => {
         setNav(data);
+        data.forEach((d, i) => {
+
+          console.log(i);
+        });
         // TODO : active logic according to nav and route url
         setActive(0);
       })
-      .catch((error) => {
-        setNav();
+      .catch(() => {
+        params.pop();
+        fetch(`/nav/${params.join('/')}.json`)
+          .then((response) => response.json())
+          .then((data) => {
+            setNav(data);
+            // TODO : active logic according to nav and route url
+            setActive(0);
+          })
+          .catch(() => {
+            setNav();
+          });
       });
   }, [match]);
 
