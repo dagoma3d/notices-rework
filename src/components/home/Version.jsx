@@ -8,7 +8,11 @@ function VersionPicture({ display }) {
   const { t } = useTranslation();
 
   useEffect(() => {
-    if (display) ref.current.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
+    if (display) {
+      setTimeout(function () {
+        ref.current.scrollIntoView(true);
+      }, 300);
+    }
   }, [display]);
 
   if (!display) return null;
