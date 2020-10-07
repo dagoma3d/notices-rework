@@ -23,4 +23,7 @@ jobs:
           git config --global user.name "dagoma3d"
           git add .
           git commit -am "Update from github actions"
+          git status
+          git branch
+          git remote -v
           git push
