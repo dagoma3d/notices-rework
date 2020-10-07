@@ -8,7 +8,7 @@ function Slide() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    fetch('/content/printer/magis/slide.json').then(response => {
+    fetch('/content/magis/slide.json').then(response => {
       response.json().then(data => {
         setSlide(data);
       });
