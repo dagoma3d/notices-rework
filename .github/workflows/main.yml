@@ -16,16 +16,12 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         run: |
+          git config --global user.email "hello@dagoma3d.com"
+          git config --global user.name "dagoma3d"
           git clone "https://dagoma3d:$API_TOKEN_GITHUB@github.com/dagoma3d/dagoma3d.github.io.git"
           rm -rf ./dagoma3d.github.io/*
           cp -r ./build/* ./dagoma3d.github.io/
           cd dagoma3d.github.io
-          git status
-          git config --global user.email "hello@dagoma3d.com"
-          git config --global user.name "dagoma3d"
           git add .
           git commit -am "Update from github actions"
-          git status
-          git branch
-          git remote -v
           git push
