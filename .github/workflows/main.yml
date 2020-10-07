@@ -15,6 +15,10 @@ jobs:
       - name: Update matching Github page
         run: |
           git clone https://github.com/dagoma3d/dagoma3d.github.io.git
+          rm -rf ./dagoma3d.github.io/*
           cp -r ./build/* ./dagoma3d.github.io/
           cd dagoma3d.github.io
           git status
+          git add .
+          git commit -am "Update from github actions"
+          git push
