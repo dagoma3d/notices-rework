@@ -15,6 +15,7 @@ jobs:
       - name: Update matching Github page
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+          HEAD_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         run: |
           git config --global user.email "hello@dagoma3d.com"
           git config --global user.name "dagoma3d"
@@ -23,5 +24,5 @@ jobs:
           cp -r ./build/* ./dagoma3d.github.io/
           cd dagoma3d.github.io
           git add .
-          git commit -am "Update from github actions"
+          git commit -am "$HEAD_COMMIT_MESSAGE"
           git push
