@@ -28,7 +28,7 @@
         {
           "button": {
             "color": "orange",
-            "href": "//dist.dagoma3d.com/DagomApp",
+            "to": "/download",
             "label": "Télécharger Dagom'app"
           }
         }
@@ -59,7 +59,9 @@
     {
       "type": "banner",
       "title": "Commençons !",
-      "subtitle": ["Lancez Dagom'app et suivez les instructions"]
+      "subtitle": [
+        "Lancez Dagom'app et suivez les instructions"
+      ]
     },
     {
       "media": {

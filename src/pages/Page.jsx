@@ -1,6 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { useRouteMatch } from 'react-router-dom';
 import Banner from '../components/common/Banner';
+import Choices from '../components/home/Choices';
 import Block from '../components/common/Block';
 import NavBar from '../components/common/NavBar';
 import NotFound from '../components/common/NotFound';
@@ -71,6 +72,8 @@ function Page() {
       <NavBar nav={nav} active={active} />
       <Banner small content={content.time} />
       <Ribbon content={content.header} />
+      <Banner content={content.title} />
+      <Choices content={content.choices} />
       <Blocks content={content.blocks} />
       <Ribbon content={content.footer} validationUrl={getValidationUrl()} />
     </Fragment>

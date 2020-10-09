@@ -19,7 +19,7 @@ function Options({ choice }) {
         <div className="col-xl-24 col-vspace">
           <p className="big-title tcenter">{t(choice.title)}</p>
         </div>
-        {choice.options.map((p, k) => <Pictogram key={k} to={p.to} src={p.src} title={p.title} />)}
+        {choice.options.map((p, k) => <Pictogram key={k} to={p.to} href={p.href} src={p.src} title={p.title} />)}
       </div>
       <Version printer={choice.title} />
     </section>

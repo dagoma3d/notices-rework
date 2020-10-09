@@ -26,7 +26,7 @@
         {
           "button": {
             "color": "orange",
-            "href": "//dist.dagoma3d.com/CuraByDagoma",
+            "to": "/download",
             "label": "Télécharger Cura by Dagoma"
           }
         }
@@ -50,7 +50,7 @@
         {
           "button": {
             "color": "orange",
-            "href": "//dist.dagoma3d.com/DagomApp",
+            "to": "/download",
             "label": "Télécharger Dagom'App"
           }
         },
@@ -62,7 +62,9 @@
     {
       "type": "banner",
       "title": "Commençons !",
-      "text": ["Lancez dagom'app et suivez les instructions"]
+      "text": [
+        "Lancez dagom'app et suivez les instructions"
+      ]
     },
     {
       "media": {
@@ -160,7 +162,7 @@
         {
           "button": {
             "color": "orange",
-            "href": "//dist.dagoma3d.com/Marlin-Firmwares",
+            "to": "/download",
             "label": "Télécharger le firmware HEX"
           }
         },

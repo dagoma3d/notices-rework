@@ -1,0 +1,91 @@
+{
+  "header": {
+    "img": "FirstStep/premier-pas.jpg",
+    "title": [
+      "Téléchargement"
+    ],
+    "subtitle": "Firmwares et logiciels",
+    "text": [
+      ""
+    ]
+  },
+  "title": {
+    "type": "banner",
+    "title": "Que souhaitez vous télécharger ?"
+  },
+  "choices": [
+    {
+      "title": "Cura-by-Dagoma",
+      "src": "cura",
+      "options": [
+        {
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/download/CuraByDagoma.exe",
+          "src": "windows",
+          "title": "Windows"
+        },
+        {
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/download/CuraByDagoma.dmg",
+          "src": "macos",
+          "title": "MacOS"
+        },
+        {
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/",
+          "src": "linux",
+          "title": "Linux"
+        }
+      ]
+    },
+    {
+      "title": "Dagomapp",
+      "src": "dagoma",
+      "options": [
+        {
+          "href": "https://github.com/dagoma3d/DagomaBurner/releases/latest/download/DagomApp_Windows_amd64.zip",
+          "src": "windows",
+          "title": "Windows 64bits"
+        },
+        {
+          "href": "https://github.com/dagoma3d/DagomaBurner/releases/latest/download/DagomApp_Windows_i386.zip",
+          "src": "windows",
+          "title": "Windows 32bits"
+        },
+        {
+          "href": "https://github.com/dagoma3d/DagomaBurner/releases/latest/download/DagomApp_MacOS.zip",
+          "src": "macos",
+          "title": "MacOS"
+        },
+        {
+          "href": "https://github.com/dagoma3d/DagomaBurner/releases/latest/",
+          "src": "linux",
+          "title": "Linux"
+        }
+      ]
+    },
+    {
+      "title": "Firmware",
+      "src": "tools",
+      "options": [
+        {
+          "to": "/",
+          "src": "discoeasy",
+          "title": "DiscoEasy200"
+        },
+        {
+          "to": "/",
+          "src": "disco-ultimate",
+          "title": "DiscoUltimate"
+        },
+        {
+          "to": "/",
+          "src": "magis",
+          "title": "Magis"
+        },
+        {
+          "to": "/",
+          "src": "neva",
+          "title": "Neva"
+        }
+      ]
+    }
+  ]
+}
