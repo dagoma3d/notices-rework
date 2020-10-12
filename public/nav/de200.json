@@ -54,15 +54,15 @@
     "label": "11 - Contrôle"
   },
   {
-    "href": "/de200/11.firmware.json",
+    "href": "/de200/11.firmware",
     "label": "12 - Mise à jour"
   },
   {
-    "href": "/de200/12.calibration.json",
+    "href": "/de200/12.calibration",
     "label": "13 - Calibration"
   },
   {
-    "href": "/de200/13.cura-by-dagoma.json",
+    "href": "/de200/13.cura-by-dagoma",
     "label": "14 - Cura"
   },
   {
