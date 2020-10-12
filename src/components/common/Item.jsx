@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
@@ -101,6 +101,43 @@ function AdditionalInfo({ content }) {
   return content.map((p, k) => <p className="tleft col-vbspace" key={k}>{t(p)}</p>);
 }
 
+function Help({ content }) {
+  const { t } = useTranslation();
+  if (!content) return null;
+
+  function QuickTips() {
+    if (!content.quick_tips) return null
+    return (
+      <Fragment>
+        <div className="col-xl-4"><img className="v-align" width="100%" src='/pictos/quick-tips.png' alt="quick-tips" /></div>
+        <div className="col-xl-8"><p className="help-text">{t(content.quick_tips)}</p></div>
+      </Fragment>
+    )
+  }
+
+  function Danger() {
+    if (!content.danger) return null
+    return (
+      <Fragment>
+        <div className="col-xl-4"><img className="v-align" width="100%" src='/pictos/danger.png' alt="danger" /></div>
+        <div className="col-xl-8"><p className="help-text">{t(content.danger)}</p></div>
+      </Fragment>
+    )
+  }
+
+  function Divider() {
+    if (content.quick_tips && content.danger) return <div className="v-divider"></div>
+  }
+
+  return (
+    <div className="col-xl-24 display-flex row">
+      {QuickTips()}
+      {Divider()}
+      {Danger()}
+    </div >
+  )
+}
+
 function Video({ content }) {
   const { text, id } = content;
   const { t } = useTranslation();
@@ -142,6 +179,7 @@ function Item({ content }) {
     'italic': <Text content={v} italic />,
     'warning': <Text content={v} warning />,
     'list': <List content={v} />,
+    'help': <Help content={v} />,
     'frame': typeof v === 'string' ? <Text content={v} frame /> : <Frame content={v} />,
     'button': <Button text={v.text} color={v.color} to={v.to} href={v.href} download={v.download} label={v.label} position={v.position} />,
     'video': <Video content={v} />,

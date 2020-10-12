@@ -36,3 +36,21 @@
 .fa > span {
   display: none;
 }
+
+.v-align{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.help-text{
+  font-size: 1.2em;
+}
+
+.v-divider{
+  position: absolute;
+  left: 50%;
+  border-right: 1px solid rgb(158, 158, 158);
+  height: 80%;
+}

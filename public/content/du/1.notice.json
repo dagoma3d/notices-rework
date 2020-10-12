@@ -107,6 +107,12 @@
         },
         {
           "text": "La roue dentée se trouvera en face des roulements."
+        },
+        {
+          "help": {
+            "quick_tips": "Vérifier que le moteur est bien placé dans son logement et correctement plaqué contre la pièce plastique.",
+            "danger": "Un moteur mal monté pourrait décaler un axe d’impression et endommager l’imprimante."
+          }
         }
       ]
     }
