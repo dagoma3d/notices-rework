@@ -109,6 +109,9 @@
         },
         {
           "text": "Introduisez-les avec délicatesse dans les roulements (faites quelques rotations pour faciliter leur entrée). Une fois en place, faites quelques allers-retours pour vérifier que tout va bien."
+        },
+        {
+          "warning": "Si vous êtes équipé de l’addon bicouleur, c’est la tête d’impression bicouleur qu’il faudra installer"
         }
       ]
     },

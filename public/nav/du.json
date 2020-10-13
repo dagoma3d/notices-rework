@@ -50,19 +50,23 @@
     "img": "DiscoUltimate/Notice/10-a-intro.jpg"
   },
   {
-    "href": "/du/10.firmware",
-    "label": "11 - Mise à jour"
+    "href": "/du/10.controle",
+    "label": "11 - Contrôles"
   },
   {
-    "href": "/du/11.calibration",
-    "label": "12 - Calibration"
+    "href": "/du/11.firmware",
+    "label": "12 - Mise à jour"
   },
   {
-    "href": "/du/12.cura-by-dagoma",
-    "label": "13 - Cura"
+    "href": "/du/12.calibration",
+    "label": "13 - Calibration"
   },
   {
-    "href": "/du/13.notice",
+    "href": "/du/13.cura-by-dagoma",
+    "label": "14 - Cura"
+  },
+  {
+    "href": "/du/14.notice",
     "label": "14 - Utilisation"
   }
 ]

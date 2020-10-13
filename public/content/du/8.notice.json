@@ -49,7 +49,12 @@
           "title": "Repérage du câble ventilateur arrière"
         },
         {
-          "text": "Prenez le câble du ventilateur arrière et faites un noeud à 2cm du bout."
+          "text": "Prenez le câble du ventilateur arrière et faites un noeud à 2 cm du bout pour le repérer."
+        },
+        {
+          "help": {
+            "danger": "Inverser les ventilateurs lors du montage pourrait endommager l’imprimante"
+          }
         }
       ]
     },
@@ -66,6 +71,11 @@
         },
         {
           "text": "Nous vous invitons à suivre la vidéo avec attention et de refaire pareil."
+        },
+        {
+          "help": {
+            "danger": "Ne pas tordre le câble gris du palpeur, c’est un composant fragile"
+          }
         }
       ]
     },
@@ -88,6 +98,11 @@
         },
         {
           "text": "Ne serrez pas trop fort pour éviter d'endommager la carte."
+        },
+        {
+          "help": {
+            "quick_tips": "Encore une fois, il peut être compliqué de visser dans du PLA, vous pouvez pré-visser avant d’installer la carte pour créer le filetage dans la pièce plastique."
+          }
         }
       ]
     },
@@ -292,6 +307,11 @@
         },
         {
           "text": "Clipsez l'interrupteur sur la face avant (le bouton 1 vers le haut de la face avant)."
+        },
+        {
+          "help": {
+            "danger": "L’interrupteur ne possède pas de LED, il ne s’allume donc pas lorsque l’imprimante est sous-tension."
+          }
         }
       ]
     },

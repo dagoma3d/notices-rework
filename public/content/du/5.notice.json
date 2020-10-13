@@ -60,6 +60,14 @@
         },
         {
           "text": "Prenez les deux petits supports et utilisez les mêmes repères pour les aligner convenablement."
+        },
+        {
+          "text": "Prenez les deux petits supports, ceux ci ne sont pas repérés."
+        },
+        {
+          "help": {
+            "danger": "Le roulement doit être centré dans les pièces du support plateau afin de ne pas casser les ergots de ces pièces."
+          }
         }
       ]
     },
@@ -74,6 +82,30 @@
         },
         {
           "text": "Nous vous conseillons de suivre la vidéo avec attention."
+        },
+        {
+          "text": "00:08 Passez la courroie au dessus des premiers roulements, les dents de la courroie vers le bas, jusqu’à sortir par le dessous de la base."
+        },
+        {
+          "text": "00:18 Faites la remonter en passant entre la poulie et les deuxièmes roulements jusqu’à sortir par le dessus de la base."
+        },
+        {
+          "text": "00:32 Tirez sur la courroie pour actionner la poulie."
+        },
+        {
+          "text": "00:41 La courroie doit passer sous la pièce support plateau et arriver jusqu’à la face arrière.Attention à ce que la courroie ne sorte pas de son logement."
+        },
+        {
+          "text": "00:45 Faites passer la courroie par le dessous de la poulie puis la faire sortir par le dessus."
+        },
+        {
+          "text": "00:54 Tirez sur la courroie et insérez la dans les crans du logement A du support plateau."
+        },
+        {
+          "text": "01:04 Tirez sur la courroie pour la tendre et faites la passer dans le logement B puis insérez la dans les crans."
+        },
+        {
+          "text": "01:30 Vérifiez que le support plateau va bien au contact de la butée de fin de course"
         }
       ]
     },

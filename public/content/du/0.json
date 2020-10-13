@@ -39,6 +39,115 @@
           ]
         }
       ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/2-c-deballage.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Déballage du kit"
+        },
+        {
+          "title": "1er étage"
+        },
+        {
+          "list": [
+            "A 1 Carte électronique F5",
+            "B 1 Courroie 75 cm / 1 Courroie 85 cm /2 Poulies / 1 Ressort d'extrudeur /4 Roulements linéaires LM8UU /4 Roulements 623ZZ",
+            "C 1 tête d'impression montée ",
+            "D 1 Tournevis 2.5 mm",
+            "E 1 Spatule",
+            "F 1 Plaque de fond Blanche",
+            "G 1 Interrupteur / 1 Lecteur de carte SD / USB / 1 Carte SD / 12 Patins Push-On",
+            "H 1 Câble moteur X (620 mm) / 1 Câble moteur double Z (200 mm) / 1 Câble moteur E (250 mm) / 1 Câble moteur Y (85 mm) / 1 Câble alimentation double (positive) / 1 Cable alimentation simple (négative) / 1 Butée de fin de course X (595 mm) / 1 Butée de fin de course Y (185 mm) / 1 Nappe de connexion (145 mm) / 1 Câble USB / 4 Serre flex",
+            "I 1 Fiche de sécurité / 1 Fiche de conformité / 1 Notice de départ / 1 Cible de réglage",
+            "J 1 Plaque de protection avant",
+            "K 1 Plaque de protection arrière"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/2-d-deballage.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Déballage du kit"
+        },
+        {
+          "title": "2ème étage"
+        },
+        {
+          "list": [
+            "A 1 Plateau scotché",
+            "B 1 Gaine PLIOZIP (700 mm) / 1 Tube PTFE (900 mm) / 1 Échantillon de filament Chromatik / 1 Gaine range cable (380 mm)",
+            "C 1 Surface d'accroche Build grip",
+            "D 2 Moteur + tige trapézoïdale",
+            "E 2 Moteur NEMA avec poulie / 1 Moteur NEMA avec roue d'extrusion",
+            "F 1 Sachet de vis",
+            "G 2 Outils imprimé / 1 Logo face avant / 1 Support de plaques de protection / 2 Clips PTFE",
+            "H 1 lecteur de carte SD"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/2-e-deballage.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Déballage du kit"
+        },
+        {
+          "title": "3ème étage"
+        },
+        {
+          "list": [
+            "A 1 Face avant / 1 Face arrière",
+            "B 2 Fixation latérale",
+            "C 1 Couple de chariot d'axe X",
+            "D 1 Support plateau long / 2 Support plateau court",
+            "E 1 Corps d'extrudeur + / 1 Bras d'extrudeur monté",
+            "F 2 Fixation haute",
+            "G 1 Cache côté avant droit (Bouton pause)",
+            "H 1 Cache coté arrière gauche (côté alimentation) / 1 Cache coté arrière droit / 1 Cache coté avant gauche (lecteur carte SD)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/2-f-deballage.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Déballage du kit"
+        },
+        {
+          "title": "4ème étage"
+        },
+        {
+          "list": [
+            "A 8 Barres longue (360 mm) / 5 Barres courte (270 mm)",
+            "B 1 Cordon d'alimentation / 1 Bloc transformateur 12V - 5A"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Aide au montage",
+      "items": [
+        {
+          "help": {
+            "quick_tips": "Quick Tips ou Conseils Rapide en français, ce symbole vous indiquera une technique de montage particulière ou une astuce pour vous faciliter la vie pendant le montage.",
+            "danger": "Attention, ce symbole sollicite votre attention sur une étape du montage qui peut être compliqué ou alors décisive pour le bon fonctionnement de votre imprimante."
+          }
+        }
+      ]
     }
   ],
   "footer": {

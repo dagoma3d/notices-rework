@@ -26,8 +26,8 @@
         {
           "list": [
             "A. Face avant imprimée",
-            "B. 4x roulements de courroie",
-            "C. Butée Y (180mm)",
+            "B. 4 Roulements 623ZZ",
+            "C. Butée de fin de course Y (185 mm)",
             "D. Moteur NEMA avec poulie"
           ]
         },
@@ -53,6 +53,11 @@
         },
         {
           "text": "Prenez 4 écrous et 4 vis moyennes (M3x16). Placez les écrous dans les logements comme sur la vidéo. Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+        },
+        {
+          "help": {
+            "quick_tips": "Tenir l’écrou avec une pince et visser si celui ci ne rentre pas facilement dans son logement."
+          }
         }
       ]
     },
@@ -69,6 +74,11 @@
         },
         {
           "text": "Prenez le petit outil imprimé pour vous aider à placer les roulements. Prenez 1 vis M3x16, placez la dans le trou correspondant et vissez à travers les 2 roulements. Vérifiez que les roulements tournent bien après serrage. Répétez l'opération pour le deuxième emplacement."
+        },
+        {
+          "help": {
+            "danger": "La tête de vis ne doit pas dépasser de la pièce plastique."
+          }
         }
       ]
     },

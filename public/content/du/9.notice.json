@@ -29,7 +29,7 @@
             "A. Surface d'accroche Buildgrip",
             "B. Plaque de fond (blanche sur l'image)",
             "C. Gaine torsadée (350mm)",
-            "D. Logo imprimé",
+            "D. Logo Imprimé / 2x Clip PTFE",
             "E. Couple de fixations hautes",
             "F. 2x Barres courtes (270mm)",
             "G. 2x Barres courtes (270mm)"
@@ -109,6 +109,11 @@
         },
         {
           "text": "Coupez le bout pour laisser 3 cm de mou."
+        },
+        {
+          "help": {
+            "quick_tips": "Vous n’êtes pas obligé de couper le reste de la courroie, le mou restant pourra servir plus tard pour éventuellement retendre la courroie desserrée au cours du temps."
+          }
         }
       ]
     },
@@ -172,7 +177,7 @@
           "title": "Gestion des câbles"
         },
         {
-          "text": "Commencez par fixer les câbles de la tête à l'aide d'un collier de serrage."
+          "text": "Commencez par regrouper les câbles les plus proches entre eux, pour les fixer à l'aide d'un collier de serrage."
         },
         {
           "text": "Ensuite, nous allons faire en sorte de bien maintenir les autres câbles."
@@ -214,6 +219,11 @@
         },
         {
           "text": "Appuyez fermement dessus pour les bloquer."
+        },
+        {
+          "help": {
+            "quick_tips": "Vous pouvez utiliser le tournevis pour aider les patins à rentrer dans son logement"
+          }
         }
       ]
     },
@@ -238,21 +248,14 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Notice/10-n-bis-film-plateau.jpg"
-      },
-      "article": [
-        {
-          "title": "Si vous avez un film protecteur, pensez à le retirer."
-        }
-      ]
-    },
-    {
-      "media": {
         "src": "DiscoUltimate/Notice/10-n-buildgrip.jpg"
       },
       "article": [
         {
           "title": "Installation de la surface d'accroche"
+        },
+        {
+          "text": "Le plateau est actuellement équipé de scotch, qui sert également de surface d’accroche.Le réglage de l’offset que nous verrons juste ensuite n’est pas compliqué mais pas évident non plus, nous vous conseillons de prendre en main l’imprimante et le réglage de l’offset avant d’installer votre surface d’accroche finale. Vous trouverez un article complet pour vous expliquer l'installation de la surface d'accroche et sa maintenance."
         },
         {
           "button": {

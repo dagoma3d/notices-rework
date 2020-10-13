@@ -27,7 +27,7 @@
           "list": [
             "A. Face arrière imprimée",
             "B. 1x Poulie",
-            "C. Corps d'extrudeur",
+            "C. Corps d'extrudeur+",
             "D. Moteur NEMA avec roue d'extrusion",
             "E. Bras d'extrudeur",
             "F. Ressort d'extrudeur"
@@ -56,6 +56,11 @@
         },
         {
           "text": "Comme tout à l'heure, prenez 4 écrous et 4 vis moyennes (M3x16). Placez les écrous dans les logements comme sur la vidéo. Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+        },
+        {
+          "help": {
+            "quick_tips": "Tenir l’écrou avec une pince et visser si celui ci ne rentre pas facilement dans son logement."
+          }
         }
       ]
     },
@@ -75,6 +80,11 @@
         },
         {
           "text": "Prenez 1 vis M3x25, placez la dans le trou correspondant et vissez à travers la poulie."
+        },
+        {
+          "help": {
+            "danger": "La tête de vis ne doit pas dépasser de la pièce plastique."
+          }
         }
       ]
     },
@@ -113,6 +123,12 @@
         },
         {
           "text": "Prenez le bras, placez le pour que le ressort soit pris dans la seconde empreinte."
+        },
+        {
+          "help": {
+            "quick_tips": "Assurez vous que le roulement du bras d’extrudeur tourne facilement.",
+            "danger": "Si le roulement du bras d’extrudeur ne tourne pas ou mal, cela peut entraîner des défauts d’extrusion."
+          }
         }
       ]
     },
@@ -132,6 +148,12 @@
         },
         {
           "text": "La tête de la vis M3x6 rentre dans un logement prévu dans le corps d'extrudeur."
+        },
+        {
+          "help": {
+            "quick_tips": "Visser les 3 vis M3x25 simultanément.",
+            "danger": "Les câbles du capteur ne doivent pas être pincés, il ne doit pas y avoir de jour entre la pièce face arrière et la pièce corps d’extrudeur. La vis qui qui maintient le bras d’extrudeur ne doit pas être serrée à fond."
+          }
         }
       ]
     }

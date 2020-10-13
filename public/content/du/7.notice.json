@@ -59,7 +59,7 @@
           "text": "Tournez-les pour aligner le connecteur du moteur vers l'extrudeur."
         },
         {
-          "text": "Vissez ensuite les moteurs."
+          "text": "Vissez ensuite les moteurs avec les 4 vis M3x6."
         }
       ]
     },
@@ -101,6 +101,11 @@
         },
         {
           "text": "Faites quelques allers-retours pour que l'ensemble s'ajuste bien."
+        },
+        {
+          "help": {
+            "danger": "La pièce Axe X doit coulisser dans la barre sans forcer, dans le cas contraire, faire tourner la barre sur elle même peut décoincer le montage de celle ci."
+          }
         }
       ]
     },
@@ -148,6 +153,12 @@
         },
         {
           "text": "Montez équitablement le chariot pour le garder parallèle au plateau."
+        },
+        {
+          "help": {
+            "quick_tips": "Pour que les vis M4 prennent à la main, vous pouvez créer le filetage dans la pièce plastique de l’axe X en vissant une première fois “à vide”, hors montage.",
+            "danger": "Le filetage dans la pièce plastique n’existe pas il faut le créer en vissant dans un premier temps. Les vis M4 destinées à tenir les écrous dans la pièce plastique risquent de ne pas rentrer facilement dans l’immédiat."
+          }
         }
       ]
     }

@@ -54,6 +54,11 @@
         },
         {
           "text": "Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+        },
+        {
+          "help": {
+            "quick_tips": "Tenir l’écrou avec une pince et visser si celui ci ne rentre pas facilement dans son logement."
+          }
         }
       ]
     },
@@ -70,6 +75,11 @@
         },
         {
           "text": "Prenez la seconde fixation et répétez l'opération. À la fin vous devez obtenir la même chose que sur la vidéo."
+        },
+        {
+          "help": {
+            "quick_tips": "Tourner la barre en la faisant avancer lui permet de rentrer plus facilement et sans casser la pièce plastique"
+          }
         }
       ]
     }

@@ -75,6 +75,12 @@
         },
         {
           "text": "Attention à l'orientation des pièces, soyez attentif aux détails sur la vidéo."
+        },
+        {
+          "help": {
+            "quick_tips": "Insérez les Fixations latérales montées petits à petits sans forcer.",
+            "danger": "Attention à l'orientation des pièces, soyez attentif aux détails sur la vidéo."
+          }
         }
       ]
     },

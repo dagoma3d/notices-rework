@@ -23,10 +23,15 @@ function SubTitle({ content, small }) {
   );
 }
 
+function Items({ content }) {
+  if (!content) return null;
+  return content.map((i, k) => <Item key={k} content={i} />);
+}
+
 function Banner({ content, small }) {
   if (!content) return null;
 
-  const { title, subtitle, background } = content;
+  const { title, subtitle, background, items } = content;
   const getBackground = (style) => {
     const background = {
       "default": "bg-gradient-orange",
@@ -41,6 +46,7 @@ function Banner({ content, small }) {
     <section className={sectionClasses}>
       <Title content={title} />
       <SubTitle small={small} content={subtitle} />
+      <Items content={items} />
     </section>
   );
 }

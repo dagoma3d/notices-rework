@@ -1,0 +1,314 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 15 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoUltimate/Notice/10-o-fin.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 11 - Contrôle"
+    ],
+    "subtitle": [
+      "Contrôlons le bon fonctionnement des éléments de la machine"
+    ],
+    "text": [
+      "Nous allons procéder à des vérifications de l'ensemble des composants à l'aide de fichiers de test."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "id": "O-6pTS5_kok"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Lubrification des axes (optionnel)"
+        },
+        {
+          "text": "Protéger le plateau avec un essuis tout"
+        },
+        {
+          "text": "Mettre de l’huile sur les tiges de l’axes X (tête d’impression qui coulisse de gauche à droite), puis faire coulisser l’axe manuellement afin de disperser l’huile uniformément."
+        },
+        {
+          "text": "Mettre de l’huile sur les tiges de l’axe Y (plateau qui coulisse d’avant en arrière), puis faire coulisser l’axe manuellement afin de disperser l’huile uniformément."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "B3X1eSN8bfA"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Contrôle des butées et des moteurs"
+        },
+        {
+          "text": "Le fichier suivant fera quelques déplacements simples. Voyez la vidéo ci-contre."
+        },
+        {
+          "list": [
+            "Téléchargez le fichier ci-dessous et mettez le sur la carte SD après l’avoir décompressé. ",
+            "Nommez bien le fichier (et pas le dossier) 'dagoma0.g'",
+            "Placez le fichier “dagoma0.g” à la racine de la carte SD"
+          ]
+        },
+        {
+          "button": {
+            "href": "/gcodes/du/controle-step2/dagoma0.g",
+            "color": "orange",
+            "label": "Télécharger"
+          }
+        },
+        {
+          "text": "Mettez la carte SD dans la machine et mettez l'interrupteur sur 1 (elle démarre lorsque l'interrupteur passe de 0 à 1)."
+        },
+        {
+          "frame": [
+            {
+              "button": {
+                "href": "/du/8.notice",
+                "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
+              }
+            },
+            {
+              "button": {
+                "href": "https://support.dagoma.fr/support/solutions/articles/36000096568-discoeasy200-la-carte-sd-n-est-pas-reconnue",
+                "text": "Si le câblage est bon mais que le problème persiste, rendez-vous"
+              }
+            },
+            {
+              "text": "Si les moteurs de l'axe Z sont lents, passez à la mise à jour de l'imprimante et revenez sur ces contrôles ensuites"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "5D44UXKQhno",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Contrôle des déplacements des axes"
+        },
+        {
+          "text": "Le fichier suivant fera quelques déplacements sur toute la longueur des axes. Voyez la vidéo ci-contre. Lors du déplacement de l'axe X de haut en bas, huilez les barres et les tiges filetées."
+        },
+        {
+          "text": "Téléchargez le fichier ci-dessous et mettez le sur la carte SD. Nommez bien le fichier \"dagoma0.g\" sur la carte."
+        },
+        {
+          "button": {
+            "href": "/gcodes/du/controle-step3/dagoma0.g",
+            "label": "Télécharger",
+            "color": "orange"
+          }
+        },
+        {
+          "text": "Mettez la carte SD dans la machine et mettez l'interrupteur sur 1."
+        },
+        {
+          "text": "Lorsque les mouvements sont terminés, arrêtez la machine (interrupteur sur 0)."
+        },
+        {
+          "frame": [
+            {
+              "button": {
+                "href": "/du/8.notice",
+                "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "88eveqFT0Iw",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Contrôle du ventilateur arrière"
+        },
+        {
+          "text": "Le fichier suivant allumera UNIQUEMENT le ventilateur arrière avec une simple commande. Voyez la vidéo ci-contre."
+        },
+        {
+          "text": "Téléchargez le fichier ci-dessous et mettez le sur la carte SD. Nommez bien le fichier \"dagoma0.g\" sur la carte."
+        },
+        {
+          "button": {
+            "href": "/gcodes/du/controle-step4/dagoma0.g",
+            "label": "Télécharger",
+            "color": "orange"
+          }
+        },
+        {
+          "text": "Mettez la carte SD dans la machine et mettez l'interrupteur sur 1."
+        },
+        {
+          "text": "Lorsque les mouvements sont terminés, arrêtez la machine (interrupteur sur 0)."
+        },
+        {
+          "frame": [
+            {
+              "button": {
+                "href": "/du/8.notice",
+                "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
+              }
+            },
+            {
+              "button": {
+                "href": "https://support.dagoma.fr/support/solutions/articles/36000071235-discoeasy200-discoultimate-un-ventilateur-ne-tourne-pas-ou-les-deux-",
+                "text": "Ne perdons pas de temps pour comprendre l'utilité des ventilateurs et vérifions leur branchement, rendez-vous"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "k0V2qmsil8s",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Contrôle du ventilateur avant"
+        },
+        {
+          "text": "Le fichier suivant réalise les butées de l’imprimante (étape 2), ensuite la tête d’impression monte légèrement et pour finir la buse va chauffer au delà de 50°, ce qui allumera UNIQUEMENT le ventilateur avant, la buse refroidira automatiquement ensuite. Voyez la vidéo ci-contre."
+        },
+        {
+          "text": "Téléchargez le fichier ci-dessous et mettez le sur la carte SD. Nommez bien le fichier \"dagoma0.g\" sur la carte."
+        },
+        {
+          "button": {
+            "href": "/gcodes/du/controle-step5/dagoma0.g",
+            "label": "Télécharger",
+            "color": "orange"
+          }
+        },
+        {
+          "text": "Mettez la carte SD dans la machine et mettez l'interrupteur sur 1."
+        },
+        {
+          "text": "Lorsque les mouvements sont terminés, arrêtez la machine (interrupteur sur 0)."
+        },
+        {
+          "frame": [
+            {
+              "button": {
+                "href": "/du/8.notice",
+                "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
+              }
+            },
+            {
+              "button": {
+                "href": "https://support.dagoma.fr/support/solutions/articles/36000071235-discoeasy200-discoultimate-un-ventilateur-ne-tourne-pas-ou-les-deux-",
+                "text": "Ne perdons pas de temps pour comprendre l'utilité des ventilateurs et vérifions leur branchement, rendez-vous"
+              }
+            }
+          ]
+        },
+        {
+          "text": "A la fin d’une impression, le ventilateur avant devra s’éteindre automatiquement avant d’éteindre l’imprimante pour refroidir correctement la buse. En cas de doute :"
+        },
+        {
+          "list": [
+            "Éteindre l’imprimante",
+            "Retirer la carte SD",
+            "Allumer l’imprimante"
+          ]
+        },
+        {
+          "text": "Cette opération fera refroidir la buse et le ventilateur avant s’éteindra de lui même après quelques minutes."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "RBdyTqP7-yw",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Insertion automatique du filament"
+        },
+        {
+          "text": "Retirez la carte sd."
+        },
+        {
+          "text": "Allumez l’imprimante."
+        },
+        {
+          "text": "Prenez l’échantillon de filament et couper le en biseau."
+        },
+        {
+          "text": "Présentez le dans l’extrudeur et insérez le jusqu’en butée."
+        },
+        {
+          "text": "(Vous devez entendre un petit “clic” révélateur du capteur mécanique de filament qui se ferme)"
+        },
+        {
+          "text": "Le filament doit être pincé par la roue dentée."
+        },
+        {
+          "text": "La tête d’impression se déplace lentement de gauche à droite en faisant des a-coups, elle décrit une barre de chargement de 0 vers 100%, de la température initial à la consigne de température pour l’insertion du filament."
+        },
+        {
+          "text": "La consigne est atteinte, le filament est acheminé automatiquement dans le tube PTFE jusqu’à la buse d’impression."
+        },
+        {
+          "text": "Le filament arrive à la buse, le filament est ralenti pour ne pas qu’il s’insère trop rapidement."
+        },
+        {
+          "text": "Le filament traverse la buse et sort fondue."
+        },
+        {
+          "text": "L’insertion automatique est réussie."
+        },
+        {
+          "warning": "Laisser le ventilateur s’éteindre tout seul avant d’éteindre l’imprimante."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Notice/10-o-fin.jpg",
+    "subtitle": "Contrôle : CHECK !",
+    "items": [
+      {
+        "text": "Si vous en êtes là, c'est que votre machine est prête à fonctionner."
+      },
+      {
+        "text": "Nous touchons au but, il nous reste à mettre à jour la machine, à la calibrer et vous serez paré pour votre première impression."
+      },
+      {
+        "italic": "Petit rappel : Nous n’avons pas encore installé la surface d’accroche final, nous allons d’abord nous habituer avec la procédure du réglage de la première couche."
+      }
+    ]
+  }
+}
