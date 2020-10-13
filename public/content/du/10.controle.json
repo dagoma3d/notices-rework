@@ -7,7 +7,7 @@
   "header": {
     "img": "DiscoUltimate/Notice/10-o-fin.jpg",
     "title": [
-      "Notice de montage DiscoEasy200 - Page 11 - Contrôle"
+      "Notice de montage Disco Ultimate - Page 11 - Contrôle"
     ],
     "subtitle": [
       "Contrôlons le bon fonctionnement des éléments de la machine"
@@ -77,15 +77,6 @@
                 "href": "/du/8.notice",
                 "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
               }
-            },
-            {
-              "button": {
-                "href": "https://support.dagoma.fr/support/solutions/articles/36000096568-discoeasy200-la-carte-sd-n-est-pas-reconnue",
-                "text": "Si le câblage est bon mais que le problème persiste, rendez-vous"
-              }
-            },
-            {
-              "text": "Si les moteurs de l'axe Z sont lents, passez à la mise à jour de l'imprimante et revenez sur ces contrôles ensuites"
             }
           ]
         }

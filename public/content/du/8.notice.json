@@ -361,7 +361,9 @@
           "text": "Rentrez le connecteur d'alimentation de biais dans la pièce plastique arrière gauche prévue à cet effet. Poussez dessus pour le clipser."
         },
         {
-          "italic": "Astuce : Présentez-le de biais, poussez-le au fond et ensuite poussez vers le bas pour l'enclencher)."
+          "help": {
+            "quick_tips": "Présentez-le de biais, poussez-le au fond et ensuite poussez vers le bas pour l'enclencher)."
+          }
         }
       ]
     },
