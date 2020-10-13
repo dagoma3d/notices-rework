@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
@@ -105,35 +105,29 @@ function Help({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
 
-  function QuickTips() {
-    if (!content.quick_tips) return null
-    return (
-      <Fragment>
-        <div className="col-xl-4"><img className="v-align" width="100%" src='/pictos/quick-tips.png' alt="quick-tips" /></div>
-        <div className="col-xl-8"><p className="help-text">{t(content.quick_tips)}</p></div>
-      </Fragment>
-    )
-  }
+  function HelpInfo({ type }) {
+    if (!content[type]) return null
 
-  function Danger() {
-    if (!content.danger) return null
     return (
-      <Fragment>
-        <div className="col-xl-4"><img className="v-align" width="100%" src='/pictos/danger.png' alt="danger" /></div>
-        <div className="col-xl-8"><p className="help-text">{t(content.danger)}</p></div>
-      </Fragment>
+      <div className="col-xl-12">
+        <div className="help-container">
+          <div><img height="50px" src={`/pictos/${type}.png`} alt={`${type}`} /></div>
+          <p className="help-text">{t(content[type])}</p>
+        </div>
+      </div>
     )
   }
 
   function Divider() {
     if (content.quick_tips && content.danger) return <div className="v-divider"></div>
+    return null
   }
 
   return (
     <div className="col-xl-24 display-flex row">
-      {QuickTips()}
-      {Divider()}
-      {Danger()}
+      <HelpInfo type="quick_tips" />
+      <Divider />
+      <HelpInfo type="danger" />
     </div >
   )
 }

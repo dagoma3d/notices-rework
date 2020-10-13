@@ -36,13 +36,17 @@
 .fa > span {
   display: none;
 }
+.help-container{
+  display: inline-flex;
+  align-items:center;
+  max-width: 500px;
+}
+.help-container > div{
+  flex:1;
+}
 
-.v-align{
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+.help-container > p{
+  flex:2;
 }
 .help-text{
   font-size: 1.2em;
@@ -51,6 +55,9 @@
 .v-divider{
   position: absolute;
   left: 50%;
-  border-right: 1px solid rgb(158, 158, 158);
-  height: 80%;
+  top:50%;
+  border-right: 2px solid rgba(64,64,65,0.5);
+  height: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
