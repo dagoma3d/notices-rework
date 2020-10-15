@@ -8,7 +8,7 @@ function GoogleDocument({ content }) {
   return (
     <div id="content-page" className="custom-page row wrap">
       <div className="row margin-bottom-shop">
-        <div className="col-xl-24 capsule-h1 margin-bottom-shop">
+        <div className="col-xl-24 tcenter margin-bottom-shop">
           <h1 className="tcenter">{t(title)}</h1>
         </div>
       </div>

@@ -521,46 +521,8 @@ a.btn-wide {
   border: 2px solid #404041;
 }
 
-.container-interface {
-  float: none !important;
-}
-
-.container-interface img,
-.container-interface picture {
-  width: 100%;
-}
-
-.zone {
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  height: auto;
-  position: absolute;
-  padding-top: 4%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-  width: 5%;
-}
-
-.zone.zone-medium {
-  width: 10%;
-  padding-top: 9%;
-}
-.zone.zone-big {
-  width: 15%;
-  padding-top: 14%;
-}
-
-.zone:hover {
-  cursor: pointer;
-}
-
 .focused {
   border: 1px dashed #404041;
-}
-
-.container-interface .active {
-  background-color: #333333;
-  color: #fff;
 }
 
 .nav-vertical {
@@ -693,40 +655,6 @@ a.btn-wide {
   opacity: 1;
 }
 
-@keyframes moving-cursor {
-  0% {
-    transform: translateY(18px);
-  }
-  10% {
-    transform: translateY(18px);
-  }
-  30% {
-    transform: translateY(0);
-  }
-  60% {
-    transform: translateY(18px);
-  }
-  100% {
-    transform: translateY(18px);
-  }
-}
-@keyframes enlarge-zone-click {
-  0% {
-    transform: scale(0.5, 0.5);
-  }
-  10% {
-    transform: scale(0.5, 0.5);
-  }
-  30% {
-    transform: scale(1, 1);
-  }
-  60% {
-    transform: scale(0.5, 0.5);
-  }
-  100% {
-    transform: scale(0.5, 0.5);
-  }
-}
 @keyframes moving-gradient {
   0% {
     background-position: 10% 50%;
@@ -886,52 +814,5 @@ a.btn-wide {
     bottom: 0;
     top: auto;
     transform: none;
-  }
-
-  .container-interface {
-    position: absolute;
-    width: 700%;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: all 0.4s ease;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  @keyframes moving-cursor {
-    0% {
-      transform: translateY(7px);
-    }
-    20% {
-      transform: translateY(7px);
-    }
-    30% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(7px);
-    }
-    100% {
-      transform: translateY(7px);
-    }
-  }
-
-  @keyframes enlarge-zone-click {
-    0% {
-      transform: scale(0.6, 0.6);
-    }
-    19% {
-      transform: scale(0.6, 0.6);
-    }
-    30% {
-      transform: scale(1, 1);
-    }
-    40% {
-      transform: scale(0.6, 0.6);
-    }
-    100% {
-      transform: scale(0.6, 0.6);
-    }
   }
 }
