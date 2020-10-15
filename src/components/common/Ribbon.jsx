@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import Item from './Item';
 import { useTranslation } from 'react-i18next';
+import Item from './Item';
 
 function Title({ content }) {
   const { t } = useTranslation();
@@ -29,20 +29,28 @@ function Items({ content }) {
 function Validation({ content, validationUrl }) {
   const { t } = useTranslation();
   if (!validationUrl) return null;
-  const handleOnClick = (e) => {
+  const handleOnClick = () => {
     setTimeout(() => {
       document.querySelector(`a[href='${validationUrl}']`).click()
     }, 300);
   }
 
-  const label = content && content.text ? content.text : "Je valide cette étape";
+  const handleKeyPress = (e) => {
+    if (e.key === 'c') {
+      setTimeout(() => {
+        document.querySelector(`a[href='${validationUrl}']`).click()
+      }, 300);
+    }
+  }
+
+  const label = content && content.text ? content.text : 'Je valide cette étape';
   return (
     <Fragment>
-      <div className="checkbox-classic checkbox-full-width" onClick={handleOnClick}>
+      <div className="checkbox-classic checkbox-full-width" onClick={handleOnClick} onKeyPress={handleKeyPress} tabIndex={0} role='button'>
         <input id="yo" type="checkbox" />
         <label className="tnormal valid-step" htmlFor="yo">{t(label)}</label>
       </div>
-      <Link to={validationUrl} ></Link>
+      <Link to={validationUrl} />
     </Fragment>
   );
 }
@@ -60,7 +68,7 @@ function Ribbon({ content, validationUrl }) {
       <section className={`block-caption-classic ${flipClass}`}>
         <Title content={title} />
         <SubTitle content={subtitle} />
-        <Item content={{ "text": text }} />
+        <Item content={{ 'text': text }} />
         <Items content={items} />
         <Validation content={validation} validationUrl={validationUrl} />
         <Note content={note} />

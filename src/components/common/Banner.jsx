@@ -13,7 +13,7 @@ function SubTitle({ content, small }) {
   if (!content) return null;
   const classes = small ? (content.length === 1 ? ['col-vspace'] : ['col-vtspace', 'col-vbspace']) : null;
   const getItem = (i, k) => {
-    if (typeof i == 'string') return <p key={k} className={classes ? classes[k] : null}>{t(i)}</p>
+    if (typeof i === 'string') return <p key={k} className={classes ? classes[k] : null}>{t(i)}</p>
     return <Item content={i} />
   }
   return (
@@ -33,15 +33,15 @@ function Banner({ content, small }) {
 
   const { title, subtitle, background, items } = content;
   const getBackground = (style) => {
-    const background = {
-      "default": "bg-gradient-orange",
-      "grey": "bg-light-grey-blue",
-      "transparent": " "
+    const bg = {
+      'default': 'bg-gradient-orange',
+      'grey': 'bg-light-grey-blue',
+      'transparent': ' '
     }
-    return background[style] || background["default"]
+    return bg[style] || bg.default
   }
 
-  const sectionClasses = ((small) ? 'col-xl-24 row' : 'col-xl-24 block-big-white-space row') + ` ${getBackground(background)}`;
+  const sectionClasses = ((small) ? `col-xl-24 row ${getBackground(background)}` : `col-xl-24 block-big-white-space row ${getBackground(background)}`);
   return (
     <section className={sectionClasses}>
       <Title content={title} />

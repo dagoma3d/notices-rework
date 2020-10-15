@@ -31,7 +31,7 @@ function List({ content }) {
   if (!content) return null;
   return (
     <ul className="list-classic tleft-child">
-      {content.map((i, k) => <li key={k}><p>{typeof i == "string" ? t(i) : <Item key={k} content={i} />}</p></li>)}
+      {content.map((i, k) => <li key={k}><p>{typeof i === 'string' ? t(i) : <Item key={k} content={i} />}</p></li>)}
     </ul>
   );
 }
@@ -55,7 +55,7 @@ function Button({ text, color, to, href, download, label, position }) {
       'orange': 'new-btn btn-valid btn-wide',
       'default': 'link-classic'
     }
-    return classes[c] || classes['default']
+    return classes[c] || classes.default
   }
 
   const getPosition = (p) => {
@@ -65,7 +65,7 @@ function Button({ text, color, to, href, download, label, position }) {
       'right': 'tright',
       'default': 'tleft'
     }
-    return classes[p] || classes['default']
+    return classes[p] || classes.default
   }
 
   const pre = (text) ? `${t(text)} ` : null;
@@ -76,10 +76,6 @@ function Button({ text, color, to, href, download, label, position }) {
       {pre}{link}{post}
     </p>
   );
-}
-
-Button.defaultProps = {
-  label: 'ici'
 }
 
 Button.defaultProps = {
@@ -119,7 +115,7 @@ function Help({ content }) {
   }
 
   function Divider() {
-    if (content.quick_tips && content.danger) return <div className="v-divider"></div>
+    if (content.quick_tips && content.danger) return <div className="v-divider" />
     return null
   }
 
@@ -179,7 +175,7 @@ function Item({ content }) {
     'video': <Video content={v} />,
     'default': null
   }
-  return items[k] || items['default']
+  return items[k] || items.default
 }
 
 export default Item;

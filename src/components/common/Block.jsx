@@ -12,10 +12,10 @@ function Block({ index, content }) {
     'slide': <Slide />,
     'banner': <Banner content={content} />,
     'google-document': <GoogleDocument content={content} />,
-    'item': () => { delete content.type; return <Item content={content} /> },
+    'item': <Item content={content} />,
     'default': <Section index={index} content={content} />
   }
-  return blocks[content.type] || blocks['default']
+  return blocks[content.type] || blocks.default
 }
 
 export default Block
