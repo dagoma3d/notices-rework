@@ -86,7 +86,7 @@
         {
           "button": {
             "text": "Pssst ! Rappellez-vous de la ",
-            "to": "/printer/magis/1",
+            "to": "/magis/1",
             "label": "page 1"
           }
         }

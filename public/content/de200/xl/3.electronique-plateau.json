@@ -18,7 +18,7 @@
         {
           "button": {
             "text": "Ensuite, passez au câblage. Pour cela, suivez le guide par ",
-            "to": "/printer/du/notice-9",
+            "to": "/du/9.notice",
             "label": "ici"
           }
         },
@@ -51,7 +51,9 @@
         {
           "text": "Prenez les vis M3-6mm et 2 écrous. Nous allons les installer sur les 2 oreilles. Attention au sens : la tête de la vis doit se trouver sur le plateau XL du coté des fraisages - comme montré sur la vidéo."
         },
-        { "text": "Serrez les vis M3-6mm à fond." }
+        {
+          "text": "Serrez les vis M3-6mm à fond."
+        }
       ]
     },
     {
@@ -62,7 +64,9 @@
         {
           "title": "33 - installation du plateau XL"
         },
-        { "text": "Placez le plateau avec les oreilles vers l'arrière de la Disco." },
+        {
+          "text": "Placez le plateau avec les oreilles vers l'arrière de la Disco."
+        },
         {
           "text": "Vissez légèrement les 4 vis fraisées de 10mm, (les écrous frein n'ont pas été enlevé), puis après avoir installé et pré-vissé les 4 vis, vous pouvez serrer à fond."
         },
@@ -79,7 +83,9 @@
         {
           "title": "34 - installation du plateau flex XL"
         },
-        { "text": "3 étapes dans cette vidéo :" },
+        {
+          "text": "3 étapes dans cette vidéo :"
+        },
         {
           "text": "1- installation de l'aimant : nettoyer et enlevez la poussière sur le plateau en fibre, puis positionnez l'aimant : pour cela vous pouvez utiliser les 2 vis à l'arrière du plateau pour venir le bloquer. Attention, lors du collage, il est imporant de NE PAS créer de bulles d'air sous l'aimant. Retirez le film protecteur et collez l'aimant."
         },

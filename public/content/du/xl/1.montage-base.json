@@ -162,7 +162,7 @@
         {
           "button": {
             "text": "Pour la mise en place de la courroie de Y, ",
-            "to": "/printer/du/notice-6#du-courroie-y",
+            "to": "/du/6.notice#du-courroie-y",
             "label": "C'est par ici !"
           }
         }

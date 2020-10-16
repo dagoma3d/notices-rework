@@ -51,7 +51,7 @@
           "frame": [
             {
               "button": {
-                "href": "/printer/de200/notice-cablage",
+                "href": "/de200/8.notice-cablage",
                 "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
               }
             },
@@ -103,7 +103,7 @@
           "frame": [
             {
               "button": {
-                "href": "/printer/de200/notice-cablage",
+                "href": "/de200/8.notice-cablage",
                 "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
               }
             }
@@ -146,7 +146,7 @@
           "frame": [
             {
               "button": {
-                "href": "/printer/de200/notice-cablage",
+                "href": "/de200/8.notice-cablage",
                 "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
               }
             },
@@ -210,7 +210,7 @@
           "frame": [
             {
               "button": {
-                "href": "/printer/de200/notice-cablage",
+                "href": "/de200/8.notice-cablage",
                 "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
               }
             },

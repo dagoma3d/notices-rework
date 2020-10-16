@@ -161,7 +161,7 @@
         {
           "button": {
             "text": "Pour plus d'info sur le sens, ",
-            "to": "/printer/du/notice-7#du-courroie-x",
+            "to": "/du/7.notice#du-courroie-x",
             "label": "C'est par ici !"
           }
         }

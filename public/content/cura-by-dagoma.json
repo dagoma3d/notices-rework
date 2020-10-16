@@ -137,7 +137,7 @@
         {
           "button": {
             "text": "Il s'agit d'une partie des pièces imprimées dans",
-            "to": "/printer/magis/1",
+            "to": "/magis/1",
             "label": "la notice de la Magis"
           }
         }
