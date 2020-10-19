@@ -7,12 +7,12 @@ function Home() {
   const [content, setContent] = useState();
 
   useEffect(() => {
-    fetch('./content/home.json').then(response => {
-      response.json().then(data => {
+    fetch('./content/home.json').then((response) => {
+      response.json().then((data) => {
         setContent(data);
       });
     });
-  }, [])
+  }, []);
 
   if (!content) return null;
 
@@ -25,4 +25,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Home;

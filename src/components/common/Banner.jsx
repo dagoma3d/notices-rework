@@ -20,14 +20,17 @@ function SubTitle({ content, small }) {
   if (!content) return null;
   const classes = small ? (content.length === 1 ? ['py-3'] : ['pt-3', 'pb-3']) : null;
   const getItem = (i, k) => {
-    if (typeof i === 'string') return <p key={k} className={`mb-0 ${classes ? classes[k] : null}`}>{t(i)}</p>
-    return <Item content={i} />
-  }
+    if (typeof i === 'string')
+      return (
+        <p key={k} className={`mb-0 ${classes ? classes[k] : null}`}>
+          {t(i)}
+        </p>
+      );
+    return <Item content={i} />;
+  };
   return (
     <Row>
-      <Col>
-        {content.map((i, k) => getItem(i, k))}
-      </Col>
+      <Col>{content.map((i, k) => getItem(i, k))}</Col>
     </Row>
   );
 }
@@ -43,14 +46,16 @@ function Banner({ content, small }) {
   const { title, subtitle, background, items } = content;
   const getBackground = (style) => {
     const bg = {
-      'default': 'bg-gradient-orange',
-      'grey': 'bg-light-grey-blue',
-      'transparent': ' '
-    }
-    return bg[style] || bg.default
-  }
+      default: 'bg-gradient-orange',
+      grey: 'bg-light-grey-blue',
+      transparent: ' ',
+    };
+    return bg[style] || bg.default;
+  };
 
-  const classes = ((small) ? `${getBackground(background)}` : `block-big-white-space ${getBackground(background)}`);
+  const classes = small
+    ? `${getBackground(background)}`
+    : `block-big-white-space ${getBackground(background)}`;
   return (
     <Container fluid as="section" className={classes}>
       <Title content={title} />
@@ -62,6 +67,6 @@ function Banner({ content, small }) {
 
 Banner.defaultProps = {
   small: false,
-}
+};
 
 export default Banner;

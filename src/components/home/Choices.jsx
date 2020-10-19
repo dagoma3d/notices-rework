@@ -5,12 +5,21 @@ import Pictogram from './Pictogram';
 
 function Choices({ content }) {
   const [choice, setChoice] = useState();
-  if (!content) return null
+  if (!content) return null;
   return (
     <Fragment>
-      <Container as='section'>
+      <Container as="section">
         <Row>
-          {content.map((p, k) => <Pictogram key={k} to={p.to} href={p.href} src={p.src} title={p.title} onClick={() => setChoice(k)} />)}
+          {content.map((p, k) => (
+            <Pictogram
+              key={k}
+              to={p.to}
+              href={p.href}
+              src={p.src}
+              title={p.title}
+              onClick={() => setChoice(k)}
+            />
+          ))}
         </Row>
       </Container>
       <Options choice={content[choice]} />

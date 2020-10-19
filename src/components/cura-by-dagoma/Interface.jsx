@@ -7,7 +7,15 @@ function Bubble({ content, onMouseEnter, onMouseLeave }) {
   const { type, top, left, title } = content;
   const { t } = useTranslation();
 
-  return <div className={type ? `zone zone-${type}` : 'zone'} style={{ top, left }} title={t(title)} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} />;
+  return (
+    <div
+      className={type ? `zone zone-${type}` : 'zone'}
+      style={{ top, left }}
+      title={t(title)}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+    />
+  );
 }
 
 function List({ list }) {
@@ -15,7 +23,11 @@ function List({ list }) {
   if (!list) return null;
   return (
     <ul className="list-classic">
-      {list.map((i, k) => <li key={k} className="text-left">{t(i)}</li>)}
+      {list.map((i, k) => (
+        <li key={k} className="text-left">
+          {t(i)}
+        </li>
+      ))}
     </ul>
   );
 }
@@ -29,7 +41,9 @@ function Description({ content }) {
     <Container>
       <Row>
         <Col className="Interface-description">
-          {messages.map((i, k) => <span key={k}>{t(i)}</span>)}
+          {messages.map((i, k) => (
+            <span key={k}>{t(i)}</span>
+          ))}
           <List list={list} />
         </Col>
       </Row>
@@ -41,8 +55,8 @@ function Interface() {
   const [items, setItems] = useState();
   const [description, setDescription] = useState();
   useEffect(() => {
-    fetch('/content/cura-by-dagoma/interface.json').then(response => {
-      response.json().then(data => {
+    fetch('/content/cura-by-dagoma/interface.json').then((response) => {
+      response.json().then((data) => {
         setItems(data.items);
       });
     });
@@ -51,12 +65,19 @@ function Interface() {
   if (!items) return null;
 
   return (
-    <Container fluid as='section' className="block-big-white-space bg-gradient-orange">
+    <Container fluid as="section" className="block-big-white-space bg-gradient-orange">
       <Container>
         <Row className="mb-5 mx-auto">
           <Col className="container-interface px-0">
-            <img src="/img/Cura/Notice/e-interface-cura.jpg" alt='Interface Cura by Dagoma' />
-            {items.map((i, k) => <Bubble key={k} content={i.bubble} onMouseEnter={() => setDescription(i.description)} onMouseLeave={() => setDescription()} />)}
+            <img src="/img/Cura/Notice/e-interface-cura.jpg" alt="Interface Cura by Dagoma" />
+            {items.map((i, k) => (
+              <Bubble
+                key={k}
+                content={i.bubble}
+                onMouseEnter={() => setDescription(i.description)}
+                onMouseLeave={() => setDescription()}
+              />
+            ))}
           </Col>
         </Row>
       </Container>

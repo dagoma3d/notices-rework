@@ -21,18 +21,18 @@ function GoogleDocument({ content }) {
       </Row>
       <Row>
         <Col>
-          <iframe ref={target}
+          <iframe
+            ref={target}
             title={title}
             align="middle"
             frameBorder="0"
             width="100%"
-            src={`https://docs.google.com/presentation/d/${id}/embed?start=false&amp;loop=false&amp;delayms=3000`} />
+            src={`https://docs.google.com/presentation/d/${id}/embed?start=false&amp;loop=false&amp;delayms=3000`}
+          />
         </Col>
       </Row>
       <Row>
-        <Col>
-          {children}
-        </Col>
+        <Col>{children}</Col>
       </Row>
     </Container>
   );

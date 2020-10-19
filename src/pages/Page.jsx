@@ -19,19 +19,19 @@ function Page() {
   const match = useRouteMatch();
 
   const getValidationUrl = () => {
-    if (!nav) return null
-    if (active < nav.length - 1) return nav[active + 1].href
-  }
+    if (!nav) return null;
+    if (active < nav.length - 1) return nav[active + 1].href;
+  };
 
   useEffect(() => {
     const resources = [`/content${match.url}.json`, `/content${match.url}/0.json`];
     fetch(resources[0])
       .then((response) => response.json())
-      .then(data => setContent(data))
+      .then((data) => setContent(data))
       .catch(() => {
         fetch(resources[1])
-          .then(response => response.json())
-          .then(data => setContent(data))
+          .then((response) => response.json())
+          .then((data) => setContent(data))
           .catch((error) => setContent({ error: error.message }));
       });
   }, [match]);
@@ -53,12 +53,12 @@ function Page() {
     };
 
     fetch(resources[0])
-      .then(response => response.json())
-      .then(data => handleNav(data))
+      .then((response) => response.json())
+      .then((data) => handleNav(data))
       .catch(() => {
         fetch(resources[1])
-          .then(response => response.json())
-          .then(data => handleNav(data))
+          .then((response) => response.json())
+          .then((data) => handleNav(data))
           .catch(() => setNav());
       });
   }, [match]);

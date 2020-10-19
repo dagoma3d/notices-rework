@@ -5,7 +5,13 @@ function Youtube({ id, children }) {
   return (
     <div className="block-video-yt">
       {children}
-      <iframe title={id} src={`https://www.youtube.com/embed/${id}`} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+      <iframe
+        title={id}
+        src={`https://www.youtube.com/embed/${id}`}
+        frameBorder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
     </div>
   );
 }
@@ -25,11 +31,7 @@ function Media({ content }) {
   let media = null;
   if (id) media = <Youtube id={id} />;
   else if (src) media = <Image small={small || gray} src={src} />;
-  return (
-    <Col className={`col-xl-6 ${color} px-0`}>
-      {media}
-    </Col>
-  );
+  return <Col className={`col-xl-6 ${color} px-0`}>{media}</Col>;
 }
 
 export default Media;

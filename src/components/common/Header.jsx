@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Container, Navbar } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import './Header.css'
+import './Header.css';
 
 function Header() {
   const { t, i18n } = useTranslation();
@@ -13,29 +13,52 @@ function Header() {
 
   const handleKeyPress = (event) => {
     const events = {
-      'e': changeLanguage('en'),
-      'f': changeLanguage('fr')
-    }
-    return events[event.key]
-  }
+      e: changeLanguage('en'),
+      f: changeLanguage('fr'),
+    };
+    return events[event.key];
+  };
 
   useEffect(() => {
-    document.title = t('Notices de montage et d\'utilisation');
+    document.title = t("Notices de montage et d'utilisation");
   });
 
   return (
     <Navbar sticky="top" bg="gray">
       <Container>
         <Navbar.Brand>
-          <Link to={{ pathname: '/' }} onClick={() => document.body.scrollIntoView({ behavior: 'smooth' })}><i className="fa fa-home" /></Link>
+          <Link
+            to={{ pathname: '/' }}
+            onClick={() => document.body.scrollIntoView({ behavior: 'smooth' })}
+          >
+            <i className="fa fa-home" />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Text>
-          <span className='language-choice' onClick={() => changeLanguage('en')} onKeyPress={handleKeyPress} role='button' tabIndex={0}>en</span> | <span className='language-choice' onClick={() => changeLanguage('fr')} onKeyPress={handleKeyPress} role='button' tabIndex={-1}>fr</span>
+          <span
+            className="language-choice"
+            onClick={() => changeLanguage('en')}
+            onKeyPress={handleKeyPress}
+            role="button"
+            tabIndex={0}
+          >
+            en
+          </span>{' '}
+          |{' '}
+          <span
+            className="language-choice"
+            onClick={() => changeLanguage('fr')}
+            onKeyPress={handleKeyPress}
+            role="button"
+            tabIndex={-1}
+          >
+            fr
+          </span>
         </Navbar.Text>
       </Container>
     </Navbar>
   );
 }
 
-export default Header
+export default Header;
