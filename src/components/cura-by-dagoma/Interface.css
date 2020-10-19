@@ -12,6 +12,10 @@
   font-size: 1.3em;
 }
 
+.Interface-description li {
+  font-size: 1em;
+}
+
 .container-interface img,
 .container-interface picture {
   width: 100%;
