@@ -24,13 +24,13 @@
           "text": "Les pré-requis"
         },
         {
-          "list": [
-            "A. Face arrière imprimée",
-            "B. 1x Poulie",
-            "C. Corps d'extrudeur+",
-            "D. Moteur NEMA avec roue d'extrusion",
-            "E. Bras d'extrudeur",
-            "F. Ressort d'extrudeur"
+          "lettered-list": [
+            "Face arrière imprimée",
+            "1x Poulie",
+            "Corps d'extrudeur+",
+            "Moteur NEMA avec roue d'extrusion",
+            "Bras d'extrudeur",
+            "Ressort d'extrudeur"
           ]
         },
         {

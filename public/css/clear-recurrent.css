@@ -110,7 +110,6 @@ body {
   width: 100%;
   height: 100%;
   font-weight: 400;
-  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
   color: #404041;
 }
 
@@ -148,12 +147,21 @@ h5 {
 p {
   font-size: 1.6em;
   line-height: 1.2;
-  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
 }
+
+li {
+  font-size: 1.6em;
+}
+
+li p {
+  font-size: 1em;
+}
+
 p.small,
 span.small {
   font-size: 1.2em;
 }
+
 a,
 button {
   outline: none;
@@ -164,72 +172,40 @@ button {
 }
 .bold {
   font-weight: 700;
-  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
 }
 .light {
   font-weight: 300;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-}
-
-.wrap {
-  width: 1100px;
-  margin: auto;
-}
-
-footer section ul,
-.btn-diag-container ul {
-  list-style: none;
-}
-
-footer {
-  padding: 40px 0 0;
 }
 
 .title,
 .big-title {
   text-transform: uppercase;
   font-weight: 700;
-  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
 }
 
 .big-title {
   font-size: 2.2em;
 }
 
-button {
-  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
-}
-
 .bg-orange {
   background-color: #ff8200;
+}
+
+.bg-orange p {
+  color: #fff;
+  text-align: left !important;
+}
+
+.bg-orange a,
+.bg-orange a:hover,
+.bg-orange a:visited,
+.bg-orange a:focus {
   color: #fff;
 }
 
-.tleft {
-  text-align: left !important;
-}
-.tright {
-  text-align: right !important;
-}
-.tcenter {
-  text-align: center !important;
-}
-
-.tnormal {
-  font-size: 1.6em;
-}
-
-.tleft-child p,
-.tleft-child li {
-  text-align: left;
-}
-
-.block-white-space {
-  padding: 40px 10px !important;
-}
-
 .block-big-white-space {
-  padding: 80px 10px !important;
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
 }
 
 .block-big-white-space .big-title {
@@ -238,8 +214,4 @@ button {
 }
 .block-big-white-space .big-title.upper {
   text-transform: uppercase;
-}
-
-.lsn {
-  list-style: none;
 }

@@ -24,10 +24,10 @@
           "text": "Les pré-requis"
         },
         {
-          "list": [
-            "A. Carte de contrôle",
-            "B. Sachet de câbles",
-            "C. Petit sachet électronique + lecteur SD"
+          "lettered-list": [
+            "Carte de contrôle",
+            "Sachet de câbles",
+            "Petit sachet électronique + lecteur SD"
           ]
         },
         {

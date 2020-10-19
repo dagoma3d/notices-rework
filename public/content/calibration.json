@@ -10,19 +10,19 @@
     {
       "media": {
         "src": "DiscoEasy/Calibration/b1-prerequis-du.jpg",
-        "gray": true
+        "color": "anthracite"
       },
       "article": [
         {
           "title": "Les prérequis"
         },
         {
-          "list": [
-            "A. Il vous faut une imprimante 3d Dagoma",
-            "B. Un câble USB-B (fournis avec ton imprimante)",
-            "C. Un ordinateur et D. Dagom'app",
-            "E. Du filament",
-            "F. La cible fournie avec le kit (une carte de visite fonctionne aussi)"
+          "lettered-list": [
+            "Il vous faut une imprimante 3d Dagoma",
+            "Un câble USB-B (fournis avec ton imprimante)",
+            "Un ordinateur et D. Dagom'app",
+            "Du filament",
+            "La cible fournie avec le kit (une carte de visite fonctionne aussi)"
           ]
         },
         {

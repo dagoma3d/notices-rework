@@ -14,7 +14,7 @@
     {
       "media": {
         "src": "DiscoEasy/Notice/2-b-prerequis.jpg",
-        "gray": true
+        "color": "anthracite"
       },
       "article": [
         {
@@ -55,8 +55,7 @@
     },
     {
       "media": {
-        "src": "DiscoEasy/Notice/2-d-contenu.jpg",
-        "gray": false
+        "src": "DiscoEasy/Notice/2-d-contenu.jpg"
       },
       "article": [
         {

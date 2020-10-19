@@ -1,18 +1,14 @@
+html * {
+  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
+  color: #404041;
+}
+
 .right {
   float: right;
 }
 
 .left {
   float: left;
-}
-
-.top-lang {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  border-bottom: 1px solid #404041;
 }
 
 .language-choice {
@@ -39,16 +35,10 @@
   font-weight: 600;
 }
 
-.v-divider {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+.quick_tips {
   border-right: 2px solid rgba(64, 64, 65, 0.5);
-  height: 60%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
-.mb-25 {
-  margin-top: 25px;
+.danger {
+  border-left: 2px solid rgba(64, 64, 65, 0.5);
 }

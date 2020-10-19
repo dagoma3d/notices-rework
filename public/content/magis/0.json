@@ -25,7 +25,7 @@
     {
       "media": {
         "src": "NevaMagis/Notice/0-c-a-gris-contenu.jpg",
-        "gray": true
+        "color": "anthracite"
       },
       "article": [
         {
@@ -38,11 +38,11 @@
           "text": "L'échantillon de filament ne vous servira pas dans ce tutoriel."
         },
         {
-          "list": [
-            "A. Bras aimantés",
-            "B. Alimentation",
-            "C. Échantillon de fil",
-            "D. Carte SD"
+          "lettered-list": [
+            "Bras aimantés",
+            "Alimentation",
+            "Échantillon de fil",
+            "Carte SD"
           ]
         }
       ]
@@ -50,7 +50,7 @@
     {
       "media": {
         "src": "NevaMagis/Notice/0-c-b-gris-contenu.jpg",
-        "gray": true
+        "color": "anthracite"
       },
       "article": [
         {
@@ -60,11 +60,11 @@
           "text": "Bien sûr, ce n'est pas tout, voilà un petit kit pour prendre soin de votre Magis."
         },
         {
-          "list": [
-            "E. Adaptateur SD",
-            "F. Lingettes isopropyliques",
-            "G. Cable USB",
-            "H. Spatule"
+          "lettered-list": [
+            "Adaptateur SD",
+            "Lingettes isopropyliques",
+            "Cable USB",
+            "Spatule"
           ]
         }
       ]

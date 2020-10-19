@@ -1,26 +1,30 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { Col } from 'react-bootstrap';
+import './Pictogram.css';
 
 function Pictogram({ to, href, src, title, onClick }) {
   const { t } = useTranslation();
-  const Tag = (to) ? Link : 'a';
+  const Tag = to ? Link : 'a';
   return (
-    <article className='col-xl-6 col-l-8 col-m-12 col-s-24 col-space margin-bottom-box'>
-      <Tag className='btn-diag-or' to={to} href={href} onClick={onClick}>
-        <div className='btn-diag'>
-          <img src={`/pictos/${src}.svg`} alt={t(title)} />
-        </div>
-        <h2>{t(title)}</h2>
-      </Tag>
-    </article>
+    <Col as="article" xl={3}>
+      <div className="Pictogram">
+        <Tag to={to} href={href} onClick={onClick}>
+          <div>
+            <img src={`/pictos/${src}.svg`} alt={t(title)} />
+          </div>
+          <h2>{t(title)}</h2>
+        </Tag>
+      </div>
+    </Col>
   );
 }
 
 Pictogram.defaultProps = {
   src: 'addon',
   title: '',
-  onClick: null
-}
+  onClick: null,
+};
 
 export default Pictogram;

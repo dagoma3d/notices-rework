@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import './Interface.css';
 
@@ -6,15 +7,27 @@ function Bubble({ content, onMouseEnter, onMouseLeave }) {
   const { type, top, left, title } = content;
   const { t } = useTranslation();
 
-  return <div className={type ? `zone zone-${type}` : 'zone'} style={{ top, left }} title={t(title)} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} />;
+  return (
+    <div
+      className={type ? `zone zone-${type}` : 'zone'}
+      style={{ top, left }}
+      title={t(title)}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+    />
+  );
 }
 
 function List({ list }) {
   const { t } = useTranslation();
   if (!list) return null;
   return (
-    <ul className="list-classic tleft-child">
-      {list.map((i, k) => <li key={k}>{t(i)}</li>)}
+    <ul className="list-classic">
+      {list.map((i, k) => (
+        <li key={k} className="text-left">
+          {t(i)}
+        </li>
+      ))}
     </ul>
   );
 }
@@ -25,10 +38,16 @@ function Description({ content }) {
   if (!content) return null;
   const { messages, list } = content;
   return (
-    <div className="col-xl-offset-6 col-xl-12 row Interface-description">
-      {messages.map((i, k) => <span key={k}>{t(i)}</span>)}
-      <List list={list} />
-    </div>
+    <Container>
+      <Row>
+        <Col className="Interface-description">
+          {messages.map((i, k) => (
+            <span key={k}>{t(i)}</span>
+          ))}
+          <List list={list} />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
@@ -36,8 +55,8 @@ function Interface() {
   const [items, setItems] = useState();
   const [description, setDescription] = useState();
   useEffect(() => {
-    fetch('/content/cura-by-dagoma/interface.json').then(response => {
-      response.json().then(data => {
+    fetch('/content/cura-by-dagoma/interface.json').then((response) => {
+      response.json().then((data) => {
         setItems(data.items);
       });
     });
@@ -46,15 +65,24 @@ function Interface() {
   if (!items) return null;
 
   return (
-    <section className="col-xl-24 block-big-white-space bg-gradient-orange row">
-      <div className="wrap row margin-bottom-shop">
-        <div className="col-xl-24 row container-interface">
-          <img src="/img/Cura/Notice/e-interface-cura.jpg" alt='Interface Cura by Dagoma' />
-          {items.map((i, k) => <Bubble key={k} content={i.bubble} onMouseEnter={() => setDescription(i.description)} onMouseLeave={() => setDescription()} />)}
-        </div>
-        <Description content={description} />
-      </div>
-    </section>
+    <Container fluid as="section" className="block-big-white-space bg-gradient-orange">
+      <Container>
+        <Row className="mb-5 mx-auto">
+          <Col className="container-interface px-0">
+            <img src="/img/Cura/Notice/e-interface-cura.jpg" alt="Interface Cura by Dagoma" />
+            {items.map((i, k) => (
+              <Bubble
+                key={k}
+                content={i.bubble}
+                onMouseEnter={() => setDescription(i.description)}
+                onMouseLeave={() => setDescription()}
+              />
+            ))}
+          </Col>
+        </Row>
+      </Container>
+      <Description content={description} />
+    </Container>
   );
 }
 

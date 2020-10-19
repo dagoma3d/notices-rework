@@ -211,7 +211,7 @@
   ],
   "footer": {
     "img": "DiscoEasy/Software/a-intro-maj-disco.jpg",
-    "subtitle": "Etape ${props.active + 1}",
+    "subtitle": "Mise à jour effectuée !",
     "items": [
       {
         "text": "Après une mise à jour, il est nécessaire de recalibrer l'imprimante 3D."

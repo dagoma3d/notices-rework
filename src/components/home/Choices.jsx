@@ -1,17 +1,27 @@
 import React, { Fragment, useState } from 'react';
+import { Container, Row } from 'react-bootstrap';
 import Options from './Options';
 import Pictogram from './Pictogram';
 
 function Choices({ content }) {
   const [choice, setChoice] = useState();
-  if (!content) return null
+  if (!content) return null;
   return (
     <Fragment>
-      <section className='col-xl-24 row'>
-        <div className='btn-diag-container container wrap row'>
-          {content.map((p, k) => <Pictogram key={k} to={p.to} href={p.href} src={p.src} title={p.title} onClick={() => setChoice(k)} />)}
-        </div>
-      </section>
+      <Container as="section">
+        <Row>
+          {content.map((p, k) => (
+            <Pictogram
+              key={k}
+              to={p.to}
+              href={p.href}
+              src={p.src}
+              title={p.title}
+              onClick={() => setChoice(k)}
+            />
+          ))}
+        </Row>
+      </Container>
       <Options choice={content[choice]} />
     </Fragment>
   );

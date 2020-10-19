@@ -25,14 +25,14 @@
           "text": "Les pré-requis"
         },
         {
-          "list": [
-            "A. Surface d'accroche Buildgrip",
-            "B. Plaque de fond (blanche sur l'image)",
-            "C. Gaine torsadée (350mm)",
-            "D. Logo Imprimé / 2x Clip PTFE",
-            "E. Couple de fixations hautes",
-            "F. 2x Barres courtes (270mm)",
-            "G. 2x Barres courtes (270mm)"
+          "lettered-list": [
+            "Surface d'accroche Buildgrip",
+            "Plaque de fond (blanche sur l'image)",
+            "Gaine torsadée (350mm)",
+            "Logo Imprimé / 2x Clip PTFE",
+            "Couple de fixations hautes",
+            "2x Barres courtes (270mm)",
+            "2x Barres courtes (270mm)"
           ]
         },
         {

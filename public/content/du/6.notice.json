@@ -24,14 +24,14 @@
           "text": "Les pré-requis"
         },
         {
-          "list": [
-            "A. 2x Barres courtes (270mm)",
-            "B. Couple de chariots d'axe X",
-            "C. Moteur NEMA avec poulie",
-            "D. Courroie courte (75cm)",
-            "E. 1x Poulie",
-            "F. Butée longue",
-            "G. Tête d'impression montée"
+          "lettered-list": [
+            "2x Barres courtes (270mm)",
+            "Couple de chariots d'axe X",
+            "Moteur NEMA avec poulie",
+            "Courroie courte (75cm)",
+            "1x Poulie",
+            "Butée longue",
+            "Tête d'impression montée"
           ]
         },
         {

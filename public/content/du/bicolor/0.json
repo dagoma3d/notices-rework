@@ -28,16 +28,16 @@
           "title": "Dans le pack vous avez trouvé..."
         },
         {
-          "list": [
-            "A - Une tête d'impression bi-couleur",
-            "B - Un bras d'extrudeur+",
-            "C - Un corps d'extrudeur+ E1",
-            "D - Un tube PTFE",
-            "E - Un moteur d'extrudeur",
-            "F - Un ressort d'extrudeur",
-            "G - 3x grandes vis (M3x25mm) et 1x petite vis (M3x6mm)",
-            "H - 6 roulements linéaire (inutiles si vous avez le pack expert)",
-            "I - Câble pour le moteur d'extrudeur E1"
+          "lettered-list": [
+            "Une tête d'impression bi-couleur",
+            "Un bras d'extrudeur+",
+            "Un corps d'extrudeur+ E1",
+            "Un tube PTFE",
+            "Un moteur d'extrudeur",
+            "Un ressort d'extrudeur",
+            "3x grandes vis (M3x25mm) et 1x petite vis (M3x6mm)",
+            "6 roulements linéaire (inutiles si vous avez le pack expert)",
+            "Câble pour le moteur d'extrudeur E1"
           ]
         }
       ]
@@ -51,11 +51,11 @@
           "title": "Les pré-requis"
         },
         {
-          "list": [
-            "1. Un tournevis hexagonal 2.5 mm (fourni avec le kit Disco Ultimate)",
-            "2. Un tournevis plat",
-            "3. Un outil imprimé (fourni avec le kit Disco Ultimate)",
-            "4. Une pince coupante"
+          "numbered-list": [
+            "Un tournevis hexagonal 2.5 mm (fourni avec le kit Disco Ultimate)",
+            "Un tournevis plat",
+            "Un outil imprimé (fourni avec le kit Disco Ultimate)",
+            "Une pince coupante"
           ]
         },
         {

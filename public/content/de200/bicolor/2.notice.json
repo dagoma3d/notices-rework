@@ -154,8 +154,7 @@
           "text": "Montez ensuite les extrudeur en suivant la vidéo."
         },
         {
-          "text": "Suivez les marquages E0 et E1 pour l'emplacement.",
-          "classes": "text-red"
+          "warning": "Suivez les marquages E0 et E1 pour l'emplacement."
         },
         {
           "button": {

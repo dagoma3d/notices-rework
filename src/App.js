@@ -5,19 +5,18 @@ import Header from './components/common/Header';
 import Home from './pages/Home';
 import Page from './pages/Page';
 import NotFound from './components/common/NotFound';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // here app catches the suspense from page in case translations are not yet loaded
 export default function App() {
   return (
     <Router>
       <Header />
-      <div className="mb-25">
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/:p0/:p1?/:p3?" component={Page} />
-          <Route component={NotFound} />
-        </Switch>
-      </div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/:p0/:p1?/:p3?" component={Page} />
+        <Route component={NotFound} />
+      </Switch>
     </Router>
   );
 }

@@ -1,0 +1,10 @@
+.bg-gray {
+  background-color: #e7e7e7;
+  color: #404041;
+  border-bottom: 1px solid #404041;
+  font-size: 2em;
+}
+
+.bg-gray i {
+  font-size: 2em;
+}

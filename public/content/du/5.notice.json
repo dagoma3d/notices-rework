@@ -24,10 +24,10 @@
           "text": "Les pré-requis"
         },
         {
-          "list": [
-            "A. Plateau",
-            "B. Supports plateau (3 pièces)",
-            "C. Courroie longue (85cm)"
+          "lettered-list": [
+            "Plateau",
+            "Supports plateau (3 pièces)",
+            "Courroie longue (85cm)"
           ]
         },
         {

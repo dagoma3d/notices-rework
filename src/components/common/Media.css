@@ -1,0 +1,25 @@
+.media-arrow::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  border-style: solid;
+  z-index: 99;
+}
+
+.media-arrow-left::before {
+  border-width: 30px 45px 30px 0;
+  border-color: transparent #f6f6fe transparent transparent;
+  left: auto;
+  right: 0;
+}
+
+.media-arrow-right::before {
+  border-width: 30px 0 30px 45px;
+  border-color: transparent transparent transparent #f6f6fe;
+  left: 0;
+  right: auto;
+}

@@ -27,22 +27,10 @@
   font-size: large;
 }
 
-.fakeh2 {
-  margin-top: 25px;
-}
-
 .link-classic,
 .link-classic:hover,
 .link-classic:visited,
 .link-classic:focus {
   text-decoration: underline;
   cursor: pointer;
-}
-
-.margin-bottom-shop {
-  margin-bottom: 50px;
-}
-
-.tcenter {
-  text-align: center;
 }
