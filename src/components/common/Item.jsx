@@ -134,7 +134,7 @@ function Help({ content }) {
     if (!content[type]) return null;
 
     return (
-      <Col className={type}>
+      <Col className={Object.keys(content).length > 1 ? type : null}>
         <div className="help-container">
           <div>
             <img height="50px" src={`/pictos/${type}.png`} alt={`${type}`} />
