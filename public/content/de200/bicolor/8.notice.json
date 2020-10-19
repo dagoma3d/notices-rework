@@ -126,11 +126,11 @@
           "text": "La bi-extrusion offre la possibilité de gérer les supports de différentes façon (bien-sur il faut au préalable activer les supports) :"
         },
         {
-          "list": [
-            "A. Les deux : Les deux filaments seront utilisés pour faire le support.",
-            "B. Filament 1 : Seul le filament 1 sera utilisé pour le support, orange ici.",
-            "C. Filament 2 : Seul le filament 2 sera utilisé pour le support, gris ici.",
-            "D. Il est possible d'imprimer une pièce monochrome avec un support d'une autre matière. Ici, nous avons imprimé le \"T\" avec le filament 1 et le support avec le filament 2. Pour se faire, il faut choisir \"Filament 2\" dans type de support."
+          "lettered-list": [
+            "Les deux : Les deux filaments seront utilisés pour faire le support.",
+            "Filament 1 : Seul le filament 1 sera utilisé pour le support, orange ici.",
+            "Filament 2 : Seul le filament 2 sera utilisé pour le support, gris ici.",
+            "Il est possible d'imprimer une pièce monochrome avec un support d'une autre matière. Ici, nous avons imprimé le \"T\" avec le filament 1 et le support avec le filament 2. Pour se faire, il faut choisir \"Filament 2\" dans type de support."
           ]
         }
       ]

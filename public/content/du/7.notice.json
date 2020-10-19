@@ -24,10 +24,10 @@
           "text": "Les pré-requis"
         },
         {
-          "list": [
-            "A. Axe X monté",
-            "B. 2x moteur de Z avec tiges trapézoïdales et écrous",
-            "C. 4x Barres longues (360mm)"
+          "lettered-list": [
+            "Axe X monté",
+            "2x moteur de Z avec tiges trapézoïdales et écrous",
+            "4x Barres longues (360mm)"
           ]
         },
         {

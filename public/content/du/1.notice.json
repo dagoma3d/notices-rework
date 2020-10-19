@@ -24,18 +24,18 @@
           "text": "Les pré-requis"
         },
         {
-          "list": [
-            "A. Face avant imprimée",
-            "B. 4 Roulements 623ZZ",
-            "C. Butée de fin de course Y (185 mm)",
-            "D. Moteur NEMA avec poulie"
+          "lettered-list": [
+            "Face avant imprimée",
+            "4 Roulements 623ZZ",
+            "Butée de fin de course Y (185 mm)",
+            "Moteur NEMA avec poulie"
           ]
         },
         {
           "text": "Visserie :"
         },
         {
-          "list": [
+          "lettered-list": [
             "3x vis M3x6 (reste 11)",
             "6x vis M3x16 (reste 23)",
             "4x écrous M3 (reste 21)"

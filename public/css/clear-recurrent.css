@@ -148,10 +148,20 @@ p {
   font-size: 1.6em;
   line-height: 1.2;
 }
+
+li {
+  font-size: 1.6em;
+}
+
+li p {
+  font-size: 1em;
+}
+
 p.small,
 span.small {
   font-size: 1.2em;
 }
+
 a,
 button {
   outline: none;

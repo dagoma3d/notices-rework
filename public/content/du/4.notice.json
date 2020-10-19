@@ -24,16 +24,16 @@
           "text": "Les pré-requis"
         },
         {
-          "list": [
-            "A. Plaque de protection avant",
-            "B. Plaque de protection arrière",
-            "C. Face arrière montée",
-            "D. Face avant montée",
-            "E. Lot de cache côtés (4 pièces)",
-            "F. Fixations latérales montées",
-            "G. 4x Barres longues (360mm)",
-            "H. Support de plaques de protection",
-            "I. 4x Roulements linéaires"
+          "lettered-list": [
+            "Plaque de protection avant",
+            "Plaque de protection arrière",
+            "Face arrière montée",
+            "Face avant montée",
+            "Lot de cache côtés (4 pièces)",
+            "Fixations latérales montées",
+            "4x Barres longues (360mm)",
+            "Support de plaques de protection",
+            "4x Roulements linéaires"
           ]
         },
         {

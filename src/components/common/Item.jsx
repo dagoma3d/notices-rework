@@ -41,6 +41,34 @@ function List({ content }) {
   );
 }
 
+function NumberedList({ content }) {
+  const { t } = useTranslation();
+  if (!content) return null;
+  return (
+    <ol type="1" className="list-classic">
+      {content.map((i, k) => (
+        <li key={k}>
+          <p className="text-left">{typeof i === 'string' ? t(i) : <Item key={k} content={i} />}</p>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
+function LetteredList({ content }) {
+  const { t } = useTranslation();
+  if (!content) return null;
+  return (
+    <ol type="A" className="list-classic">
+      {content.map((i, k) => (
+        <li key={k}>
+          <p className="text-left">{typeof i === 'string' ? t(i) : <Item key={k} content={i} />}</p>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
 function Frame({ content }) {
   if (!content) return null;
   return (
@@ -213,6 +241,8 @@ function Item({ content }) {
     italic: <Text content={v} italic />,
     warning: <Text content={v} warning />,
     list: <List content={v} />,
+    'numbered-list': <NumberedList content={v} />,
+    'lettered-list': <LetteredList content={v} />,
     help: <Help content={v} />,
     frame: typeof v === 'string' ? <Text content={v} frame /> : <Frame content={v} />,
     button: (
