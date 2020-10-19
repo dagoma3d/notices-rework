@@ -15,7 +15,7 @@ function NavItem(props) {
   const { t } = useTranslation();
   const { active, href, label, img } = props;
   return (
-    <li className={`new-btn btn-classic btn-grey step ${active ? 'active' : null}`}>
+    <li className={`new-btn btn-classic btn-grey step ${active ? 'active' : ''}`}>
       <a className="btn-wide btn-big" href={href}>
         {t(label)}
         <Image img={img} />
@@ -29,7 +29,7 @@ function NavBar({ nav, active }) {
 
   if (!nav) return null;
   return (
-    <nav className={`nav-vertical ${!opened ? 'closed' : null}`}>
+    <nav className={`nav-vertical ${opened ? 'opened' : 'closed'}`}>
       <div className="border-nav">
         <p>Navigation</p>
       </div>

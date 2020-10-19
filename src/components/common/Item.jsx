@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Col, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
@@ -9,7 +10,7 @@ function Text({ content, italic, frame, warning, bold }) {
   const classes = [];
   if (italic) classes.push('italic');
   if (bold) classes.push('bold');
-  if (frame) classes.push('bg-orange text-white col-space');
+  if (frame) classes.push('bg-orange text-white p-3');
   if (warning) classes.push('text-red');
   return <p className={classes.join(' ')}>{t(content)}</p>;
 }
@@ -17,7 +18,7 @@ function Text({ content, italic, frame, warning, bold }) {
 function PreTitle({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
-  return <h3 className="title tleft">{t(content)}</h3>;
+  return <h3 className="title text-left">{t(content)}</h3>;
 }
 
 function Title({ content }) {
@@ -30,8 +31,8 @@ function List({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
   return (
-    <ul className="list-classic tleft-child">
-      {content.map((i, k) => <li key={k}><p>{typeof i === 'string' ? t(i) : <Item key={k} content={i} />}</p></li>)}
+    <ul className="list-classic">
+      {content.map((i, k) => <li key={k}><p className="text-left">{typeof i === 'string' ? t(i) : <Item key={k} content={i} />}</p></li>)}
     </ul>
   );
 }
@@ -39,8 +40,8 @@ function List({ content }) {
 function Frame({ content }) {
   if (!content) return null;
   return (
-    <div className='bg-orange text-white col-space tleft-child'>
-      {content.map((i, k) => <Item key={k} content={i} />)}
+    <div className='bg-orange p-3'>
+      {content.map((i, k) => <Item key={k} content={i} frame/>)}
     </div>
   );
 }
@@ -60,10 +61,10 @@ function Button({ text, color, to, href, download, label, position }) {
 
   const getPosition = (p) => {
     const classes = {
-      'left': 'tleft',
-      'center': 'tcenter',
-      'right': 'tright',
-      'default': 'tleft'
+      'left': 'text-left',
+      'center': 'text-center',
+      'right': 'text-right',
+      'default': 'text-left'
     }
     return classes[p] || classes.default
   }
@@ -85,7 +86,7 @@ Button.defaultProps = {
 function Container({ content }) {
   if (!content) return null;
   return (
-    <div className="col-xl-10 col-xl-offset-7 col-s-10 col-s-offset-7 margin-bottom-shop">
+    <div className="col-xl-10 col-xl-offset-7 col-s-10 col-s-offset-7 mb-5">
       {content.map((i, k) => <Item key={k} content={i} />)}
     </div>
   )
@@ -94,7 +95,7 @@ function Container({ content }) {
 function AdditionalInfo({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
-  return content.map((p, k) => <p className="tleft col-vbspace" key={k}>{t(p)}</p>);
+  return content.map((p, k) => <p className="text-left mb-3" key={k}>{t(p)}</p>);
 }
 
 function Help({ content }) {
@@ -105,26 +106,20 @@ function Help({ content }) {
     if (!content[type]) return null
 
     return (
-      <div className="col-xl-12">
+      <Col className={type}>
         <div className="help-container">
           <div><img height="50px" src={`/pictos/${type}.png`} alt={`${type}`} /></div>
           <p className="help-text">{t(content[type])}</p>
         </div>
-      </div>
+      </Col>
     )
   }
 
-  function Divider() {
-    if (content.quick_tips && content.danger) return <div className="v-divider" />
-    return null
-  }
-
   return (
-    <div className="col-xl-24 display-flex row">
+    <Row>
       <HelpInfo type="quick_tips" />
-      <Divider />
       <HelpInfo type="danger" />
-    </div >
+    </Row>
   )
 }
 
@@ -138,18 +133,16 @@ function Video({ content }) {
 
   return (
     <section>
-      <p className="tleft col-vbspace">
+      <p className="text-left mb-3">
         <button className="new-btn btn-classic btn-grey btn-wide btn-show-video" type='button' onClick={() => setActive(!active)}>{t('Lire la vidéo')}</button>
       </p>
       <AdditionalInfo content={text} />
-      <section className={`col-xl-24 row block-video block-video-hidden ${active ? 'active' : null}`} style={{ border: 'none' }}>
+      <section className={`block-video block-video-hidden ${active ? 'active' : null}`} style={{ border: 'none' }}>
         <div className="block-video-yt">
           <iframe title={id} src={`https://www.youtube.com/embed/${id}`} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
-          <div className="close-video">
-            <i className="fa fa-close" onClick={() => setActive(!active)} onKeyPress={handleKeyPress} tabIndex={0} role='button'>
-              <span>s</span>
-            </i>
-          </div>
+          <i className="fa fa-times-circle-o close-video" onClick={() => setActive(!active)} onKeyPress={handleKeyPress} tabIndex={0} role='button'>
+            <span>s</span>
+          </i>
         </div>
       </section>
     </section>

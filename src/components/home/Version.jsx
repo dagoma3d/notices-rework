@@ -17,17 +17,17 @@ function Version({ printer }) {
 
   return (
     <Container ref={ref}>
-      <Row className="col-space">
+      <Row className="py-3">
         <Col>
-          <p className="tcenter">
+          <p className="text-center">
             <Link to="/" className="link-classic" onClick={() => setShow(!show)}>{t('Comment vérifier la version de votre Neva ?')}</Link>
           </p>
         </Col>
       </Row>
       <Row className={show ? null : 'hidden'}>
         <Col>
-          <p className="tcenter bold col-vspace">{t('Magis : Numéro de série > 6000')}</p>
-          <p className="tcenter bold col-vspace">{t('Neva : Numéro de série < 6000 ou pas de numéro de série')}</p>
+          <p className="text-center bold py-3">{t('Magis : Numéro de série > 6000')}</p>
+          <p className="text-center bold py-3">{t('Neva : Numéro de série < 6000 ou pas de numéro de série')}</p>
           <figure>
             <img src="/img/home/n-serie-neva.jpg" alt={t('Trouver numéro de série de ma Neva')} />
           </figure>

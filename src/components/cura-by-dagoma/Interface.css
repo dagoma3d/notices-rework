@@ -12,10 +12,6 @@
   font-size: 1.3em;
 }
 
-.container-interface {
-  float: none !important;
-}
-
 .container-interface img,
 .container-interface picture {
   width: 100%;
@@ -24,17 +20,6 @@
 .container-interface .active {
   background-color: #333333;
   color: #fff;
-}
-
-@media only screen and (max-width: 768px) {
-  .container-interface {
-    position: absolute;
-    width: 700%;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: all 0.4s ease;
-  }
 }
 
 .zone {

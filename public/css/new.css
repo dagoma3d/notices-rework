@@ -35,12 +35,10 @@ html * {
   font-weight: 600;
 }
 
-.v-divider {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+.quick_tips {
   border-right: 2px solid rgba(64, 64, 65, 0.5);
-  height: 60%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+}
+
+.danger {
+  border-left: 2px solid rgba(64, 64, 65, 0.5);
 }

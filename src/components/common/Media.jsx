@@ -1,4 +1,5 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
 
 function Youtube({ id, children }) {
   return (
@@ -18,17 +19,16 @@ function Image({ small, src }) {
   );
 }
 
-function Media({ index, content }) {
+function Media({ content }) {
   const { id, src, small, gray } = content;
   const color = gray ? 'color-anthracite' : 'bg-white';
-  const flip = (index % 2 === 0) ? 'col-xl-push-12 col-m-push-0' : null;
   let media = null;
   if (id) media = <Youtube id={id} />;
   else if (src) media = <Image small={small || gray} src={src} />;
   return (
-    <section className={`col col-xl-12 col-m-24 block-info-cursor row ${color} ${flip}`}>
+    <Col className={`col-xl-6 ${color} px-0`}>
       {media}
-    </section>
+    </Col>
   );
 }
 

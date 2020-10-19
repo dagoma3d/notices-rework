@@ -19,8 +19,8 @@ function Options({ choice }) {
       <Container fluid as='section' className='bg-light-grey-blue'>
         <Container>
           <Row>
-            <Col className='no-float col-vspace'>
-              <p className="big-title tcenter">{t(choice.title)}</p>
+            <Col className='py-3'>
+              <p className="big-title text-center">{t(choice.title)}</p>
             </Col>
           </Row>
           <Row className="justify-content-md-center">

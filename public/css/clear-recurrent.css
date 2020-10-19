@@ -167,15 +167,6 @@ button {
   font-weight: 300;
 }
 
-.wrap {
-  width: 1100px;
-  margin: auto;
-}
-
-footer {
-  padding: 40px 0 0;
-}
-
 .title,
 .big-title {
   text-transform: uppercase;
@@ -188,6 +179,17 @@ footer {
 
 .bg-orange {
   background-color: #ff8200;
+}
+
+.bg-orange p {
+  color: #fff;
+  text-align: left !important;
+}
+
+.bg-orange a,
+.bg-orange a:hover,
+.bg-orange a:visited,
+.bg-orange a:focus {
   color: #fff;
 }
 
@@ -197,17 +199,9 @@ footer {
 .tright {
   text-align: right !important;
 }
-.tcenter {
-  text-align: center !important;
-}
 
 .tnormal {
   font-size: 1.6em;
-}
-
-.tleft-child p,
-.tleft-child li {
-  text-align: left;
 }
 
 .block-big-white-space {
