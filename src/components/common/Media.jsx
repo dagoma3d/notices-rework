@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
+import './Media.css';
 
 function Youtube({ id, children }) {
   return (
@@ -25,13 +26,14 @@ function Image({ small, src }) {
   );
 }
 
-function Media({ content }) {
-  const { id, src, small, gray } = content;
-  const color = gray ? 'color-anthracite' : 'bg-white';
+function Media({ content, position }) {
+  const { id, src, small, color } = content;
+
+  const c = `bg-${color || 'white'}`;
   let media = null;
   if (id) media = <Youtube id={id} />;
-  else if (src) media = <Image small={small || gray} src={src} />;
-  return <Col className={`col-xl-6 ${color} px-0`}>{media}</Col>;
+  else if (src) media = <Image small={small || color === 'anthracite'} src={src} />;
+  return <Col className={`media-arrow media-arrow-${position} col-xl-6 ${c} px-0`}>{media}</Col>;
 }
 
 export default Media;

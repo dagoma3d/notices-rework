@@ -25,7 +25,7 @@
     {
       "media": {
         "src": "NevaMagis/Notice/0-c-a-gris-contenu.jpg",
-        "gray": true
+        "color": "anthracite"
       },
       "article": [
         {
@@ -50,7 +50,7 @@
     {
       "media": {
         "src": "NevaMagis/Notice/0-c-b-gris-contenu.jpg",
-        "gray": true
+        "color": "anthracite"
       },
       "article": [
         {

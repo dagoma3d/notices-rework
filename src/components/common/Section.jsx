@@ -20,13 +20,13 @@ function Section({ index, content }) {
   const blocks =
     index % 2 === 0 ? (
       <Fragment>
-        <Article content={article} cursor="left" />
-        <Media content={media} />
+        <Article content={article} />
+        <Media content={media} position="right" />
       </Fragment>
     ) : (
       <Fragment>
-        <Media content={media} />
-        <Article content={article} cursor="right" />
+        <Media content={media} position="left" />
+        <Article content={article} />
       </Fragment>
     );
   return (
