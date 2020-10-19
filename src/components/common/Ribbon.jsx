@@ -83,7 +83,7 @@ function Ribbon({ content, validationUrl }) {
           <section className={`block-caption-classic ${flipClass}`}>
             <Title content={title} />
             <SubTitle content={subtitle} />
-            <Item content={{ text: text }} />
+            <Item content={{ text }} />
             <Items content={items} />
             <Validation content={validation} validationUrl={validationUrl} />
             <Note content={note} />
