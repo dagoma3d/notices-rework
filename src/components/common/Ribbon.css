@@ -1,0 +1,116 @@
+.checkbox-classic {
+  position: relative;
+}
+
+.checkbox-classic input[type='checkbox'] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.checkbox-classic input[type='checkbox'] + label {
+  padding-left: 40px;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.checkbox-classic input[type='checkbox'] + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #404041;
+  background-color: transparent;
+  overflow: hidden;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.checkbox-classic input[type='checkbox'] + label::before {
+  border-radius: 3px;
+}
+
+.checkbox-classic input[type='checkbox'] + label::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffa735;
+  background: -moz-linear-gradient(left, #ffa735 0%, #fd613d 100%);
+  background: -webkit-linear-gradient(left, #ffa735 0%, #fd613d 100%);
+  background: linear-gradient(to right, #ffa735 0%, #fd613d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa735', endColorstr='#fd613d',GradientType=1 );
+  left: 4px;
+  margin: auto;
+  top: 4px;
+  transition: all 0.3s ease, transform 0.3s cubic-bezier(0.41, 1.39, 0.93, 1.15);
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.checkbox-classic input[type='checkbox'] + label::after {
+  border-radius: 2px;
+}
+
+.checkbox-classic input[type='checkbox']:checked + label::before {
+  border-color: #ffa735;
+}
+
+.checkbox-classic input[type='checkbox']:checked + label::after {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.checkbox-full-width input[type='checkbox'] + label {
+  padding: 10px 40px;
+  border: 2px solid #404041;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f7f7f7;
+  width: 100%;
+}
+.checkbox-full-width input[type='checkbox'] + label::before {
+  top: 14px;
+  left: 10px;
+  border-radius: 50%;
+}
+.checkbox-full-width input[type='checkbox'] + label::after {
+  background: transparent;
+  top: 14px;
+  left: 10px;
+}
+
+.checkbox-full-width input[type='checkbox']:checked + label {
+  background: #ffa735;
+  background: -moz-linear-gradient(left, #ffa735 0%, #fd613d 100%);
+  background: -webkit-linear-gradient(left, #ffa735 0%, #fd613d 100%);
+  background: linear-gradient(to right, #ffa735 0%, #fd613d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa735', endColorstr='#fd613d',GradientType=1 );
+}
+.checkbox-full-width input[type='checkbox']:checked + label::before {
+  border-color: #404041;
+  background-color: #fff;
+}
+.checkbox-full-width input[type='checkbox']:checked + label::after {
+  background: transparent;
+  content: '\f00c';
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 20px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tnormal {
+  font-size: 1.6em;
+}
+
+label {
+  margin-bottom: 0 !important;
+}

@@ -193,17 +193,6 @@ button {
   color: #fff;
 }
 
-.tleft {
-  text-align: left !important;
-}
-.tright {
-  text-align: right !important;
-}
-
-.tnormal {
-  font-size: 1.6em;
-}
-
 .block-big-white-space {
   padding-top: 80px !important;
   padding-bottom: 80px !important;
@@ -215,8 +204,4 @@ button {
 }
 .block-big-white-space .big-title.upper {
   text-transform: uppercase;
-}
-
-.lsn {
-  list-style: none;
 }
