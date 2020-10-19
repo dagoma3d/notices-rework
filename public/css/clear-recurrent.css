@@ -110,7 +110,6 @@ body {
   width: 100%;
   height: 100%;
   font-weight: 400;
-  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
   color: #404041;
 }
 
@@ -148,7 +147,6 @@ h5 {
 p {
   font-size: 1.6em;
   line-height: 1.2;
-  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
 }
 p.small,
 span.small {
@@ -164,21 +162,14 @@ button {
 }
 .bold {
   font-weight: 700;
-  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
 }
 .light {
   font-weight: 300;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 .wrap {
   width: 1100px;
   margin: auto;
-}
-
-footer section ul,
-.btn-diag-container ul {
-  list-style: none;
 }
 
 footer {
@@ -189,15 +180,10 @@ footer {
 .big-title {
   text-transform: uppercase;
   font-weight: 700;
-  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
 }
 
 .big-title {
   font-size: 2.2em;
-}
-
-button {
-  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
 }
 
 .bg-orange {
@@ -224,12 +210,9 @@ button {
   text-align: left;
 }
 
-.block-white-space {
-  padding: 40px 10px !important;
-}
-
 .block-big-white-space {
-  padding: 80px 10px !important;
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
 }
 
 .block-big-white-space .big-title {

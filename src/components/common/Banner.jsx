@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import Item from './Item';
 
@@ -41,13 +42,17 @@ function Banner({ content, small }) {
     return bg[style] || bg.default
   }
 
-  const sectionClasses = ((small) ? `col-xl-24 row ${getBackground(background)}` : `col-xl-24 block-big-white-space row ${getBackground(background)}`);
+  const classes = ((small) ? `${getBackground(background)}` : `block-big-white-space ${getBackground(background)}`);
   return (
-    <section className={sectionClasses}>
-      <Title content={title} />
-      <SubTitle small={small} content={subtitle} />
-      <Items content={items} />
-    </section>
+    <Container fluid as="section" className={classes}>
+      <Row>
+        <Col>
+          <Title content={title} />
+          <SubTitle small={small} content={subtitle} />
+          <Items content={items} />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

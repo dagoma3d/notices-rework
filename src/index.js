@@ -6,4 +6,4 @@ import App from './App';
 // import i18n (needs to be bundled ;))
 import './i18n';
 
-ReactDOM.render(<App />, document.getElementById('body'));
+ReactDOM.render(<App />, document.getElementById('app'));

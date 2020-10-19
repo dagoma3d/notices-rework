@@ -1,30 +1,40 @@
 import { useTranslation } from 'react-i18next';
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 
 function GoogleDocument({ content }) {
   const { title, id, children } = content;
   const { t } = useTranslation();
+  const source = useRef();
+  const target = useRef();
+
+  useEffect(() => {
+    target.current.height = source.current.clientWidth / 2;
+  }, [target]);
 
   return (
-    <div id="content-page" className="custom-page row wrap">
-      <div className="row margin-bottom-shop">
-        <div className="col-xl-24 tcenter margin-bottom-shop">
+    <Container ref={source}>
+      <Row>
+        <Col>
           <h1 className="tcenter">{t(title)}</h1>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-xl-20 col-xl-offset-2 col-s-24 col-s-offset-0 iframe-width margin-bottom-shop">
-          <iframe
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <iframe ref={target}
             title={title}
             align="middle"
             frameBorder="0"
-            height="569"
-            width="960"
+            width="100%"
             src={`https://docs.google.com/presentation/d/${id}/embed?start=false&amp;loop=false&amp;delayms=3000`} />
-        </div>
-      </div>
-      {children}
-    </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          {children}
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

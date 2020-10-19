@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { Col, Container, Row } from 'react-bootstrap';
 import Item from './Item';
 
 function Title({ content }) {
@@ -60,20 +61,24 @@ function Ribbon({ content, validationUrl }) {
   const { flip, img, title, subtitle, text, items, note, validation } = content;
   const flipClass = (flip) ? 'block-caption-left' : 'block-caption-right';
   return (
-    <section className="col-xl-24 notice-mask row">
-      <figure className="row col-xl-24">
-        <img className="col-xl-24" src={`/img/${img}`} alt="" />
-      </figure>
+    <Container fluid as='section'>
+      <Row>
+        <Col className="notice-mask px-0">
+          <figure className="mb-0">
+            <img src={`/img/${img}`} alt="" />
+          </figure>
 
-      <section className={`block-caption-classic ${flipClass}`}>
-        <Title content={title} />
-        <SubTitle content={subtitle} />
-        <Item content={{ 'text': text }} />
-        <Items content={items} />
-        <Validation content={validation} validationUrl={validationUrl} />
-        <Note content={note} />
-      </section>
-    </section>
+          <section className={`block-caption-classic ${flipClass}`}>
+            <Title content={title} />
+            <SubTitle content={subtitle} />
+            <Item content={{ 'text': text }} />
+            <Items content={items} />
+            <Validation content={validation} validationUrl={validationUrl} />
+            <Note content={note} />
+          </section>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

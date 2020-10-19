@@ -10,11 +10,6 @@ header {
   background-color: #fff;
 }
 
-.top-lang {
-  background-color: #e7e7e7;
-  color: #404041;
-}
-
 footer {
   background-color: #404041;
   color: #fff;
@@ -35,7 +30,6 @@ footer section ul li a {
   text-decoration: none;
   color: inherit;
   font-size: 1.6em;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 footer section ul li a:hover {
@@ -262,7 +256,6 @@ a.btn-wide {
   font-size: 3em;
   margin-bottom: 15px;
   text-transform: uppercase;
-  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
 }
 .block-caption-classic .title,
 .block-caption .title {

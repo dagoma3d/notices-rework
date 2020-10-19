@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
+import { Container, Navbar } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import './Header.css'
 
 function Header() {
   const { t, i18n } = useTranslation();
@@ -22,16 +24,17 @@ function Header() {
   });
 
   return (
-    <section className="top-lang row">
-      <div className="wrap row">
-        <div className="left">
+    <Navbar sticky="top" bg="gray">
+      <Container>
+        <Navbar.Brand>
           <Link to={{ pathname: '/' }} onClick={() => document.body.scrollIntoView({ behavior: 'smooth' })}><i className="fa fa-home" /></Link>
-        </div>
-        <div className="right">
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Text>
           <span className='language-choice' onClick={() => changeLanguage('en')} onKeyPress={handleKeyPress} role='button' tabIndex={0}>en</span> | <span className='language-choice' onClick={() => changeLanguage('fr')} onKeyPress={handleKeyPress} role='button' tabIndex={-1}>fr</span>
-        </div>
-      </div>
-    </section>
+        </Navbar.Text>
+      </Container>
+    </Navbar>
   );
 }
 

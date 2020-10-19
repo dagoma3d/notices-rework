@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import './NavBar.css';
 
 function Image({ img }) {
   if (!img) return null;
@@ -28,11 +29,11 @@ function NavBar({ nav, active }) {
 
   if (!nav) return null;
   return (
-    <nav className={`nav-vertical col-xl-4 row ${!opened ? 'closed' : null}`}>
-      <div className="border-nav col-xl-3">
+    <nav className={`nav-vertical ${!opened ? 'closed' : null}`}>
+      <div className="border-nav">
         <p>Navigation</p>
       </div>
-      <ul className="col-xl-21 col-xl-offset-3 row notice-step lsn">
+      <ul className="notice-step lsn">
         {nav.map((i, k) => (
           <NavItem key={k} href={i.href} label={i.label} img={i.img} active={active === k} />
         ))}

@@ -1,18 +1,14 @@
+html * {
+  font-family: 'Roboto condensed', Helvetica, Arial, sans-serif;
+  color: #404041;
+}
+
 .right {
   float: right;
 }
 
 .left {
   float: left;
-}
-
-.top-lang {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  border-bottom: 1px solid #404041;
 }
 
 .language-choice {
@@ -47,8 +43,4 @@
   height: 60%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.mb-25 {
-  margin-top: 25px;
 }

@@ -1,0 +1,16 @@
+.nav-vertical {
+  z-index: 10000;
+}
+
+.border-nav {
+  width: 12.5%;
+}
+
+.notice-step {
+  margin-left: 12.5%;
+  width: 87.5%;
+}
+
+.toggle-nav i {
+  color: #fff;
+}
