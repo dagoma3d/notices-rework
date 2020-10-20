@@ -26,10 +26,6 @@
 .help-container > p {
   flex: 2;
 }
-.help-text {
-  font-size: 1.4em;
-  font-weight: 600;
-}
 
 .quick_tips {
   border-right: 2px solid rgba(64, 64, 65, 0.5);

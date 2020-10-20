@@ -6,7 +6,7 @@ import Item from './Item';
 function Article({ content }) {
   return (
     <Col className="col-xl-6 px-0">
-      <div className="py-3 pl-5">
+      <div className="py-3 px-5">
         {content.map((i, k) => (
           <Item key={k} content={i} />
         ))}

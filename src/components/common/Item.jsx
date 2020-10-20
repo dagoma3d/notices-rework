@@ -163,12 +163,12 @@ function Help({ content }) {
     if (!content[type]) return null;
 
     return (
-      <Col className={Object.keys(content).length > 1 ? type : null}>
-        <div className="help-container">
+      <Col className={`text-center ${Object.keys(content).length > 1 ? type : null}`}>
+        <div className="help-container align-items-center">
           <div>
             <img height="50px" src={`/pictos/${type}.png`} alt={`${type}`} />
           </div>
-          <p className="help-text">{t(content[type])}</p>
+          <p className="text-justify font-weight-bold m-0">{t(content[type])}</p>
         </div>
       </Col>
     );
