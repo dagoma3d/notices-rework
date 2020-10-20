@@ -163,7 +163,7 @@ function Help({ content }) {
     if (!content[type]) return null;
 
     return (
-      <Col className={`text-center ${Object.keys(content).length > 1 ? type : null}`}>
+      <Col className={Object.keys(content).length > 1 ? `text-center ${type}` : 'text-left'}>
         <div className="help-container align-items-center">
           <div>
             <img height="50px" src={`/pictos/${type}.png`} alt={`${type}`} />
