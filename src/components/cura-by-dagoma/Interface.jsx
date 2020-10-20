@@ -65,7 +65,7 @@ function Interface() {
   if (!items) return null;
 
   return (
-    <Container fluid as="section" className="block-big-white-space bg-gradient-orange">
+    <Container fluid as="section" className="py-5 bg-gradient-orange">
       <Container>
         <Row className="mb-5 mx-auto">
           <Col className="container-interface px-0">

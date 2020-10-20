@@ -26,7 +26,7 @@ function Slide() {
     <Container fluid as="section" className="moving-banner-top">
       <article className={`${ok ? 'covered' : 'hover'}`}>
         <figure>
-          <div className="hover-tap">
+          <div className="hover-tap text-center">
             <i
               className="fa fa-hand-pointer-o"
               onClick={() => setOk(!ok)}
@@ -39,17 +39,17 @@ function Slide() {
           </div>
           <img src={`/img/${left.img}`} alt={t(left.title)} />
           <figcaption className="error">
-            <p className="title-banner title">
-              <i className="fa fa-times-circle-o text-red" aria-hidden="true" />
+            <h3 className="text-uppercase text-left font-weight-bold">
+              <i className="fa fa-times-circle-o text-danger" aria-hidden="true" />
               {t(left.title)}
-            </p>
-            <p>{t(left.text)}</p>
+            </h3>
+            <p className="text-left">{t(left.text)}</p>
           </figcaption>
         </figure>
       </article>
       <article className={`${!ok ? 'covered' : 'hover'}`}>
         <figure>
-          <div className="hover-tap">
+          <div className="hover-tap text-center">
             <i
               className="fa fa-hand-pointer-o"
               onClick={() => setOk(!ok)}
@@ -62,11 +62,11 @@ function Slide() {
           </div>
           <img src={`/img/${right.img}`} alt={t(right.title)} />
           <figcaption className="valid">
-            <p className="title-banner title">
-              <i className="fa fa-times-circle-o text-green" aria-hidden="true" />
+            <h3 className="text-uppercase text-left font-weight-bold">
+              <i className="fa fa-times-circle-o text-success" aria-hidden="true" />
               {t(right.title)}
-            </p>
-            <p>{t(right.text)}</p>
+            </h3>
+            <p className="text-left">{t(right.text)}</p>
           </figcaption>
         </figure>
       </article>

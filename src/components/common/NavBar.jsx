@@ -33,7 +33,7 @@ function NavBar({ nav, active }) {
       <div className="border-nav">
         <p>Navigation</p>
       </div>
-      <ul className="notice-step lsn">
+      <ul className="notice-step lsn text-center">
         {nav.map((i, k) => (
           <NavItem key={k} href={i.href} label={i.label} img={i.img} active={active === k} />
         ))}

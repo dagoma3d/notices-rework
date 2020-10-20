@@ -18,7 +18,7 @@ function Youtube({ id, children }) {
 }
 
 function Image({ small, src }) {
-  const classes = small ? 'notice-small-img' : null;
+  const classes = small ? 'notice-small-img text-center' : null;
   return (
     <figure className={classes}>
       <img src={`/img/${src}`} alt="" />

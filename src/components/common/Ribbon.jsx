@@ -9,22 +9,22 @@ function Title({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
   return content.map((i, k) => (
-    <h1 key={k} className="title text-left">
+    <h5 className="font-weight-bold text-uppercase" key={k}>
       {t(i)}
-    </h1>
+    </h5>
   ));
 }
 
 function SubTitle({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
-  return <p className="big-title text-left">{t(content)}</p>;
+  return <h1 className="font-weight-bold text-uppercase">{t(content)}</h1>;
 }
 
 function Note({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
-  return <p className="small text-left light italic">{t(content)}</p>;
+  return <p className="font-weight-light font-italic">{t(content)}</p>;
 }
 
 function Items({ content }) {
@@ -60,7 +60,7 @@ function Validation({ content, validationUrl }) {
         role="button"
       >
         <input id="yo" type="checkbox" />
-        <label className="tnormal valid-step" htmlFor="yo">
+        <label className="valid-step" htmlFor="yo">
           {t(label)}
         </label>
       </div>
@@ -72,16 +72,16 @@ function Validation({ content, validationUrl }) {
 function Ribbon({ content, validationUrl }) {
   if (!content) return null;
   const { flip, img, title, subtitle, text, items, note, validation } = content;
-  const flipClass = flip ? 'block-caption-left' : 'block-caption-right';
+  const flipClass = flip ? 'ribbon-text-left' : 'ribbon-text-right';
   return (
     <Container fluid as="section">
-      <Row>
+      <Row className="align-items-center">
         <Col className="notice-mask px-0">
           <figure className="mb-0">
             <img src={`/img/${img}`} alt="" />
           </figure>
 
-          <section className={`block-caption-classic ${flipClass}`}>
+          <section className={`ribbon-text ${flipClass}`}>
             <Title content={title} />
             <SubTitle content={subtitle} />
             <Item content={{ text }} />

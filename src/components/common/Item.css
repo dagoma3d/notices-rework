@@ -1,0 +1,95 @@
+.bg-orange {
+  background-color: #ff8200;
+}
+
+.bg-orange p {
+  color: #fff;
+  text-align: left !important;
+}
+
+.bg-orange a,
+.bg-orange a:hover,
+.bg-orange a:visited,
+.bg-orange a:focus {
+  color: #fff;
+}
+
+.help-container {
+  display: inline-flex;
+  align-items: center;
+  max-width: 500px;
+}
+.help-container > div {
+  flex: 1;
+}
+
+.help-container > p {
+  flex: 2;
+}
+.help-text {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.quick_tips {
+  border-right: 2px solid rgba(64, 64, 65, 0.5);
+}
+
+.danger {
+  border-left: 2px solid rgba(64, 64, 65, 0.5);
+}
+
+.btn-valid,
+a.btn-valid {
+  color: #fff;
+  background: #ffa735;
+  background: -moz-linear-gradient(left, #ffa735 0%, #fd613d 100%);
+  background: -webkit-linear-gradient(left, #ffa735 0%, #fd613d 100%);
+  background: linear-gradient(to right, #ffa735 0%, #fd613d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa735', endColorstr='#fd613d',GradientType=1 );
+  border-color: #ffa735;
+  transition: all 0.3s ease;
+}
+
+@keyframes moving-gradient {
+  0% {
+    background-position: 10% 50%;
+  }
+  50% {
+    background-position: 90% 50%;
+  }
+  100% {
+    background-position: 10% 50%;
+  }
+}
+
+.btn-valid:hover,
+a.btn-valid:hover {
+  background-size: 400% 400%;
+  -webkit-animation: moving-gradient 2.5s ease infinite;
+  -moz-animation: moving-gradient 2.5s ease infinite;
+  animation: moving-gradient 2.5s ease infinite;
+}
+
+.block-video-hidden {
+  position: absolute;
+  transform: translate(40%, -10%);
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease;
+  border: 20px solid #f7f7f7;
+  z-index: 99;
+}
+.block-video-hidden.active {
+  transform: translate(0, -10%);
+  opacity: 1;
+}
+.block-video-hidden .close-video {
+  color: #404041;
+  font-size: 3em;
+  position: absolute;
+  z-index: 9999;
+  cursor: pointer;
+}

@@ -23,3 +23,21 @@
   left: 0;
   right: auto;
 }
+
+.notice-small-img {
+  padding: 120px 0;
+}
+.notice-small-img img {
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .notice-small-img {
+    padding: 10px 0;
+  }
+  .notice-small-img img {
+    max-width: none;
+  }
+}

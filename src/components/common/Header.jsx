@@ -24,7 +24,7 @@ function Header() {
   });
 
   return (
-    <Navbar sticky="top" bg="gray">
+    <Navbar sticky="top" bg="gray" className="p-0">
       <Container>
         <Navbar.Brand>
           <Link
@@ -37,7 +37,6 @@ function Header() {
         <Navbar.Toggle />
         <Navbar.Text>
           <span
-            className="language-choice"
             onClick={() => changeLanguage('en')}
             onKeyPress={handleKeyPress}
             role="button"
@@ -47,7 +46,6 @@ function Header() {
           </span>{' '}
           |{' '}
           <span
-            className="language-choice"
             onClick={() => changeLanguage('fr')}
             onKeyPress={handleKeyPress}
             role="button"

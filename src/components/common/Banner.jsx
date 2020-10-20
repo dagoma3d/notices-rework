@@ -9,7 +9,7 @@ function Title({ content }) {
   return (
     <Row>
       <Col>
-        <p className="big-title">{t(content)}</p>
+        <h1 className="text-center font-weight-bold text-uppercase">{t(content)}</h1>
       </Col>
     </Row>
   );
@@ -22,7 +22,7 @@ function SubTitle({ content, small }) {
   const getItem = (i, k) => {
     if (typeof i === 'string')
       return (
-        <p key={k} className={`mb-0 ${classes ? classes[k] : null}`}>
+        <p key={k} className={`mb-0 text-center ${classes ? classes[k] : null}`}>
           {t(i)}
         </p>
       );
@@ -47,15 +47,13 @@ function Banner({ content, small }) {
   const getBackground = (style) => {
     const bg = {
       default: 'bg-gradient-orange',
-      grey: 'bg-light-grey-blue',
+      grey: 'bg-light-grey',
       transparent: ' ',
     };
     return bg[style] || bg.default;
   };
 
-  const classes = small
-    ? `${getBackground(background)}`
-    : `block-big-white-space ${getBackground(background)}`;
+  const classes = small ? `${getBackground(background)}` : `py-5 ${getBackground(background)}`;
   return (
     <Container fluid as="section" className={classes}>
       <Title content={title} />

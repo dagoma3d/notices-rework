@@ -162,10 +162,8 @@
 .moving-banner-top figure figcaption.valid {
   border-color: #19bc3b;
 }
-/*.moving-banner-top figure figcaption:hover { background-color:rgba(255,255,255,0.75); }*/
 
 .moving-banner-top article:nth-of-type(2) figure figcaption {
-  /*right:auto; left:0;*/
   transform: translateX(-50%);
 }
 .moving-banner-top article:hover figure figcaption {
@@ -176,17 +174,7 @@
   transform: translateX(50%);
   transition-delay: 0.3s;
 }
-.moving-banner-top figure figcaption p {
-  text-align: left;
-  font-size: 2.2em;
-  line-height: 1.2;
-}
-.moving-banner-top figure figcaption p.title-banner {
-  font-size: 3.2em;
-  padding: 0 0 20px;
-}
-/*.moving-banner-top figure figcaption p{ transform:translateX(5.5%); }*/
-/*.moving-banner-top article:nth-of-type(2) figure figcaption p{ transform:translateX(-5.5%); }*/
+
 .moving-banner-top figure figcaption a {
   text-decoration: none;
   color: inherit;
@@ -408,10 +396,6 @@
     width: 75%;
     background-color: rgba(255, 255, 255, 0.4);
   }
-  .moving-banner-top figure figcaption p {
-    font-size: 1.6em;
-    line-height: 1.1;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -419,13 +403,7 @@
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.5);
   }
-  .moving-banner-top figure figcaption p.title-banner {
-    font-size: 2.2em;
-    padding: 0 0 5px;
-  }
-  .moving-banner-top figure figcaption p {
-    font-size: 1.5em;
-  }
+
   .moving-banner-top figure figcaption a {
     bottom: 5px;
     font-size: 1.8em;
@@ -453,12 +431,7 @@
   .moving-banner-top figure figcaption {
     width: 85%;
   }
-  .moving-banner-top figure figcaption p.title-banner {
-    font-size: 1.25em;
-  }
-  .moving-banner-top figure figcaption p {
-    font-size: 1.2em;
-  }
+
   .moving-banner-top figure figcaption a {
     font-size: 1.2em;
     bottom: 0;

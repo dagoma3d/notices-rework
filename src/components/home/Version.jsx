@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import './Version.css';
 
 function Version({ printer }) {
   const [show, setShow] = useState(false);
@@ -29,8 +30,8 @@ function Version({ printer }) {
       </Row>
       <Row className={show ? null : 'hidden'}>
         <Col>
-          <p className="text-center bold py-3">{t('Magis : Numéro de série > 6000')}</p>
-          <p className="text-center bold py-3">
+          <p className="text-center font-weight-bold">{t('Magis : Numéro de série > 6000')}</p>
+          <p className="text-center font-weight-bold">
             {t('Neva : Numéro de série < 6000 ou pas de numéro de série')}
           </p>
           <figure>

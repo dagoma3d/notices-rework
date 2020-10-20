@@ -57,7 +57,7 @@
         "title": "Clic droit"
       },
       "description": {
-        "messages": ["Avec le clic droit sur un objet, un sous-menu s'affiche +"],
+        "messages": ["Avec le clic droit sur un objet, un sous-menu s'affiche :"],
         "list": [
           "Centrer l'objet sur le plateau",
           "Supprimer l'objet",

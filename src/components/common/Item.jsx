@@ -2,29 +2,30 @@ import React, { useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import './Item.css';
 
 function Text({ content, italic, frame, warning, bold }) {
   const { t } = useTranslation();
   if (!content) return null;
   if (Array.isArray(content)) return content.map((i, k) => <Text key={k} content={i} />);
   const classes = [];
-  if (italic) classes.push('italic');
-  if (bold) classes.push('bold');
+  if (italic) classes.push('font-italic');
+  if (bold) classes.push('font-weight-bold');
   if (frame) classes.push('bg-orange text-white p-3');
-  if (warning) classes.push('text-red');
+  if (warning) classes.push('text-danger');
   return <p className={classes.join(' ')}>{t(content)}</p>;
 }
 
 function PreTitle({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
-  return <h3 className="title text-left">{t(content)}</h3>;
+  return <h5 className="font-weight-bold text-uppercase">{t(content)}</h5>;
 }
 
 function Title({ content }) {
   const { t } = useTranslation();
   if (!content) return null;
-  return <p className="big-title">{t(content)}</p>;
+  return <h1 className="font-weight-bold text-uppercase">{t(content)}</h1>;
 }
 
 function List({ content }) {

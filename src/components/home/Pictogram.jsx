@@ -14,7 +14,7 @@ function Pictogram({ to, href, src, title, onClick }) {
           <div>
             <img src={`/pictos/${src}.svg`} alt={t(title)} />
           </div>
-          <h2>{t(title)}</h2>
+          <h4 className="text-center font-weight-bold text-uppercase">{t(title)}</h4>
         </Tag>
       </div>
     </Col>

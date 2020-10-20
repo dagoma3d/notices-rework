@@ -17,11 +17,11 @@ function Options({ choice }) {
 
   return (
     <div ref={ref}>
-      <Container fluid as="section" className="bg-light-grey-blue">
+      <Container fluid as="section" className="bg-light-grey">
         <Container>
           <Row>
             <Col className="py-3">
-              <p className="big-title text-center">{t(choice.title)}</p>
+              <h4 className="text-center font-weight-bold text-uppercase">{t(choice.title)}</h4>
             </Col>
           </Row>
           <Row className="justify-content-md-center">

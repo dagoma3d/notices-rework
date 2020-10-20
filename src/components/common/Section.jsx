@@ -6,7 +6,7 @@ import Item from './Item';
 function Article({ content }) {
   return (
     <Col className="col-xl-6 px-0">
-      <div className="block-caption-classic block-caption-left py-3">
+      <div className="py-3 pl-5">
         {content.map((i, k) => (
           <Item key={k} content={i} />
         ))}
@@ -30,8 +30,8 @@ function Section({ index, content }) {
       </Fragment>
     );
   return (
-    <Container fluid as="section" id={id} className="height-350 bg-light-grey-blue">
-      <Row>{blocks}</Row>
+    <Container fluid as="section" id={id} className="height-350 bg-light-grey">
+      <Row className="align-items-center">{blocks}</Row>
     </Container>
   );
 }

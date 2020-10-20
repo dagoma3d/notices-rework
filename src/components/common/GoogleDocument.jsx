@@ -16,7 +16,7 @@ function GoogleDocument({ content }) {
     <Container ref={source}>
       <Row>
         <Col>
-          <h1 className="text-center">{t(title)}</h1>
+          <h1 className="text-center font-weight-bold">{t(title)}</h1>
         </Col>
       </Row>
       <Row>
