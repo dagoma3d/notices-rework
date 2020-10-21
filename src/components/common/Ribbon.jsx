@@ -73,15 +73,18 @@ function Ribbon({ content, validationUrl }) {
   if (!content) return null;
   const { flip, img, title, subtitle, text, items, note, validation } = content;
   const flipClass = flip ? 'ribbon-text-left' : 'ribbon-text-right';
+  const figure = img ? (
+    <figure className="mb-0">
+      <img src={`/img/${img}`} alt="" />
+    </figure>
+  ) : null;
+
   return (
     <Container fluid as="section">
       <Row className="align-items-center">
-        <Col className="notice-mask px-0">
-          <figure className="mb-0">
-            <img src={`/img/${img}`} alt="" />
-          </figure>
-
-          <section className={`ribbon-text ${flipClass}`}>
+        <Col className={img ? `notice-mask px-0` : 'col-4 mx-auto'}>
+          {figure}
+          <section className={img ? `ribbon-text ${flipClass}` : ''}>
             <Title content={title} />
             <SubTitle content={subtitle} />
             <Item content={{ text }} />
