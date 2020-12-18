@@ -23,6 +23,8 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
           HEAD_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         run: |
+          git config --global user.email "wael@dagoma.fr"
+          git config --global user.name "waelabd"
           git clone "https://github.com/dagoma3d/dagoma3d.github.io.git"
           rm -rf ./dagoma3d.github.io/*
           cp -r ./build/* ./dagoma3d.github.io/
