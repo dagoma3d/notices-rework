@@ -25,7 +25,7 @@ jobs:
         run: |
           git config --global user.email "wael@dagoma.fr"
           git config --global user.name "waelabd"
-          git clone "https://github.com/dagoma3d/dagoma3d.github.io.git"
+          git clone "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/dagoma3d/dagoma3d.github.io.git"
           rm -rf ./dagoma3d.github.io/*
           cp -r ./build/* ./dagoma3d.github.io/
           cd dagoma3d.github.io
