@@ -31,4 +31,4 @@ jobs:
           cd dagoma3d.github.io
           git add .
           git commit -am "${HEAD_COMMIT_MESSAGE:=Manual Worflow Commit}"
-          git push "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/dagoma3d/dagoma3d.github.io.git"
+          git push "https://waelabd:$API_TOKEN_GITHUB@github.com/dagoma3d/dagoma3d.github.io.git"
