@@ -40,4 +40,14 @@
   .notice-small-img img {
     max-width: none;
   }
+
+  .media-arrow::before {
+    border-width: 0 30px 45px 30px;
+    border-color: transparent transparent #f6f6fe transparent;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    transform: none;
+  }
 }

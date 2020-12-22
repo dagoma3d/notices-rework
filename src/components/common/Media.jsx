@@ -26,14 +26,16 @@ function Image({ small, src }) {
   );
 }
 
-function Media({ content, position }) {
+function Media({ content, flip }) {
   const { id, src, small, color } = content;
 
   const c = `bg-${color || 'white'}`;
+  const position = flip ? 'right' : 'left';
+  const forcePosition = flip ? 'force-right' : '';
   let media = null;
   if (id) media = <Youtube id={id} />;
   else if (src) media = <Image small={small || color === 'anthracite'} src={src} />;
-  return <Col className={`media-arrow media-arrow-${position} col-xl-6 ${c} px-0`}>{media}</Col>;
+  return <Col className={`media-arrow media-arrow-${position} ${c} px-0 ${forcePosition}`} xl={6}>{media}</Col>;
 }
 
 export default Media;

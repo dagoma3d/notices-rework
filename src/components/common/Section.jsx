@@ -3,9 +3,10 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Media from './Media';
 import Item from './Item';
 
-function Article({ content }) {
+function Article({ content, flip }) {
+  const forcePosition = flip ? 'force-left' : '';
   return (
-    <Col className="col-xl-6 px-0">
+    <Col xl={6} className={`px-0 ${forcePosition}`}>
       <div className="py-3 px-5">
         {content.map((i, k) => (
           <Item key={k} content={i} />
@@ -18,17 +19,10 @@ function Article({ content }) {
 function Section({ index, content }) {
   const { id, media, article } = content;
   const blocks =
-    index % 2 === 0 ? (
-      <Fragment>
-        <Article content={article} />
-        <Media content={media} position="right" />
-      </Fragment>
-    ) : (
-      <Fragment>
-        <Media content={media} position="left" />
-        <Article content={article} />
-      </Fragment>
-    );
+    <Fragment>
+      <Media content={media} flip={index % 2 === 0} />
+      <Article content={article} flip={index % 2 === 0} />
+    </Fragment>;
   return (
     <Container fluid as="section" id={id} className="height-350 bg-light-grey">
       <Row className="align-items-center">{blocks}</Row>

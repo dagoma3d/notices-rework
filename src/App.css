@@ -147,6 +147,13 @@ a.btn-wide {
   margin-left: 15px;
 }
 
+.force-left {
+  right: 50%;
+}
+.force-right {
+  left: 50%;
+}
+
 @media only screen and (max-width: 768px) {
   h5 {
     font-size: 1rem;
@@ -154,5 +161,12 @@ a.btn-wide {
 
   h1 {
     font-size: 2rem;
+  }
+
+  .force-left {
+    right: 0%;
+  }
+  .force-right {
+    left: 0%;
   }
 }
