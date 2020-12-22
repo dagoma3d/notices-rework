@@ -122,3 +122,14 @@
 .ribbon-text-left {
   left: 5%;
 }
+
+@media only screen and (max-width: 768px) {
+  .ribbon-text {
+    top: 5px;
+    width: 90%;
+    max-width: 90%;
+    position: relative;
+    transform: none;
+    left: 5%;
+  }
+}

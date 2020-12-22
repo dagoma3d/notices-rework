@@ -24,7 +24,7 @@ function Header() {
   });
 
   return (
-    <Navbar sticky="top" bg="gray" className="p-0">
+    <Navbar sticky="top" bg="gray" className="py-0">
       <Container>
         <Navbar.Brand>
           <Link
