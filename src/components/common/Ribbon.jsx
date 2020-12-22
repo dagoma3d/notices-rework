@@ -82,7 +82,7 @@ function Ribbon({ content, validationUrl }) {
   return (
     <Container fluid as="section">
       <Row className="align-items-center">
-        <Col className={img ? `notice-mask px-0` : 'col-4 mx-auto'}>
+        <Col className={img ? `notice-mask px-0` : 'mx-auto'} xs={img ? 4 : 12}>
           {figure}
           <section className={img ? `ribbon-text ${flipClass}` : ''}>
             <Title content={title} />

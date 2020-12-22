@@ -111,16 +111,16 @@ function Button({ text, color, to, href, download, label, position }) {
       {t(label)}
     </Link>
   ) : (
-    <a
-      href={href}
-      className={getClasses(color)}
-      download={download}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {t(label)}
-    </a>
-  );
+      <a
+        href={href}
+        className={getClasses(color)}
+        download={download}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {t(label)}
+      </a>
+    );
   return (
     <p className={getPosition(position)}>
       {pre}
@@ -137,7 +137,7 @@ Button.defaultProps = {
 function Container({ content }) {
   if (!content) return null;
   return (
-    <div className="col-xl-10 col-xl-offset-7 col-s-10 col-s-offset-7 mb-5">
+    <div xl={{ span: 10, offset: 7 }} sm={{ span: 10, offset: 7 }} className="mb-5">
       {content.map((i, k) => (
         <Item key={k} content={i} />
       ))}
