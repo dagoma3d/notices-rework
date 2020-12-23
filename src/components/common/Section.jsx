@@ -9,7 +9,7 @@ function Article({ content, flip }) {
     <Col xl={6} className={`px-0 ${forcePosition}`}>
       <div className="py-3 px-5">
         {content.map((i, k) => (
-          <Item key={k} content={i} />
+          <Item key={k} content={i} flip={flip} />
         ))}
       </div>
     </Col>

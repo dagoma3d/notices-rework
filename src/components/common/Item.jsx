@@ -186,13 +186,15 @@ function Help({ content }) {
   );
 }
 
-function Video({ content }) {
+function Video({ content, flip }) {
   const { text, id } = content;
   const { t } = useTranslation();
   const [active, setActive] = useState(false);
   const handleKeyPress = (event) => {
     if (event.key === 's') setActive(!active);
   };
+
+  const transform = flip ? 'translateX(50%)' : 'translate(-50%)';
 
   return (
     <section>
@@ -208,7 +210,7 @@ function Video({ content }) {
       <AdditionalInfo content={text} />
       <section
         className={`block-video block-video-hidden ${active ? 'active' : null}`}
-        style={{ border: 'none' }}
+        style={{ border: 'none', transform }}
       >
         <div className="block-video-yt">
           <iframe
@@ -233,7 +235,7 @@ function Video({ content }) {
   );
 }
 
-function Item({ content }) {
+function Item({ content, flip }) {
   if (!content) return null;
   const [k, v] = Object.entries(content).filter(entry => entry[0] !== 'type')[0];
   if (!v) return null;
@@ -261,7 +263,7 @@ function Item({ content }) {
         position={v.position}
       />
     ),
-    video: <Video content={v} />,
+    video: <Video content={v} flip={flip} />,
     default: null,
   };
   return items[k] || items.default;
