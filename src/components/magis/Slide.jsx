@@ -37,7 +37,7 @@ function Slide() {
               <span>t</span>
             </i>
           </div>
-          <img src={`/img/${left.img}`} alt={t(left.title)} />
+          <img src={`/img/${left.img}`} alt={t(left.title)} style={{ maxHeight: '500px' }} />
           <figcaption className="error">
             <h3 className="text-uppercase text-left font-weight-bold">
               <i className="fa fa-times-circle-o text-danger" aria-hidden="true" />
@@ -60,7 +60,7 @@ function Slide() {
               <span>t</span>
             </i>
           </div>
-          <img src={`/img/${right.img}`} alt={t(right.title)} />
+          <img src={`/img/${right.img}`} alt={t(right.title)} style={{ maxHeight: '500px' }} />
           <figcaption className="valid">
             <h3 className="text-uppercase text-left font-weight-bold">
               <i className="fa fa-times-circle-o text-success" aria-hidden="true" />
