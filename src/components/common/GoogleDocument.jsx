@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
 function GoogleDocument({ content }) {
-  const { title, id, children } = content;
+  const { title, id } = content;
   const { t } = useTranslation();
   const source = useRef();
   const target = useRef();
@@ -30,9 +30,6 @@ function GoogleDocument({ content }) {
             src={`https://docs.google.com/presentation/d/${id}/embed?start=false&amp;loop=false&amp;delayms=3000`}
           />
         </Col>
-      </Row>
-      <Row>
-        <Col>{children}</Col>
       </Row>
     </Container>
   );

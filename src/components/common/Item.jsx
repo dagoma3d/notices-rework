@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import './Item.css';
@@ -134,14 +134,18 @@ Button.defaultProps = {
   label: 'ici',
 };
 
-function Container({ content }) {
+function MyContainer({ content }) {
   if (!content) return null;
   return (
-    <div xl={{ span: 10, offset: 7 }} sm={{ span: 10, offset: 7 }} className="mb-5">
-      {content.map((i, k) => (
-        <Item key={k} content={i} />
-      ))}
-    </div>
+    <Container>
+      <Row>
+        <Col>
+          {content.map((i, k) => (
+            <Item key={k} content={i} />
+          ))}
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
@@ -231,10 +235,10 @@ function Video({ content }) {
 
 function Item({ content }) {
   if (!content) return null;
-  const [k, v] = Object.entries(content)[0];
+  const [k, v] = Object.entries(content).filter(entry => entry[0] !== 'type')[0];
   if (!v) return null;
   const items = {
-    container: <Container content={v} />,
+    container: <MyContainer content={v} />,
     pretitle: <PreTitle content={v} />,
     title: <Title content={v} />,
     text: <Text content={v} />,
