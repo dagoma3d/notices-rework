@@ -103,6 +103,14 @@ a.btn-valid:hover {
 }
 
 @media only screen and (max-width: 992px) {
+  .quick_tips {
+    border-right: none;
+  }
+
+  .danger {
+    border-left: none;
+  }
+
   .block-video-left-translate {
     transform: translateX(0%);
   }
