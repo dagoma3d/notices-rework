@@ -67,6 +67,19 @@ a.btn-valid:hover {
   animation: moving-gradient 2.5s ease infinite;
 }
 
+.block-video-yt {
+  width: 80%;
+  transform: translateX(10%);
+}
+
+.block-video-left-translate {
+  transform: translateX(-50%);
+}
+
+.block-video-right-translate {
+  transform: translateX(50%);
+}
+
 .block-video-hidden {
   position: absolute;
   opacity: 0;
@@ -87,4 +100,14 @@ a.btn-valid:hover {
   position: absolute;
   z-index: 9999;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+  .block-video-left-translate {
+    transform: translateX(0%);
+  }
+
+  .block-video-right-translate {
+    transform: translateX(0%);
+  }
 }

@@ -6,7 +6,7 @@ import Item from './Item';
 function Article({ content, flip }) {
   const forcePosition = flip ? 'force-left' : '';
   return (
-    <Col xl={6} className={`px-0 ${forcePosition}`}>
+    <Col lg={6} className={`px-0 ${forcePosition}`}>
       <div className="py-3 px-5">
         {content.map((i, k) => (
           <Item key={k} content={i} flip={flip} />

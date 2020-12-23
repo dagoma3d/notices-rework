@@ -194,8 +194,6 @@ function Video({ content, flip }) {
     if (event.key === 's') setActive(!active);
   };
 
-  const transform = flip ? 'translateX(50%)' : 'translate(-50%)';
-
   return (
     <section>
       <p className="text-left mb-3">
@@ -209,8 +207,8 @@ function Video({ content, flip }) {
       </p>
       <AdditionalInfo content={text} />
       <section
-        className={`block-video block-video-hidden ${active ? 'active' : null}`}
-        style={{ border: 'none', transform }}
+        className={`block-video-${flip ? 'right' : 'left'}-translate block-video-hidden ${active ? 'active' : null}`}
+        style={{ border: 'none' }}
       >
         <div className="block-video-yt">
           <iframe

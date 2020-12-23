@@ -35,7 +35,7 @@ function Media({ content, flip }) {
   let media = null;
   if (id) media = <Youtube id={id} />;
   else if (src) media = <Image small={small || color === 'anthracite'} src={src} />;
-  return <Col className={`media-arrow media-arrow-${position} ${c} px-0 ${forcePosition}`} xl={6}>{media}</Col>;
+  return <Col className={`media-arrow media-arrow-${position} ${c} px-0 ${forcePosition}`} lg={6}>{media}</Col>;
 }
 
 export default Media;

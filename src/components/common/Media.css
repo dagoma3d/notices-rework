@@ -40,7 +40,9 @@
   .notice-small-img img {
     max-width: none;
   }
+}
 
+@media only screen and (max-width: 992px) {
   .media-arrow::before {
     border-width: 0 30px 45px 30px;
     border-color: transparent transparent #f6f6fe transparent;
