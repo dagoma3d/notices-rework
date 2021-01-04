@@ -125,6 +125,11 @@
         },
         {
           "text": "Serrez fermement à l'aide de 4 vis fraisée M3x12."
+        },
+        {
+          "help": {
+            "danger": "Nouvelle version du plateau : Celui ci comporte maintenant 2 encoches pour permettre l'application du pack flex (disponible dans la boutique Dagoma). Le sens d'orientation n'importe pas."
+          }
         }
       ]
     }
