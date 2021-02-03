@@ -248,6 +248,24 @@
     },
     {
       "media": {
+        "src": "DiscoUltimate/Notice/10-n-bis-ter-clip-pneufit.jpg"
+      },
+      "article": [
+        {
+          "title": "Installation des clips PTFE"
+        },
+        {
+          "text": "Munissez vous des clips PTFE et installez les comme sur la photo au niveau de la buse et au niveau de l'extrudeur, ces clips permettent au tube PTFE de ne pas se décrocher durant l'impression."
+        },
+        {
+          "help": {
+            "quick_tips": "En tenant le tube PTFE et en le soulevant légèrement, l'insertion des clips PTFE sera plus facile"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
         "src": "DiscoUltimate/Notice/10-n-buildgrip.jpg"
       },
       "article": [
