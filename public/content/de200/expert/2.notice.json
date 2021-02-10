@@ -159,7 +159,7 @@
     },
     {
       "media": {
-        "id": "b7WDTcIH9W4",
+        "id": "bNspO4B3vZE",
         "type": "yt"
       },
       "article": [
@@ -170,7 +170,7 @@
           "title": "Remontage de la buse"
         },
         {
-          "text": "Prenez la buse et orientez-la pour que les câbles en sortie soient orientés vers le ventilateur avant (à l'opposé du palpeur)."
+          "text": "Prenez la buse et insérez d'abord les câbles dans la gouttière, puis la buse."
         },
         {
           "text": "Enfoncez-la dans son logement comme sur la vidéo."
@@ -179,11 +179,9 @@
           "text": "Assurez-vous qu'elle soit bien enfoncée et bien droite."
         },
         {
-          "frame": [
-            {
-              "text": "Attention, le bloc de chauffe (la partie carrée) ne doit pas toucher le plastique."
-            }
-          ]
+          "help": {
+            "danger": "Attention, le bloc de chauffe (la partie carrée) ne doit pas toucher la partie plastique."
+          }
         }
       ]
     },
