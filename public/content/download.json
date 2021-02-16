@@ -19,17 +19,17 @@
       "src": "cura",
       "options": [
         {
-          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/download/CuraByDagoma.exe",
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/download/2.1.7-python2/CuraByDagoma_x64.exe",
           "src": "windows",
           "title": "Windows"
         },
         {
-          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/download/CuraByDagoma.dmg",
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/download/2.1.7-python2/CuraByDagoma.dmg",
           "src": "macos",
           "title": "MacOS"
         },
         {
-          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/",
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/tag/2.1.7-python3",
           "src": "linux",
           "title": "Linux"
         }
