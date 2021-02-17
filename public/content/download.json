@@ -63,25 +63,25 @@
     },
     {
       "title": "Firmware",
-      "src": "tools",
+      "src": "firmware",
       "options": [
         {
-          "to": "/",
+          "href": "https://dist.dagoma3d.com/Marlin-Firmwares/E200",
           "src": "discoeasy",
           "title": "DiscoEasy200"
         },
         {
-          "to": "/",
+          "href": "https://dist.dagoma3d.com/Marlin-Firmwares/Ultimate",
           "src": "disco-ultimate",
           "title": "DiscoUltimate"
         },
         {
-          "to": "/",
+          "href": "https://dist.dagoma3d.com/Marlin-Firmwares/Neva",
           "src": "magis",
           "title": "Magis"
         },
         {
-          "to": "/",
+          "href": "https://dist.dagoma3d.com/Marlin-Firmwares/Neva",
           "src": "neva",
           "title": "Neva"
         }
