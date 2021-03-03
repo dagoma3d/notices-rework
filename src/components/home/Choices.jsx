@@ -9,7 +9,7 @@ function Choices({ content }) {
   return (
     <Fragment>
       <Container as="section">
-        <Row>
+        <Row className="justify-content-md-center">
           {content.map((p, k) => (
             <Pictogram
               key={k}

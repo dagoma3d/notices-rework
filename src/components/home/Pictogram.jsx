@@ -7,10 +7,11 @@ import './Pictogram.css';
 function Pictogram({ to, href, src, title, onClick }) {
   const { t } = useTranslation();
   const Tag = to ? Link : 'a';
+  const target = href ? '_blank' : null;
   return (
     <Col as="article" xl={3}>
       <div className="Pictogram">
-        <Tag to={to} href={href} onClick={onClick}>
+        <Tag to={to} href={href} target={target} onClick={onClick}>
           <div>
             <img src={`/pictos/${src}.svg`} alt={t(title)} />
           </div>
