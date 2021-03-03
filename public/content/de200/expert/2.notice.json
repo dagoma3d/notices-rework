@@ -216,7 +216,7 @@
     },
     {
       "media": {
-        "id": "59thweJ84Us",
+        "id": "LarqFhjIoEo",
         "type": "yt"
       },
       "article": [
@@ -227,19 +227,16 @@
           "title": "Reverrouillage de la tête"
         },
         {
-          "text": "Faites une petite boucle avec le câble du ventilateur avant."
-        },
-        {
           "text": "Récupérez le verrou et faites passer les câbles comme sur la vidéo."
         },
         {
-          "warning": "Clipsez-le sans pincer les câbles (risque de court-circuit)."
+          "warning": "Clipsez-le sans pincer les câbles (risque de le rompre)."
         },
         {
           "text": "Revissez le fermement."
         },
         {
-          "text": "Faites passer les câbles du ventilateur arrière dans leur logement."
+          "text": "Faites passer les câbles des ventilateurs dans leur logement."
         },
         {
           "text": "Récupérez la gaine, posez-la dans le passage arrière, puis maintenez-la à l'aide d'un collier de serrage."
