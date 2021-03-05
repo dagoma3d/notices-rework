@@ -29,10 +29,18 @@
           "text": "Petite vérification :"
         },
         {
-          "text": "L'utilisation d’un écran requiert l’installation d’un firmware spécifique. Si vous ne l'avez pas faite, rendez vous sur la page précédente ou ici : BOUTON"
+          "button": {
+            "to": "/du/screen/4",
+            "label": "sur la page précédente",
+            "text": "L'utilisation d’un écran requiert l’installation d’un firmware spécifique. Si vous ne l'avez pas faite, rendez vous"
+          }
         },
         {
-          "text": "Il faudra sélectionner Oui ainsi que la langue lors du choix du firmare sur BOUTON dist.fr"
+          "button": {
+            "href": "https://dist.dagoma.fr/",
+            "label": "DIST",
+            "text": "Il faudra sélectionner Oui ainsi que la langue lors du choix du firmare sur"
+          }
         }
       ]
     },
