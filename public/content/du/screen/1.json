@@ -1,0 +1,63 @@
+{
+  "header": {
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "title": [
+      "Notice de montage de l'écran - Démontage"
+    ],
+    "subtitle": "Démontage de l'imprimante",
+    "text": [
+      "Nous allons démonter une petite partie de votre imprimante pour y ajouter les nouveaux composants."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Démontage"
+    },
+    {
+      "media": {
+        "id": "Gcpg95cmzTE"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Démontage de la plaque de protection"
+        },
+        {
+          "text": "Retournez l’imprimante de sorte à avoir accès à la plaque du dessous."
+        },
+        {
+          "text": "Retirez les 12 patins push-on en tirant légèrement sur la plaque de protection."
+        },
+        {
+          "text": "La plaque de protection est maintenant libre et peut être enlevée à son tour."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "o9B-KbqSOy8"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Démontage de la chaîne SD et du cache côté"
+        },
+        {
+          "text": "Débranchez la chaîne SD du bornier SD."
+        },
+        {
+          "text": "Déclipsez le cache-côté des barres et retirez-le sans accrocher les câbles d’alimentation."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "subtitle": "Démontage : Check !"
+  }
+}

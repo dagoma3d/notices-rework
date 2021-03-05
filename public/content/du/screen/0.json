@@ -1,14 +1,75 @@
 {
+  "time": {
+    "subtitle": [
+      "Temps total de montage approximatif : 30min"
+    ]
+  },
+  "header": {
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "title": [
+      "Notice de montage de l'écran - préparation"
+    ],
+    "subtitle": "Ça y est, vous avez reçu votre écran.",
+    "text": [
+      "Nous allons vous accompagner dans le montage et l'utilisation de cette amélioration pour votre DiscoUltimate."
+    ]
+  },
   "blocks": [
     {
-      "type": "google-document",
-      "title": "Premiers pas - Montage de l'écran",
-      "id": "1774LbOgxeGoOOIEKn5HgIWyJ-b739MpIEtiEWcbsrFY"
+      "type": "banner",
+      "title": "Préparation"
     },
     {
-      "type": "google-document",
-      "title": "Utilisation de l'écran",
-      "id": "1LcGI4JbyUWR1o36fVPadU4zVReiIIckUGrPPswYqIt0"
+      "media": {
+        "src": "DiscoUltimate/Addon/Screen-rework/kit-ecran.jpg"
+      },
+      "article": [
+        {
+          "title": "Dans ce kit vous avez trouvé..."
+        },
+        {
+          "lettered-list": [
+            "Une face avant",
+            "Une face arrière",
+            "Un sachet de vis",
+            "Un écran équipé d’entretoise",
+            "Deux nappes de connexion"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Addon/Screen-rework/outil.jpg",
+        "color": "anthracite"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "list": [
+            "Le kit Add-on 1 : Ecran DiscoEasy/Disco Ultimate",
+            "Un tournevis hexagonal 2.5 mm (fourni avec le kit Disco Ultimate)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Aide au montage",
+      "items": [
+        {
+          "help": {
+            "quick_tips": "Quick Tips ou Conseils Rapide en français, ce symbole vous indiquera une technique de montage particulière ou une astuce pour vous faciliter la vie pendant le montage.",
+            "danger": "Attention, ce symbole sollicite votre attention sur une étape du montage qui peut être compliqué ou alors décisive pour le bon fonctionnement de votre imprimante."
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "subtitle": "Si tout est prêt ... Alors allons-y !"
+  }
 }

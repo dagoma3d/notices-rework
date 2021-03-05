@@ -1,0 +1,103 @@
+{
+  "header": {
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "title": [
+      "Notice de montage de l'écran - Finitions"
+    ],
+    "subtitle": "Finitions de l'installation",
+    "text": [
+      "Nous allons installer l'écran sur votre imprimante"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Finitions"
+    },
+    {
+      "media": {
+        "id": "sl7Dsn2OO44"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Installations de l'écran"
+        },
+        {
+          "text": "Remettez le cache côté en place en faisant passer les nappes de connexion entre la plaque protectrice noir et la barre de la base."
+        },
+        {
+          "text": "Clipsez le cache côté et remontez les fixations côtés pour le bloquer afin qu’il ne tombe pas avec le poids de l’écran."
+        },
+        {
+          "text": "Branchez les nappes de connexion de l'écran vers le boitier :"
+        },
+        {
+          "list": [
+            "EXP1 sur EXP1",
+            "EXP2 sur EXP2"
+          ]
+        },
+        {
+          "help": {
+            "quick_tips": "Les noms des borniers sont écrits sur la pièce plastique face arrière de l’écran et sur la carte électronique."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "LvQY6BseTh0"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Installation de la plaque"
+        },
+        {
+          "text": "Rangez les nappes de connexion pour qu’elle ne gêne pas la remise en place de la plaque transparente."
+        },
+        {
+          "text": "Insérez les 12 patins push-on dans leurs logements."
+        },
+        {
+          "help": {
+            "quick_tips": "Utilisez le tournevis pour insérer plus facilement les patins comme sur la vidéo."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "DS_eygjVeOY"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Allumage"
+        },
+        {
+          "text": "Branchez l’imprimante, l’écran est bleu, c’est normal, une mise à jour est requise pour afficher les nouvelles fonctionnalités."
+        },
+        {
+          "text": "C’est la page suivante."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "subtitle": "Finitions : Check !",
+    "items": [
+      {
+        "text": "Le montage est terminé, passons à la mise à jour."
+      }
+    ]
+  }
+}

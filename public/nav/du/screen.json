@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Préparation",
+    "href": "/du/screen"
+  },
+  {
+    "label": "Démontage",
+    "href": "/du/screen/1"
+  },
+  {
+    "label": "Montage",
+    "href": "/du/screen/2"
+  },
+  {
+    "label": "Finitions",
+    "href": "/du/screen/3"
+  },
+  {
+    "label": "Mise à jour",
+    "href": "/du/screen/4"
+  },
+  {
+    "label": "Utilisation",
+    "href": "/du/screen/5"
+  }
+]

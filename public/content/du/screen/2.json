@@ -1,0 +1,108 @@
+{
+  "header": {
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "title": [
+      "Notice de montage de l'écran - Montage"
+    ],
+    "subtitle": "Montage du boitier",
+    "text": [
+      "Nous allons assembler les différentes parties de l'écran"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Montage"
+    },
+    {
+      "media": {
+        "id": "8NlAYX0NzKo"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Montage de la face avant"
+        },
+        {
+          "text": "Sortez les vis du sachet zip et l’écran de son sachet bulle."
+        },
+        {
+          "text": "Vérifiez que les deux entretoises soient bien de part et d’autre de l’écran."
+        },
+        {
+          "text": "Insérez l’écran dans le boîtier face avant, d’abord du côté du lecteur SD."
+        },
+        {
+          "text": "Vissez ensuite l’écran dans le boîtier face avant, une vis en haut du lecteur SD et une vis à l’opposé, côté bouton."
+        },
+        {
+          "help": {
+            "quick_tips": "Pour que les vis prennent facilement, vous pouvez créer le filetage dans le boîtier face avant en vissant une première fois “à vide”, sans l’écran.",
+            "danger": "Ne serrez pas trop les vis, si l’écran est trop compacté alors les pixels de l’écran pourront être endommagés."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "GCWeLbR4kNk"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Montage de la face arrière"
+        },
+        {
+          "text": "Positionnez la première vis dans le coin en haut à gauche du boîtier arrière et pré-vissez."
+        },
+        {
+          "text": "Positionnez ensuite la face arrière au niveau de la face avant et terminez de visser."
+        },
+        {
+          "text": "Répétez l’opération pour les trois vis suivantes dans chaque coin du boîtier."
+        },
+        {
+          "help": {
+            "quick_tips": "Encore une fois, il peut être compliqué de visser dans du PLA, vous pouvez pré-visser avant d’installer la face arrière pour créer le filetage dans la pièce plastique face avant.",
+            "danger": "Attention à l’orientation de la pièce face arrière, les deux borniers EXP1 et EXP2 ne doivent pas être recouverts."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "_Tx7aF0bJzY"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Montage du cache côté"
+        },
+        {
+          "text": "Enlevez la vis qui maintient le lecteur SD du cache côté et retirez-le."
+        },
+        {
+          "text": "Vissez le cache côté directement sur l’écran, regardez bien la vidéo pour l’orientation de cette pièce."
+        },
+        {
+          "text": "Faites passer les nappes de connexion dans le logement du lecteur de carte SD."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "subtitle": "Montage : Check !",
+    "items": [
+      {
+        "text": "L’écran est prêt à être installé sur l’imprimante."
+      }
+    ]
+  }
+}
