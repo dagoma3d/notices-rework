@@ -1,6 +1,6 @@
 {
   "header": {
-    "img": "DiscoUltimate/Addon/Screen/demarrage.jpg",
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
     "title": [
       "Notice d'utilisation de l'écran de contrôle DiscoUltimate - Utilisation"
     ],
@@ -16,7 +16,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen/1-Dist.jpg"
+        "src": "DiscoUltimate/Addon/Screen-rework/1-Dist.jpg"
       },
       "article": [
         {
@@ -46,7 +46,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen/2-Menu-de-surveillance.jpg"
+        "src": "DiscoUltimate/Addon/Screen-rework/2-Menu-de-surveillance.jpg"
       },
       "article": [
         {
@@ -77,7 +77,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen/3-1-Deplacements.jpg"
+        "src": "DiscoUltimate/Addon/Screen-rework/3-1-Deplacements.jpg"
       },
       "article": [
         {
@@ -99,7 +99,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen/3-2-Deplacements.jpg"
+        "src": "DiscoUltimate/Addon/Screen-rework/3-2-Deplacements.jpg"
       },
       "article": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen/4-Temperature.jpg"
+        "src": "DiscoUltimate/Addon/Screen-rework/4-Temperature.jpg"
       },
       "article": [
         {
@@ -143,7 +143,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen/5-Mouvements.jpg"
+        "src": "DiscoUltimate/Addon/Screen-rework/5-Mouvements.jpg"
       },
       "article": [
         {
@@ -167,7 +167,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen/6-Insertion-Ejection.jpg"
+        "src": "DiscoUltimate/Addon/Screen-rework/6-Insertion-Ejection.jpg"
       },
       "article": [
         {
@@ -195,7 +195,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen/7-Modifications.jpg"
+        "src": "DiscoUltimate/Addon/Screen-rework/7-Modifications.jpg"
       },
       "article": [
         {
@@ -227,7 +227,7 @@
     }
   ],
   "footer": {
-    "img": "DiscoUltimate/Addon/Screen/demarrage.jpg",
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
     "subtitle": "Utilisation : Terminé !",
     "items": [
       {

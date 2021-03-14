@@ -1,6 +1,6 @@
 {
   "header": {
-    "img": "DiscoUltimate/Addon/Screen/demarrage.jpg",
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
     "title": [
       "Notice de montage de l'écran - Montage"
     ],
@@ -97,7 +97,7 @@
     }
   ],
   "footer": {
-    "img": "DiscoUltimate/Addon/Screen/demarrage.jpg",
+    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
     "subtitle": "Montage : Check !",
     "items": [
       {
