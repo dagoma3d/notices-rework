@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Préparation",
+    "href": "/de200/screen"
+  },
+  {
+    "label": "Démontage",
+    "href": "/de200/screen/1"
+  },
+  {
+    "label": "Montage",
+    "href": "/de200/screen/2"
+  },
+  {
+    "label": "Finitions",
+    "href": "/de200/screen/3"
+  },
+  {
+    "label": "Mise à jour",
+    "href": "/de200/screen/4"
+  },
+  {
+    "label": "Utilisation",
+    "href": "/de200/screen/5"
+  }
+]

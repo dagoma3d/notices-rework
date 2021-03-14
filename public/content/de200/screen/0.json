@@ -5,13 +5,13 @@
     ]
   },
   "header": {
-    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "img": "DiscoEasy/Add-on/Screen/Imprimante_ecran_1600x600.jpg",
     "title": [
       "Notice de montage de l'écran - préparation"
     ],
     "subtitle": "Ça y est, vous avez reçu votre écran.",
     "text": [
-      "Nous allons vous accompagner dans le montage et l'utilisation de cette amélioration pour votre DiscoUltimate."
+      "Nous allons vous accompagner dans le montage et l'utilisation de cette amélioration pour votre DiscoEasy200."
     ]
   },
   "blocks": [
@@ -21,7 +21,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen-rework/kit-ecran.jpg"
+        "src": "DiscoEasy/Add-on/Screen/kit-ecran.jpg"
       },
       "article": [
         {
@@ -40,7 +40,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen-rework/outil.jpg",
+        "src": "DiscoEasy/Add-on/Screen/outil.jpg",
         "color": "anthracite"
       },
       "article": [
@@ -69,7 +69,7 @@
     }
   ],
   "footer": {
-    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "img": "DiscoEasy/Add-on/Screen/Imprimante_ecran_1600x600.jpg",
     "subtitle": "Si tout est prêt ... Alors allons-y !"
   }
 }

@@ -1,6 +1,6 @@
 {
   "header": {
-    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "img": "DiscoEasy/Add-on/Screen/Imprimante_ecran_1600x600.jpg",
     "title": [
       "Notice de montage de l'écran - Montage"
     ],
@@ -75,7 +75,7 @@
     },
     {
       "media": {
-        "id": "_Tx7aF0bJzY"
+        "id": "1KIQiCrc6eQ"
       },
       "article": [
         {
@@ -83,6 +83,9 @@
         },
         {
           "title": "Montage du cache côté"
+        },
+        {
+          "text": "Retirez la carte SD du lecteur SD"
         },
         {
           "text": "Enlevez la vis qui maintient le lecteur SD du cache côté et retirez-le."
@@ -94,10 +97,14 @@
           "text": "Faites passer les nappes de connexion dans le logement du lecteur de carte SD."
         }
       ]
+    },
+    {
+      "type": "banner",
+      "title": "Montage terminé"
     }
   ],
   "footer": {
-    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "img": "DiscoEasy/Add-on/Screen/Imprimante_ecran_1600x600.jpg",
     "subtitle": "Montage : Check !",
     "items": [
       {

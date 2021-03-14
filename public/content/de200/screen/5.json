@@ -1,8 +1,8 @@
 {
   "header": {
-    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "img": "DiscoEasy/Add-on/Screen/Imprimante_ecran_1600x600.jpg",
     "title": [
-      "Notice d'utilisation de l'écran de contrôle DiscoUltimate - Utilisation"
+      "Notice d'utilisation de l'écran de contrôle DiscoEasy200 - Utilisation"
     ],
     "subtitle": "L'écran est enfin assemblé et le firmware est à jour",
     "text": [
@@ -16,7 +16,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen-rework/1-Dist.jpg"
+        "src": "DiscoEasy/Add-on/Screen/1-Dist.jpg"
       },
       "article": [
         {
@@ -30,7 +30,7 @@
         },
         {
           "button": {
-            "to": "/du/screen/4",
+            "to": "/de200/screen/4",
             "label": "sur la page précédente",
             "text": "L'utilisation d’un écran requiert l’installation d’un firmware spécifique. Si vous ne l'avez pas faite, rendez vous"
           }
@@ -46,7 +46,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen-rework/2-Menu-de-surveillance.jpg"
+        "src": "DiscoEasy/Add-on/Screen/2-Menu-de-surveillance.jpg"
       },
       "article": [
         {
@@ -77,7 +77,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen-rework/3-1-Deplacements.jpg"
+        "src": "DiscoEasy/Add-on/Screen/3-1-Deplacements.jpg"
       },
       "article": [
         {
@@ -99,7 +99,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen-rework/3-2-Deplacements.jpg"
+        "src": "DiscoEasy/Add-on/Screen/3-2-Deplacements.jpg"
       },
       "article": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen-rework/4-Temperature.jpg"
+        "src": "DiscoEasy/Add-on/Screen/4-Temperature.jpg"
       },
       "article": [
         {
@@ -143,7 +143,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen-rework/5-Mouvements.jpg"
+        "src": "DiscoEasy/Add-on/Screen/5-Mouvements.jpg"
       },
       "article": [
         {
@@ -167,7 +167,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen-rework/6-Insertion-Ejection.jpg"
+        "src": "DiscoEasy/Add-on/Screen/6-Insertion-Ejection.jpg"
       },
       "article": [
         {
@@ -195,7 +195,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Addon/Screen-rework/7-Modifications.jpg"
+        "src": "DiscoEasy/Add-on/Screen/7-Modifications.jpg"
       },
       "article": [
         {
@@ -227,7 +227,7 @@
     }
   ],
   "footer": {
-    "img": "DiscoUltimate/Addon/Screen-rework/demarrage.jpg",
+    "img": "DiscoEasy/Add-on/Screen/Imprimante_ecran_1600x600.jpg",
     "subtitle": "Utilisation : Terminé !",
     "items": [
       {
