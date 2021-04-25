@@ -68,5 +68,9 @@
   {
     "href": "/du/14.notice",
     "label": "15 - Utilisation"
+  },
+  {
+    "href": "/du/15.prise-en-main",
+    "label": "16 - Prise en main"
   }
 ]

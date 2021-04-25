@@ -55,8 +55,8 @@
         },
         {
           "list": [
-            "Téléchargez le fichier ci-dessous et mettez le sur la carte SD après l’avoir décompressé. ",
-            "Nommez bien le fichier (et pas le dossier) 'dagoma0.g'",
+            "Téléchargez le fichier ci-dessous et mettez le sur la carte SD.",
+            "Assurez vous que le fichier s'appelle bien \"dagoma0.g\"",
             "Placez le fichier “dagoma0.g” à la racine de la carte SD"
           ]
         },

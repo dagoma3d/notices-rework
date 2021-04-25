@@ -32,7 +32,7 @@
         {
           "button": {
             "color": "white",
-            "text": "Téléchargez le fichier ci-dessous. Nous allons ensuite le préparer sur Cura.",
+            "text": "Téléchargez le fichier STL ci-dessous. Nous allons ensuite le préparer sur Cura.",
             "href": "//drive.google.com/file/d/1_1N0OnGBdfcMY00hV2dENDK4LJA5IRyw/view?usp=sharing",
             "download": "support-bobine.zip",
             "label": "Télécharger"
@@ -324,6 +324,9 @@
     "items": [
       {
         "text": "Votre montage et votre initiation sont terminés."
+      },
+      {
+        "text": "Ne partez pas tout de suite, la prise en main de votre imprimante se situe juste après."
       }
     ]
   }
