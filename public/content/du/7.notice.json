@@ -104,7 +104,8 @@
         },
         {
           "help": {
-            "danger": "La pièce Axe X doit coulisser dans la barre sans forcer, dans le cas contraire, faire tourner la barre sur elle même peut décoincer le montage de celle ci."
+            "quick_tips": "La pièce Axe X doit coulisser dans la barre sans forcer, dans le cas contraire, faire tourner la barre sur elle même peut décoincer le montage de celle ci.",
+            "danger": "La pièce doit être insérée délicatement pour que les billes du roulement ne sortent pas de leur logement."
           }
         }
       ]
