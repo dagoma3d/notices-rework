@@ -6,7 +6,8 @@
     ],
     "subtitle": "Câblage",
     "text": [
-      "Et si nous commencions à lui donner vie ?"
+      "Et si nous commencions à lui donner vie ?",
+      "Nous arrivons à la partie cruciale du montage, nous vous conseillons de prendre un petit café avant de poursuivre la notice."
     ]
   },
   "blocks": [
@@ -53,6 +54,7 @@
         },
         {
           "help": {
+            "quick_tips": "Les câbles du ventilateur arrière sont équipés d'une petite étiquette pour ne pas se tromper.",
             "danger": "Inverser les ventilateurs lors du montage pourrait endommager l’imprimante"
           }
         }
