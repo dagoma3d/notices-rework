@@ -1,0 +1,135 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps de lecture : 30 minutes"
+    ]
+  },
+  "header": {
+    "img": "NevaMagis/Notice/0-a-magis-bobine.jpg",
+    "title": [
+      "Notice de première utilisation - Prise en main"
+    ],
+    "subtitle": "Prenons en main l'imprimante",
+    "text": [
+      "Nous allons maintenant aborder la dernière partie sur les procédures d'entretiens et sur la résolution des problèmes mineurs souvent rencontrés lors de l'utilisation de l'imprimante."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "NevaMagis/Notice/5-a-buse-bouchee.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "La buse est bouchée"
+        },
+        {
+          "text": "Le problème le plus récurrent dans l'impression 3D."
+        },
+        {
+          "text": "Un tas de symptôme peuvent expliquer ce problème."
+        },
+        {
+          "button": {
+            "text": "Vous trouverez un article complet pour vous expliquer les contrôles à réaliser.",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000275932-la-buse-est-bouch%C3%A9e-le-filament-ne-sort-plus-",
+            "label": "C'est par ici"
+          }
+        },
+        {
+          "text": "L'entretien de la buse est à réaliser régulièrement."
+        },
+        {
+          "button": {
+            "text": "Vous trouverez un article complet pour vous expliquer la procédure à réaliser.",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000275938-neva-magis-comment-d%C3%A9boucher-la-buse",
+            "label": "C'est par ici"
+          }
+        },
+        {
+          "button": {
+            "href": "//support.dagoma.fr/support/solutions/articles/36000276732-magis-d%C3%A9boucher-la-buse",
+            "label": "Et ici"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/5-b-warping.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Le décollement des pièces ou warping"
+        },
+        {
+          "text": "Chez DAGOMA, nous avons fait le choix d'imprimer sur plateau froid, pour des raisons écologiques et économique."
+        },
+        {
+          "text": "La contrainte observable peut survenir, lors d'une impression, à la base de celle ci."
+        },
+        {
+          "text": "Le PLA chaud se rétracte sur lui même lorsqu'il refroidit, donc la pièce imprimée se décolle du plateau."
+        },
+        {
+          "button": {
+            "text": "Pour parer à ce phénomène, nous proposons un arsenal de solution, adapté à chaque utilisation.",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000066927-le-warping",
+            "label": "C'est par ici"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/16-5-a-maintenance.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Entretien complet de l'imprimante"
+        },
+        {
+          "text": "L'imprimante a besoin d'être entretenu après un certain temps sans être utilisée ou alors après un certain temps d'utilisation."
+        },
+        {
+          "button": {
+            "text": "Vous trouverez la",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000294015-magis-proc%C3%A9dure-d-entretien",
+            "label": "procédure ici"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/5-d-fichiers_stl.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Fichiers STL"
+        },
+        {
+          "text": "Nous mettons à disposition en libre téléchargement la totalité des pièces imprimées qui constituent la Magis."
+        },
+        {
+          "text": "Si vous souhaitez, un jour par exemple, réimprimer une pièce abîmée ou customiser votre imprimante."
+        },
+        {
+          "button": {
+            "href": "//github.com/dagoma3d/STL-Magis-Official",
+            "label": "Vous les trouverez ici"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "NevaMagis/Notice/0-a-magis-bobine.jpg",
+    "subtitle": "La prise en main est terminée",
+    "items": [
+      {
+        "text": "N'hésitez pas à nous remonter les points que vous auriez souhaiter voir apparaître ici."
+      }
+    ]
+  }
+}
