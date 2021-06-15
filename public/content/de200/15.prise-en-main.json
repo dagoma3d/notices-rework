@@ -2,7 +2,7 @@
   "header": {
     "img": "DiscoEasy/Notice/11-k-fin.jpg",
     "title": [
-      "Notice de montage Disco Ultimate - Page 15 - Prise en main"
+      "Notice de montage Disco Easy - Page 15 - Prise en main"
     ],
     "subtitle": "Prenons en main l'imprimante",
     "text": [
@@ -158,7 +158,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate/Notice/16-6-a-fichiers_stl.jpg"
+        "src": "DiscoEasy/Notice/17-a-fichiers-stl.jpg"
       },
       "article": [
         {
@@ -172,7 +172,7 @@
         },
         {
           "button": {
-            "href": "//github.com/dagoma3d/STL-DiscoUltimate-Official",
+            "href": "//github.com/dagoma3d/STL-DiscoEasy200-Official",
             "label": "Vous les trouverez ici"
           }
         }
