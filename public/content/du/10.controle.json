@@ -29,13 +29,13 @@
           "title": "Lubrification des axes (optionnel)"
         },
         {
-          "text": "Protéger le plateau avec un essuis tout"
+          "text": "Protégez le plateau avec un essuis tout"
         },
         {
-          "text": "Mettre de l’huile sur les tiges de l’axes X (tête d’impression qui coulisse de gauche à droite), puis faire coulisser l’axe manuellement afin de disperser l’huile uniformément."
+          "text": "Mettez de l’huile sur les tiges de l’axes X (tête d’impression qui coulisse de gauche à droite), puis faire coulisser l’axe manuellement afin de disperser l’huile uniformément."
         },
         {
-          "text": "Mettre de l’huile sur les tiges de l’axe Y (plateau qui coulisse d’avant en arrière), puis faire coulisser l’axe manuellement afin de disperser l’huile uniformément."
+          "text": "Mettez de l’huile sur les tiges de l’axe Y (plateau qui coulisse d’avant en arrière), puis faire coulisser l’axe manuellement afin de disperser l’huile uniformément."
         }
       ]
     },
@@ -232,7 +232,9 @@
           ]
         },
         {
-          "text": "Cette opération fera refroidir la buse et le ventilateur avant s’éteindra de lui même après quelques minutes."
+          "help": {
+            "quick_tips": "Laisser le ventilateur s’éteindre tout seul avant d’éteindre l’imprimante."
+          }
         }
       ]
     },
@@ -282,7 +284,9 @@
           "text": "L’insertion automatique est réussie."
         },
         {
-          "warning": "Laisser le ventilateur s’éteindre tout seul avant d’éteindre l’imprimante."
+          "help": {
+            "danger": "Laisser le ventilateur s’éteindre tout seul avant d’éteindre l’imprimante."
+          }
         }
       ]
     }

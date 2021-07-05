@@ -138,6 +138,32 @@
     },
     {
       "media": {
+        "src": "DiscoUltimate/Notice/16-4-b-cura-ultimaker.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Utlisation de Cura Ultimaker"
+        },
+        {
+          "text": "Pour rappel, Cura By Dagoma est un logiciel, développé par DAGOMA, de préparation d'impression, aussi appelé trancheur ou slicer en anglais, simplifié afin de prendre en main l'imprimante facilement."
+        },
+        {
+          "text": "Vous pouvez utiliser la version complète Cura Ultimaker, qui contient beaucoup plus de paramètres."
+        },
+        {
+          "text": "La seule différence sera le nom du fichier, il faudra donc le renommer"
+        },
+        {
+          "button": {
+            "text": "Vous trouverez la",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000185764-j-ai-pr%C3%A9par%C3%A9-ma-pi%C3%A8ce-sur-cura-ultimaker-mais-l-impression-ne-se-lance-pas",
+            "label": "procédure ici"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
         "src": "DiscoUltimate/Notice/16-5-a-maintenance.jpg"
       },
       "article": [

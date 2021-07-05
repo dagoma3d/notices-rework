@@ -353,23 +353,24 @@
           "text": "Récupérez le câble d'alimentation double avec le connecteur d'alimentation."
         },
         {
-          "text": "Dénudez le fil seul."
+          "text": "Dénudez le fil seul si ce n'est pas déjà fait."
         },
         {
-          "text": "Branchez l'autre bout sur le connecteur de l'interrupteur."
+          "text": "Branchez le fil cossé sur l'un des connecteurs de l'interrupteur."
         },
         {
-          "text": "Recouvrez-le avec la protection en plastique."
+          "text": "Recouvrez la cosse avec la protection en plastique."
         },
         {
-          "text": "Raccordez-le sur le - du bornier PWR IN."
+          "text": "Vissez le fil dénudé sur le - du bornier PWR IN."
         },
         {
           "text": "Rentrez le connecteur d'alimentation de biais dans la pièce plastique arrière gauche prévue à cet effet. Poussez dessus pour le clipser."
         },
         {
           "help": {
-            "quick_tips": "Présentez-le de biais, poussez-le au fond et ensuite poussez vers le bas pour l'enclencher)."
+            "quick_tips": "Présentez-le de biais, poussez-le au fond et ensuite poussez vers le bas pour l'enclencher.",
+            "danger": "Si le câble d'alimentation double est de couleur noir, alors c'est le liseret blanc qui fera office de pôle positif."
           }
         }
       ]
