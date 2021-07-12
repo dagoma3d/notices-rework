@@ -54,7 +54,7 @@
         {
           "lettered-list": [
             "1 Carte électronique F5",
-            "1 Courroie 75 cm (ou +) / 1 Courroie 85 cm (ou +) /2 Poulies / 1 Ressort d'extrudeur /4 Roulements linéaires LM8UU /4 Roulements 623ZZ",
+            "1 Courroie 75 cm / 1 Courroie 85 cm / 2 Poulies / 1 Ressort d'extrudeur /4 Roulements linéaires LM8UU /4 Roulements 623ZZ",
             "1 tête d'impression montée ",
             "1 Tournevis 2.5 mm",
             "1 Spatule",
@@ -65,6 +65,11 @@
             "1 Plaque de protection avant",
             "1 Plaque de protection arrière"
           ]
+        },
+        {
+          "help": {
+            "quick_tips": "Si les courroies mesurent 107 cm, il faudra les recouper pour en obtenir une de 75 cm et une de 85 cm."
+          }
         }
       ]
     },
@@ -93,7 +98,7 @@
         },
         {
           "help": {
-            "quick_tips": "Le scotch du plateau sert de surface d'accroche, ce n'est pas une protection à retirer"
+            "quick_tips": "Le scotch bleu du plateau sert de surface d'accroche, ce n'est pas une protection à retirer"
           }
         }
       ]
