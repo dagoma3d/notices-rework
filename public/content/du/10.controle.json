@@ -79,6 +79,12 @@
               }
             }
           ]
+        },
+        {
+          "help": {
+            "quick_tips": "Pour ne pas se tromper dans le nom du fichier, lorsque le test est terminé vous pouvez supprimer le fichier \"dagoma0.g\" et passer au test suivant.",
+            "danger": "Le fichier ne fonctionnera pas si le fichier s'appelle \"dagoma0(1).g\""
+          }
         }
       ]
     },
@@ -122,6 +128,12 @@
               }
             }
           ]
+        },
+        {
+          "help": {
+            "quick_tips": "Pour ne pas se tromper dans le nom du fichier, lorsque le test est terminé vous pouvez supprimer le fichier \"dagoma0.g\" et passer au test suivant.",
+            "danger": "Le fichier ne fonctionnera pas si le fichier s'appelle \"dagoma0(1).g\""
+          }
         }
       ]
     },
@@ -171,6 +183,12 @@
               }
             }
           ]
+        },
+        {
+          "help": {
+            "quick_tips": "Pour ne pas se tromper dans le nom du fichier, lorsque le test est terminé vous pouvez supprimer le fichier \"dagoma0.g\" et passer au test suivant.",
+            "danger": "Le fichier ne fonctionnera pas si le fichier s'appelle \"dagoma0(1).g\""
+          }
         }
       ]
     },
