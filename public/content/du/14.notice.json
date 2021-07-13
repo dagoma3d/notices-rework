@@ -179,7 +179,7 @@
           "text": "Pendant une impression, vous êtes capable de mettre l'imprimante en pause en appuyant sur le bouton. Elle continuera d'imprimer pendant quelques secondes avant de s'arrêter."
         },
         {
-          "text": "Après 10 minutes de pause, la Disco Ultimate s'arrêtera de chauffer pour des raisons de sécurité."
+          "text": "Après 10 minutes de pause, la Disco Ultimate s'arrêtera de chauffer pour des raisons de sécurité et d'économie d'energie."
         },
         {
           "text": "Rappuyez sur le bouton pour qu'elle recommence à imprimer. Si votre imprimante 3D était froide, elle commencera par chauffer avant de reprendre l'impression."
@@ -188,7 +188,9 @@
           "italic": "Fonction accessible depuis l'écran : \"Interrompre impr.\""
         },
         {
-          "frame": "Si vous appuyez sur le bouton pendant le palpage, cela interrompra totalement le lancement. Vous n'aurez qu'à relancer l'impression."
+          "help": {
+            "quick_tips": "Lorsque l'imprimante est en pause, le filament ne s'éjecte pas tout seul, la procédure d'éjection est expliqué juste ensuite."
+          }
         }
       ]
     },
@@ -204,7 +206,7 @@
           "title": "Ejection du filament"
         },
         {
-          "text": "Vous êtes en mesure de retirer automatiquement le filament en restant appuyer sur le bouton de la pause. Vous pouvez relâcher lorsque l'imprimante réagit."
+          "text": "Vous êtes en mesure de retirer automatiquement le filament en restant appuyé sur le bouton pause. Vous pouvez relâcher lorsque l'imprimante réagit."
         },
         {
           "text": "Si la tête d'impression est déjà chaude, le filament sortira directement."
@@ -217,6 +219,11 @@
         },
         {
           "italic": "Fonction accessible depuis l'écran : \"Changement de filament\""
+        },
+        {
+          "help": {
+            "quick_tips": "Lorsque la roue dentée ne tourne plus, c'est que le filament peut être retiré à la main."
+          }
         }
       ]
     },
@@ -232,10 +239,10 @@
           "title": "Insertion du filament"
         },
         {
-          "text": "Avant chaque insertion, coupez le filament pour que le bout soit propre."
+          "text": "Avant chaque insertion, coupez le filament en biseau pour que le bout du filament soit neuf et non déjà fondu."
         },
         {
-          "text": "Lorsque l'imprimante n'a pas de filament, vous pouvez en insérer un nouveau en le présentant dans l'extrudeur. Poussez-le jusqu'à ce qu'il soit entrainé par l'extrudeur."
+          "text": "Lorsque l'imprimante n'a pas de filament, vous pouvez en insérer un nouveau en le présentant dans l'extrudeur. Poussez-le en butée, jusqu'à ce qu'il soit entrainé par la roue dentée de l'extrudeur."
         },
         {
           "text": "Comme pour l'éjection, vous pouvez l'utiliser à chaud comme à froid avec le même comportement :"
@@ -273,6 +280,11 @@
         },
         {
           "text": "Quand le ventilateur avant s'arrête, vous pouvez l'éteindre sans soucis."
+        },
+        {
+          "help": {
+            "danger": "Si cette procédure n'est pas respectée, des bouchons peuvent se créer dans la buse."
+          }
         }
       ]
     },
