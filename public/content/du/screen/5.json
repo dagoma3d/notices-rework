@@ -84,7 +84,7 @@
           "pretitle": "Étape 3"
         },
         {
-          "title": "Déplacements 1"
+          "title": "Déplacement 1"
         },
         {
           "text": "Pour déplacer la tête d’impression ou le plateau, il faudra à chaque fois sélectionner le pas de déplacement 10mm, 1mm ou 0,1mm."
@@ -106,7 +106,7 @@
           "pretitle": "Étape 3"
         },
         {
-          "title": "Déplacements 2"
+          "title": "Déplacement 2"
         },
         {
           "text": "Au démarrage de l’imprimante, les axes clignotent avec des points d'interrogation car les butées ne sont pas encore réalisées. En lançant une impression, ce repérage est fait automatiquement. Il peut être fait manuellement avec l’option Origine auto."
@@ -150,7 +150,7 @@
           "pretitle": "Étape 5"
         },
         {
-          "title": "Mouvements"
+          "title": "Mouvement"
         },
         {
           "text": "Les déplacements de la tête d’impression sont contrôlés et contrôlables depuis le menu Mouvement."
@@ -174,7 +174,7 @@
           "pretitle": "Étape 6"
         },
         {
-          "title": "Insertion / Éjections carte SD"
+          "title": "Insertion / Éjection carte SD"
         },
         {
           "text": "L’insertion de la carte SD peut se faire machine éteinte ou allumée."
@@ -222,6 +222,29 @@
             "Babystepping (déplacement d’un axe, au pas moteur près, souvent utilisé pour peaufiner la première couche en jouant sur le babystep Z)",
             "Déclencher un changement de filament"
           ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Addon/Screen/8-fichiers_3d.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Fichiers STL"
+        },
+        {
+          "title": "Où trouver les fichiers 3D de l'écran ?"
+        },
+        {
+          "text": "Si vous souhaitez réimprimer le boitier de l'écran en choisissant vos propres couleurs, c'est possible."
+        },
+        {
+          "button": {
+            "text": "Les fichiers 3D sont mis à disposition sur notre Github.",
+            "href": "//github.com/dagoma3d/STL-DiscoEasy200-Official/tree/Release/Add-on%201%20-%20Ecran",
+            "label": "C'est par ici"
+          }
         }
       ]
     }

@@ -169,6 +169,9 @@
           "text": "Lorsque les mouvements sont terminés, arrêtez la machine (interrupteur sur 0)."
         },
         {
+          "text": "Le ventilateur ne s'arrêtera pas tout seul, il faudra éteindre l'imprimante pour qu'il se coupe."
+        },
+        {
           "frame": [
             {
               "button": {

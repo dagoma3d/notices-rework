@@ -224,6 +224,29 @@
           ]
         }
       ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Screen/8-fichiers_3d.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Fichiers STL"
+        },
+        {
+          "title": "Où trouver les fichiers 3D de l'écran ?"
+        },
+        {
+          "text": "Si vous souhaitez réimprimer le boitier de l'écran en choisissant vos propres couleurs, c'est possible."
+        },
+        {
+          "button": {
+            "text": "Les fichiers 3D sont mis à disposition sur notre Github.",
+            "href": "//github.com/dagoma3d/STL-DiscoEasy200-Official/tree/Release/Add-on%201%20-%20Ecran",
+            "label": "C'est par ici"
+          }
+        }
+      ]
     }
   ],
   "footer": {
