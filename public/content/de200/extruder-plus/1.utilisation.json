@@ -78,17 +78,16 @@
           "text": "Après 10 minutes de pause, la DiscoEasy200 s'arrêtera de chauffer pour des raisons de sécurité."
         },
         {
-          "italic": "Rappuyez sur le bouton pour qu'elle recommence à imprimer. Si votre imprimante 3D était froide, elle commencera par chauffer avant de reprendre l'impression."
+          "text": "Rappuyez sur le bouton, un simple appui rapide, pour qu'elle recommence à imprimer. Si votre imprimante 3D était froide, elle commencera par chauffer avant de reprendre l'impression."
         },
         {
-          "text": "Fonction accessible depuis l'écran : \"Interrompre impr.\""
+          "italic": "Fonction accessible depuis l'écran : \"Interrompre impr.\""
         },
         {
-          "frame": [
-            {
-              "text": "Si vous appuyez sur le bouton pendant le palpage, cela interrompra totalement le lancement. Vous n'aurez qu'à relancer l'impression."
-            }
-          ]
+          "help": {
+            "quick_tips": "Lorsque l'imprimante est en pause, le filament ne s'éjecte pas tout seul, la procédure d'éjection est expliquée juste après.",
+            "danger": "Le déclenchement d'une pause pendant le réglage de la première couche interrompra ce réglage, il faudra recommencer."
+          }
         }
       ]
     },
@@ -115,6 +114,11 @@
         },
         {
           "italic": "Fonction accessible depuis l'écran : \"Changement de filament\""
+        },
+        {
+          "help": {
+            "quick_tips": "Lorsque la roue dentée ne tourne plus, c'est que le filament peut être retiré à la main."
+          }
         }
       ]
     },
