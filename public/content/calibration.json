@@ -223,77 +223,77 @@
               "Une fois réglé, cliquez sur la flèche bleue."
             ]
           }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/dagomapp-calibration-e10.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Etape 10"
         },
         {
-          "media": {
-            "src": "DiscoEasy/Calibration/dagomapp-calibration-e10.jpg",
-            "small": true
-          },
-          "article": [
-            {
-              "title": "Etape 10"
-            },
-            {
-              "text": "C'est bientôt fini ! Après cette étape, votre imprimante 3d va se préparer à imprimer."
-            },
-            {
-              "text": "Elle va bouger un peu, chauffer et elle commencera à imprimer."
-            },
-            {
-              "text": "Dans l'étape suivant vous allez ajuster avec précisions la hauteur de la première couche.."
-            }
-          ]
+          "text": "C'est bientôt fini ! Après cette étape, votre imprimante 3d va se préparer à imprimer."
         },
         {
-          "media": {
-            "src": "DiscoEasy/Calibration/dagomapp-calibration-e11.jpg",
-            "small": true
-          },
-          "article": [
-            {
-              "title": "Etape 11"
-            },
-            {
-              "text": "Dans cette interface, vous allez pouvoir monter ou descendre la hauteur de la première couche."
-            },
-            {
-              "text": "Si elle est trop écrasé, l'extrudeur ne fera que forcer. Cliquez sur \"plus haut\"."
-            },
-            {
-              "text": "Si elle est trop haute, elle ne tiendra pas sur le plateau. Cliquez sur \"plus bas\"."
-            },
-            {
-              "text": "Elle va imprimer plusieurs petits cercles. Une fois que la hauteur de couche est bonne, cliquez sur \"Je suis satisfait\" puis sur \"enregistrer\"."
-            },
-            {
-              "text": "Vous avez une petite vidéo des réactions de la machine ici :"
-            },
-            {
-              "video": {
-                "id": "NBlnfQz_0to"
-              }
-            }
-          ]
+          "text": "Elle va bouger un peu, chauffer et elle commencera à imprimer."
         },
         {
-          "media": {
-            "src": "DiscoEasy/Calibration/dagomapp-calibration-e12.jpg",
-            "small": true
-          },
-          "article": [
-            {
-              "title": "Etape 12"
-            },
-            {
-              "text": "Votre imprimante 3d est calibrée et prête à imprimer."
-            },
-            {
-              "text": "Ne vous inquiétez pas si la valeur obtenue est différente de notre exemple."
-            },
-            {
-              "text": "Si vous étiez en train d'installer un add-on, n'oubliez pas que ce n'est pas fini."
-            }
-          ]
+          "text": "Dans l'étape suivant vous allez ajuster avec précisions la hauteur de la première couche.."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/dagomapp-calibration-e11.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Etape 11"
+        },
+        {
+          "text": "Dans cette interface, vous allez pouvoir monter ou descendre la hauteur de la première couche."
+        },
+        {
+          "text": "Si elle est trop écrasé, l'extrudeur ne fera que forcer. Cliquez sur \"plus haut\"."
+        },
+        {
+          "text": "Si elle est trop haute, elle ne tiendra pas sur le plateau. Cliquez sur \"plus bas\"."
+        },
+        {
+          "text": "Elle va imprimer plusieurs petits cercles. Une fois que la hauteur de couche est bonne, cliquez sur \"Je suis satisfait\" puis sur \"enregistrer\"."
+        },
+        {
+          "text": "Vous avez une petite vidéo des réactions de la machine ici :"
+        },
+        {
+          "video": {
+            "id": "NBlnfQz_0to"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/dagomapp-calibration-e12.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Etape 12"
+        },
+        {
+          "text": "Votre imprimante 3d est calibrée et prête à imprimer."
+        },
+        {
+          "text": "Ne vous inquiétez pas si la valeur obtenue est différente de notre exemple."
+        },
+        {
+          "text": "Si vous étiez en train d'installer un add-on, n'oubliez pas que ce n'est pas fini."
         }
       ]
     }

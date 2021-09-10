@@ -1,0 +1,165 @@
+{
+  "header": {
+    "img": "DiscoUltimate/Notice-bi-with-screen/1-a-intro.jpg",
+    "title": [
+      "Notice de montage DISCO ULTIMATE bicouleur avec écran de contrôle - préparation"
+    ],
+    "subtitle": "Préparons nous au montage",
+    "text": [
+      "Nous allons préparer tous les éléments nécessaires au montage du kit.",
+      "Temps approximatif de montage : 3 heures 30 minutes."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Préparation"
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/2-b-prerequis.jpg",
+        "color": "anthracite"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "text": "Un kit DiscoUltimate bicouleur édition avec écran de contrôle"
+        },
+        {
+          "list": [
+            "1 tournevis hexagonal 2.5mm (fourni)",
+            "1 tournevis cruciforme PH1",
+            "1 tournevis plat de 3mm",
+            "1 cutter ou 1 ébavureur",
+            "1 maillet",
+            "De l'huile liquide",
+            "1 Pince plate"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice-bi-with-screen/1-c-deballage.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Déballage du kit"
+        },
+        {
+          "title": "1er étage"
+        },
+        {
+          "lettered-list": [
+            "1 Plaque de fond transparente",
+            "1 Câble moteur X (620 mm) / 1 Câble moteur double Z (200 mm) / 1 Câble moteur E0 (250 mm) / 1 Câble moteur Y (85 mm) / 1 Câble alimentation double (positive) / 1 Cable alimentation simple (négative) / 1 Butée de fin de course X (595 mm) / 1 Butée de fin de course Y (185 mm) / 1 Câble USB / 4 Serre-flex",
+            "1 Carte électronique mère",
+            "1 Face avant et 1 face arrière pour le boîtier imprimé de l’écran",
+            "1 Écran (afficheur)",
+            "1 Corps d'extrudeur E1 / 1 Câble moteur E1 / 1 Ressort d'extrudeur / 1 Bras d'extrudeur / 3 Vis M3-25",
+            "1 Tête d’impression",
+            "1 Cible de réglage",
+            "1 Sachet de vis écran / 1 sachet de vis imprimante / 1 interrupteur / 1 adaptateur SD/USB / 1 Carte SD / 12 patins Push-On",
+            "1 Plaque de protection avant et 1 Plaque de protection arrière",
+            "1 Fiche de conformité / 1 Fiche de sécurité / 1 Fiche avec le lien vers la notice",
+            "1 Tournevis 2.5 mm",
+            "1 Spatule",
+            "2 courroies 107 cm / 2 Poulies / 1 Ressort d'extrudeur / 4 Roulements linéaires LM8UU / 4 Roulements 623ZZ"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice-bi-with-screen/1-d-deballage.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Déballage du kit"
+        },
+        {
+          "title": "2ème étage"
+        },
+        {
+          "lettered-list": [
+            "1 Plateau scotché",
+            "1 Build grip",
+            "2 Moteurs NEMA avec poulie / 2 Moteurs NEMA avec roue dentée d'extrusion",
+            "2 tiges trapézoïdale + moteur",
+            "2 Moteurs NEMA avec poulie / 1 Moteur NEMA avec roue d'extrusion",
+            "1 Gaine PLIOZIP (700 mm) / 2 Tubes PTFE (900 mm) / 1 Échantillon de filament Chromatik / 1 Gaine range cable (380 mm)",
+            "1 Sachet de pièce imprimé : 2 Outils imprimé / 1 Logo face avant / 1 Support de plaques de protection / 4 Clips PTFE"
+          ]
+        },
+        {
+          "help": {
+            "quick_tips": "Les deux logements de vis supplémentaires dans le plateau servent pour l'installation d'un pack flexible.",
+            "danger": "Le scotch bleu du plateau sert de surface d'accroche, ce n'est pas une protection à retirer"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/2-e-deballage.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Déballage du kit"
+        },
+        {
+          "title": "3ème étage"
+        },
+        {
+          "lettered-list": [
+            "1 Face avant / 1 Face arrière",
+            "2 Fixations latérale",
+            "1 Couple de chariot d'axe X",
+            "1 Support plateau long / 2 Support plateau court",
+            "1 Corps d'extrudeur + / 1 Bras d'extrudeur monté",
+            "2 Fixations haute",
+            "1 Cache côté avant droit (Bouton pause)",
+            "1 Cache coté arrière gauche (côté alimentation) / 1 Cache coté arrière droit / 1 Cache coté avant gauche (lecteur carte SD)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/2-f-deballage.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Déballage du kit"
+        },
+        {
+          "title": "4ème étage"
+        },
+        {
+          "lettered-list": [
+            "8 Barres longue (360 mm) / 5 Barres courte (270 mm)",
+            "1 Cordon d'alimentation / 1 Bloc transformateur 12V - 5A"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Aide au montage",
+      "items": [
+        {
+          "help": {
+            "quick_tips": "Quick Tips ou Conseils Rapide en français, ce symbole vous indiquera une technique de montage particulière ou une astuce pour vous faciliter la vie pendant le montage.",
+            "danger": "Attention, ce symbole sollicite votre attention sur une étape du montage qui peut être compliqué ou alors décisive pour le bon fonctionnement de votre imprimante."
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Notice-bi-with-screen/1-a-intro.jpg",
+    "subtitle": "A vos marques ... Go !"
+  }
+}
