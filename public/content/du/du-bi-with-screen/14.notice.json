@@ -1,0 +1,892 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 30 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoUltimate/Notice-bi-with-screen/11-a-intro.jpg",
+    "title": [
+      "Notice de montage Disco Ultimate bicouleur avec écran de contrôle - Page 14 - Utilisation"
+    ],
+    "subtitle": "Lançons une première impression",
+    "text": [
+      "Dernière étape avant le grand large. Nous allons vous montrer les bonnes pratiques et les rudiments de l'impression 3D sur la Discoeasy200 et DiscoUltimate, le fonctionnement est fondamentalement le même.",
+      "Nous allons voir dans un premier temps le fonctionnement de l'imprimante en mode monocouleur puis ensuite en bicouleur, afin de comprendre chaque aspect de l'imprimante."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Fonctionnement de l'imprimante"
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/b-derouleur.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Choisir un fichier"
+        },
+        {
+          "text": "Nous vous proposons ici un dérouleur de bobine. Il vous sera bien utile lors de chacune de vos impressions."
+        },
+        {
+          "button": {
+            "color": "white",
+            "text": "Téléchargez le fichier STL ci-dessous. Nous allons ensuite le préparer sur Cura.",
+            "href": "//drive.google.com/file/d/1_1N0OnGBdfcMY00hV2dENDK4LJA5IRyw/view?usp=sharing",
+            "download": "support-bobine.zip",
+            "label": "Télécharger"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice-with-screen/15-c-cura.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Préparation du fichier sur Cura"
+        },
+        {
+          "text": "Ouvrez le fichier sur cura by dagoma."
+        },
+        {
+          "text": "Nous vous proposons les paramètres d'impression suivant : 33% en rapide."
+        },
+        {
+          "text": "Insérez la carte SD dans l'ordinateur et cliquez sur \"préparer l'impression\"."
+        },
+        {
+          "help": {
+            "danger": "Si le câble USB est toujours raccordé entre l'ordinateur et l'imprimante alors l'impression ne se préparera pas sur la carte SD. Le mode USB est prioritaire."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "3vwF8IBeBB8"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Insertion du filament"
+        },
+        {
+          "text": "Avant chaque insertion, coupez le filament en biseau pour que le bout rentre plus facilement."
+        },
+        {
+          "text": "Normalement à cette étape, le filament est déjà en place."
+        },
+        {
+          "text": "Nous allons quand même vous remontrer la technique."
+        },
+        {
+          "text": "Sur un extrudeur standard, appuyez sur le bras pour le débrayer."
+        },
+        {
+          "text": "Passez le filament à la main en poussant et en effectuant de légères torsions pour faciliter son entrée."
+        },
+        {
+          "text": "Poussez le filament jusqu'à la tête d'impression."
+        },
+        {
+          "text": "Avec l'extrudeur+, l'insertion peut être automatisée."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "GcA1cal6c7c"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Lancement d'une impression"
+        },
+        {
+          "text": "Insérez la carte SD dans le lecteur de l'écran. Elle peut être insérée machine éteinte ou machine allumée."
+        },
+        {
+          "text": "Le fichier doit être au format G ou GCODE pour être reconnu."
+        },
+        {
+          "text": "Il faudra ensuite sélectionnez le fichier avec le menu de l'écran :"
+        },
+        {
+          "text": "Menu de surveillance => Impr. depuis SD => DAGOMA0.G"
+        },
+        {
+          "text": "Explication du rituel de démarrage :"
+        },
+        {
+          "list": [
+            "Prise d'origine des axes",
+            "Temps de préchauffage",
+            "Repérage du plateau (si l'option \"utilisation du palpeur\" est activée)",
+            "Dernier temps de chauffe",
+            "L'impression commence"
+          ]
+        },
+        {
+          "help": {
+            "quick_tips": "A quoi sert la case \"Utilisation du palpeur\" ? Ne perdons pas de temps pour le découvrir et rendez vous sur le support."
+          }
+        },
+        {
+          "button": {
+            "href": "https://support.dagoma.fr/support/solutions/articles/36000152890-discoeasy200-discoultimate-quelles-sont-les-fonctionnalit%C3%A9s-du-palpeur-",
+            "text": "La page vers le support se trouve"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "cdmfZ8FZ2I8"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Ajustement de la première couche"
+        },
+        {
+          "text": "La qualité de la première couche dépend de votre calibration sur Dagom'App ou via l'écran. Il se peut que ce réglage varie entre deux lancements."
+        },
+        {
+          "text": "Nous vous conseillons de refaire une calibration de temps en temps lorsque la première couche perd en précision."
+        },
+        {
+          "text": "Il vous est possible d'agir sur les coupleurs (ou tiges trapézoïdale sur DiscoUltimate) pour ajuster la hauteur de la première couche."
+        },
+        {
+          "text": "En tournant les deux en même temps dans le sens inverse des aiguilles d'une montre, la couche sera plus basse (trop basse sur la vidéo)."
+        },
+        {
+          "text": "En tournant dans l'autre sens, elle sera plus haute (trop haute sur la vidéo)."
+        },
+        {
+          "text": "Regardez à la fin de la vidéo pour voir les 3 niveaux d'appréciations de hauteur de première couche."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "a3YhXjDsips"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 7"
+        },
+        {
+          "title": "La mise en pause"
+        },
+        {
+          "text": "Pendant une impression, vous êtes capable de mettre l'imprimante en pause en appuyant sur le bouton du cache côté. Elle continuera d'imprimer pendant quelques secondes avant de s'arrêter."
+        },
+        {
+          "text": "Après 10 minutes de pause, la Disco Ultimate s'arrêtera de chauffer pour des raisons de sécurité et d'économie d'energie."
+        },
+        {
+          "text": "Rappuyez sur le bouton, un simple appui rapide, pour qu'elle recommence à imprimer. Si votre imprimante 3D était froide, elle commencera par chauffer avant de reprendre l'impression."
+        },
+        {
+          "italic": "Fonction accessible depuis l'écran : \"Interrompre impr.\""
+        },
+        {
+          "text": "La fonction montrée sur la vidéo est celle de la détection de fin de filament, en effet votre impression ne sera pas perdu en cas de rupture de filament."
+        },
+        {
+          "text": "Dans ce cas l'imprimante se mettra en pause automatiquement et éjectera le filament."
+        },
+        {
+          "help": {
+            "quick_tips": "Lorsque l'imprimante est placée en pause manuellement, le filament ne s'éjecte pas tout seul, la procédure d'éjection est expliquée juste après.",
+            "danger": "Le déclenchement d'une pause pendant le réglage de la première couche interrompra ce réglage, il faudra recommencer."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "bTaBU_9ca3M"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 8"
+        },
+        {
+          "title": "Ejection du filament"
+        },
+        {
+          "text": "Vous êtes en mesure de retirer automatiquement le filament en restant appuyé sur le bouton pause. Vous pouvez relâcher lorsque l'imprimante réagit."
+        },
+        {
+          "text": "Si la tête d'impression est déjà chaude, le filament sortira directement."
+        },
+        {
+          "text": "Si la tête est froide, l'imprimante commencera par chauffer avant de retirer le filament."
+        },
+        {
+          "text": "Nous avons ajouté un témoin de progression de chauffe. La tête se déplace par rapport à sa température. Quand elle arrive à droite, elle est prête."
+        },
+        {
+          "italic": "Fonction accessible depuis l'écran : \"Changement de filament\""
+        },
+        {
+          "help": {
+            "quick_tips": "Lorsque la roue dentée ne tourne plus, c'est que le filament peut être retiré à la main."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "2vbEgZNEk04"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 9"
+        },
+        {
+          "title": "Insertion du filament"
+        },
+        {
+          "text": "Avant chaque insertion, coupez le filament en biseau pour que le bout du filament soit neuf et non déjà fondu."
+        },
+        {
+          "text": "Lorsque l'imprimante n'a pas de filament, vous pouvez en insérer un nouveau en le présentant dans l'extrudeur. Poussez-le en butée, jusqu'à ce qu'il soit entrainé par la roue dentée de l'extrudeur."
+        },
+        {
+          "text": "Comme pour l'éjection, vous pouvez l'utiliser à chaud comme à froid avec le même comportement :"
+        },
+        {
+          "text": "Si la tête d'impression est déjà chaude, le filament entrera directement."
+        },
+        {
+          "text": "Si la tête est froide, l'imprimante commencera par chauffer avant d'insérer le filament."
+        },
+        {
+          "text": "Retirez l'excédent de purge en sortie de la buse, attention c'est chaud."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "A6-EyRaKC0g"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 10"
+        },
+        {
+          "title": "Arrêter proprement la Disco Ultimate"
+        },
+        {
+          "text": "Pendant une impression, passez l'interrupteur à 0."
+        },
+        {
+          "text": "Retirez la carte SD."
+        },
+        {
+          "text": "Rallumez la machine pour que la tête refroidisse convenablement."
+        },
+        {
+          "text": "Quand le ventilateur avant s'arrête, vous pouvez l'éteindre sans soucis."
+        },
+        {
+          "help": {
+            "danger": "Si cette procédure n'est pas respectée, des bouchons peuvent se créer dans la buse."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/c-assemblage-derouleur.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 11"
+        },
+        {
+          "title": "Assemblage du dérouleur"
+        },
+        {
+          "text": "N'hésitez pas à le faire tourner un peu à la main si vous voyez que l'assemblage ne pivote pas bien."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Notice/d-assemblage-derouleur.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 12"
+        },
+        {
+          "title": "Assemblage du dérouleur"
+        },
+        {
+          "text": "Déposez la bobine sur votre dérouleur."
+        },
+        {
+          "button": {
+            "color": "white",
+            "text": "Nous proposons un modèle plus évolué",
+            "href": "//drive.google.com/file/d/1_1N0OnGBdfcMY00hV2dENDK4LJA5IRyw/view?usp=sharing",
+            "download": "support-bobine.zip",
+            "label": "ici"
+          }
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Fonctionnement de l'écran"
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Addon/Screen/2-Menu-de-surveillance.jpg"
+      },
+      "article": [
+        {
+          "title": "Menu de surveillance"
+        },
+        {
+          "lettered-list": [
+            "Consigne de température",
+            "Température mesurée par la thermistance",
+            "Coordonnées de la buse d’impression",
+            "Vitesse d’impression en pourcentage",
+            "Etat de l’imprimante",
+            "Barre d’avancement de l’impression en cours",
+            "Bouton d’arrêt d’urgence",
+            "Buzzer sonore",
+            "Bouton de sélection"
+          ]
+        },
+        {
+          "help": {
+            "danger": "Si le bouton est trop enfoncé alors il risque de ne pas fonctionner correctement."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Addon/Screen/3-1-Deplacements.jpg"
+      },
+      "article": [
+        {
+          "title": "Déplacement 1"
+        },
+        {
+          "text": "Pour déplacer la tête d’impression ou le plateau, il faudra à chaque fois sélectionner le pas de déplacement 10mm, 1mm ou 0,1mm."
+        },
+        {
+          "text": "En choisissant 10mm, seuls les axes X et Y seront déplaçables."
+        },
+        {
+          "text": "L’axe extrudeur ne sera déplaçable qu’une fois que la buse aura atteint la température minimum de 180°, l’extrusion à froid n’est pas possible."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Addon/Screen/3-2-Deplacements.jpg"
+      },
+      "article": [
+        {
+          "title": "Déplacement 2"
+        },
+        {
+          "text": "Au démarrage de l’imprimante, les axes clignotent avec des points d'interrogation car les butées ne sont pas encore réalisées. En lançant une impression, ce repérage est fait automatiquement. Il peut être fait manuellement avec l’option Origine auto."
+        },
+        {
+          "text": "L’activation du palpeur génère une matrice de compensation de la hauteur de la buse en fonction de sa position au-dessus du plateau. Cette matrice ne s’affiche pas sur l’écran mais si l’imprimante est reliée à un logiciel type Pronterface, alors le calcul de la matrice s'affichera en sélectionnant l’option Régl. Niv. Plateau."
+        },
+        {
+          "text": "Le réglage de la première couche ou offset peut se faire via l’écran en choisissant l’option Réinitialiser et en suivant les instructions. Vous pouvez peaufiner ce réglage au centième près en sélectionnant directement la valeur du décalage en Z."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Addon/Screen/4-Temperature.jpg"
+      },
+      "article": [
+        {
+          "title": "Température"
+        },
+        {
+          "text": "La température de la buse d’impression est modifiable depuis l’écran. Comme pour déplacer un axe, on vient sélectionner le menu Buse et il faudra tourner le bouton pour y indiquer la consigne de température souhaitée."
+        },
+        {
+          "text": "On peut modifier la vitesse de rotation du ventilateur pour souffler plus ou moins fort de la même manière, les valeurs seront les suivantes 0 : 0% / 255 : 100%."
+        },
+        {
+          "text": "Un préchauffage est également déjà paramétré, préchauffage PLA : 180°C / préchauffage ABS : 240°C."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Addon/Screen/5-Mouvements.jpg"
+      },
+      "article": [
+        {
+          "title": "Mouvement"
+        },
+        {
+          "text": "Les déplacements de la tête d’impression sont contrôlés et contrôlables depuis le menu Mouvement."
+        },
+        {
+          "text": "Ces paramètres sont modifiables pour améliorer la qualité de vos impressions. Il faut faire des tests, observer le résultat et en tirer des conclusions. Il n’y a pas de réglage type car chaque imprimante est différente."
+        },
+        {
+          "help": {
+            "quick_tips": "Si l’imprimante ne réagit plus “normalement” et que vous souhaitez retrouver les paramètres par défaut, alors vous pouvez refaire une mise à jour du firmware."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Addon/Screen/6-Insertion-Ejection.jpg"
+      },
+      "article": [
+        {
+          "title": "Insertion / Éjection carte SD"
+        },
+        {
+          "text": "L’insertion de la carte SD peut se faire machine éteinte ou allumée."
+        },
+        {
+          "text": "L’écran vous informe de la bonne lecture de la carte SD (Carte insérée)."
+        },
+        {
+          "text": "Lors de la mise sous tension de l’imprimante, le fichier ne se lancera pas automatiquement. Il faudra le sélectionner manuellement."
+        },
+        {
+          "text": "Le nom du fichier peut ne pas être “dagoma0.g”, il est possible de mettre plusieurs fichiers Gcode sur la carte SD et de les renommer après le passage dans Cura By Dagoma."
+        },
+        {
+          "text": "L’écran vous informe de l’éjection de la carte SD (Carte retirée)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Addon/Screen/7-Modifications.jpg"
+      },
+      "article": [
+        {
+          "title": "Modification"
+        },
+        {
+          "text": "Une impression peut être arrêtée prématurément via le menu Arrêter impr."
+        },
+        {
+          "text": "Après le lancement d’une impression, un nouveau menu apparaît : Régler."
+        },
+        {
+          "text": "Celui-ci donne accès aux paramètres suivants :"
+        },
+        {
+          "list": [
+            "Vitesse d’impression (comme sur l’écran d’accueil)",
+            "Température de la buse",
+            "Vitesse du ventilateur",
+            "Flux (débit d’extrusion)",
+            "Babystepping (déplacement d’un axe, au pas moteur près, souvent utilisé pour peaufiner la première couche en jouant sur le babystep Z)",
+            "Déclencher un changement de filament"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Addon/Screen/8-fichiers_3d.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Fichiers STL"
+        },
+        {
+          "title": "Où trouver les fichiers 3D de l'écran ?"
+        },
+        {
+          "text": "Si vous souhaitez réimprimer le boitier de l'écran en choisissant vos propres couleurs, c'est possible."
+        },
+        {
+          "button": {
+            "text": "Les fichiers 3D sont mis à disposition sur notre Github.",
+            "href": "//github.com/dagoma3d/STL-DiscoEasy200-Official/tree/Release/Add-on%201%20-%20Ecran",
+            "label": "C'est par ici"
+          }
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Fonctionnement du mode bicouleur"
+    },
+    {
+      "media": {
+        "id": "Vidéo à faire"
+      },
+      "article": [
+        {
+          "title": "Installation des filaments"
+        },
+        {
+          "pretitle": "Refaire la description, ajout du deuxième filament pour faire fonctionner le mode bicouleur, si un seul filament sera utilisé alors utiliser que le premier extrudeur."
+        },
+        {
+          "text": "Avant chaque insertion, coupez le filament en biseau pour que le bout rentre facilement dans l'extrudeur."
+        },
+        {
+          "text": "Dans l'extrudeur n°2, présentez le filament dans l'extrudeur. Poussez-le jusqu'à ce qu'il soit entrainé par l'extrudeur."
+        },
+        {
+          "text": "Si la tête d'impression est déjà chaude, le filament entrera directement."
+        },
+        {
+          "text": "Si la tête est froide, l'imprimante commencera par chauffer avant d'insérer le filament."
+        },
+        {
+          "text": "Retirez l'excédent de purge en sortie de la buse, attention c'est chaud."
+        },
+        {
+          "text": "Si vous avez déjà l'extrudeur+, vous connaissez déjà. Faites de même dans l'extrudeur n°1."
+        },
+        {
+          "text": "Si vous n'avez pas l'extrudeur+, chargez le filament manuellement comme à votre habitude."
+        },
+        {
+          "text": "Arrêtez le filament à l'extrémité du tube PTFE côté tête d'impression."
+        },
+        {
+          "help": {
+            "danger": "Si les filaments ne sont pas à fleur du tube PTFE au lancement de l'impression, ils vont se chevaucher et l'extrusion ne fonctionnera pas."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "pYXiBbDSYX4"
+      },
+      "article": [
+        {
+          "title": "Installation des filaments"
+        },
+        {
+          "pretitle": "Filament 1"
+        },
+        {
+          "text": "Allumez l'imprimante pour que l'insertion automatique puisse fonctionner."
+        },
+        {
+          "text": "Coupez le filament en biseau pour faciliter son insertion."
+        },
+        {
+          "text": "Présentez le filament dans le premier extrudeur, accompagnez le jusqu'à ce que celui ci soit bien pris la roue dentée."
+        },
+        {
+          "text": "Si la tête d'impression est déjà chaude, le filament entrera directement. ."
+        },
+        {
+          "text": "Si la tête est froide, l'imprimante commencera par chauffer avant d'insérer le filament, elle réalisera des a-coups comme une barre de chargement pendant la chauffe, comme sur la vidéo."
+        },
+        {
+          "text": "La température se stabilise puis la roue dentée achemine le filament jusqu'à la tête d'impression. Assurez vous que le filament puisse se dérouler correctement."
+        },
+        {
+          "text": "Le filament est extrudé depuis la buse pour purger celle-ci puis la tête d'impression retourne au point de départ."
+        },
+        {
+          "text": "La première insertion est terminée."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "zlvXXpOPPUs"
+      },
+      "article": [
+        {
+          "title": "Installation des filaments"
+        },
+        {
+          "pretitle": "Filament 2"
+        },
+        {
+          "text": "Coupez également le filament en biseau, c'est un réflexe à prendre."
+        },
+        {
+          "text": "Présentez le filament dans le deuxième extrudeur, accompagnez le jusqu'à ce que celui ci soit bien pris la roue dentée."
+        },
+        {
+          "text": "Le schéma d'insertion est exactement le même que pour le filament 1."
+        },
+        {
+          "text": "Lorsque la tête d'impression revient au point de départ alors la deuxième insertion est terminée."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "lmaPfOB3uJY"
+      },
+      "article": [
+        {
+          "title": "Préparation des filaments"
+        },
+        {
+          "text": "Avant de lancer une impression bicouleur, il faut préparer la position des filaments."
+        },
+        {
+          "text": "Si les filaments ne sont pas coincés dans la buse alors vous pouvez retirer les tubes directement en appuyant sur le connecteur pneumatique."
+        },
+        {
+          "text": "Si l'imprimante a fonctionné juste avant, alors il est possible de faire chauffer la buse via l'écran, comme sur la vidéo."
+        },
+        {
+          "text": "Pour une préparation optimal, coupez le bout du premier filament en biseau puis positionnez le filament à fleur du tube PTFE."
+        },
+        {
+          "text": "Pour cela, vous pouvez débrayer manuellement l'extrudeur et faire avancer ou reculer le filament."
+        },
+        {
+          "text": "Réalisez la même opération pour le deuxième filament."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice-with-screen/15-g-gcodepret.jpg"
+      },
+      "article": [
+        {
+          "title": "Un gcode déjà tout prêt"
+        },
+        {
+          "text": "Si vous êtes impatient de lancer votre première impression bicouleur, nous vous avons préparé un gcode."
+        },
+        {
+          "text": "Téléchargez le et mettez le à la racine de votre carte SD."
+        },
+        {
+          "button": {
+            "color": "white",
+            "text": "Le modèle 3d de l'outil imprimé fourni est disponible en téléchargement.",
+            "href": "/gcodes/du-bi-with-screen/gcodedejatoutpret/dagoma0.g",
+            "label": "Télécharger"
+          }
+        },
+        {
+          "text": "Si vous voulez lancer votre propre fichier, rendez-vous dans la prochaine page !"
+        },
+        {
+          "text": "Vous connaissez la chanson, c'est un lancement tout à fait normal : téléchargez le fichier, transférez-le sur la carte SD, insérez la carte dans l'imprimante 3D puis allumez-la."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Bicouleur/8-b-stl.jpg"
+      },
+      "article": [
+        {
+          "title": "Les fichiers STL pour la bi-couleur"
+        },
+        {
+          "text": "Les fichiers pour imprimer en bi-couleurs sont spécifique, ils doivent être au préalable séparés en deux avec la même origine."
+        },
+        {
+          "text": "Cura peut ensuite les rassembler et les slicer en un seul et même gcode."
+        },
+        {
+          "text": "Nous vous avons préparé un pack de 15 objets pour la bi-couleur."
+        },
+        {
+          "button": {
+            "color": "white",
+            "href": "//drive.google.com/file/d/1DO3tJqri0-K5MLbB-M7Z752b1t8uDD5r/view?usp=sharing",
+            "download": "15STL.zip",
+            "label": "Télécharger les 15 objets"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "XzG8zVuUZ38"
+      },
+      "article": [
+        {
+          "title": "Installation de Cura pour la double extrusion"
+        },
+        {
+          "text": "Si ce n'est pas fait, vous pourrez installer CuraByDagoma en cliquant sur Télécharger dans un premier temps."
+        },
+        {
+          "button": {
+            "color": "orange",
+            "href": "//dist.dagoma3d.com/CuraByDagoma",
+            "label": "Télécharger"
+          }
+        },
+        {
+          "text": "L'onglet préférence sert à changer de machine ou tout simplement d'options d'impression, comme par exemple la bicouleur."
+        },
+        {
+          "text": "Nous vous conseillons de suivre la vidéo."
+        },
+        {
+          "text": "Voilà ! Nous vous expliquons la nouvelle interface et son fonctionnement juste ensuite."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice-with-screen/15-h-interface.jpg"
+      },
+      "article": [
+        {
+          "title": "Les nouveautés de l'interface"
+        },
+        {
+          "text": "A - Double extrusion signifie double réglage de filament. Chargez un filament dans l'extrudeur 1 (le numéro d'extrudeur est également repéré sur votre machine) puis choisissez son paramètre. Faites de même pour le second. Nous verrons ensuite comment affecter un filament à un STL."
+        },
+        {
+          "text": "B - Le choix du filament pour le support. Si vous activez le support, vous pouvez choisir un des filaments pour le support uniquement. Nous allons vous montrer l'impact de ce paramètre."
+        },
+        {
+          "text": "C - Le choix du volume de purge. Ce paramètre est très important pour obtenir une pièce propre. Nous vous expliquons tout plus bas."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "BvU3MfvSPuA"
+      },
+      "article": [
+        {
+          "title": "Associer la couleur de filament"
+        },
+        {
+          "text": "Choisissez les paramètres des filaments chargés dans vos extrudeur 1 et 2."
+        },
+        {
+          "text": "Importez les STL l'un après l'autre. C'est l'ouverture alternée des STL qui déterminera le choix du filament 1 pour le STL 1 et le filament 2 pour le STL 2."
+        },
+        {
+          "text": "Faites un 'clic droit' sur un des deux puis 'Assemblage pour la double extrusion'."
+        },
+        {
+          "text": "Centrez le fichier."
+        },
+        {
+          "help": {
+            "quick_tips": "Vous pouvez intervertir les couleurs au besoin dans le menu du clic droit.",
+            "danger": "Si vous ouvrez les 2 STL en même temps, cela ne fonctionnera pas."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Bicouleur/8-f-type-support.jpg"
+      },
+      "article": [
+        {
+          "title": "Choisir le type de support"
+        },
+        {
+          "text": "Pour notre exemple, nous avons mis du orange dans l'extrudeur 1 et du gris dans l'extrudeur 2."
+        },
+        {
+          "text": "La bi-extrusion offre la possibilité de gérer les supports de différentes façon (bien-sur il faut au préalable activer les supports) :"
+        },
+        {
+          "list": [
+            "A. Les deux : Les deux filaments seront utilisés pour faire le support.",
+            "B. Filament 1 : Seul le filament 1 sera utilisé pour le support, orange ici.",
+            "C. Filament 2 : Seul le filament 2 sera utilisé pour le support, gris ici.",
+            "D. Il est possible d'imprimer une pièce monochrome avec un support d'une autre matière. Ici, nous avons imprimé le \"T\" avec le filament 1 et le support avec le filament 2. Pour se faire, il faut choisir \"Filament 2\" dans type de support."
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Add-on/Bicouleur/8-g-volume-purge.jpg"
+      },
+      "article": [
+        {
+          "title": "Choisir le volume de purge"
+        },
+        {
+          "text": "Pour passer d'un filament à l'autre il est nécessaire de purger le restant de couleur présent dans la buse. Ce volume est généralement réglé sur standard."
+        },
+        {
+          "text": "La purge se fera sous la forme d'un L à côté de l'impression en cours."
+        },
+        {
+          "text": "Pour des couleurs proches tel que le blanc et le beige (A), passer sur \"Petit (30 mm3)\" permet de réduire les pertes sans perdre en qualité."
+        },
+        {
+          "text": "Pour des couleurs très contrastées (C) tel que le beige et le noir, passer sur \"Grand (125 mm3)\" permet de conserver la qualité, dans ce cas les pertes sont plus importante."
+        },
+        {
+          "text": "Pour la plupart des couleurs proches (B), \"Standard (90 mm3)\" suffira."
+        },
+        {
+          "text": "N'hésitez pas à nous partager vos expériences de mélange de filaments."
+        },
+        {
+          "help": {
+            "quick_tips": "Pour les mélanges de matière, préférez \"Grand (125 mm3)\"."
+          }
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "text": [
+        "Il ne vous reste plus qu'à préparer votre fichier et lancer votre impression bi-couleur."
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Notice-bi-with-screen/11-a-intro.jpg",
+    "subtitle": "C'est terminé",
+    "items": [
+      {
+        "text": "Votre montage et votre initiation sont terminés."
+      },
+      {
+        "text": "Ne partez pas tout de suite, la prise en main de votre imprimante se situe juste après."
+      }
+    ]
+  }
+}

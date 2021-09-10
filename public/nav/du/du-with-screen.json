@@ -1,0 +1,82 @@
+[
+  {
+    "href": "/du/du-with-screen",
+    "label": "1 - Préparation",
+    "img": "DiscoUltimate/Notice-with-screen/1-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/1.notice",
+    "label": "2 - Face av.",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/2.notice",
+    "label": "3 - Face ar.",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/3.notice",
+    "label": "4 - Fix. latérales",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/4.notice",
+    "label": "5 - Base",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/5.notice",
+    "label": "6 - Plateau",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/6.notice",
+    "label": "7 - Axe X",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/7.notice",
+    "label": "8 - Axe Z",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/8.notice",
+    "label": "9 - Câblage",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/9.notice",
+    "label": "10 - Finitions",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/10.controle",
+    "label": "11 - Contrôles",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/11.firmware",
+    "label": "12 - Mise à jour",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/12.calibration",
+    "label": "13 - Calibration",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/13.cura-by-dagoma",
+    "label": "14 - Cura",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/14.notice",
+    "label": "15 - Utilisation",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/du/du-with-screen/15.prise-en-main",
+    "label": "16 - Prise en main",
+    "img": "DiscoUltimate/Notice/2-a-intro.jpg"
+  }
+]

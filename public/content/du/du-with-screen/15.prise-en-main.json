@@ -1,0 +1,217 @@
+{
+  "header": {
+    "img": "DiscoUltimate/Notice-with-screen/11-a-intro.jpg",
+    "title": [
+      "Notice de montage Disco Ultimate avec écran de contrôle - Page 15 - Prise en main"
+    ],
+    "subtitle": "Prenons en main l'imprimante",
+    "text": [
+      "Nous allons maintenant aborder la dernière partie sur les procédures d'entretiens et sur la résolution des problèmes mineurs souvent rencontrés lors de l'utilisation de l'imprimante."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/16-1-a-buse-bouchee.JPG"
+      },
+      "article": [
+        {
+          "pretitle": "La buse est bouchée"
+        },
+        {
+          "text": "Le problème le plus récurrent dans l'impression 3D."
+        },
+        {
+          "text": "Un tas de symptôme peuvent expliquer ce problème."
+        },
+        {
+          "button": {
+            "text": "Vous trouverez un article complet pour vous expliquer les contrôles à réaliser.",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000275932-la-buse-est-bouch%C3%A9e-le-filament-ne-sort-plus-",
+            "label": "C'est par ici"
+          }
+        },
+        {
+          "text": "L'entretien de la buse est à réaliser régulièrement."
+        },
+        {
+          "button": {
+            "text": "Vous trouverez un article complet pour vous expliquer la procédure à réaliser.",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000269653-discoeasy-discoultimate-comment-d%C3%A9boucher-la-buse",
+            "label": "C'est par ici"
+          }
+        },
+        {
+          "button": {
+            "href": "//support.dagoma.fr/support/solutions/articles/36000066947-discoeasy200-d%C3%A9boucher-la-buse",
+            "label": "Et ici"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/16-2-a-warping.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Le décollement des pièces ou warping"
+        },
+        {
+          "text": "Chez DAGOMA, nous avons fait le choix d'imprimer sur plateau froid, pour des raisons écologiques et économique."
+        },
+        {
+          "text": "La contrainte observable peut survenir, lors d'une impression, à la base de celle ci."
+        },
+        {
+          "text": "Le PLA chaud se rétracte sur lui même lorsqu'il refroidit, donc la pièce imprimée se décolle du plateau."
+        },
+        {
+          "button": {
+            "text": "Pour parer à ce phénomène, nous proposons un arsenal de solution, adapté à chaque utilisation.",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000066927-le-warping",
+            "label": "C'est par ici"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/16-3-a-offset.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Le réglage de l'offset"
+        },
+        {
+          "text": "Le réglage de l'offset n'est pas évident mais il n'est pas compliqué non plus. C'est une procédure à prendre en main."
+        },
+        {
+          "text": "Lors du réglage via Dagom'App, ce n'est pas nécessaire d'imprimer tous les ronds de calibration."
+        },
+        {
+          "text": "Si la troisième pastille est bien imprimée, vous pouvez enregistrer le réglage immédiatement. Il n'est pas nécessaire d'aller plus loin."
+        },
+        {
+          "text": "Si vous possédez l'écran, le réglage de l'offset peut se faire également via cette interface et plus précisément."
+        },
+        {
+          "help": {
+            "quick_tips": "Le réglage de la première couche doit toujours être débuté lorsque la buse est à température ambiante.",
+            "danger": "En effet le palpeur est influencé par la température, plus d'info sur le support de DAGOMA."
+          }
+        },
+        {
+          "text": " "
+        },
+        {
+          "button": {
+            "text": "Plus d'information sur les variations d'offset.",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000024778-discoeasy200-mon-offset-se-d%C3%A9r%C3%A8gle-la-premi%C3%A8re-couche-n-est-jamais-la-m%C3%AAme-",
+            "label": "C'est par ici"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/16-4-a-palpeur.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Utilisation du palpeur"
+        },
+        {
+          "text": "Sans cocher son utilisation, le palpeur sera tout de même utilisé à chaque lancement de l'impression, il réalise l'origine de l'axe Z, le Z0, au centre du plateau."
+        },
+        {
+          "text": "En cochant son utilisation, celui réalise une calibration supplémentaire aux 4 coins du plateau. Cela permet de corriger les éventuelles problème de planéité."
+        },
+        {
+          "button": {
+            "text": "Plus d'information sur les fonctions du palpeur sur le support de DAGOMA.",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000152890-discoeasy200-ultimate-quelles-sont-les-fonctionnalit%C3%A9s-du-palpeur-",
+            "label": "C'est par ici"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/16-4-b-cura-ultimaker.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Utlisation de Cura Ultimaker"
+        },
+        {
+          "text": "Pour rappel, Cura By Dagoma est un logiciel, développé par DAGOMA, de préparation d'impression, aussi appelé trancheur ou slicer en anglais, simplifié afin de prendre en main l'imprimante facilement."
+        },
+        {
+          "text": "Vous pouvez utiliser la version complète Cura Ultimaker, qui contient beaucoup plus de paramètres."
+        },
+        {
+          "text": "La seule différence sera le nom du fichier, il faudra donc le renommer"
+        },
+        {
+          "button": {
+            "text": "Vous trouverez la",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000185764-j-ai-pr%C3%A9par%C3%A9-ma-pi%C3%A8ce-sur-cura-ultimaker-mais-l-impression-ne-se-lance-pas",
+            "label": "procédure ici"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/16-5-a-maintenance.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Entretien complet de l'imprimante"
+        },
+        {
+          "text": "L'imprimante a besoin d'être entretenu après un certain temps sans être utilisée ou alors après un certain temps d'utilisation."
+        },
+        {
+          "button": {
+            "text": "Vous trouverez la",
+            "href": "//support.dagoma.fr/fr/support/solutions/articles/36000279858-discoeasy200-ultimate-proc%C3%A9dure-d-entretien",
+            "label": "procédure ici"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/16-6-a-fichiers_stl.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Fichiers STL"
+        },
+        {
+          "text": "Nous mettons à disposition en libre téléchargement la totalité des pièces imprimées qui constituent la Disco Ultimate ."
+        },
+        {
+          "text": "Si vous souhaitez, un jour par exemple, réimprimer une pièce abîmée ou customiser votre imprimante."
+        },
+        {
+          "button": {
+            "href": "//github.com/dagoma3d/STL-DiscoUltimate-Official",
+            "label": "Vous les trouverez ici"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Notice-with-screen/11-a-intro.jpg",
+    "subtitle": "La prise en main est terminée",
+    "items": [
+      {
+        "text": "N'hésitez pas à nous remonter les points que vous auriez souhaiter voir apparaître ici."
+      }
+    ]
+  }
+}

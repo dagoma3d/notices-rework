@@ -112,6 +112,16 @@
           "title": "Notice de montage"
         },
         {
+          "to": "/du/du-with-screen",
+          "src": "du-with-screen",
+          "title": "Notice de montage avec écran"
+        },
+        {
+          "to": "/du/du-bi-with-screen",
+          "src": "du-bi-with-screen",
+          "title": "Notice de montage bicouleur avec écran"
+        },
+        {
           "to": "/du/screen",
           "title": "Ecran"
         },

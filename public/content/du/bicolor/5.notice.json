@@ -1,9 +1,4 @@
 {
-  "time": {
-    "subtitle": [
-      "Impression"
-    ]
-  },
   "header": {
     "img": "DiscoEasy/Add-on/Bicouleur/7-a-intro.jpg",
     "title": [
@@ -11,7 +6,7 @@
     ],
     "subtitle": "Imprimer en bicouleur",
     "text": [
-      "Ça y est, votre Discoeasy200 est prête pour imprimer en bi-couleur."
+      "Ça y est, votre DiscoUltimate est prête pour imprimer en bi-couleur."
     ]
   },
   "blocks": [

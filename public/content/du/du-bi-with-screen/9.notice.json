@@ -1,0 +1,383 @@
+{
+  "header": {
+    "img": "DiscoUltimate/Notice-bi-with-screen/10-a-intro.jpg",
+    "title": [
+      "Notice de montage DISCO ULTIMATE bicouleur avec écran de contrôle - finitions"
+    ],
+    "subtitle": "Finitions",
+    "text": [
+      "Les dernières finitions",
+      "A la fin de cette page, le montage sera terminé.",
+      "Certaines vidéos ont été reprise de la notice monocouleur avec écran, il n'y aura aucune incidence sur ce qui a déjà été monté."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Finitions"
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice-bi-with-screen/10-b-prerequis.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "lettered-list": [
+            "Surface d'accroche Buildgrip",
+            "Gaine torsadée (350mm) / 2 Tubes PTFE / 3 Serre-flex",
+            "2x Barres courtes (270mm)",
+            "Face avant et face arrière du boitier de l'écran",
+            "12x Patins Push-On",
+            "Plaque de fond transparente (blanche sur l'image)",
+            "Couple de fixations hautes",
+            "Sachet de vis pour écran",
+            "Logo Imprimé / 4x Clips PTFE",
+            "Écran / 2 nappes de connexion / bouton de sélection"
+          ]
+        },
+        {
+          "text": "Visserie :"
+        },
+        {
+          "list": [
+            "6x vis M3x16 (reste 5)",
+            "6x écrous M3 (reste 3)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "6rPy5mCtTCE"
+      },
+      "article": [
+        {
+          "title": "Mise en place des vis de serrage"
+        },
+        {
+          "text": "Normalement vous êtes rodé. Prenez 6 écrous et 6 vis M3x16. Placez les écrous dans les logements comme sur la vidéo."
+        },
+        {
+          "text": "Récupérez la petite pièce imprimée, insérez un écrou et placez la dans son logement avant de la serrer. Ne serrez pas à fond, les barres doivent passer dans les logements."
+        },
+        {
+          "text": "Faites de même pour la deuxième pièce."
+        },
+        {
+          "text": "Mettez ensuite deux barres dans les logements prévus à cet effet."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "pop2ct7B5PI"
+      },
+      "article": [
+        {
+          "title": "Finition du portique"
+        },
+        {
+          "text": "Placez l'ensemble sur l'imprimante, la partie la plus haute vers l'avant."
+        },
+        {
+          "text": "Appuyez fort pour que les pièces soient bien enfoncées."
+        },
+        {
+          "text": "Serrez les 4 vis présentes sur les côtés."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "3dox9Xeag50"
+      },
+      "article": [
+        {
+          "title": "Ajustement de la tension de la courroie de la tête"
+        },
+        {
+          "text": "Placez la tête à gauche."
+        },
+        {
+          "text": "Détachez la courroie du côté droit."
+        },
+        {
+          "text": "Tirez sur le bout libre sans effort."
+        },
+        {
+          "text": "Forcez pour ajouter 2 crans de tension et re-verrouiller la courroie."
+        },
+        {
+          "text": "Coupez le bout pour laisser 3 cm de mou."
+        },
+        {
+          "help": {
+            "quick_tips": "Vous n’êtes pas obligé de couper le reste de la courroie, le mou restant pourra servir plus tard pour éventuellement retendre la courroie desserrée au cours du temps."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "7nNV-D7sy0Q"
+      },
+      "article": [
+        {
+          "title": "Serrage de l'axe Z"
+        },
+        {
+          "text": "Serrez les 2 vis restantes en haut puis les 4 vis des fixations latérales."
+        },
+        {
+          "help": {
+            "danger": "Ne serrez pas les vis au maximum, cela risque de les endommager et ensuite de tourner dans le vide."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "OftcXC-WJgs"
+      },
+      "article": [
+        {
+          "title": "Insertion du logo"
+        },
+        {
+          "text": "Prenez le logo Dagoma imprimé en orange."
+        },
+        {
+          "text": "Clipsez-le dans la face avant pour faire correspondre les formes."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "uf4ckCovk-0"
+      },
+      "article": [
+        {
+          "title": "Mise en place de la gaine"
+        },
+        {
+          "text": "Prenez la gaine torsadée."
+        },
+        {
+          "text": "Ajustez les longueurs de câble pour qu'elles soient identiques à l'extérieur de la machine."
+        },
+        {
+          "text": "Installez-la sur les câbles du moteur et de la butée de X."
+        },
+        {
+          "text": "Fixez-la ensuite à l'aide d'un collier de serrage au chariot (il y a un passage prévu à cet effet)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "dzlZEMqrzXA"
+      },
+      "article": [
+        {
+          "title": "Gestion des câbles"
+        },
+        {
+          "text": "Commencez par regrouper les câbles les plus proches entre eux, pour les fixer à l'aide d'un collier de serrage."
+        },
+        {
+          "text": "Ensuite, nous allons faire en sorte de bien maintenir les autres câbles."
+        },
+        {
+          "text": "Notre solution n'est pas unique."
+        },
+        {
+          "text": "Coupez les colliers de serrage lorsqu'ils sont serrés."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice-bi-with-screen/10-c-verifications.jpg"
+      },
+      "article": [
+        {
+          "title": "Vérification des câbles"
+        },
+        {
+          "text": "Aucun câble maintenu ne doit dépasser de la machine."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "CHK2iuuqUrs"
+      },
+      "article": [
+        {
+          "title": "Assemblage de l'écran"
+        },
+        {
+          "text": "Retirez les entretoises de la face arrière et ébavurez les."
+        },
+        {
+          "text": "Insérez les entretoises de part et d’autre de l’écran en écartant délicatement les deux plaques de celui ci. Les logements de vis doivent être correctement alignés."
+        },
+        {
+          "text": "Insérez l’écran dans le boîtier face avant, d’abord du côté du lecteur SD."
+        },
+        {
+          "text": "Fixez l'écran, une vis en haut du lecteur SD et une vis à l’opposé, côté bouton."
+        },
+        {
+          "text": "Posez l'écran à plat et insérez le bouton de sélection dans son logement, attention il doit emettre un son en cliquant."
+        },
+        {
+          "text": "Positionnez la face arrière, les borniers EXP1 et EXP2 doivent être visible."
+        },
+        {
+          "text": "Vissez les 4 vis restantes sur le boitier face arrière."
+        },
+        {
+          "help": {
+            "danger": "Ne serrez pas trop les vis qui maintiennent l'écran, si celui ci est trop compacté alors les pixels de l’écran pourraient être endommagés.",
+            "quick_tips": "Si la carte SD ne s'insère pas facilement, desserrez légèrement la face arrière."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "KENgEE2erL0"
+      },
+      "article": [
+        {
+          "title": "Installation de l'écran"
+        },
+        {
+          "text": "Démontez le cache côté avant gauche de l'imprimante."
+        },
+        {
+          "text": "Positionnez le cache côté sur le boitier et vissez le à l'aide de la dernière vis du sachet."
+        },
+        {
+          "text": "Récupérez les deux nappes de connexion, insérez les dans les borniers EXP1 et EXP2 (respectez le sens de branchement grâce aux détrompeurs)."
+        },
+        {
+          "text": "Glissez les nappes dans la fente du cache côté."
+        },
+        {
+          "text": "Faites passer les deux nappes entre les deux barres de la base de l'imprimante puis clipsez à nouveau le cache côté dans son logement."
+        },
+        {
+          "text": "Branchez les deux nappes EXP1 sur EXP1 et EXP2 sur EXP2."
+        },
+        {
+          "text": "Optimisez le rangement des nappes."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "X5jWpPFEI54"
+      },
+      "article": [
+        {
+          "title": "Installation de la plaque protectrice de fond"
+        },
+        {
+          "text": "Prenez la plaque de fond et retirez les films protecteurs."
+        },
+        {
+          "text": "Alignez cette plaque avec le dessous de la machine. La petite ouverture doit être orientée vers le bas."
+        },
+        {
+          "text": "Utilisez les 12 patins push-on pour maintenir la plaque."
+        },
+        {
+          "text": "Appuyez fermement dessus pour les bloquer."
+        },
+        {
+          "help": {
+            "quick_tips": "Vous pouvez utiliser le tournevis pour aider les patins à rentrer dans leurs logements."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "a-_QnhaGFzs"
+      },
+      "article": [
+        {
+          "title": "Installation des tubes PTFE"
+        },
+        {
+          "text": "Ces tubes vont guider les filament de chaque extrudeur jusqu'à la tête d'impression."
+        },
+        {
+          "text": "Il sont maintenus par des raccords pneumatique. Poussez-les bien jusqu'au fond à chaque extrémité. "
+        },
+        {
+          "text": "Les tubes doivent passer sous le corps d'extrudeur, une gouttière est prévue entre la pièce plastique corps extrudeur et face arrière, le tube se clipse à l'intérieur."
+        },
+        {
+          "text": "Faites-les passer derrière les deux barres du haut de l'imprimante."
+        },
+        {
+          "text": "Attention, sur la tête d'impression, il est important que ces derniers soit bien enfoncés. Regardez sur la vidéo pour avoir une idée de la longueur."
+        },
+        {
+          "help": {
+            "quick_tips": "Appuyez sur la collerette noire pour retirer un tube de son logement."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice-bi-with-screen/10-d-clip-ptfe.jpg"
+      },
+      "article": [
+        {
+          "title": "Installation des clips PTFE"
+        },
+        {
+          "text": "Munissez vous des clips PTFE et installez les comme sur la photo au niveau des raccords pneumatique de buse et au niveau des extrudeurs, ces clips permettent aux tubes PTFE de ne pas se décrocher durant l'impression."
+        },
+        {
+          "help": {
+            "quick_tips": "En tenant le tube PTFE et en le soulevant légèrement, l'insertion des clips PTFE sera plus facile"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate/Notice/10-n-buildgrip.jpg"
+      },
+      "article": [
+        {
+          "title": "Installation de la surface d'accroche"
+        },
+        {
+          "text": "Le plateau est actuellement équipé de scotch, qui sert également de surface d’accroche.Le réglage de l’offset que nous verrons juste ensuite n’est pas compliqué mais pas évident non plus, nous vous conseillons de prendre en main l’imprimante et le réglage de l’offset avant d’installer votre surface d’accroche finale."
+        },
+        {
+          "button": {
+            "text": "Vous trouverez un article complet pour vous expliquer l'installation de la surface d'accroche et sa maintenance.",
+            "href": "//support.dagoma.fr/support/solutions/articles/36000070827-discoeasy200-changer-la-surface-d-accroche",
+            "label": "C'est par ici"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Notice-bi-with-screen/11-a-intro.jpg",
+    "subtitle": "Le montage de votre Disco Ultimate est terminé !"
+  }
+}

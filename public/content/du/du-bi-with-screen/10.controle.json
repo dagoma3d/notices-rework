@@ -1,0 +1,327 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 15 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoUltimate/Notice-bi-with-screen/11-a-intro.jpg",
+    "title": [
+      "Notice de montage Disco Ultimate avec écran de contrôle - Page 11 - Contrôle"
+    ],
+    "subtitle": [
+      "Contrôlons le bon fonctionnement des éléments de la machine"
+    ],
+    "text": [
+      "Nous allons procéder à des vérifications de l'ensemble des composants à l'aide de fichiers de test.",
+      "Ces fichiers test fonctionnent aussi bien sur Disco Ultimate monocouleur que bicouleur, il n'y aura donc pas de différence de comportement."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "id": "AJ2IO9JZsXg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Lubrification des axes (optionnel)"
+        },
+        {
+          "text": "Protégez le plateau avec un essuis tout"
+        },
+        {
+          "text": "Mettez de l’huile sur les tiges de l’axes X (tête d’impression qui coulisse de gauche à droite), puis faire coulisser l’axe manuellement afin de disperser l’huile uniformément."
+        },
+        {
+          "text": "Mettez de l’huile sur les tiges de l’axe Y (plateau qui coulisse d’avant en arrière), puis faire coulisser l’axe manuellement afin de disperser l’huile uniformément."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "BTJSEUbQVy4"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Contrôle des butées et des moteurs"
+        },
+        {
+          "text": "Insérez manuellement du filament dans l'extrudeur, lorsque la machine est éteinte, pour que les tests se réalisent correctement."
+        },
+        {
+          "text": "Le fichier de test suivant fera quelques déplacements simples. Voyez la vidéo ci-contre."
+        },
+        {
+          "list": [
+            "Téléchargez le fichier \"Etape2.g\" ci-dessous et placez le à la racine de la carte SD.",
+            "Allumez l’imprimante.",
+            "Appuiez sur le bouton de sélection pour arriver au menu principal.",
+            "Sélectionnez le fichier\"Etape2.g\" depuis le menu \"Impr. depuis SD\""
+          ]
+        },
+        {
+          "button": {
+            "href": "/gcodes/du-with-screen/controle-step2/Etape2.g",
+            "color": "orange",
+            "label": "Télécharger"
+          }
+        },
+        {
+          "text": "Le fichier réalise les origines des axes de l'imprimante, aux coordonnées X0, Y0 et Z0. Ces coordonnées clignotent sur l'écran si elles ne sont pas faites."
+        },
+        {
+          "frame": [
+            {
+              "button": {
+                "href": "/du/du-with-screen/8.notice",
+                "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
+              }
+            }
+          ]
+        },
+        {
+          "help": {
+            "quick_tips": "Les noms de fichier sont modifiable puisque l'écran permet de lire plusieurs Gcodes sur la carte SD.",
+            "danger": "Si le bouton ne clique pas c'est qu'il doit être trop enfoncé, si la carte SD ne rentre pas c'est que le boitier est trop serré."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "fg327u5eiCw",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Contrôle des déplacements des axes"
+        },
+        {
+          "text": "Le fichier suivant fera quelques déplacements sur toute la longueur des axes. Voyez la vidéo ci-contre. Lors du déplacement de la tête d'impression de haut en bas, huilez les barres."
+        },
+        {
+          "list": [
+            "Téléchargez le fichier \"Etape3.g\" ci-dessous et placez le à la racine de la carte SD.",
+            "Allumez l’imprimante.",
+            "Appuiez sur le bouton de sélection pour arriver au menu principal.",
+            "Sélectionnez le fichier\"Etape3.g\" depuis le menu \"Impr. depuis SD\""
+          ]
+        },
+        {
+          "button": {
+            "href": "/gcodes/du-with-screen/controle-step3/Etape3.g",
+            "label": "Télécharger",
+            "color": "orange"
+          }
+        },
+        {
+          "text": "Le fichier vérifie que la tête d'impression et le plateau puisse coulisser sur chaque axe sans problème."
+        },
+        {
+          "frame": [
+            {
+              "button": {
+                "href": "/du/du-with-screen/8.notice",
+                "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "RZOy1Sy88uQ",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Contrôle du ventilateur arrière"
+        },
+        {
+          "text": "Le fichier suivant allumera UNIQUEMENT le ventilateur arrière avec une simple commande. Voyez la vidéo ci-contre."
+        },
+        {
+          "list": [
+            "Téléchargez le fichier \"Etape4.g\" ci-dessous et placez le à la racine de la carte SD.",
+            "Allumez l’imprimante.",
+            "Appuiez sur le bouton de sélection pour arriver au menu principal.",
+            "Sélectionnez le fichier\"Etape4.g\" depuis le menu \"Impr. depuis SD\""
+          ]
+        },
+        {
+          "button": {
+            "href": "/gcodes/du-with-screen/controle-step4/Etape4.g",
+            "label": "Télécharger",
+            "color": "orange"
+          }
+        },
+        {
+          "text": "Le ventilateur arrière est pilotable avec une simple commande, il faut donc une autre commande pour l'éteindre."
+        },
+        {
+          "text": "Le ventilateur ne s'arrêtera pas tout seul, il faudra éteindre et rallumer l'imprimante afin de passer à la suite."
+        },
+        {
+          "frame": [
+            {
+              "button": {
+                "href": "/du/8.notice",
+                "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
+              }
+            }
+          ]
+        },
+        {
+          "help": {
+            "quick_tips": "Ne perdons pas de temps pour comprendre l'utilité des ventilateurs, rendez-vous sur le support."
+          }
+        },
+        {
+          "button": {
+            "href": "https://support.dagoma.fr/support/solutions/articles/36000071235-discoeasy200-discoultimate-un-ventilateur-ne-tourne-pas-ou-les-deux-",
+            "text": "La page vers le support se trouve"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "kA3XjACemkU",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Contrôle du ventilateur avant"
+        },
+        {
+          "text": "Le fichier suivant réalise les butées de l’imprimante (étape 2), ensuite la tête d’impression monte légèrement et pour finir la buse va chauffer au delà de 50°, ce qui allumera UNIQUEMENT le ventilateur avant, la buse refroidira automatiquement ensuite. Voyez la vidéo ci-contre."
+        },
+        {
+          "list": [
+            "Téléchargez le fichier \"Etape5.g\" ci-dessous et placez le à la racine de la carte SD.",
+            "Allumez l’imprimante.",
+            "Appuiez sur le bouton de sélection pour arriver au menu principal.",
+            "Sélectionnez le fichier\"Etape5.g\" depuis le menu \"Impr. depuis SD\""
+          ]
+        },
+        {
+          "button": {
+            "href": "/gcodes/du-with-screen/controle-step5/Etape5.g",
+            "label": "Télécharger",
+            "color": "orange"
+          }
+        },
+        {
+          "text": "Le ventilateur avant est asservi par la température, cela veut dire que pour fonctionner la température de la buse doit obligatoirement être supérieur à 50°."
+        },
+        {
+          "frame": [
+            {
+              "button": {
+                "href": "/du/du-with-screen/8.notice",
+                "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
+              }
+            }
+          ]
+        },
+        {
+          "text": "A la fin d’une impression, le ventilateur avant devra s’éteindre automatiquement. En cas de doute vous pouvez éteindre et rallumer l'imprimante, le ventilateur avant fonctionnera le temps de faire descendre la température."
+        },
+        {
+          "help": {
+            "quick_tips": "Ne perdons pas de temps pour comprendre l'utilité des ventilateurs, rendez-vous sur le support."
+          }
+        },
+        {
+          "button": {
+            "href": "https://support.dagoma.fr/support/solutions/articles/36000071235-discoeasy200-discoultimate-un-ventilateur-ne-tourne-pas-ou-les-deux-",
+            "text": "La page vers le support se trouve"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "RBdyTqP7-yw",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Insertion automatique du filament"
+        },
+        {
+          "text": "Retirez la carte sd."
+        },
+        {
+          "text": "Allumez l’imprimante."
+        },
+        {
+          "text": "Prenez l’échantillon de filament et couper le en biseau."
+        },
+        {
+          "text": "Présentez le dans l’extrudeur et insérez le jusqu’en butée."
+        },
+        {
+          "text": "(Vous devez entendre un petit “clic” révélateur du capteur mécanique de filament qui se ferme)"
+        },
+        {
+          "text": "Le filament doit être pincé par la roue dentée."
+        },
+        {
+          "text": "La tête d’impression se déplace lentement de gauche à droite en faisant des a-coups, elle décrit une barre de chargement de 0 vers 100%, de la température initial à la consigne de température pour l’insertion du filament."
+        },
+        {
+          "text": "La consigne est atteinte, le filament est acheminé automatiquement dans le tube PTFE jusqu’à la buse d’impression."
+        },
+        {
+          "text": "Le filament arrive à la buse, le filament est ralenti pour ne pas qu’il s’insère trop rapidement."
+        },
+        {
+          "text": "Le filament traverse la buse et sort fondue."
+        },
+        {
+          "text": "L’insertion automatique est réussie."
+        },
+        {
+          "help": {
+            "danger": "Laisser le ventilateur s’éteindre tout seul avant d’éteindre l’imprimante."
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate/Notice-bi-with-screen/11-a-intro.jpg",
+    "subtitle": "Contrôle : CHECK !",
+    "items": [
+      {
+        "text": "Si vous en êtes là, c'est que votre machine est prête à fonctionner."
+      },
+      {
+        "text": "Nous touchons au but, il nous reste à mettre à jour la machine, à la calibrer et vous serez paré pour votre première impression."
+      },
+      {
+        "italic": "Petit rappel : Nous n’avons pas encore installé la surface d’accroche final, nous allons d’abord nous habituer avec la procédure du réglage de la première couche."
+      }
+    ]
+  }
+}
