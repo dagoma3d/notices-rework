@@ -36,6 +36,9 @@
         },
         {
           "text": "Mettez de l’huile sur les tiges de l’axe Y (plateau qui coulisse d’avant en arrière), puis faire coulisser l’axe manuellement afin de disperser l’huile uniformément."
+        },
+        {
+          "text": "En déplaçant un axe manuellement, du courant est créé, l'écran peut donc s'illuminer, ce n'est pas un bug."
         }
       ]
     },

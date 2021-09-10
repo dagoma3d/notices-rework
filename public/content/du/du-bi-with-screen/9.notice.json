@@ -332,7 +332,8 @@
         },
         {
           "help": {
-            "quick_tips": "Appuyez sur la collerette noire pour retirer un tube de son logement."
+            "quick_tips": "Appuyez sur la collerette noire pour retirer un tube de son logement.",
+            "danger": "On évitera d'accrocher les deux tubes PTFE ensemble, cela nuirait aux déplacements de ceux ci."
           }
         }
       ]
