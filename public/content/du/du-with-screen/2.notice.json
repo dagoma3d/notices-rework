@@ -76,7 +76,7 @@
           "text": "Nous allons placer la poulie qui fera le renvoi de courroie du plateau de l'imprimante."
         },
         {
-          "text": "Placez la poulie et alignez la avec le trou de passage de la vis."
+          "text": "Placez la poulie et alignez-la avec le trou de passage de la vis."
         },
         {
           "text": "Prenez 1 vis M3x25, placez la dans le trou correspondant et vissez à travers la poulie."
@@ -103,7 +103,7 @@
           "text": "Positionnez le connecteur vers l'intérieur."
         },
         {
-          "text": "Prenez une vis M3x6, placez la dans le trou supérieur droit et serrez le moteur."
+          "text": "Prenez une vis M3x6, placez-la dans le trou supérieur droit et serrez le moteur."
         }
       ]
     },
@@ -152,7 +152,7 @@
         {
           "help": {
             "quick_tips": "Visser les 3 vis M3x25 simultanément.",
-            "danger": "Les câbles du capteur ne doivent pas être pincés, il ne doit pas y avoir de jour entre la pièce face arrière et la pièce corps d’extrudeur. La vis qui qui maintient le bras d’extrudeur ne doit pas être serrée à fond."
+            "danger": "Les câbles du capteur ne doivent pas être pincés, il ne doit pas y avoir de jour entre la pièce face arrière et la pièce corps d’extrudeur. La vis qui maintient le bras d’extrudeur ne doit pas être serrée à fond."
           }
         }
       ]
