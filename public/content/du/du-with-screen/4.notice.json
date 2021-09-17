@@ -78,7 +78,7 @@
         },
         {
           "help": {
-            "quick_tips": "Insérez les Fixations latérales montées petits à petits sans forcer.",
+            "quick_tips": "Insérez les Fixations latérales montées petit à petit sans forcer.",
             "danger": "Attention à l'orientation des pièces, soyez attentif aux détails sur la vidéo."
           }
         }
@@ -167,7 +167,7 @@
           "text": "A partir de maintenant, on désignera la face avec le logo comme l'avant et la face avec l'extrudeur comme l'arrière. La gauche sera votre gauche lorsque vous faites face à la machine."
         },
         {
-          "text": "Récupérez le cache côté fournis avec le bouton incrusté"
+          "text": "Récupérez le cache côté fourni avec le bouton incrusté"
         },
         {
           "text": "Clipsez-le sur la barre du bas et rapprochez-le de la face avant."
