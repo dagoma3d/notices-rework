@@ -13,7 +13,10 @@
       "Contrôlons le bon fonctionnement des éléments de la machine"
     ],
     "text": [
-      "Nous allons procéder à des vérifications de l'ensemble des composants à l'aide de fichiers de test."
+      "Nous allons procéder à des vérifications de l'ensemble des composants à l'aide de fichiers de test.",
+      "Sur cette page le firware de l'imprimante est déjà prévu avec l'écran, lors des contrôles l'écran s'affichera correctement.",
+      "Si l'écran est acheté en Add-on, alors la mise à jour sera requise pour que l'écran soit fonctionnel.",
+      "La mise à jour se situe sur la page suivante."
     ]
   },
   "blocks": [

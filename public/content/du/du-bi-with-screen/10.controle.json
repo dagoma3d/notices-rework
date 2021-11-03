@@ -14,7 +14,10 @@
     ],
     "text": [
       "Nous allons procéder à des vérifications de l'ensemble des composants à l'aide de fichiers de test.",
-      "Ces fichiers test fonctionnent aussi bien sur Disco Ultimate monocouleur que bicouleur, il n'y aura donc pas de différence de comportement."
+      "Ces fichiers test fonctionnent aussi bien sur Disco Ultimate monocouleur que bicouleur, il n'y aura donc pas de différence de comportement.",
+      "Sur cette page le firware de l'imprimante est déjà prévu avec l'écran, lors des contrôles l'écran s'affichera correctement.",
+      "Si l'écran est acheté en Add-on, alors la mise à jour sera requise pour que l'écran soit fonctionnel.",
+      "La mise à jour se situe sur la page suivante."
     ]
   },
   "blocks": [
