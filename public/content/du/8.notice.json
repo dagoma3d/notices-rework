@@ -178,6 +178,11 @@
         },
         {
           "text": "Branchez le câble du palpeur (câble gris) sur le connecteur Z."
+        },
+        {
+          "help": {
+            "danger": "Le câble gris du palpeur est un câble fragile, il faut le manipuler avec précaution afin de ne pas l'endommager. Le comportement de l'imprimante risque d'en être altéré."
+          }
         }
       ]
     },

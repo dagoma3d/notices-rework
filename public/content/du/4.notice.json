@@ -59,6 +59,15 @@
         },
         {
           "text": "Posez la face avant sur sa partie plate."
+        },
+        {
+          "text": "Enfoncez les barres dans les logements de la face avant"
+        },
+        {
+          "help": {
+            "danger": "Si les vis pré-serré dans les écrous sont trop vissées alors les barres pourraient ne pas s'enfoncer correctement.",
+            "quick_tips": "L'usage d'un maillet pour s'assurer que les barres soient correctement dans leur logement est recommandé."
+          }
         }
       ]
     },
@@ -99,10 +108,12 @@
           "text": "Placez délicatement les roulements sur les barres supérieures, deux à droite et deux à gauche."
         },
         {
-          "italic": "Astuce : de légères rotations permettent de rentrer le roulement plus facilement."
+          "text": "Une fois montés, faites quelques allers-retours pour qu'ils se fassent à la barre."
         },
         {
-          "text": "Une fois montés, faites quelques allers-retours pour qu'ils se fassent à la barre."
+          "help": {
+            "quick_tips": "Si le roulement coulisse mal, vous pouvez essayer sur une autre barre, il faudra faire quelques aller retours à la main pour valider le coulissement."
+          }
         }
       ]
     },
