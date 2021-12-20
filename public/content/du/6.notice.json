@@ -28,7 +28,7 @@
             "2x Barres courtes (270mm)",
             "Couple de chariots d'axe X",
             "Moteur NEMA avec poulie",
-            "Courroie courte (75cm)",
+            "Courroie courte (107cm)",
             "1x Poulie",
             "Butée longue",
             "Tête d'impression montée"
@@ -126,6 +126,9 @@
         },
         {
           "text": "Nous vous conseillons de suivre la vidéo avec attention."
+        },
+        {
+          "text": "La courroie peut être recoupée à 85 cm, cela sera amplement suffisant."
         }
       ]
     }
