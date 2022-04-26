@@ -1,6 +1,6 @@
 {
   "header": {
-    "img": "sigma/0-a-header.jpg",
+    "img": "Sigma/0-a-header.jpg",
     "title": [
       "Notice de première utilisation - Page 1",
       "Déballage"
@@ -329,7 +329,7 @@
     }
   ],
   "footer": {
-    "img": "sigma/0-g-footer.jpg",
+    "img": "Sigma/0-g-footer.jpg",
     "subtitle": "Déballage et identification des éléments de l'imprimante : CHECK !"
   }
 }

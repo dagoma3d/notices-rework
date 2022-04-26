@@ -1,11 +1,11 @@
 {
   "left": {
-    "img": "sigma/1-b-buse-sale.jpg",
+    "img": "Sigma/1-b-buse-sale.jpg",
     "title": "Tête avec PLA",
     "text": "Si vous imprimez ainsi, votre impression n'accrochera pas le plateau. Le bec de buse n'est pas propre, la calibration se fera donc avec un décalage en hauteur. Il faut nettoyer la busen attention, ça peut être chaud."
   },
   "right": {
-    "img": "sigma/1-b-buse-propre.jpg",
+    "img": "Sigma/1-b-buse-propre.jpg",
     "title": "Tête propre",
     "text": "Super ! Elle est prête à imprimer."
   }

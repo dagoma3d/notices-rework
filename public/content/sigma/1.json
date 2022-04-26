@@ -5,7 +5,7 @@
     ]
   },
   "header": {
-    "img": "sigma/1-a-header.jpg",
+    "img": "Sigma/1-a-header.jpg",
     "title": [
       "Notice de première utilisation - page 2",
       "Préparation de l'imprimante"
@@ -237,7 +237,7 @@
     },
     {
       "media": {
-        "src": "sigma/1-c-Clips-PTFE.jpg"
+        "src": "Sigma/1-c-Clips-PTFE.jpg"
       },
       "article": [
         {
@@ -264,7 +264,7 @@
     }
   ],
   "footer": {
-    "img": "sigma/1-d-footer.jpg",
+    "img": "Sigma/1-d-footer.jpg",
     "subtitle": "Mon imprimante est prête !"
   }
 }
