@@ -1,0 +1,340 @@
+{
+  "header": {
+    "img": "sigma/0-a-header.jpg",
+    "title": [
+      "Notice de première utilisation - Page 1",
+      "Déballage"
+    ],
+    "subtitle": "Ça y est, vous avez reçu votre Sigma.",
+    "text": [
+      "Ensemble, nous allons découvrir votre imprimante et vous accompagner dans une expérience : celle de l'impression 3D avec DAGOMA.",
+      "Nous allons voir ensemble comment déballer correctement et proprement votre imprimante.",
+      "Certains éléments imprimés qui ont servi de support ou socle aux éléments de l'imprimante, seront à garder précieusement.",
+      "Pour toute cette initiation, vous aurez besoin de quelques grammes de PLA Chromatik. L'échantillon fourni fera donc amplement l'affaire."
+    ],
+    "button": {
+      "text": "Vous retrouverez également toute notre gamme de filament dans la boutique.",
+      "href": "//support.dagoma.fr/support/solutions/articles/36000275932-la-buse-est-bouch%C3%A9e-le-filament-ne-sort-plus-",
+      "label": "C'est par ici"
+    }
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Dans ce carton vous avez trouvé..."
+    },
+    {
+      "media": {
+        "src": "Sigma/0-b-faisons-l'inventaire.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Faisons l'inventaire"
+        },
+        {
+          "text": "Avec votre Sigma, vous avez reçu, à part, les éléments indispensables pour lancer vos premières impressions soit :"
+        },
+        {
+          "lettered-list": [
+            "Alimentation",
+            "Échantillon de filament",
+            "Les pieds",
+            "Carte SD"
+          ]
+        },
+        {
+          "text": "Ainsi que ..."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "Sigma/0-c-Les-accessoires.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Les accessoires"
+        },
+        {
+          "text": "Bien sûr, ce n'est pas tout, voilà les éléments qui vous permetront de préparer minutieusement les impressions sur votre Sigma."
+        },
+        {
+          "lettered-list": [
+            "Câble USB",
+            "Fiches de sécurité",
+            "Tournevis 2.5mm",
+            "Spatule",
+            "Pince coupante",
+            "Lingettes isopropyliques",
+            "Echantillon de 3Dlac",
+            "Outil tension courroie",
+            "Adaptateur SD",
+            "Clips PTFE"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Composition de l'imprimante..."
+    },
+    {
+      "media": {
+        "src": "Sigma/0-d-Les-mousses-de-protection.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "étape 3"
+        },
+        {
+          "title": "Les mousses de protection"
+        },
+        {
+          "text": "L'imprimante est protégée au maximum pour le transport."
+        },
+        {
+          "text": "Vous pouvez enlever les mousses, sans forcer, en tirant vers le bas et vers le haut."
+        },
+        {
+          "text": "Gardez les précieusement si vous décidez un jour, de faire prendre l'air à votre imprimante."
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Aide au déballage",
+      "items": [
+        {
+          "help": {
+            "quick_tips": "Quick tips ou Conseils Rapide en français, ce symbole vous conseillera sur l’étape actuelle de préparation de l'imprimante ou alors vous donnera une astuce sur la façon de faire fonctionner l’imprimante.",
+            "danger": "Danger, ce symbole sollicite votre attention sur une étape du déballage ou de la mise en œuvre de l’imprimante qui peut être compliquée ou alors décisive pour le bon fonctionnement de votre imprimante."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "y2wBVIB9RqM"
+      },
+      "article": [
+        {
+          "pretitle": "étape 4"
+        },
+        {
+          "title": "Les clips courroie"
+        },
+        {
+          "text": "Ces pièces servent à maintenir les courroies bloquées durant le transport, ainsi les chariots ne bougent pas."
+        },
+        {
+          "text": "Pour les retirer il suffit de faire glisser la courroie en dehors du clip comme sur la vidéo."
+        },
+        {
+          "text": "Garder les précieusement si vous décidez, un jour, de faire prendre l'air à votre imprimante."
+        },
+        {
+          "help": {
+            "quick_tips": "N'essayez pas de sortir les deux parties de la courroie simultanément mais plutôt l'une et ensuite l'autre."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "ls4U0M3vnig"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Les cales de transport"
+        },
+        {
+          "text": "Ces pièces servent à caler le plateau durant le transport, cela l'empêche de s'affaisser."
+        },
+        {
+          "text": "Le plateau est collé sur des mousses, celles-ci jouent un rôle important lors de la calibration."
+        },
+        {
+          "text": "Ces cales permettent de laisser les mousses droite avant l'utilisation de l'imprimante."
+        },
+        {
+          "text": "Pour retirer les cales :"
+        },
+        {
+          "list": [
+            "Tirer sur la cale, la partie gauche de la cale n'est pas attachée.",
+            "Sur-élever légèrement le plateau avec une main.",
+            "Déclipser la partie droite de la cale en tirant vers l'extérieur avec l'autre main."
+          ]
+        },
+        {
+          "text": "Nous vous conseillons de les remettre plus tard si vous ne vous servez pas de l'imprimante pendant un moment."
+        },
+        {
+          "help": {
+            "danger": "Si les mousses s'affaissent, la calibration automatique ne fonctionnera pas correctement. Remettre les cales si l'imprimante n'est pas utilisée évitera cela."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "QspC9ZU2_nE"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Sortir la tête d'impression"
+        },
+        {
+          "text": "La tête d'impression est l'élément le plus important de la machine, elle va faire fondre le filament et le déposer afin de former vos objets."
+        },
+        {
+          "text": "L'orientation de celle-ci est capitale, le ventilateur de la buse doit être visible en même temps que le bouton de lancement."
+        },
+        {
+          "text": "Pour libérer la tête d'impression il faudra retirer l'outil imprimé qui se trouve à l'arrière du socle."
+        },
+        {
+          "text": "La tête d'impression est maintenue par des bras aimantés orange, il est maintenant possible de la relever en la tenant fermement."
+        },
+        {
+          "text": "Nous reviendrons sur l'outil imprimé plus tard."
+        },
+        {
+          "help": {
+            "quick_tips": "Si les bras se sont désaimantés, nous voyons comment les remettre sur la page suivante de cette notice.",
+            "danger": "Si la tête d'impression n'est pas correctement orientée alors celle ci tombera pendant la calibration."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "Sigma/0-e-les-chariots.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 7"
+        },
+        {
+          "title": "Les chariots"
+        },
+        {
+          "text": "Le chariot est l'élément qui est entrainé par un moteur grâce à un système de courroie."
+        },
+        {
+          "text": "Le chariot est relié à la tête d'impression grâce aux bras aimantés."
+        },
+        {
+          "text": "Lorsque le chariot se déplace, il entraîne la tête d'impression au bon endroit pour déposer le filament."
+        },
+        {
+          "help": {
+            "quick_tips": "La tension des courroies se régle au niveau des chariots et très facilement, nous verrons ce réglage plus tard dans la notice."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "FsaHfe6ZNiM"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 8"
+        },
+        {
+          "title": "Les pieds"
+        },
+        {
+          "text": "L'imprimante SIGMA est équipée de pied d'origine."
+        },
+        {
+          "text": "Pour les installer suivez attentivement cette vidéo."
+        },
+        {
+          "text": "Les pieds s'emboitent dans les logements prévus à cet effet."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "Sigma/0-f-le-bloc-extrudeur-feeder.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 9"
+        },
+        {
+          "title": "Le bloc extrudeur/feeder"
+        },
+        {
+          "text": "Cet élement de l'imprimante sert à acheminer le filament jusqu'à la tête d'impression."
+        },
+        {
+          "text": "Il est composé d'un bras amovible, en noir sur la photo, qui permet de plaquer le filament contre une roue dentée/crantée, elle-même montée sur un moteur."
+        },
+        {
+          "text": "Lorsque le moteur tourne, la roue dentée/crantée tourne et pince le filament pour le faire avancer jusqu'à la tête d'impression."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "uwHiZf-pWvQ"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 10"
+        },
+        {
+          "title": "Le plateau magnétique"
+        },
+        {
+          "text": "Lors de la réception de l'imprimante, le plateau est équipé d'un socle qui a servi à caler la tête d'impression durant le transport."
+        },
+        {
+          "text": "Cette pièce imprimée a également validé le fonctionnement de l'imprimante."
+        },
+        {
+          "text": "Pour retirer cette pièce :"
+        },
+        {
+          "list": [
+            "Relever la tête d'impression.",
+            "Tenir le plateau de l'imprimante et, en même temps, désaimanter la tôle flexible.",
+            "Plier la tôle pour que l'objet se décolle tout seul.",
+            "Mettre la pièce de côté pour plus tard."
+          ]
+        },
+        {
+          "text": "Le plateau est donc équipé de 4 parties, respectivement de bas en haut, le plateau principal en aluminium, l'aimant, la tôle flexible et la surface d'accroche (de type buildgrip d'origine)."
+        },
+        {
+          "text": "Pour replacer correctement la tôle flexible, suivez attentivement cette vidéo. Lorsque c'est terminé, vérifiez que la tôle ne repose pas sur le bras d'extrudeur."
+        },
+        {
+          "help": {
+            "quick_tips": "Tenir correctement le plateau principal lorsque vous retirez la tôle magnétique évitera de l'arracher des mousses sur lequel il est collé.",
+            "danger": "Si le bras d'extrudeur est coincé alors le filament se bloquera et l'objet ne s'imprimera pas."
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "sigma/0-g-footer.jpg",
+    "subtitle": "Déballage et identification des éléments de l'imprimante : CHECK !"
+  }
+}

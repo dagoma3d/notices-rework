@@ -3,18 +3,18 @@ import { Container } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import './Slide.css';
 
-function Slide() {
+function Slide(printer) {
   const [slide, setSlide] = useState();
   const [ok, setOk] = useState(false);
   const { t } = useTranslation();
 
   useEffect(() => {
-    fetch('/content/magis/slide.json').then((response) => {
+    fetch(`/content/${printer.printer}/slide.json`).then((response) => {
       response.json().then((data) => {
         setSlide(data);
       });
     });
-  }, []);
+  }, [printer.printer]);
 
   const handleKeyPress = (event) => {
     if (event.key === 't') setOk(!ok);

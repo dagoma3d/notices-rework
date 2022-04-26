@@ -9,7 +9,7 @@ import Slide from '../magis/Slide';
 function Block({ index, content }) {
   const blocks = {
     interface: <Interface />,
-    slide: <Slide />,
+    slide: <Slide printer={content.printer} />,
     banner: <Banner content={content} />,
     'google-document': <GoogleDocument content={content} />,
     item: <Item content={content} />,

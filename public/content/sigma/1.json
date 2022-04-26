@@ -1,0 +1,270 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps de préparation de l'imprimante : 15 minutes"
+    ]
+  },
+  "header": {
+    "img": "sigma/1-a-header.jpg",
+    "title": [
+      "Notice de première utilisation - page 2",
+      "Préparation de l'imprimante"
+    ],
+    "subtitle": "Préparons votre SIGMA !",
+    "text": [
+      "C'est l'heure pour vous de mettre en place les éléments qui feront fonctionner votre imprimante.",
+      "Dans ce parcours, découvrez le processus de préparation de l'imprimante afin qu'elle soit prête à imprimer",
+      "C'est parti pour lui donner vie !"
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "id": "9L5RH1Nl91Q"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Les bras aimantés"
+        },
+        {
+          "text": "Nous avons vu plus tôt que la tête d'impression était tenue par des bras aimantés, ces bras sont détachables comme le montre la vidéo."
+        },
+        {
+          "text": "L'orientation de la tête d'impression est très importante, le ventilateur doit être orienté vers l'avant de l'imprimante."
+        },
+        {
+          "text": "Le sens des bras n'a pas d'importance."
+        },
+        {
+          "help": {
+            "danger": "Si la tête d'impression n'est pas correctement orientée alors celle ci pourra se décrocher pendant la calibration de l'imprimante."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "WwtdDwZf-vY"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Branchement de l'imprimante"
+        },
+        {
+          "text": "Pour brancher l'imprimante, munissez vous de l'alimentation fournie avec l'imprimante."
+        },
+        {
+          "text": "Repérez la fiche femelle à l'arrière de l'imprimante."
+        },
+        {
+          "text": "Insérez-y la fiche mâle de l'alimentation."
+        },
+        {
+          "text": "L'imprimante remonte pour réaliser ses origines sur chaque axe, cette opération est aussi appelé \"Homing\"."
+        },
+        {
+          "help": {
+            "danger": "Après le branchement de l'imprimante, les axes ne seront plus déplaçable à la main."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "v2DXn_-FkE8"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Calibration de l'imprimante"
+        },
+        {
+          "text": "Pour calibrer l'imprimante, celle ci doit être débranché dans un premier temps."
+        },
+        {
+          "text": "La buse doit être bien propre pour que ça fonctionne, si c'est la première utilisation, alors vous n'avez pas de soucis à vous faire."
+        },
+        {
+          "text": "Comme le montre la vidéo, les étapes sont ensuites les suivantes :"
+        },
+        {
+          "list": [
+            "Appuyer sur le bouton et MAINTENIR le bouton enfoncé.",
+            "Insérer l'alimentation comme vu précédemment.",
+            "Attendre que la tête d'impression se déplace.",
+            "Relacher enfin le bouton, cette opération prendra à peu près 3 minutes."
+          ]
+        },
+        {
+          "help": {
+            "danger": "Si cette opération est réalisée après une impression alors il faudra vous assurer en amont qu'aucun résidus de filament ne se trouve sous la buse."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "wxHboXayoK8"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Insertion automatique du filament"
+        },
+        {
+          "text": "L'imprimante est équipée d'une fonction d'insertion automatique du filament."
+        },
+        {
+          "text": "Pour déclencher cette fonction, il faudra réaliser les opérations suivantes :"
+        },
+        {
+          "list": [
+            "Couper le filament en biseau, afin de faciliter son insertion dans la buse.",
+            "Présenter le filament à l'entrée de l'extrudeur, vous allez entendre un \"clic\" révélateur.",
+            "Continuer d'insérer le filament jusqu'à ce que celui-si soit pincé et entraîné sur quelques centimètres par la roue dentée."
+          ]
+        },
+        {
+          "text": "Voici ce que vous devez observer :"
+        },
+        {
+          "list": [
+            "La tête d'impression réalise un déplacement pour se situer un peu plus bas à gauche.",
+            "Celle-ci réalise à présent des mouvements horizontaux par a-coups de la gauche vers la droite",
+            "Ce mouvement indique que la buse d'impression monte en température, en effet une extrusion à froid est impossible.",
+            "Lorsque la température se sera stabilisée à 200°, le filament sera inséré automatiquement jusqu'à la buse et une purge sera effectuée."
+          ]
+        },
+        {
+          "text": "L'insertion automatique est terminée. Il faudra laisser le ventilateur s'éteindre automatiquement avant de lancer une impression ou débrancher l'imprimante."
+        },
+        {
+          "help": {
+            "quick_tips": "Après une insertion automatique, le filament peut continuer de couler de la buse, il faudra nettoyer correctement le bec pour assurer une bonne calibration.",
+            "danger": "Si l'insertion est réalisée alors que la buse est déjà à haute température, les mouvements de gauche à droite seront plus large, pas de panique, il suffit d'attendre que la tête d'impression arrête de bouger."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "TpQ0RA0xw0I"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Éjection automatique du filament"
+        },
+        {
+          "text": "L'imprimante est équipée d'une fonction d'éjection automatique du filament."
+        },
+        {
+          "text": "Pour déclencher cette fonction, il faudra réaliser un appuis long sur le bouton jusqu'à ce que la tête d'impression se déplace."
+        },
+        {
+          "text": "Voici ce que vous devez observer :"
+        },
+        {
+          "list": [
+            "L'imprimante va de nouveau réaliser les a-coups comme vu précédemment, pour monter en température.",
+            "Lorsque la température est stabilisée, le filament est éjecté automatiquement.",
+            "D'abord une légère extrusion sera effectuée pour ramolir le filament afin qu'il coulisse facilement dans le tube blanc.",
+            "Le filament reculera ensuite de lui-même."
+          ]
+        },
+        {
+          "text": "Pour finaliser cette opération, il faudra sortir le filament manuellement du bloc extrudeur en tirant dessus sans forcer."
+        },
+        {
+          "text": "Puis couper la fin du filament en biseau à l'aide de la pince coupante, pour la prochaine insertion"
+        },
+        {
+          "help": {
+            "quick_tips": "Couper le filament en biseau après cette opération est nécessaire pour retirer la partie fondue du bout du filament.",
+            "danger": "Remettre le filament dans l'extrudeur sans avoir coupé ce morceau boursouflé pourrait bloquer le filament dans la partie extrudeur et endommager l'imprimante."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "5S37QQWtc2E"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Retirer manuellement le filament"
+        },
+        {
+          "text": "Pour cette opération il faudra reprendre le socle et le déposer au centre du plateau afin d'y bloquer la tête d'impression."
+        },
+        {
+          "text": "D'abord nous allons voir comment retirer le tube PTFE (ou tube blanc) de la buse d'impression."
+        },
+        {
+          "text": "Plaquez l'outil sur la petite bague noir et contre la partie imprimée qui relie les deux ventilateurs en haut de la tête d'impression."
+        },
+        {
+          "text": "En appuyant correctement sur la bague noir, vous savez maintenant retirer le tube PTFE en tirant dessus vers le haut."
+        },
+        {
+          "text": "Voyons maintenant comment sortir le filament du bloc extrudeur."
+        },
+        {
+          "text": "Pour débloquer le filament, il faudra \"débrayer\" le bras d'extrudeur, c'est lui qui pince le filament comme le montre la vidéo."
+        },
+        {
+          "help": {
+            "quick_tips": "Vous pouvez insérer manuellement le filament jusqu'à la buse d'impression de la même façon si la machine est débranchée, cela permet d'esquiver la procédure d'insertion automatique.",
+            "danger": "Vous ne pourrez pas retirer le filament manuellement si le filament est bloqué dans la buse et que celle-ci est froide."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "sigma/1-c-Clips-PTFE.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "étape 7"
+        },
+        {
+          "title": "Les clips PTFE"
+        },
+        {
+          "text": "Ces pièces servent à maintenir le tube PTFE dans le connecteur pneumatique(petite bague noire) de la buse ou du bloc extrudeur."
+        },
+        {
+          "text": "Pour les mettre en place il suffit de surélever légèrement la petite bague noir en tirant sur le tube et les clipser dessous comme sur la photo."
+        },
+        {
+          "text": "Le tube peut s'abîmer avec le temps et tenir de moins en moins bien, ces pièces pourront donc prévenir sa dégradation, ils seront à installer lorsque vous constaterez que le tube ne tient plus en place."
+        },
+        {
+          "help": {
+            "quick_tips": ""
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "sigma/1-d-footer.jpg",
+    "subtitle": "Mon imprimante est prête !"
+  }
+}

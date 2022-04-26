@@ -1,0 +1,22 @@
+[
+  {
+    "href": "/sigma",
+    "label": "1 - Déballage de l'imprimante"
+  },
+  {
+    "href": "/sigma/1",
+    "label": "2 - Préparation de l'imprimante"
+  },
+  {
+    "href": "/sigma/2",
+    "label": "3 - Première utilisation"
+  },
+  {
+    "href": "/sigma/3",
+    "label": "4 - CuraByDagoma"
+  },
+  {
+    "href": "/sigma/4",
+    "label": "5 - La fonction pause"
+  }
+]

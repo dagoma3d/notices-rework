@@ -9,7 +9,7 @@ function Pictogram({ to, href, src, title, onClick }) {
   const Tag = to ? Link : 'a';
   const target = href ? '_blank' : null;
   return (
-    <Col as="article" xl={3}>
+    <Col as="article" xl={4}>
       <div className="Pictogram">
         <Tag to={to} href={href} target={target} onClick={onClick}>
           <div>

@@ -15,6 +15,27 @@
   },
   "choices": [
     {
+      "title": "Sigma",
+      "src": "sigma",
+      "options": [
+        {
+          "to": "/sigma",
+          "src": "sigma",
+          "title": "Sigma"
+        },
+        {
+          "to": "/sigma/box",
+          "src": "caisson-neva-magis",
+          "title": "Caisson"
+        },
+        {
+          "to": "/cura-by-dagoma",
+          "src": "cura",
+          "title": "Cura by Dagoma"
+        }
+      ]
+    },
+    {
       "title": "Magis",
       "src": "magis",
       "options": [
@@ -48,6 +69,22 @@
           "to": "/neva/box",
           "src": "caisson-neva-magis",
           "title": "Caisson"
+        },
+        {
+          "to": "/cura-by-dagoma",
+          "src": "cura",
+          "title": "Cura by Dagoma"
+        }
+      ]
+    },
+    {
+      "title": "DiscoVery200",
+      "src": "discovery",
+      "options": [
+        {
+          "to": "/dv",
+          "src": "discovery",
+          "title": "Notice de montage"
         },
         {
           "to": "/cura-by-dagoma",

@@ -1,0 +1,147 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps de préparation : 5 minutes",
+      "Temps d'impression : 1 heures 18 minutes"
+    ]
+  },
+  "header": {
+    "flip": true,
+    "img": "Sigma/2-a-Header.jpg",
+    "title": [
+      "Notice de première utilisation - page 3"
+    ],
+    "subtitle": "J'imprime mon dérouleur de bobine",
+    "text": [
+      "Vous avez remarqué qu'il manquait un accessoire à votre bobine ? Nous vous proposons ce dérouleur de bobine.",
+      "L'échantillon de filament qui se trouve dans le kit de l'imprimante est de la marque Chromatik, il pourra donc servir pour toutes les impressions présentes dans ce tutoriel."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "sigma/2-b-j'imprime-avec-ma-sigma.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "J'imprime avec ma Sigma"
+        },
+        {
+          "text": [
+            "Téléchargez le fichier Gcode que nous vous avons sélectionné avec soin.",
+            "Placez ensuite le fichier téléchargé directement sur la carte SD fournie avec l'imprimante.",
+            "Mettre du filament dans l'imprimante si celle-ci n'en a pas.",
+            "Il ne restera plus qu'à insérer la carte SD dans le lecteur de l'imprimante et appuyer sur le bouton"
+          ]
+        },
+        {
+          "text": ""
+        },
+        {
+          "button": {
+            "color": "white",
+            "href": "//drive.google.com/file/d/19p3Yd36jagpe8NUG_et23y7wEJX3jCoP/view?usp=sharing",
+            "download": "dagoma0.g",
+            "label": "Téléchargez le fichier ici"
+          }
+        },
+        {
+          "help": {
+            "quick_tips": "Pour assurer l'accroche de votre objet sur le plateau, n'oubliez pas de pulvériser de la 3D lac sur le Buildgrip grace à l'échantillon.",
+            "danger": "Le fichier qui se trouve sur la carte SD doit obligatoirement s'appeler \"dagoma0.g\" pour être reconnu par l'imprimante."
+          }
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Pour un réglage précis, votre buse doit être parfaitement propre."
+    },
+    {
+      "type": "slide",
+      "printer": "sigma"
+    },
+    {
+      "media": {
+        "id": "O2nkhGDgVvw"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Initialisation de l'imprimante"
+        },
+        {
+          "text": "Lorsque vous lancez une impression voila ce que vous devez observer après avoir appuyé sur le bouton :"
+        },
+        {
+          "list": [
+            "L'imprimante chauffe pour atteindre une température de 140°.",
+            "La tête d'impression s'avance ensuite pour que l'utilisateur puisse réaliser un dernier nettoyage ou une dernière verification de la buse.",
+            "Au bout de 20 secondes la tête retourne au centre",
+            "La température de la buse redescend à 100° pour réaliser la calibration.",
+            "Après la calibration, comme lors d'une insertion automatique, la tête chauffe et réalise des a-coups pour atteindre la consigne de température déterminée par CuraByDagoma.",
+            "Lorsque la température est atteinte, une petite purge est réalisée et l'impression démarre."
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "I9nbHgWfEUQ"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Le dérouleur de bobine"
+        },
+        {
+          "text": "La suite de l'initialisation précédente."
+        },
+        {
+          "text": "Réalisation d'un court TimeLaps sur l'impression du dérouleur de bobine."
+        },
+        {
+          "text": "Une vidéo d'une heure et dix-huit minutes serait vite devenue ennuyeuse."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "44zYuentod4"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Assemblage du dérouleur"
+        },
+        {
+          "text": "Vous pouvez décoller le dérouleur à l'aide de la spatule ou en tordant la tôle magnétique."
+        },
+        {
+          "text": "Cette vidéo montre comment assembler le dérouleur."
+        },
+        {
+          "text": "Vous êtes prêt à dérouler !"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "flip": true,
+    "img": "Sigma/2-c-Footer.jpg",
+    "subtitle": "Première impression réussie !",
+    "text": [
+      "Vous avez maintenant toutes les clefs en main pour imprimer.",
+      "Le fichier Gcode du dérouleur était déjà prêt, pour en préparer d'autre il faudra utiliser CuraByDagoma, c'est donc la page suivante."
+    ]
+  }
+}

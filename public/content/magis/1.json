@@ -88,7 +88,8 @@
       "title": "Pour une impression de qualité, votre buse doit être parfaitement propre."
     },
     {
-      "type": "slide"
+      "type": "slide",
+      "printer": "magis"
     },
     {
       "media": {
