@@ -1,0 +1,477 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 30 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Notice/10-a-intro.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 9 - Câblage"
+    ],
+    "subtitle": [
+      "Place au câblage"
+    ],
+    "text": [
+      "Nous allons maintenant mettre en place la carte de contrôle et y raccorder tous les éléments."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/10-b-prerequis.jpg"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "list": [
+            "1 carte de contrôle",
+            "1 sachet de câbles",
+            "1 sachet d'électronique",
+            "3 vis M3x6 (Il doit en rester 1)",
+            "1 tournevis plat 3mm (non fourni)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "6_54V2tDzqA",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Préparation"
+        },
+        {
+          "text": "Faites monter l'axe X jusqu'à mi-hauteur (ça prend un peu de temps)."
+        },
+        {
+          "text": "Faites bien monter les 2 chariots en même temps."
+        },
+        {
+          "text": "Machine face à vous, placez la tête à droite et le plateau en arrière."
+        },
+        {
+          "text": "Retournez la machine pour avoir accès au dessous."
+        },
+        {
+          "text": "Posez-la sur la face arrière pour que nous ayons la même référence."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "LP0QRquzPxs",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Installation de la carte de contrôle"
+        },
+        {
+          "text": "Sortez la carte du sachet et retirez l'adaptateur branché sur EXP1 et EXP2."
+        },
+        {
+          "text": "Placez-la avec les connecteur face à vous, en diagonale, le lecteur USB vers la barre transversale regardant vers la face arrière."
+        },
+        {
+          "text": "Serrez-la à l'aide de deux vis M3x6"
+        },
+        {
+          "warning": "Ne serrez pas trop fort pour éviter d'endommager la carte."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "JuyV38yBjKg",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Câblage du moteur de X"
+        },
+        {
+          "text": "Nous allons commencer par brancher tous les éléments de l'axe X."
+        },
+        {
+          "text": "Prenez le câble moteur le plus long dans le sachet."
+        },
+        {
+          "text": "Branchez-le au moteur (pas de soucis de sens, il y a des détrompeurs)."
+        },
+        {
+          "text": "Faites-le ensuite passer au niveau de la fixation latérale gauche, derrière la barre arrière."
+        },
+        {
+          "text": "Passez dans la pièce plastique comme sur la vidéo."
+        },
+        {
+          "text": "Passez ensuite entre la barre inférieure de la base et la pièce plastique grise."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le connecteur X_MOT."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "XNnjrG1TkaU",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Branchement de la butée de X"
+        },
+        {
+          "text": "Récupérez le câble de la butée de X."
+        },
+        {
+          "text": "Faites-le suivre le câble du moteur de X."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le connecteur X+."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "BSPtSNDmBF8",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Branchement du palpeur de la tête"
+        },
+        {
+          "text": "Récupérez le câble du palpeur (le gris)."
+        },
+        {
+          "text": "Faites-le suivre les câbles du moteur de X et de la butée."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le connecteur Y+."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "LGpuJxsdzOs",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Branchement de la sonde de température"
+        },
+        {
+          "text": "Récupérez le câble de la sonde (le blanc)."
+        },
+        {
+          "text": "Faites-le suivre les câble déjà en place."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le connecteur A13."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "Vgfs62IN9N8",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 7"
+        },
+        {
+          "title": "Branchement des câbles de la tête"
+        },
+        {
+          "text": "Dénudez tous les câbles avant de les brancher."
+        },
+        {
+          "text": "Récupérez les câbles du ventilateur arrière (celui qui parcourt la tête sur le côté)."
+        },
+        {
+          "text": "Repérez-les (nous l'avons fait ici avec du scotch)."
+        },
+        {
+          "text": "Prenez ensuite tous les fils restant et faites-les suivres les autres câbles."
+        },
+        {
+          "text": "Torsadez le bout pour faciliter leur insertion."
+        },
+        {
+          "text": "Commencez par les deux gros rouges."
+        },
+        {
+          "text": "Munissez-vous d'un tournevis plat."
+        },
+        {
+          "text": "Raccordez les deux fils rouge ou marron sur le bornier E0 (pas de sens entre + et -)."
+        },
+        {
+          "text": "Prenez ensuite les câbles du ventilateur non repéré (ventilateur avant)."
+        },
+        {
+          "text": "Raccordez les deux fils sur le bornier E1 (rouge sur + et noire sur -)."
+        },
+        {
+          "text": "Raccordez les deux derniers fils repérés sur le bornier FAN (rouge sur + et noire sur -)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "GC9rGqj5lxw",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 8"
+        },
+        {
+          "title": "Branchement de la butée de Y"
+        },
+        {
+          "text": "Récupérez le câble de la butée de Y (sur la face avant)."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le connecteur X-."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "wBhLf-DBc4c",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 9"
+        },
+        {
+          "title": "Branchement du moteur de Y"
+        },
+        {
+          "text": "Récupérez le câble moteur le plus court."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le moteur de la face avant puis sur le connecteur Y_MOT."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "IEwqLaSnaEo",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 10"
+        },
+        {
+          "title": "Branchement des moteurs de Z"
+        },
+        {
+          "text": "Récupérez le câble moteur double."
+        },
+        {
+          "text": "Raccordez-le sur les moteurs de Z en passant entre la barre inférieure et la pièce plastique."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le connecteur Z_MOT."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "jRI1UFi6fRs",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 11"
+        },
+        {
+          "title": "Branchement du moteur d'extrudeur"
+        },
+        {
+          "text": "Récupérez le dernier câble moteur."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le moteur d'extrudeur (sur la face arrière) puis sur le connecteur E_MOT."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "1iW4JTIP9II",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 12"
+        },
+        {
+          "title": "Installation de l'interrupteur"
+        },
+        {
+          "text": "Clipsez l'interrupteur sur la face avant (le bouton 1 vers le haut de la face avant)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "-RtqIJ6oKas",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 13"
+        },
+        {
+          "title": "Branchement de l'alimentation (positive)"
+        },
+        {
+          "text": "Récupérez le câble d'alimentation simple."
+        },
+        {
+          "text": "Raccordez-le sur le + du bornier d'alimentation de la carte."
+        },
+        {
+          "text": "Branchez-le ensuite sur le connecteur de l'interrupteur (le plus bas)."
+        },
+        {
+          "text": "Recouvrez-le avec la protection en plastique."
+        },
+        {
+          "warning": "Si vos câbles d''alimentation sont noirs : branchez le câble avec le liseré blanc sur le pôle + du bornier de la carte."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "CqYl8vPz3ao",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 14"
+        },
+        {
+          "title": "Branchement de l'alimentation (négative)"
+        },
+        {
+          "text": "Récupérez le câble d'alimentation double avec le connecteur d'alimentation."
+        },
+        {
+          "text": "Dénudez le fil seul."
+        },
+        {
+          "text": "Raccordez-le sur le - du bornier d'alimentation de la carte."
+        },
+        {
+          "text": "Branchez ensuite l'autre bout sur le connecteur de l'interrupteur."
+        },
+        {
+          "text": "Recouvrez-le avec la protection en plastique."
+        },
+        {
+          "text": "Rentrez le connecteur d'alimentation de biais dans la pièce plastique arrière gauche prévue à cet effet. Poussez dessus pour le clipser."
+        },
+        {
+          "italic": "Astuce : Présentez-le de biais, poussez-le au fond et ensuite poussez vers le bas pour l'enclencher)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "c2_19dQXl60",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 15"
+        },
+        {
+          "title": "Installation du lecteur SD"
+        },
+        {
+          "text": "Récupérez le lecteur SD dans son sachet."
+        },
+        {
+          "text": "Machine à plat, installez-le dans le cache côté avant gauche, les pins vers le haut."
+        },
+        {
+          "text": "Bridez-le à l'aide d'une vis M3x6."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "ViSpzdidUuE",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 16"
+        },
+        {
+          "title": "Branchement de la nappe SD"
+        },
+        {
+          "text": "Prenez la nappe de lecteur SD."
+        },
+        {
+          "bold": "Orientez-la, cordon rose vers la face avant, les connecteurs vers le bas."
+        },
+        {
+          "text": "Passez la nappe sous la courroie et branchez-la sur le lecteur SD."
+        },
+        {
+          "text": "Récupérez l'adaptateur retiré de la carte à l'étape 1."
+        },
+        {
+          "text": "Branchez la nappe dessus (il y a un détrompeur pour le sens)."
+        },
+        {
+          "text": "Remettez l'adaptateur sur la carte comme sur la vidéo."
+        },
+        {
+          "italic": "Attention, assurez-vous que l'adaptateur est bien centré sur le connecteur de la carte et que toutes les pins sont enclenchées."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/10-s-fin.jpg",
+    "subtitle": "Cablâge : CHECK !",
+    "items": [
+      {
+        "text": "Prochaine étape : les finitions."
+      }
+    ]
+  }
+}

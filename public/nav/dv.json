@@ -1,0 +1,76 @@
+[
+  {
+    "href": "/dv",
+    "label": "1 - Préparation",
+    "img": "DiscoEasy/Notice/2-a-intro.jpg"
+  },
+  {
+    "href": "/dv/1.notice-montage-face-avant",
+    "label": "2 - Face av.",
+    "img": "DiscoEasy/Notice/3-a-intro.jpg"
+  },
+  {
+    "href": "/dv/2.notice-montage-face-arriere",
+    "label": "3 - Face ar.",
+    "img": "DiscoEasy/Notice/4-a-intro.jpg"
+  },
+  {
+    "href": "/dv/3.notice-montage-fixations-laterales",
+    "label": "4 - Fix. latérales",
+    "img": "DiscoEasy/Notice/5-a-intro.jpg"
+  },
+  {
+    "href": "/dv/4.notice-montage-axe-x",
+    "label": "5 - Axe X",
+    "img": "DiscoEasy/Notice/6-a-intro.jpg"
+  },
+  {
+    "href": "/dv/5.notice-assemblage-base",
+    "label": "6 - Base",
+    "img": "DiscoEasy/Notice/7-a-intro.jpg"
+  },
+  {
+    "href": "/dv/6.notice-montage-axe-z",
+    "label": "7 - Axe Z",
+    "img": "DiscoEasy/Notice/8-a-intro.jpg"
+  },
+  {
+    "href": "/dv/7.notice-assemblage-plateau",
+    "label": "8 - Plateau",
+    "img": "DiscoEasy/Notice/9-a-intro.jpg"
+  },
+  {
+    "href": "/dv/8.notice-cablage",
+    "label": "9 - Câblage",
+    "img": "DiscoEasy/Notice/10-a-intro.jpg"
+  },
+  {
+    "href": "/dv/9.notice-finitions",
+    "label": "10 - Finitions",
+    "img": "DiscoEasy/Notice/11-a-intro.jpg"
+  },
+  {
+    "href": "/dv/10.notice-controle",
+    "label": "11 - Contrôle"
+  },
+  {
+    "href": "/dv/11.firmware",
+    "label": "12 - Mise à jour"
+  },
+  {
+    "href": "/dv/12.calibration",
+    "label": "13 - Calibration"
+  },
+  {
+    "href": "/dv/13.cura-by-dagoma",
+    "label": "14 - Cura"
+  },
+  {
+    "href": "/dv/14.notice-utilisation",
+    "label": "15 - Utilisation"
+  },
+  {
+    "href": "/dv/15.prise-en-main",
+    "label": "16 - Prise en main"
+  }
+]

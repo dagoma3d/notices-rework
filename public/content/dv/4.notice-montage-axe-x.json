@@ -1,0 +1,214 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 20 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Notice/6-a-intro.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 5 - Montage de l'axe X"
+    ],
+    "subtitle": [
+      "Montage de l'axe X"
+    ],
+    "text": [
+      "Nous allons monter la dernière partie de l'imprimante 3D avant de passer à l'assemblage."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/6-b-prerequis.jpg"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "list": [
+            "Une tête d'impression prémontée",
+            "Un chariot d'axe X gauche et un droit (pour l'instant occupez vous seulement du fait qu'ils soient différents)",
+            "1 moteur avec poulie",
+            "2 roulements linéaires",
+            "2 roulements de courroie",
+            "1 butée longue",
+            "1 courroie de 75cm",
+            "2 barres courtes",
+            "1 vis M3x16 (il doit en rester 9)",
+            "3 vis M3x6 (il doit en rester 8)",
+            "...et une baguette pas trop cuite (facultatif)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "zIAedVAVu2c",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Installation des roulements de courroie"
+        },
+        {
+          "text": "Nous allons placer les roulements qui feront le renvois de courroie de la tête de l'imprimante."
+        },
+        {
+          "text": "Reprenez le petit outil imprimé pour vous aider à placer les roulements. Prenez 1 vis M3x16, placez la dans le trou correspondant et vissez à travers les 2 roulements. Faites passer le tournevis par le trou prévu à cet effet dans la pièce plastique. Vérifiez que les roulements tournent bien après serrage."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "0zpbqmQxS9c",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Mise en place de la butée de X"
+        },
+        {
+          "text": "Prenez la butée avec le câble le plus long. Introduisez la dans le logement en commençant par faire passer la prise."
+        },
+        {
+          "text": "Orientez-la comme sur la vidéo."
+        },
+        {
+          "text": "Enfoncez la butée."
+        },
+        {
+          "text": "Elle dépasse d'un millimètre par rapport au plastique."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "QMQYIsNsYNw",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Installation du moteur de X"
+        },
+        {
+          "text": "Rentrez le moteur dans son support avec le connecteur vers la pièce (comme sur la vidéo)."
+        },
+        {
+          "text": "Vissez le moteur avec 3 vis M3x6."
+        },
+        {
+          "text": "Le dernier trou de vis est accessible avec l'outil plastique utilisé pour les roulements. Positionnez la vis en face du trou, passez le tournevis à travers la pièce, retirez l'outil imprimé, et vissez."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "VmWe8jPwtyI",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Installation des roulements de la tête"
+        },
+        {
+          "text": "Sortez deux roulements linéaires de leur sachet (prévoyez de l'essuie-tout, ils sont pleins d'huile)."
+        },
+        {
+          "text": "Clipsez-les dans les portées prévues à cet effet sur la tête (centrez-les bien avant d'appuyer)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "B4XaJI9l2dY",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Montage des barres de l'axe X"
+        },
+        {
+          "text": "Prenez 2 barres courtes."
+        },
+        {
+          "text": "Introduisez-les avec délicatesse dans les roulements (faites quelques rotations pour faciliter leur entrée). Une fois en place, faites quelques allers-retours pour vérifier que tout va bien."
+        },
+        {
+          "italic": "Maintenant faites attention au sens des pièces. Référez-vous à la vidéo pour orienter les pièces. La tête et les deux chariots sont plus haut d'un côté (en haut sur la vidéo). Alignez ce côté. Le chariot avec le moteur sera à gauche, l'autre à droite. Pas besoin de forcer pour rentrer les barres. Dans l'étape suivante vous pourrez vérifier tout ça."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "RGABPMBcaKE",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Installation de la courroie de la tête"
+        },
+        {
+          "text": "Retournez l'ensemble pour voir le dessous de la tête."
+        },
+        {
+          "text": "Prenez la courroie de 75cm."
+        },
+        {
+          "text": "Les crans vers le haut de la tête, introduisez la courroie dans le trou supérieur."
+        },
+        {
+          "text": "Récupérez-la de l'autre côté et faite la revenir à droite (attention aux vrilles)."
+        },
+        {
+          "text": "Dans le chariot de droite, passez au-dessus des roulements puis revenez en dessous (crans vers le roulement)."
+        },
+        {
+          "text": "Tirez dessus pour récupérer du mou.Tirez dessus pour récupérer du mou."
+        },
+        {
+          "text": "Faites revenir la courroie vers le chariot de gauche en passant sous la tête."
+        },
+        {
+          "text": "Passez la courroie sous la poulie du moteur et revenez par dessus."
+        },
+        {
+          "text": "Dirigez le bout de la courroie vers la tête. Placez la courroie dans le logement (allez jusqu'au dernier cran)."
+        },
+        {
+          "text": "Reprenez l'autre bout et tirez dessus pour tendre la courroie. Tendez sans forcer, juste pour que tout tienne en place. Poussez la courroie pour la verrouiller dans les crans de la tête."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/6-i-fin.jpg",
+    "subtitle": "Montage de l'axe X : CHECK !",
+    "items": [
+      {
+        "text": "Vérifiez que le sens des pièces correspond à la photo."
+      },
+      {
+        "text": "Mettez le ensuite de côté, il nous servira plus tard."
+      }
+    ]
+  }
+}

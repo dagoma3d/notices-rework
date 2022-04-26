@@ -1,0 +1,151 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 20 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Notice/4-a-intro.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 3 - Montage de la face arrière"
+    ],
+    "subtitle": [
+      "Montage de la face arrière"
+    ],
+    "text": [
+      "Nous allons monter la deuxième partie de l'imprimante 3D."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/4-b-prerequis.jpg"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "list": [
+            "1 face arrière",
+            "1 moteur avec roue dentée",
+            "1 corps d'extrudeur",
+            "1 bras d'extrudeur",
+            "1 ressort d'extrudeur (il n'y en a qu'un dans le sachet mécanique)",
+            "2 roulements de courroie",
+            "4 écrous M3 (il doit en rester 17)",
+            "3 vis M3x25 (il doit en rester 1)",
+            "5 vis M3x16 (il doit en rester 18)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "RG8MdKj24jQ",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Mise en place des vis de serrage"
+        },
+        {
+          "text": "Comme tout à l'heure, prenez 4 écrous et 4 vis moyennes (M3x16). Placez les écrous dans les logements comme sur la vidéo. Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "Xixx6dvNiso",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Installation des roulements de courroie"
+        },
+        {
+          "text": "Nous allons placer les roulements qui feront le renvoi de courroie du plateau de l'imprimante."
+        },
+        {
+          "text": "Prenez le petit outil imprimé. Il permet de placer et maintenir les roulements facilement. Prenez 1 vis M3x16, placez en une dans le trou correspondant et vissez à travers les 2 roulements. Vérifiez que les roulements tournent bien après serrage."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "kVB-jwSwbSo",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Montage de l'extrudeur"
+        },
+        {
+          "text": "Prenez le moteur et placez le depuis l'intérieur de la pièce plastique (roue dentée côté lisse de la pièce)."
+        },
+        {
+          "text": "Orientez le connecteur du moteur vers les roulements."
+        },
+        {
+          "text": "Placez 2 vis M3x25 dans le corps de l'extrudeur. Laissez le trou où la matière est la plus fine vide."
+        },
+        {
+          "text": "Orientez le comme sur la vidéo (trou vide dans le même sens que le connecteur)."
+        },
+        {
+          "text": "Serrez les deux vis."
+        },
+        {
+          "text": "Placez le ressort dans l'empreinte sur le corps de l'extrudeur."
+        },
+        {
+          "text": "Prenez le bras, placez le pour que le ressort soit pris dans la seconde empreinte."
+        },
+        {
+          "text": "Comprimez le ressort pour aligner les trous placez la dernière vis sans serrer."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "8FBdNXbVacQ",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Serrage du bras d'extrudeur"
+        },
+        {
+          "text": "Le bras ne doit pas être trop serré pour éviter de le bloquer."
+        },
+        {
+          "text": "Serrez jusqu'à voir disparaître le jour entre les deux pièces orange."
+        },
+        {
+          "text": "Desserrez d'un quart de tour pour le faire réapparaître."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/4-f-fin.jpg",
+    "subtitle": "Montage de la face arrière : CHECK !",
+    "items": [
+      {
+        "text": "Mettez-la de côté, elle nous servira plus tard."
+      }
+    ]
+  }
+}

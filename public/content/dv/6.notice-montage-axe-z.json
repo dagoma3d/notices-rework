@@ -1,0 +1,218 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 25 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Notice/8-a-intro.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 7 - Assemblage de l'axe Z"
+    ],
+    "subtitle": [
+      "Assemblage de l'axe Z"
+    ],
+    "text": [
+      "Nous allons maintenant assembler l'axe Z de l'imprimante 3D. Elle va commencer à ressembler de plus en plus au produit fini."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/8-b-prerequis.jpg"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "list": [
+            "1 axe X assemblé",
+            "1 base",
+            "4 barres longues",
+            "2 anti-woobles (les pièces retirées page 5)",
+            "2 ressorts",
+            "2 coupleurs",
+            "2 moteurs de Z (les plus petits)",
+            "2 tiges filetées",
+            "2 écrous M8 (il doit en rester 0)",
+            "4 vis M3x6 (il doit en rester 4)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "_WPxOo7abg4",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Installation des moteurs de Z"
+        },
+        {
+          "text": "La base à plat, prenez un moteur, axe vers le haut, et glissez-le sous la base."
+        },
+        {
+          "text": "Faites-le ressortir au niveau des fixations latérales."
+        },
+        {
+          "text": "Orientez le de biais, le connecteur pointant vers la face arrière."
+        },
+        {
+          "text": "Vissez-le à l'aide de deux vis M3x6."
+        },
+        {
+          "text": "Prenez ensuite un coupleur. Placez-le sur l'axe du moteur (attention, les deux côtés ont un trou de diamètre différent, choisissez le plus serré)."
+        },
+        {
+          "text": "Il doit être à fleur de la fixation latérale. Utilisez la spatule pour le poser dessus puis serrez la vis inférieure fermement."
+        },
+        {
+          "text": "Répétez l'opération sur le second moteur."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "CiJjhhGbTnE",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Montage des barres de l'axe Z"
+        },
+        {
+          "text": "Prenez les 4 barres longues."
+        },
+        {
+          "text": "Montez-les dans les trous des fixations latérales."
+        },
+        {
+          "text": "Forcez bien pour que les barres soient au fond de chaque trou."
+        },
+        {
+          "italic": "Astuce : Un petit coup de maillet en caoutchouc aidera bien."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "6acmTjy3fxw",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Installation de l'axe X"
+        },
+        {
+          "text": "Prenez l'axe X, orientez-le pour que le moteur de X soit à gauche de la machine lorsque la face avant est devant vous."
+        },
+        {
+          "text": "Insérez les barres dans les roulements sans forcer et faites coulisser l'axe jusqu'en bas."
+        },
+        {
+          "text": "Faites quelques allers-retours pour que l'ensemble s'ajuste bien."
+        },
+        {
+          "text": "Mettez ensuite les ressorts dans leur logement comme sur la vidéo."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/8-e-controle.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Petite vérification"
+        },
+        {
+          "text": "Normalement voici ce que vous avez obtenu. Vérifiez bien le sens des éléments."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "k2asdPSAomM",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Montage des tiges filetées"
+        },
+        {
+          "text": "Vissez l'écrou M8 sur une tige jusqu'à environ 1 pouce de l'extrémité."
+        },
+        {
+          "text": "Faites de même sur la seconde tige."
+        },
+        {
+          "text": "Prenez un anti-wooble. Soulevez un chariot de X. Placez la fourche autour de la tige arrière et alignez l'écrou sur le trou du coupleur."
+        },
+        {
+          "text": "Reprenez une tige filetée et présentez-la côté écrou dans le logement où se trouve le ressort."
+        },
+        {
+          "text": "Assurez-vous d'être bien aligné sur l'écrou de l'anti-wooble."
+        },
+        {
+          "text": "Dévissez la tige pour faire descendre l'écrou en dessous de la lucarne."
+        },
+        {
+          "text": "Une fois en dessous, commencez à visser dans l'anti-wooble."
+        },
+        {
+          "text": "Arrêtez de visser lorsque le chariot commence à se lever."
+        },
+        {
+          "text": "Répétez l'opération sur le deuxième chariot."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "nHGdXm3ABrc",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Serrage des coupleurs"
+        },
+        {
+          "text": "Soulevez un chariot pour vous assurer que la tige filetée est bien prise dans le coupleur."
+        },
+        {
+          "text": "Remettez-le en place puis vissez légèrement pour avoir un peu d'espace."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/8-h-fin.jpg",
+    "subtitle": "Assemblage de l'axe Z : CHECK !",
+    "items": [
+      {
+        "text": "Vérifiez que les pièces sont orientées comme sur la photo."
+      }
+    ]
+  }
+}

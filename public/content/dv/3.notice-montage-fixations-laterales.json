@@ -1,0 +1,99 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 5 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Notice/5-a-intro.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 4 - Montage des fixations latérales"
+    ],
+    "subtitle": [
+      "Montage des fixations latérales"
+    ],
+    "text": [
+      "Nous allons monter la troisième partie de l'imprimante 3D."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/5-b-prerequis.jpg"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "list": [
+            "2 pièces de fixations latérales",
+            "1 barre courte",
+            "8 écrous M3 (il doit en rester 9)",
+            "8 vis M3x16 (il doit en rester 10)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "k7hvwWYU-XY",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Préparation"
+        },
+        {
+          "text": "Retirez la pièce que l'on appellera l'anti-wooble. Grattez votre pièce avec la spatule pour qu'elle soit propre. Répétez l'opération sur la seconde pièce."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "Xjtu-za9T38",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Mise en place des vis de serrage"
+        },
+        {
+          "text": "Prenez 8 écrous et 8 vis (M3x16). Placez les écrous dans les logements comme sur la vidéo. Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "28n4f0pgdsQ",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Montage de la barre"
+        },
+        {
+          "text": "Rentrez la barre dans le logement transversal de la première fixation. Enfoncez-la avec force. Prenez la seconde fixation et répétez l'opération. À la fin vous devez obtenir la même chose que sur la vidéo."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/5-f-fin.jpg",
+    "subtitle": "Montage des fixations latérales : CHECK !",
+    "items": [
+      {
+        "text": "Mettez-les de côté, elles nous serviront plus tard."
+      }
+    ]
+  }
+}

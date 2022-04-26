@@ -1,0 +1,291 @@
+{
+  "time": {
+    "subtitle": [
+      "Temps approximatif : 20 minutes"
+    ]
+  },
+  "header": {
+    "img": "DiscoEasy/Notice/7-a-intro.jpg",
+    "title": [
+      "Notice de montage DiscoEasy200 - Page 6 - Assemblage de la base"
+    ],
+    "subtitle": [
+      "Assemblage de la base"
+    ],
+    "text": [
+      "Nous allons commencer à assembler l'imprimante 3D. Première étape la base."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/7-b-prerequis.jpg"
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "list": [
+            "4 barres longues",
+            "L'assemblage des fixations latérales",
+            "L'assemblage de la face avant",
+            "L'assemblage de la face arrière",
+            "La grappe de caches côtés (au nombre de 4 tous différents)",
+            "4 roulements linéaires"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "zOxMh6xRj6w",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Montage des barres"
+        },
+        {
+          "text": "Prenez la face avant et 4 barres."
+        },
+        {
+          "text": "Posez la face avant sur sa partie plate."
+        },
+        {
+          "text": "Montez les 4 barres dans les trous à chaque angle."
+        },
+        {
+          "text": "Forcez bien pour que les barres soient au fond de chaque trou."
+        },
+        {
+          "italic": "Astuce : Un petit coup de maillet en caoutchouc aidera bien."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "y4yium1kIb0",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Montage des fixations latérales"
+        },
+        {
+          "text": "Introduisez les fixations latérales sur les barres inférieures (les plus proches du logo Dagoma)"
+        },
+        {
+          "italic": "Attention à l'orientation des pièces, soyez attentif aux détails sur la vidéo."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "gP0THD_dqy8",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Mise en place des roulements"
+        },
+        {
+          "text": "Ouvrez les sachets des roulements linéaires (encore couverts d'huile)."
+        },
+        {
+          "text": "Placez délicatement les roulements sur les barres supérieures, deux à droite et deux à gauche."
+        },
+        {
+          "italic": "Astuce : de légères rotations permettent de rentrer le roulement plus facilement."
+        },
+        {
+          "text": "Une fois montés, faites quelques allers-retours pour qu'ils se fassent à la barre."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "eJCRXpFsJ3w",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Montage de la face arrière"
+        },
+        {
+          "text": "Récupérez la face arrière montée."
+        },
+        {
+          "text": "Présentez-la, extrudeur vers le haut, et à gauche de la machine."
+        },
+        {
+          "text": "Positionnez les barres en face des trous et enfoncez-les légèrement."
+        },
+        {
+          "text": "Une fois en place, enfoncez fermement l'ensemble."
+        },
+        {
+          "text": "Utilisez un maillet si possible pour être sûr que les pièces sont correctement enfoncées."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Notice/7-f-controle.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Petit contrôle surprise"
+        },
+        {
+          "text": "Si vous avez bien suivi les vidéos, vous devez voir 8 petits ronds sur les pièces plastiques."
+        },
+        {
+          "text": "Les fixations latérales sont sur les barres inférieures."
+        },
+        {
+          "text": "Les roulements sur les barres supérieures (2 à droite et 2 à gauche)."
+        },
+        {
+          "text": "Si ce n'est pas le cas, démontez et recommencez."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "bPAU-ftM2vM",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Verrouillage des barres de la base"
+        },
+        {
+          "text": "Posez la base à plat."
+        },
+        {
+          "text": "Serrez les 8 vis se trouvant sur les côtés des faces avant et arrière."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "hRzrHtlGXAs",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 7"
+        },
+        {
+          "title": "Installation du cache côté avant gauche"
+        },
+        {
+          "italic": "A partir de maintenant, on désignera la face avec le logo comme l'avant et la face avec l'extrudeur comme l'arrière. La gauche sera votre gauche lorsque vous faites face à la machine."
+        },
+        {
+          "text": "Commencez par pousser les fixations latérales vers l'arrière."
+        },
+        {
+          "text": "Récupérez la grappe de caches côtés, séparez les pièces et nettoyez-les."
+        },
+        {
+          "text": "Vous devez avoir deux pièces longues et deux courtes. Pour chaque paire, une aura une géométrie particulière et l'autre sera simple."
+        },
+        {
+          "text": "Prenez la longue qui a une forme particulière (voir la vidéo). Elle vient se clipser sur la barre du bas. Rapprochez-la de la face avant. Sa forme s'adapte à celle de la face avant."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "vee_w-ZsLHc",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 8"
+        },
+        {
+          "title": "Installation du cache côté avant droit"
+        },
+        {
+          "text": "Récupérez le long cache côté simple."
+        },
+        {
+          "text": "Clipsez-le sur la barre du bas et rapprochez-le de la face avant."
+        },
+        {
+          "text": "Respectez bien le sens de la pièce."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "pvtKL2K7oVc",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 9"
+        },
+        {
+          "title": "Installation des caches côtés arrières"
+        },
+        {
+          "bold": "Rapprochez les fixations latérales de la face avant pour bien serrer les caches côtés."
+        },
+        {
+          "text": "Clipsez les petits caches côtés. Le simple va à droite (côté extrudeur). L'autre avec le trou va à gauche."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "dIYRBjOiA8w",
+        "type": "yt"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 10"
+        },
+        {
+          "title": "Serrage des fixations latérales"
+        },
+        {
+          "text": "Serrez les 4 vis des fixations latérales fermement. Ces pièces vont maintenir toute l'arche de l'axe Z. Elles doivent être bien en place et bien maintenues."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/7-l-fin.jpg",
+    "subtitle": "Montage de la base : CHECK !",
+    "items": [
+      {
+        "text": "Vérifiez que le sens des pièces correspond à la photo."
+      },
+      {
+        "text": "Gardez la, l'assemblage continue."
+      }
+    ]
+  }
+}

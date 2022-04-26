@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Préparation",
+    "href": "/sigma/box"
+  },
+  {
+    "label": "Assemblage",
+    "href": "/sigma/box/1"
+  },
+  {
+    "label": "Installation",
+    "href": "/sigma/box/2"
+  }
+]
