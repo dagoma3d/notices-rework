@@ -1,0 +1,176 @@
+{
+  "header": {
+    "img": "DiscoUltimate2/Notice-with-screen/8-a-intro.jpg",
+    "title": [
+      "Notice de montage DISCO ULTIMATE avec écran de contrôle - montage de l'axe Z"
+    ],
+    "subtitle": "Montage de l'axe Z",
+    "text": [
+      "Nous allons monter le portique de l'imprimante. On s'approche de la fin."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Axe Z"
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate2/Notice/8-b-prerequis.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "lettered-list": [
+            "Axe X monté",
+            "2x moteur de Z avec tiges trapézoïdales et écrous",
+            "4x Barres longues (360mm)"
+          ]
+        },
+        {
+          "text": "Visserie :"
+        },
+        {
+          "list": [
+            "4x vis M3x6 (reste 3)",
+            "6x vis M4x12 (reste 0)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "aG_vpe3A7pw"
+      },
+      "article": [
+        {
+          "title": "Montage des moteurs de Z"
+        },
+        {
+          "text": "Retirez les écrous anti-backslash (ça peut être un peu long)."
+        },
+        {
+          "text": "Soulevez l'imprimante 3D et insérez les moteurs."
+        },
+        {
+          "text": "Tournez-les pour aligner le connecteur du moteur vers l'extrudeur."
+        },
+        {
+          "text": "Vissez ensuite les moteurs avec les 4 vis M3x6."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "jk-LfNvIg8s"
+      },
+      "article": [
+        {
+          "title": "Montage des barres de l'axe Z"
+        },
+        {
+          "text": "Prenez les 4 barres longues."
+        },
+        {
+          "text": "Montez-les dans les trous des fixations latérales."
+        },
+        {
+          "text": "Forcez bien pour que les barres soient au fond de chaque trou."
+        },
+        {
+          "italic": "Astuce : Un petit coup de maillet en caoutchouc aidera bien."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "w6QMes1YAks"
+      },
+      "article": [
+        {
+          "title": "Installation de l'axe X"
+        },
+        {
+          "text": "Prenez l'axe X, orientez-le pour que le moteur de X soit à gauche de la machine lorsque la face avant est devant vous."
+        },
+        {
+          "text": "Insérez les barres dans les roulements sans forcer et faites coulisser l'axe jusqu'en bas."
+        },
+        {
+          "text": "Faites quelques allers-retours pour que l'ensemble s'ajuste bien."
+        },
+        {
+          "help": {
+            "quick_tips": "La pièce Axe X doit coulisser dans la barre sans forcer, dans le cas contraire, faire tourner la barre sur elle même peut décoincer le montage de celle ci.",
+            "danger": "La pièce doit être insérée délicatement pour que les billes du roulement ne sortent pas de leur logement."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate2/Notice-with-screen/8-c-controle.jpg"
+      },
+      "article": [
+        {
+          "title": "Deuxième contrôle surprise"
+        },
+        {
+          "text": "Normalement voici ce que vous avez obtenu. Vérifiez bien le sens des éléments."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "iECxDaGQSLI"
+      },
+      "article": [
+        {
+          "title": "Installation des écrous"
+        },
+        {
+          "text": "Si votre écrou s'est désassemblé, voici comment le remonter."
+        },
+        {
+          "text": "Présentez-le sur la tige, côté triangulaire vers le haut."
+        },
+        {
+          "text": "Maintenez le ressort pour pouvoir engager l'écrou en vissant."
+        },
+        {
+          "text": "Vissez l'écrou jusqu'en bas."
+        },
+        {
+          "text": "Faites de même pour le second."
+        },
+        {
+          "text": "Prenez ensuite les 6 vis M4x12 et vissez fermement les écrous dans les chariots."
+        },
+        {
+          "text": "Faites ensuite appel à un ami pour remonter l'axe X jusqu'en haut (5cm avant la fin des tiges)."
+        },
+        {
+          "text": "Montez équitablement le chariot pour le garder parallèle au plateau."
+        },
+        {
+          "help": {
+            "quick_tips": "Pour que les vis M4 prennent à la main, vous pouvez créer le filetage dans la pièce plastique de l’axe X en vissant une première fois “à vide”, hors montage.",
+            "danger": "Le filetage dans la pièce plastique n’existe pas il faut le créer en vissant dans un premier temps. Les vis M4 destinées à tenir les écrous dans la pièce plastique risquent de ne pas rentrer facilement dans l’immédiat."
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate2/Notice-with-screen/8-d-fin.jpg",
+    "subtitle": "Montage de l'axe Z terminé.",
+    "items": [
+      {
+        "text": "Vérifiez que les pièces sont orientées comme sur la photo."
+      }
+    ]
+  }
+}

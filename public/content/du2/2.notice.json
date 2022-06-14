@@ -1,0 +1,170 @@
+{
+  "header": {
+    "img": "DiscoUltimate2/Notice-with-screen/3-a-intro.jpg",
+    "title": [
+      "Notice de montage DISCO ULTIMATE avec écran de contrôle - montage de la face arrière"
+    ],
+    "subtitle": "Montage de la face arrière",
+    "text": [
+      "Nous allons monter la deuxième partie de l'imprimante 3D."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Face arrière"
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate2/Notice/3-b-prerequis.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "lettered-list": [
+            "Face arrière imprimée",
+            "1x Poulie",
+            "Corps d'extrudeur+",
+            "Moteur NEMA avec roue d'extrusion",
+            "Bras d'extrudeur",
+            "Ressort d'extrudeur"
+          ]
+        },
+        {
+          "text": "Visserie :"
+        },
+        {
+          "list": [
+            "1x vis M3x6 (reste 10)",
+            "4x vis M3x16 (reste 19)",
+            "4x vis M3x25 (reste 1)",
+            "4x écrous M3 (reste 17)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "VcLIic94jkk"
+      },
+      "article": [
+        {
+          "title": "Mise en place des vis de serrage"
+        },
+        {
+          "text": "Comme tout à l'heure, prenez 4 écrous et 4 vis moyennes (M3x16). Placez les écrous dans les logements comme sur la vidéo. Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+        },
+        {
+          "help": {
+            "quick_tips": "Tenir l’écrou avec une pince et visser si celui ci ne rentre pas facilement dans son logement."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "3WS5rHREMFc"
+      },
+      "article": [
+        {
+          "title": "Installation de la poulie de Y"
+        },
+        {
+          "text": "Nous allons placer la poulie qui fera le renvoi de courroie du plateau de l'imprimante."
+        },
+        {
+          "text": "Placez la poulie et alignez-la avec le trou de passage de la vis."
+        },
+        {
+          "text": "Prenez 1 vis M3x25, placez la dans le trou correspondant et vissez à travers la poulie."
+        },
+        {
+          "help": {
+            "danger": "La tête de vis ne doit pas dépasser de la pièce plastique."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "qk1dzkg9u2s"
+      },
+      "article": [
+        {
+          "title": "Installation du moteur d'extrudeur"
+        },
+        {
+          "text": "Placez le moteur dans le logement repéré E0."
+        },
+        {
+          "text": "Positionnez le connecteur vers l'intérieur."
+        },
+        {
+          "text": "Prenez une vis M3x6, placez-la dans le trou supérieur droit et serrez le moteur."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "5wUaRbwQdZM"
+      },
+      "article": [
+        {
+          "title": "Pré-montage de l'extrudeur"
+        },
+        {
+          "text": "Montez le bras d'extrudeur."
+        },
+        {
+          "text": "Placez le ressort dans l'empreinte sur le corps de l'extrudeur."
+        },
+        {
+          "text": "Prenez le bras, placez le pour que le ressort soit pris dans la seconde empreinte."
+        },
+        {
+          "help": {
+            "quick_tips": "Assurez vous que le roulement du bras d’extrudeur tourne facilement.",
+            "danger": "Si le roulement du bras d’extrudeur ne tourne pas ou mal, cela peut entraîner des défauts d’extrusion."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "N9D9hVvK1Jo"
+      },
+      "article": [
+        {
+          "title": "Installation du corps d'extrudeur"
+        },
+        {
+          "text": "Passez le fil du capteur dans le trou comme sur la vidéo."
+        },
+        {
+          "text": "Orientez l'extrudeur puis vissez les 3 vis M3x25."
+        },
+        {
+          "text": "La tête de la vis M3x6 rentre dans un logement prévu dans le corps d'extrudeur."
+        },
+        {
+          "help": {
+            "quick_tips": "Visser les 3 vis M3x25 simultanément.",
+            "danger": "Les câbles du capteur ne doivent pas être pincés, il ne doit pas y avoir de jour entre la pièce face arrière et la pièce corps d’extrudeur. La vis qui maintient le bras d’extrudeur ne doit pas être serrée à fond."
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate2/Notice/3-h-fin.jpg",
+    "subtitle": "Montage de la face arrière terminé",
+    "items": [
+      {
+        "text": "Mettez-la de côté, elle nous servira plus tard."
+      }
+    ]
+  }
+}

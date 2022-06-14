@@ -1,0 +1,152 @@
+{
+  "header": {
+    "img": "DiscoUltimate2/Notice-with-screen/6-a-intro.jpg",
+    "title": [
+      "Notice de montage DISCO ULTIMATE avec écran de contrôle - assemblage du plateau"
+    ],
+    "subtitle": "Assemblage du plateau",
+    "text": [
+      "Nous allons maintenant assembler la pièce qui viendra accueillir vos impression : le plateau."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Plateau"
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate2/Notice-with-screen/6-b-prerequis.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "lettered-list": [
+            "Plateau",
+            "Supports plateau (3 pièces)",
+            "1 Courroie (107 cm)"
+          ]
+        },
+        {
+          "text": "Visserie :"
+        },
+        {
+          "list": [
+            "4x vis fraisées M3x10 (reste 1)",
+            "4x écrous freins M3 (reste 1)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "PiLo3g9H1cY"
+      },
+      "article": [
+        {
+          "title": "Installation des supports plateau"
+        },
+        {
+          "text": "Prenez le grand support plateau."
+        },
+        {
+          "text": "Placez le repère R (Right) à droite et le L (Left) à gauche."
+        },
+        {
+          "text": "La lettre B vers la face avant."
+        },
+        {
+          "text": "Prenez les deux petits supports et utilisez les mêmes repères pour les aligner convenablement."
+        },
+        {
+          "text": "Prenez les deux petits supports, ceux ci ne sont pas repérés."
+        },
+        {
+          "help": {
+            "danger": "Le roulement doit être centré dans les pièces du support plateau afin de ne pas casser les ergots de ces pièces."
+          }
+        }
+      ]
+    },
+    {
+      "id": "du-courroie-y",
+      "media": {
+        "id": "FzEq9P_YXcM"
+      },
+      "article": [
+        {
+          "title": "Installation de la courroie de Y"
+        },
+        {
+          "text": "La courroie peut être recoupée à 85cm, cela sera amplement suffisant."
+        },
+        {
+          "text": "Nous vous conseillons de suivre la vidéo avec attention."
+        },
+        {
+          "text": "00:08 Passez la courroie au dessus des premiers roulements, les dents de la courroie vers le bas, jusqu’à sortir par le dessous de la base."
+        },
+        {
+          "text": "00:18 Faites la remonter en passant entre la poulie et les deuxièmes roulements jusqu’à sortir par le dessus de la base."
+        },
+        {
+          "text": "00:32 Tirez sur la courroie pour actionner la poulie."
+        },
+        {
+          "text": "00:41 La courroie doit passer sous la pièce support plateau et arriver jusqu’à la face arrière.Attention à ce que la courroie ne sorte pas de son logement."
+        },
+        {
+          "text": "00:45 Faites passer la courroie par le dessous de la poulie puis la faire sortir par le dessus."
+        },
+        {
+          "text": "00:54 Tirez sur la courroie et insérez la dans les crans du logement A du support plateau."
+        },
+        {
+          "text": "01:04 Tirez sur la courroie pour la tendre et faites la passer dans le logement B puis insérez la dans les crans."
+        },
+        {
+          "text": "01:30 Vérifiez que le support plateau va bien au contact de la butée de fin de course"
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "V8G8F_E23sg"
+      },
+      "article": [
+        {
+          "title": "Installation du plateau"
+        },
+        {
+          "text": "Alignez les trous du plateau avec ceux des supports."
+        },
+        {
+          "text": "Mettez en place les écrous dans les pièces, côté caoutchouc de l'écrou vers les logements qui accueilleront les roulements."
+        },
+        {
+          "text": "Serrez fermement à l'aide de 4 vis fraisée M3x10."
+        },
+        {
+          "text": "L'orientation des deux logements de vis supplémentaires n'importe pas. Nous choisissons de les monter vers l'arrière pour l'exemple."
+        },
+        {
+          "help": {
+            "quick_tips": "Le scotch bleu servira de surface d'accroche plus tard, ce n'est pas une protection à retirer."
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate2/Notice-with-screen/6-f-fin.jpg",
+    "subtitle": "Assemblage du plateau terminé",
+    "items": [
+      {
+        "text": "Et hop, la base est prête."
+      }
+    ]
+  }
+}

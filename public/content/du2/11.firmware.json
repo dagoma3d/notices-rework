@@ -1,0 +1,221 @@
+{
+  "header": {
+    "img": "DiscoEasy/Software/a-intro-maj-disco.jpg",
+    "subtitle": "Mise à jour pour votre Imprimante",
+    "text": [
+      "Profitez de la mise à jour de votre firmware et bénéficiez de nouvelles fonctionnalités sur votre imprimante."
+    ],
+    "note": "Marlin - 15/11/2019"
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Comment faire la mise à jour ?"
+    },
+    {
+      "media": {
+        "src": "NevaMagis/Software/a-cura.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Nécessaire pour fonctionner"
+        },
+        {
+          "text": "Avant d'aller plus loin, téléchargez et installez Cura by Dagoma. Lors de l'installation, nous installons des éléments nécessaires au bon fonctionnement de Dagom'app."
+        },
+        {
+          "button": {
+            "color": "orange",
+            "to": "/download",
+            "label": "Télécharger Cura by Dagoma"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/d-prerequis-du.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Les pré-requis"
+        },
+        {
+          "list": [
+            "Une imprimante 3d",
+            "Un câble USB-B (fournis avec ton imprimante)",
+            "Un ordinateur et Dagom'app"
+          ]
+        },
+        {
+          "button": {
+            "color": "orange",
+            "to": "/download",
+            "label": "Télécharger Dagom'App"
+          }
+        },
+        {
+          "text": "Et suivez le tutoriel ci-dessous, étape par étape."
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "Commençons !",
+      "text": [
+        "Lancez dagom'app et suivez les instructions"
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/dagomapp-e1.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Etape 1"
+        },
+        {
+          "text": "Cliquez sur \"Je configure mon imprimante\"."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/dagomapp-e2.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Etape 2"
+        },
+        {
+          "text": "Cochez les étapes une fois vérifiées."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/dagomapp-e3.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Etape 3"
+        },
+        {
+          "text": "Cliquez sur l'icône correspondant au modèle de votre imprimante."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/dagomapp-e4.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Etape 4"
+        },
+        {
+          "text": "Reliez l'imprimante à l'ordinateur via le cable USB fournis."
+        },
+        {
+          "text": "Pour le passage du câble regarde la vidéo suivante :"
+        },
+        {
+          "video": {
+            "id": "7xCQ0SH4ONg"
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/dagomapp-maj-e5.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Etape 5"
+        },
+        {
+          "text": "Choisissez \"Je donne de nouveaux pouvoirs\" puis cliquez sur la flèche bleue."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/dagomapp-maj-e6.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Etape 6"
+        },
+        {
+          "text": "On y est presque !"
+        },
+        {
+          "text": "Téléchargez le firmware HEX correspondant à votre imprimante et les options associées :"
+        },
+        {
+          "button": {
+            "color": "orange",
+            "to": "/download",
+            "label": "Télécharger le firmware HEX"
+          }
+        },
+        {
+          "frame": "Choisissez les options dont votre machine est équipée uniquement !"
+        },
+        {
+          "text": "Cliquez sur \"sélectionnez un fichier .hex\""
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/dagomapp-maj-e7.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Etape 7"
+        },
+        {
+          "text": "Une fois upload, cliquez sur \"Flasher\""
+        },
+        {
+          "text": "Cette action peut durer quelques minutes."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoEasy/Calibration/dagomapp-maj-e8.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Etape 8"
+        },
+        {
+          "text": "Votre imprimante a été mise à jour. Vous pouvez fermer Dagom'app."
+        },
+        {
+          "text": "Encore une dernière étape."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Software/a-intro-maj-disco.jpg",
+    "subtitle": "Mise à jour effectuée !",
+    "items": [
+      {
+        "text": "Après une mise à jour, il est nécessaire de recalibrer l'imprimante 3D."
+      }
+    ]
+  }
+}

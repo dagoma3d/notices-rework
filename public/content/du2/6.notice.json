@@ -1,0 +1,156 @@
+{
+  "header": {
+    "img": "DiscoUltimate2/Notice-with-screen/7-a-intro.jpg",
+    "title": [
+      "Notice de montage DISCO ULTIMATE avec écran de contrôle - montage de l'axe X"
+    ],
+    "subtitle": "Montage de l'axe X",
+    "text": [
+      "Nous allons monter l'axe qui supporte la tête d'impression."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Axe X"
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate2/Notice/7-b-prerequis.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "lettered-list": [
+            "2x Barres courtes (270mm)",
+            "Couple de chariots d'axe X",
+            "Moteur NEMA avec poulie",
+            "1 Courroie (107 cm)",
+            "1x Poulie",
+            "Butée longue",
+            "Tête d'impression montée"
+          ]
+        },
+        {
+          "text": "Visserie :"
+        },
+        {
+          "list": [
+            "3x vis M3x6 (reste 7)",
+            "1x vis M3x25 (reste 0)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "eaDJkaDu0IY"
+      },
+      "article": [
+        {
+          "title": "Installation de la poulie de X"
+        },
+        {
+          "text": "Nous allons placer la poulie qui fera le renvoi de courroie du plateau de l'imprimante."
+        },
+        {
+          "text": "Placez la poulie et alignez la avec le trou de passage de la vis."
+        },
+        {
+          "text": "Prenez 1 vis M3x25, placez la dans le trou correspondant et vissez à travers la poulie."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "eXNYW_kxytA"
+      },
+      "article": [
+        {
+          "title": "Installation de la butée de X"
+        },
+        {
+          "text": "Dans l'autre chariot, installez la butée comme sur le vidéo."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "ZLK7vxYRKTs"
+      },
+      "article": [
+        {
+          "title": "Installation du moteur de X"
+        },
+        {
+          "text": "Rentrez le moteur dans son support avec le connecteur vers la pièce (comme sur la vidéo)."
+        },
+        {
+          "text": "Vissez le moteur avec 3 vis M3x6."
+        },
+        {
+          "text": "Le dernier trou de vis est accessible avec l'outil plastique utilisé pour les roulements de la face avant. Positionnez la vis en face du trou, passez le tournevis à travers la pièce, retirez l'outil imprimé, et vissez."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "RVAl-4UoPyg"
+      },
+      "article": [
+        {
+          "title": "Montage des barres de l'axe X"
+        },
+        {
+          "text": "Prenez 2 barres courtes."
+        },
+        {
+          "text": "Introduisez-les avec délicatesse dans les roulements. Une fois en place, faites quelques allers-retours pour vérifier que tout va bien."
+        },
+        {
+          "help": {
+            "quick_tips": "Faire tourner les barres sur elles mêmes pour faciliter l'entrée dans le roulement.",
+            "danger": "Ne surtout pas forcer pour introduire les barres dans les roulements, certaines billes pourraient sortir de ceux ci."
+          }
+        }
+      ]
+    },
+    {
+      "id": "du-courroie-x",
+      "media": {
+        "id": "EyjtEGkGawg"
+      },
+      "article": [
+        {
+          "title": "Installation de la courroie de la tête"
+        },
+        {
+          "text": "La courroie peut être recoupée à 75cm, cela sera amplement suffisant."
+        },
+        {
+          "text": "Nous vous conseillons de suivre la vidéo avec attention."
+        },
+        {
+          "help": {
+            "quick_tips": "La bande supérieur et la bande inférieur de la courroie doivent être parallèle à la fin du montage."
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate2/Notice/7-h-fin.jpg",
+    "subtitle": "Montage de l'axe X terminé",
+    "items": [
+      {
+        "text": "Vérifiez que le sens des pièces correspond à la photo."
+      },
+      {
+        "text": "Mettez-le ensuite de côté, il nous servira plus tard"
+      }
+    ]
+  }
+}

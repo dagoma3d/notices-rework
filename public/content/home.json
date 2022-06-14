@@ -78,13 +78,66 @@
       ]
     },
     {
-      "title": "DiscoVery200",
-      "src": "discovery",
+      "title": "Disco Ultimate V2 TMC",
+      "src": "du2-mono",
       "options": [
         {
-          "to": "/dv",
-          "src": "discovery",
+          "to": "/du2",
+          "src": "du2-mono",
           "title": "Notice de montage"
+        },
+        {
+          "to": "/du2/du2-bi",
+          "src": "du2-bi",
+          "title": "Notice de montage bicouleur"
+        },
+        {
+          "to": "/du2/box",
+          "src": "caisson-disco",
+          "title": "Caisson de protection"
+        },
+        {
+          "to": "/cura-by-dagoma",
+          "src": "cura",
+          "title": "Cura by Dagoma"
+        }
+      ]
+    },
+    {
+      "title": "Disco Ultimate",
+      "src": "disco-ultimate",
+      "options": [
+        {
+          "to": "/du",
+          "src": "disco-ultimate",
+          "title": "Notice de montage"
+        },
+        {
+          "to": "/du/du-with-screen",
+          "src": "du-with-screen",
+          "title": "Notice de montage avec écran"
+        },
+        {
+          "to": "/du/du-bi-with-screen",
+          "src": "du-bi-with-screen",
+          "title": "Notice de montage bicouleur avec écran"
+        },
+        {
+          "to": "/du/screen",
+          "title": "Ecran"
+        },
+        {
+          "to": "/du/bicolor",
+          "title": "Pack bi-couleur"
+        },
+        {
+          "to": "/du/xl",
+          "title": "Pack XL"
+        },
+        {
+          "to": "/du/box",
+          "src": "caisson-disco",
+          "title": "Caisson de protection"
         },
         {
           "to": "/cura-by-dagoma",
@@ -138,54 +191,6 @@
           "title": "Cura by Dagoma"
         }
       ]
-    },
-    {
-      "title": "Disco Ultimate",
-      "src": "disco-ultimate",
-      "options": [
-        {
-          "to": "/du",
-          "src": "disco-ultimate",
-          "title": "Notice de montage"
-        },
-        {
-          "to": "/du/du-with-screen",
-          "src": "du-with-screen",
-          "title": "Notice de montage avec écran"
-        },
-        {
-          "to": "/du/du-bi-with-screen",
-          "src": "du-bi-with-screen",
-          "title": "Notice de montage bicouleur avec écran"
-        },
-        {
-          "to": "/du/screen",
-          "title": "Ecran"
-        },
-        {
-          "to": "/du/bicolor",
-          "title": "Pack bi-couleur"
-        },
-        {
-          "to": "/du/xl",
-          "title": "Pack XL"
-        },
-        {
-          "to": "/du/box",
-          "src": "caisson-disco",
-          "title": "Caisson de protection"
-        },
-        {
-          "to": "/cura-by-dagoma",
-          "src": "cura",
-          "title": "Cura by Dagoma"
-        }
-      ]
-    },
-    {
-      "title": "Cura by Dagoma",
-      "src": "cura",
-      "to": "cura-by-dagoma"
     }
   ]
 }

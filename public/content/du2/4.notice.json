@@ -1,0 +1,272 @@
+{
+  "header": {
+    "img": "DiscoUltimate2/Notice-with-screen/5-a-intro.jpg",
+    "title": [
+      "Notice de montage DISCO ULTIMATE avec écran de contrôle - assemblage de la base"
+    ],
+    "subtitle": "Assemblage de la base",
+    "text": [
+      "Nous allons commencer à assembler l'imprimante 3D. Première étape la base."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Base"
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate2/Notice/5-b-prerequis.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "lettered-list": [
+            "Plaque de protection avant",
+            "Plaque de protection arrière",
+            "Face arrière montée",
+            "Face avant montée",
+            "Lot de cache côtés (4 pièces)",
+            "Fixations latérales montées",
+            "4x Barres longues (360mm)",
+            "Support de plaques de protection",
+            "4x Roulements linéaires"
+          ]
+        },
+        {
+          "text": "Visserie :"
+        },
+        {
+          "list": [
+            "8x vis M3x10 (reste 0)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "zOxMh6xRj6w"
+      },
+      "article": [
+        {
+          "title": "Montage des barres"
+        },
+        {
+          "text": "Prenez la face avant et 4 barres."
+        },
+        {
+          "text": "Posez la face avant sur sa partie plate."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "okXiBXzyGnA"
+      },
+      "article": [
+        {
+          "title": "Montage des fixations latérales"
+        },
+        {
+          "text": "Introduisez les fixations latérales sur les barres inférieures."
+        },
+        {
+          "text": "Attention à l'orientation des pièces, soyez attentif aux détails sur la vidéo."
+        },
+        {
+          "help": {
+            "quick_tips": "Insérez les Fixations latérales montées petit à petit sans forcer.",
+            "danger": "Attention à l'orientation des pièces, soyez attentif aux détails sur la vidéo."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "KXwrq5J3JnQ"
+      },
+      "article": [
+        {
+          "title": "Mise en place des roulements"
+        },
+        {
+          "text": "Ouvrez les sachets des roulements linéaires (encore couverts d'huile)."
+        },
+        {
+          "text": "Placez délicatement les roulements sur les barres supérieures, deux à droite et deux à gauche."
+        },
+        {
+          "text": "Une fois montés, faites quelques allers-retours pour qu'ils se fassent à la barre."
+        },
+        {
+          "help": {
+            "quick_tips": "De légères rotations permettent de rentrer le roulement plus facilement."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "N8GwY_UIcn4"
+      },
+      "article": [
+        {
+          "title": "Montage de la face arrière"
+        },
+        {
+          "text": "Récupérez la face arrière montée."
+        },
+        {
+          "text": "Présentez-la, extrudeur vers le haut, et à gauche de la machine."
+        },
+        {
+          "text": "Positionnez les barres en face des trous et enfoncez-les légèrement."
+        },
+        {
+          "text": "Une fois en place, enfoncez fermement l'ensemble."
+        },
+        {
+          "text": "Utilisez un maillet si possible pour être sûr que les pièces sont correctement enfoncées."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate2/Notice/5-g-controle.jpg"
+      },
+      "article": [
+        {
+          "title": "Petit contrôle surprise"
+        },
+        {
+          "text": "Si vous avez bien suivi les vidéos, vous devez voir 12 petits trous sur les pièces plastiques."
+        },
+        {
+          "text": "Les fixations latérales sont sur les barres inférieures."
+        },
+        {
+          "text": "Les roulements sur les barres supérieures (2 à droite et 2 à gauche)."
+        },
+        {
+          "text": "Si ce n'est pas le cas, démontez et recommencez."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "h1TfAzOB22U"
+      },
+      "article": [
+        {
+          "title": "Installation du cache côté avant droit"
+        },
+        {
+          "text": "A partir de maintenant, on désignera la face avec le logo comme l'avant et la face avec l'extrudeur comme l'arrière. La gauche sera votre gauche lorsque vous faites face à la machine."
+        },
+        {
+          "text": "Récupérez le cache côté droit fourni"
+        },
+        {
+          "text": "Clipsez-le sur la barre du bas et rapprochez-le de la face avant."
+        },
+        {
+          "text": "Respectez bien le sens de la pièce."
+        },
+        {
+          "warning": "Cache côté sans bouton pause ni detect fil, visuel en cours de réalisation."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "Pb4xFtM7z-w"
+      },
+      "article": [
+        {
+          "title": "Installation du cache côté avant gauche"
+        },
+        {
+          "text": "Prenez le dernier cache côté long."
+        },
+        {
+          "text": "Clipsez-le sur la barre du bas et rapprochez-le de la face avant."
+        },
+        {
+          "text": "Respectez bien le sens de la pièce."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "7FG6c7dSgCE"
+      },
+      "article": [
+        {
+          "title": "Installation des caches côtés arrières"
+        },
+        {
+          "text": "Rapprochez les fixations latérales de la face avant pour bien serrer les caches côtés."
+        },
+        {
+          "text": "Clipsez les petits caches côtés. Le simple va à droite (côté extrudeur). L'autre avec les trous va à gauche."
+        },
+        {
+          "warning": "visuel en cours de réalisation."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "i5hEwuoYb9c"
+      },
+      "article": [
+        {
+          "title": "Installation des plaques de protection noires"
+        },
+        {
+          "text": "Prenez la partie arrière, elle a deux formes prévu pour entourer les moteurs d'extrudeurs (un seul dans votre cas)."
+        },
+        {
+          "text": "Placez la face lisse / brillante vers le bas."
+        },
+        {
+          "text": "Prenez 3 vis M3x10 et vissez la dans les trous prévus dans la face arrière."
+        },
+        {
+          "text": "Prenez le clips de bar (petite pièce imprimée orange). Clipsez la sur la barre et alignez la sur le trou dans la plaque. Vissez le à l'aide d'une autre vis M3x10."
+        },
+        {
+          "text": "Prenez la partie avant, placez la comme la précédente et vissez les 4 vis M3x10."
+        },
+        {
+          "text": "Astuce : Bougez la structure pour alignez les trous de vis si nécessaire."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "YlDYXXPeNwg"
+      },
+      "article": [
+        {
+          "title": "Serrage de la base"
+        },
+        {
+          "text": "Suivez la vidéo, vous avez 12 vis à serrer."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate2/Notice/5-m-fin.jpg",
+    "subtitle": "Assemblage de la base terminé.",
+    "items": [
+      {
+        "text": "Mettez la base de côté, nous continuons le montage."
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "href": "/du2/du2-bi",
+    "label": "1 - Préparation",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/1-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/1.notice",
+    "label": "2 - Face av.",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/2-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/2.notice",
+    "label": "3 - Face ar.",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/3-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/3.notice",
+    "label": "4 - Fix. latérales",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/4-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/4.notice",
+    "label": "5 - Base",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/5-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/5.notice",
+    "label": "6 - Plateau",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/6-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/6.notice",
+    "label": "7 - Axe X",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/7-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/7.notice",
+    "label": "8 - Axe Z",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/8-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/8.notice",
+    "label": "9 - Câblage",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/9-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/9.notice",
+    "label": "10 - Finitions",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/10-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/10.controle",
+    "label": "11 - Contrôles",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/11-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/11.firmware",
+    "label": "12 - Mise à jour",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/11-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/12.calibration",
+    "label": "13 - Calibration",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/11-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/13.cura-by-dagoma",
+    "label": "14 - Cura",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/11-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/14.notice",
+    "label": "15 - Utilisation",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/11-a-intro.jpg"
+  },
+  {
+    "href": "/du2/du2-bi/15.prise-en-main",
+    "label": "16 - Prise en main",
+    "img": "DiscoUltimate2/Notice-bi-with-screen/11-a-intro.jpg"
+  }
+]

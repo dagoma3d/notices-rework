@@ -1,0 +1,96 @@
+{
+  "header": {
+    "img": "DiscoUltimate2/Notice-bi-with-screen/4-a-intro.jpg",
+    "title": [
+      "Notice de montage DISCO ULTIMATE bicouleur avec écran de contrôle - montage des fixations latérales"
+    ],
+    "subtitle": "Montage des fixations latérales",
+    "text": [
+      "Nous allons monter la troisième partie de l'imprimante 3D."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Fixations latérales"
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate2/Notice/4-b-prerequis.jpg",
+        "small": true
+      },
+      "article": [
+        {
+          "title": "Les pré-requis"
+        },
+        {
+          "lettered-list": [
+            "1x Fixation latérale imprimée",
+            "1x Barre courte (270mm)",
+            "1x Fixation latérale imprimée"
+          ]
+        },
+        {
+          "text": "Visserie :"
+        },
+        {
+          "list": [
+            "8x vis M3x16 (reste 11)",
+            "8x écrous M3 (reste 9)"
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "pQIPEQ2bsT0"
+      },
+      "article": [
+        {
+          "title": "Mise en place des vis de serrage"
+        },
+        {
+          "text": "Prenez 8 écrous et 8 vis (M3x16). Placez les écrous dans les logements comme sur la vidéo."
+        },
+        {
+          "text": "Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+        },
+        {
+          "help": {
+            "quick_tips": "Tenir l’écrou avec une pince et visser si celui ci ne rentre pas facilement dans son logement."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "4zeaFUT-y2g"
+      },
+      "article": [
+        {
+          "title": "Montage de la barre"
+        },
+        {
+          "text": "Rentrez la barre dans le logement transversal de la première fixation. Enfoncez-la avec force."
+        },
+        {
+          "text": "Prenez la seconde fixation et répétez l'opération. À la fin vous devez obtenir la même chose que sur la vidéo."
+        },
+        {
+          "help": {
+            "quick_tips": "Tourner la barre en la faisant avancer lui permet de rentrer plus facilement et sans casser la pièce plastique"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Notice/5-f-fin.jpg",
+    "subtitle": "Montage des fixations latérales terminé.",
+    "items": [
+      {
+        "text": "Mettez-les de côté, elles nous serviront plus tard."
+      }
+    ]
+  }
+}
