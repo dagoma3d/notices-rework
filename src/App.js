@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Header from './components/common/Header';
 import Home from './pages/Home';
 import HomePro from './pages/HomePro';
 import Page from './pages/Page';
@@ -12,7 +11,6 @@ import './App.css';
 export default function App() {
   return (
     <Router>
-      <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/pro" component={HomePro} />

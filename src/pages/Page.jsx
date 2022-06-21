@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { useRouteMatch } from 'react-router-dom';
+import Header from '../components/common/Header';
 import Banner from '../components/common/Banner';
 import Choices from '../components/home/Choices';
 import Block from '../components/common/Block';
@@ -69,6 +70,7 @@ function Page() {
 
   return (
     <Fragment>
+      <Header path={match.url.indexOf('PRO430') ? '/pro' : null} />
       <NavBar nav={nav} active={active} />
       <Banner small content={content.time} />
       <Ribbon content={content.header} />

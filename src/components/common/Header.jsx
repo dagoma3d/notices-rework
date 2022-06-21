@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
-function Header() {
+function Header({ path }) {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
@@ -28,7 +28,7 @@ function Header() {
       <Container>
         <Navbar.Brand>
           <Link
-            to={{ pathname: '/' }}
+            to={{ pathname: path || '/' }}
             onClick={() => document.body.scrollIntoView({ behavior: 'smooth' })}
           >
             <i className="fa fa-home" />

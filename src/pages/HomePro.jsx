@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect, useState } from 'react';
+import Header from '../components/common/Header';
 import Choices from '../components/home/Choices';
 import Ribbon from '../components/common/Ribbon';
 import Banner from '../components/common/Banner';
@@ -18,6 +19,7 @@ function Home() {
 
   return (
     <Fragment>
+      <Header path='/pro' />
       <Ribbon content={content.header} />
       <Banner content={content.title} />
       <Choices content={content.choices} />
