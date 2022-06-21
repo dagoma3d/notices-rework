@@ -1,0 +1,302 @@
+{
+  "header": {
+    "img": "PRO430/0-a-header.jpg",
+    "title": [
+      "Notice d'installation - Préparation"
+    ],
+    "subtitle": "Imprimante PRO 430",
+    "text": [
+      "Nous allons voir dans un premier temps les fonctions de base de l'imprimante et comment préparer votre imprimante à réaliser sa première impression.",
+      "Ces étapes sont à réaliser dans l'ordre des lors que vous allumez l'imprimante."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Les accessoires"
+    },
+    {
+      "media": {
+        "src": "PRO430/0-b-starter-pack.jpg"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Avec l'imprimante vous avez reçu ..."
+        },
+        {
+          "lettered-list": [
+            "Cordon d'alimentation",
+            "Câble USB",
+            "Spatule",
+            "Clé Torx 20",
+            "Clé Torx 10",
+            "Adaptateur SD/USB + Carte SD"
+          ]
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "banner",
+      "title": "La mise en route"
+    },
+    {
+      "media": {
+        "id": "qZ225UD9b6w"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Allumage de l'imprimante"
+        },
+        {
+          "text": "Pour allumer l'imprimante :"
+        },
+        {
+          "list": [
+            "Brancher l'alimentation fournie à l'arrière de l'imprimante et sur une prise murale fournissant du 220V.",
+            "Appuyer sur le bouton d'alimentation à l'arrière de l'imprimante.",
+            "Attendre la fin de l'initialisation de l'écran qui prends quelques secondes."
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "d6aa5-HQFIM"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Prise d'origine"
+        },
+        {
+          "text": "Au démarrage de l'imprimante, celle-ci ne connait pas la position exacte de la tête d'impression, pour cela nous allons réaliser une opération de prise d'origine."
+        },
+        {
+          "text": "Depuis le menu \"Contrôler\", cliquer sur \"Origine\" ensuite \"Valider\" puis laisser l'imprimante se déplacer toute seule."
+        },
+        {
+          "text": "L'imprimante réalise en premier la butée de l'axe Y, puis l'axe X et enfin l'axe Z."
+        },
+        {
+          "text": "C'est terminé."
+        },
+        {
+          "text": ""
+        },
+        {
+          "help": {
+            "quick_tips": "C'est une opération qui sera réalisée à chaque début d'impression."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "VjWPW1qmMDI"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Calcul du Z-Offset"
+        },
+        {
+          "text": "Le réglage de l'offset est une étape importante, c'est la distance entre la buse et le plateau lors de l'impression."
+        },
+        {
+          "text": "Pour réaliser ce réglage, depuis le menu \"Contrôler\", cliquer sur \"Z-Offset\" puis \"Calculer\"."
+        },
+        {
+          "text": "L'imprimante va venir presser le plateau afin d'obtenir la meilleure position pour imprimer la première couche."
+        },
+        {
+          "text": "Le calcul du Z-Offset n'est valide que si la valeur du FSR (capteur de pression sur la tête d'impression) est de 3000 plus ou moins 500."
+        },
+        {
+          "text": "Pour faire afficher la valeur du FSR, il faudra séléctionner un fichier à imprimer comme sur la vidéo."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "U9U7JOl-MOA"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Auto-align"
+        },
+        {
+          "text": "La fonction Auto-align permet à l'imprimante de régler son parallélisme par elle-même."
+        },
+        {
+          "text": "Les 4 moteurs de l'axe vertical Z sont indépendants, il est donc possible de mesurer les écarts entre eux et de les corriger."
+        },
+        {
+          "text": "Pour lancer ce réglage, menu \"Contrôler\" puis \"Plateau\" et enfin \"Valider\" pour confirmer le choix. "
+        },
+        {
+          "text": "L'imprimante va réaliser 4 mesures aux 4 coins du plateau et ensuite corriger le niveau de chaque axe."
+        },
+        {
+          "text": "Si elle estime que le niveau est correct alors la tête d'impression retournera au centre du plateau."
+        },
+        {
+          "text": "Si la correction n'est pas suffisante lors du premier essai, deux ou trois suivront pour le valider."
+        },
+        {
+          "text": ""
+        },
+        {
+          "help": {
+            "quick_tips": "C'est une opération qui sera réalisée à chaque début d'impression."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "oYml5n4ob8A"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Déplacement des axes"
+        },
+        {
+          "text": "Il est possible de déplacer la tête d'impression via les commandes \"Contrôler\" et \"Axes\"."
+        },
+        {
+          "text": "L'interface est alors composée des trois axes(dimensions) sur lequel un curseur est déplaçable, la longueur souhaitée sur la longueur totale sera affichée."
+        },
+        {
+          "text": "Il est possible d'annuler le déplacement programmé s'il n'est pas encore réalisé, pour cela, le bouton \"Reset\" sera dégrisé."
+        },
+        {
+          "text": "Pour valider le déplacement, il faudra appuyer sur le bouton \"Valider\"."
+        },
+        {
+          "text": "Le bouton \"Parking\" sert à déplacer la tête d'impression dans le coin en haut à gauche, pour remplacer la surface d'accroche par exemple."
+        },
+        {
+          "text": "Dans cette vidéo, la valeur de l'axe X ne bouge pas, la tête d'impression reste au centre, l'axe Y est diminué, la tête va donc se rapprocher, pour finir l'axe Z est augmenté, la tête va donc monter."
+        },
+        {
+          "help": {
+            "quick_tips": "Déplacer la tête d'impression en hauteur est pratique pour avoir accès au bec de buse afin de le nettoyer."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "c7f_9dO1xZ8"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 7"
+        },
+        {
+          "title": "Insérer du filament"
+        },
+        {
+          "text": "Pour réaliser l'insertion du filament, il est conseillé de couper le filament en biseau, afin de faciliter son entrée dans la buse."
+        },
+        {
+          "text": "Le bras d'extrudeur est en métal, comme le montre la vidéo, il se débraye en appuyant dessus."
+        },
+        {
+          "text": "Le filament est inséré manuellement dans l'extrudeur jusqu'en butée, ensuite le bras est débrayé pour faire avancer le filament d'un ou deux centimètres supplémentaire."
+        },
+        {
+          "text": "Le filament doit être pincé par le bras d'extrudeur et la roue dentée afin que l'insertion se réalise automatiquement."
+        },
+        {
+          "text": "L'insertion se déclenche depuis l'écran : \"Contrôler\", \"Filament\", \"Insérer\", puis \"Valider\"."
+        },
+        {
+          "text": "La température de la buse va monter jusqu'à 200°, c'est la température minimal pour réaliser une extrusion."
+        },
+        {
+          "text": "Le filament est acheminé jusqu'à la buse d'impression qui réalise ensuite une purge."
+        },
+        {
+          "text": "En appuyant sur le bras d'extrudeur après l'insertion, cela permettra de libérer la pression dans le tube en teflon."
+        },
+        {
+          "text": "La tête d'impression étant encore à haute température, le filament ne sera plus poussé vers l'avant et donc il arrêtera de couler de la buse."
+        },
+        {
+          "help": {
+            "danger": "Si le bec de buse n'est pas correctement propre alors la prochaine impression n'accrochera pas au plateau.",
+            "quick_tips": "Il est possible d'augmenter la température de la buse manuellement avant l'insertion, nous verrons cette fonction plus tard dans cette notice."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "PPTyW0T-sLo"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 8"
+        },
+        {
+          "title": "Éjecter le filament"
+        },
+        {
+          "text": "Pour réaliser l'éjection du filament : \"Contrôler\", \"Filament\", \"Éjecter\" puis \"Valider\"."
+        },
+        {
+          "text": "Si la buse est à température ambiante, alors celle-ci augmentera jusqu'à 200°C."
+        },
+        {
+          "text": "Lorsqu'à la température est atteinte, le filament est éjecté lentement."
+        },
+        {
+          "text": "Il ne reste plus qu'à retirer le reste du filament manuellement."
+        },
+        {
+          "text": ""
+        },
+        {
+          "help": {
+            "danger": "",
+            "quick_tips": "Vous pouvez couper en biseau le morceau boursouflé du filament qui sort de la buse, cela évite de le remettre dans le tube et de l'endommager lors d'une prochaine insertion."
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "PRO430/0-c-footer.jpg",
+    "subtitle": "L'imprimante est prête, passons à la suite !",
+    "text": "Nous allons maintenant voir comment préparer les impressions, mais il faudra d'abord remettre le filament dans l'imprimante si la fonction d'éjection du filament a été testée."
+  }
+}

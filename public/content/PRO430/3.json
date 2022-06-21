@@ -1,0 +1,117 @@
+{
+  "header": {
+    "img": "PRO430/0-a-header.jpg",
+    "title": [
+      "Notice d'installation - Autres fonctions"
+    ],
+    "subtitle": "Imprimante PRO 430",
+    "text": [
+      "Des fonctions supplémentaires sont également disponible sur l'écran.",
+      "Voyons ensemble ce qu'il est possible de faire !"
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "id": "341jo4caOak"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Préchauffer la buse"
+        },
+        {
+          "text": [
+            "Il est possible d’intervenir sur la température de la buse via l’écran.",
+            "Depuis \"Contrôler\", puis \"Température\" et enfin \"Buse\".",
+            "Le bouton + permet d’augmenter la température, le bouton - la diminue.",
+            "La température est augmentée par palier de 10, un palier de 5 ou de 1 est également sélectionnable.",
+            "Le bouton \"Valider\" confirme la modification de la température.",
+            "Le bouton \"Reset\" annule les modifications réalisées sur le choix de la température.",
+            "Le bouton \"Off\" passe la température à 0°C."
+          ]
+        },
+        {
+          "help": {
+            "quick_tips": "Cette fonction permet de déboucher la buse facilement en programmant une température élevée."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "0FXhDSyTo1w"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Préchauffer le plateau"
+        },
+        {
+          "text": "Il est possible d’intervenir sur la température du plateau via l’écran."
+        },
+        {
+          "text": "Depuis \"Contrôler\", puis \"Température\" et enfin \"Plateau\"."
+        },
+        {
+          "text": "La procédure de modification de ce paramètre est identique à celle de la buse vue juste avant."
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "-yAu_TIJQXA"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 3"
+        },
+        {
+          "title": "Extruder ou rétracter le filament"
+        },
+        {
+          "text": "Il est possible de faire avancer (extruder) ou alors de faire reculer (rétracter) le filament via l’écran."
+        },
+        {
+          "text": "Depuis \"Contrôler\", puis \"Filament\" et enfin \"Extruder\"."
+        },
+        {
+          "text": "La sélection de la longueur de filament à déplacer est similaire à la fonction de préchauffage vu juste avant."
+        },
+        {
+          "text": "Si la buse est à faible température alors, en validant le déplacement, la buse montera à 200° automatiquement."
+        },
+        {
+          "text": "La fonction \"Extruder\" est activée, le filament va donc avancer vers la buse."
+        },
+        {
+          "text": "En appuyant sur ce même bouton, c’est la fonction \"Éjecter\" qui va prendre le relais et qui fera donc reculer le filament."
+        },
+        {
+          "text": ""
+        },
+        {
+          "help": {
+            "quick_tips": "En fonction du type de filament, il est possible et même recommandé, de préchauffer la buse en amont pour extruder le filament avec une température de buse plus importante",
+            "danger": "Après une extrusion, il faudra toujours nettoyer efficacement le bec de buse, il ne doit pas rester de résidus de filament si vous souhaitez lancer une impression ensuite."
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "PRO430/0-c-footer.jpg",
+    "subtitle": "Tutoriel de lancement terminé !",
+    "text": [
+      "Merci d'avoir suivi cette notice jusqu'au bout, faites nous part des procédures que vous souhaiteriez trouver ici.",
+      "L'équipe de DAGOMA se joint à moi pour vous souhaiter de bonnes impressions !"
+    ]
+  }
+}

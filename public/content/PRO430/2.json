@@ -1,0 +1,84 @@
+{
+  "header": {
+    "img": "PRO430/0-a-header.jpg",
+    "title": [
+      "Notice d'installation - Modification"
+    ],
+    "subtitle": "Imprimante PRO 430",
+    "text": [
+      "Nous allons voir maintenant comment intervenir sur l'imprimante pour modifier sa configuration.",
+      "Il est possible d'intervenir sur la tête d'impression et sur la surface d'accroche pour en changer."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "id": "0aPK8ngSKgM"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 1"
+        },
+        {
+          "title": "Changer la tête d’impression "
+        },
+        {
+          "text": "Pour interchanger deux têtes d’impressions, la procédure est simple et très rapide :"
+        },
+        {
+          "list": [
+            "Éjecter complètement le filament si ce n’est pas fait.",
+            "Retirer la pièce imprimée du connecteur pneumatique (bague noir).",
+            "Retirer le tube téflon en appuyant sur la bague noir.",
+            "Déconnecter la tête en pressant et en tirant sur le connecteur vers le haut.",
+            "Retirer les deux vis de part et d’autres de la tête d’impression à l’aide de la cle torx 20 fournie.",
+            "La tête est libre.",
+            "Pour monter la nouvelle tête, il suffira de réaliser les mêmes opérations mais dans le sens inverse."
+          ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "QxB91_mGxRQ"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 2"
+        },
+        {
+          "title": "Changer la surface d’accroche"
+        },
+        {
+          "text": "Pour retirer la surface d'accroche, il faudra positionner la tête au maximum de l'axe Y si ce n'est pas déjà le cas, comme sur cette vidéo."
+        },
+        {
+          "text": "Placez un ou plusieurs doigts dans la partie creusée de la base de l'imprimante pour passer en dessous de la plaque et ensuite la désaimanter."
+        },
+        {
+          "text": "La surface d'accroche est maintenant libre."
+        },
+        {
+          "text": "Profitez de cette occasion pour bien nettoyer la base en aluminium de l'imprimante, les résidus de filament peuvent géner la calibration."
+        },
+        {
+          "text": "Pour placer la nouvelle, servez-vous des butées placées au fond de la base de l'imprimante."
+        },
+        {
+          "text": "La nouvelle devra venir s'y plaquer pour être ensuite déposer délicatement."
+        },
+        {
+          "text": "Après cette intervention il sera nécessaire de refaire l'offset de l'imprimante."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "PRO430/0-c-footer.jpg",
+    "subtitle": "Modifications terminées !",
+    "text": [
+      "Nous arrivons au terme de cette notice.",
+      "Voyons ensemble les dernières fonctions de l'imprimante !"
+    ]
+  }
+}

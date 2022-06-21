@@ -1,0 +1,23 @@
+{
+  "header": {
+    "img": "FirstStep/premier-pas.jpg",
+    "title": [
+      "Premiers pas"
+    ],
+    "subtitle": "C'est parti !",
+    "text": [
+      "Félicitations ! Si vous êtes ici c'est que vous avez fait un (bon) choix : vous lancer dans l'aventure de l'impression 3D. Nous allons vous accompagner étape par étape, du montage à la première utilisation de votre machine ou de vos nouveaux composants. Vous êtes prêts ?"
+    ]
+  },
+  "title": {
+    "type": "banner",
+    "title": "Choisissez votre imprimante 3D pour commencer"
+  },
+  "choices": [
+    {
+      "title": "PRO430",
+      "src": "Pro430",
+      "to": "PRO430"
+    }
+  ]
+}
