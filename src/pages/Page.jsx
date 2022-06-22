@@ -70,7 +70,7 @@ function Page() {
 
   return (
     <Fragment>
-      <Header path={match.url.indexOf('PRO430') ? '/pro' : null} />
+      <Header path={match.url.indexOf('PRO430') === -1 ? '/' : '/pro'} />
       <NavBar nav={nav} active={active} />
       <Banner small content={content.time} />
       <Ribbon content={content.header} />
