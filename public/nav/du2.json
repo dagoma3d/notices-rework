@@ -55,28 +55,23 @@
     "img": "DiscoUltimate2/Notice-with-screen/11-a-intro.jpg"
   },
   {
-    "href": "/du2/11.firmware",
-    "label": "12 - Mise à jour",
+    "href": "/du2/11.calibration",
+    "label": "12 - Calibration",
     "img": "DiscoUltimate2/Notice-with-screen/11-a-intro.jpg"
   },
   {
-    "href": "/du2/12.calibration",
-    "label": "13 - Calibration",
+    "href": "/du2/12.cura-by-dagoma",
+    "label": "13 - Cura",
     "img": "DiscoUltimate2/Notice-with-screen/11-a-intro.jpg"
   },
   {
-    "href": "/du2/13.cura-by-dagoma",
-    "label": "14 - Cura",
+    "href": "/du2/13.notice",
+    "label": "14 - Utilisation",
     "img": "DiscoUltimate2/Notice-with-screen/11-a-intro.jpg"
   },
   {
-    "href": "/du2/14.notice",
-    "label": "15 - Utilisation",
-    "img": "DiscoUltimate2/Notice-with-screen/11-a-intro.jpg"
-  },
-  {
-    "href": "/du2/15.prise-en-main",
-    "label": "16 - Prise en main",
+    "href": "/du2/14.prise-en-main",
+    "label": "15 - Prise en main",
     "img": "DiscoUltimate2/Notice-with-screen/11-a-intro.jpg"
   }
 ]
