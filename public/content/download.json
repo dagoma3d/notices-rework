@@ -1,13 +1,9 @@
 {
   "header": {
     "img": "FirstStep/premier-pas.jpg",
-    "title": [
-      "Téléchargement"
-    ],
+    "title": ["Téléchargement"],
     "subtitle": "Firmwares et logiciels",
-    "text": [
-      ""
-    ]
+    "text": [""]
   },
   "title": {
     "type": "banner",
@@ -19,17 +15,27 @@
       "src": "cura",
       "options": [
         {
-          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/download/2.1.7-python2/CuraByDagoma_x64.exe",
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/download/CuraByDagoma_x64.exe",
           "src": "windows",
-          "title": "Windows"
+          "title": "Windows 64 bits"
         },
         {
-          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/download/2.1.7-python2/CuraByDagoma.dmg",
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/download/CuraByDagoma_x86.exe",
+          "src": "windows",
+          "title": "Windows 32 bits"
+        },
+        {
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/download/CuraByDagoma_x86_64.dmg",
           "src": "macos",
-          "title": "MacOS"
+          "title": "MacOS Intel"
         },
         {
-          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/tag/2.1.7-python3",
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/download/CuraByDagoma_arm64.dmg",
+          "src": "macos",
+          "title": "MacOS M1"
+        },
+        {
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest",
           "src": "linux",
           "title": "Linux"
         }
