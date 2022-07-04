@@ -62,6 +62,11 @@
         },
         {
           "text": ""
+        },
+        {
+          "help": {
+            "quick_tips": "Il est conseillé de préchauffer le plateau avant chaque impression, la calibration ne sera pas optimal si celle-ci se fait sur un plateau froid ou en cours de chauffe."
+          }
         }
       ]
     },
@@ -101,6 +106,126 @@
           "help": {
             "quick_tips": "En fonction du type de filament, il est possible et même recommandé, de préchauffer la buse en amont pour extruder le filament avec une température de buse plus importante",
             "danger": "Après une extrusion, il faudra toujours nettoyer efficacement le bec de buse, il ne doit pas rester de résidus de filament si vous souhaitez lancer une impression ensuite."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "f8MxXfHczVQ"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 4"
+        },
+        {
+          "title": "Programmer un changement de couleur"
+        },
+        {
+          "text": "Il est possible de programmer une pause pendant l'impression pour, par exemple, changer la couleur du filament."
+        },
+        {
+          "text": "La première étape se réalise depuis Cura."
+        },
+        {
+          "text": "Nous allons \"Modifier le G-code\" directement via les \"Extensions\" et le \"Post-traitement\"."
+        },
+        {
+          "text": "Il suffit ensuite d'ajouter le script \"Filament Change\", de choisir la layer correspondante et de cocher l'utilisation de la configuration du firmware."
+        },
+        {
+          "text": "Il ne reste plus qu'à insérer la carte SD dans l'ordinateur puis préparer l'impression."
+        },
+        {
+          "text": "C'est terminé !"
+        },
+        {
+          "text": ""
+        },
+        {
+          "help": {
+            "quick_tips": "",
+            "danger": ""
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "ypnX_ZIcBKE"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 5"
+        },
+        {
+          "title": "Changer le filament pendant l’impression"
+        },
+        {
+          "text": "L'impression va donc s'arrêter d'elle même, sans intervention manuelle, puisque la pause a été programmé précédemment."
+        },
+        {
+          "text": "Au moment de la pause, la tête d'impression va se ranger sur le côté, on dit aussi qu'elle se \"park\"."
+        },
+        {
+          "text": "Le filament sera éjecté automatiquement, il faudra ensuite le sortir de l'extrudeur et le couper en biseau (pour la prochaine insertion)."
+        },
+        {
+          "text": "Au bout d'un certain temps la buse d'impression commencera à refroidir, il faudra donc intervenir sur l'écran pour remonter en température."
+        },
+        {
+          "text": "Après la chauffe, préparez le filament comme lors d'une insertion classique, puis cliquer sur \"Insérer le filament\"."
+        },
+        {
+          "text": "Attention à la purge, l'écran vous indique de retirer le filament qui est sorti de la buse lors de l'insertion."
+        },
+        {
+          "text": "En appuyant sur \"Ok\", l'impression repart automatiquement."
+        },
+        {
+          "help": {
+            "quick_tips": "Couper correctement le filament en biseau pour faciliter son insertion.",
+            "danger": "Si la tête d'impression est déplacée via l'écran durant la pause, l'impression ne reprendra pas correctement."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "ZDxGQs6JeZM"
+      },
+      "article": [
+        {
+          "pretitle": "Étape 6"
+        },
+        {
+          "title": "Détection de fin de filament"
+        },
+        {
+          "text": "Pour réaliser cette simulation, nous avons coupé le filament avant l'extrudeur, l'imprimante comprend donc que la bobine vient de se terminer."
+        },
+        {
+          "text": "Comme vu précédemment, l'imprimante se park et le filament est éjecté.."
+        },
+        {
+          "text": "Insérez le nouveau filament en l'ayant au préalable couper en biseau."
+        },
+        {
+          "text": "Si la buse est trop refroidie, en appuyant sur le bouton \"Chauffer la buse\", la température remontera."
+        },
+        {
+          "text": "Lorsque la consigne est atteinte, il est possible de lancer l'insertion en appuyant sur le bouton \"Insérer le filament\"."
+        },
+        {
+          "text": "Retirez ensuite le filament purgé et l'impression pourra reprendre."
+        },
+        {
+          "text": ""
+        },
+        {
+          "help": {
+            "quick_tips": "",
+            "danger": ""
           }
         }
       ]
