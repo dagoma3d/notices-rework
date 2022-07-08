@@ -157,7 +157,7 @@
     },
     {
       "media": {
-        "id": "h1TfAzOB22U"
+        "id": "sDmF1ouCMJQ"
       },
       "article": [
         {
@@ -170,19 +170,16 @@
           "text": "Récupérez le cache côté droit fourni"
         },
         {
-          "text": "Clipsez-le sur la barre du bas et rapprochez-le de la face avant."
+          "text": "Clipsez-le sur la barre du bas."
         },
         {
           "text": "Respectez bien le sens de la pièce."
-        },
-        {
-          "warning": "Cache côté sans bouton pause ni detect fil, visuel en cours de réalisation."
         }
       ]
     },
     {
       "media": {
-        "id": "Pb4xFtM7z-w"
+        "id": "GLmLbgpTR70"
       },
       "article": [
         {
@@ -192,7 +189,7 @@
           "text": "Prenez le dernier cache côté long."
         },
         {
-          "text": "Clipsez-le sur la barre du bas et rapprochez-le de la face avant."
+          "text": "Clipsez-le sur la barre du bas."
         },
         {
           "text": "Respectez bien le sens de la pièce."
@@ -201,26 +198,23 @@
     },
     {
       "media": {
-        "id": "7FG6c7dSgCE"
+        "id": "v4UA1ebDiv0"
       },
       "article": [
         {
           "title": "Installation des caches côtés arrières"
         },
         {
-          "text": "Rapprochez les fixations latérales de la face avant pour bien serrer les caches côtés."
+          "text": "Poussez les cache côté vers l'avant et rapprochez ensuite les fixations latérales de la face avant pour bien serrer les caches côtés."
         },
         {
           "text": "Clipsez les petits caches côtés. Le simple va à droite (côté extrudeur). L'autre avec les trous va à gauche."
-        },
-        {
-          "warning": "visuel en cours de réalisation."
         }
       ]
     },
     {
       "media": {
-        "id": "i5hEwuoYb9c"
+        "id": "s6JkkLtn0Oo"
       },
       "article": [
         {
@@ -242,13 +236,15 @@
           "text": "Prenez la partie avant, placez la comme la précédente et vissez les 4 vis M3x10."
         },
         {
-          "text": "Astuce : Bougez la structure pour alignez les trous de vis si nécessaire."
+          "help": {
+            "quick_tips": "Bougez la structure pour alignez les trous de vis si nécessaire."
+          }
         }
       ]
     },
     {
       "media": {
-        "id": "YlDYXXPeNwg"
+        "id": "JGPvTUKNtSQ"
       },
       "article": [
         {
