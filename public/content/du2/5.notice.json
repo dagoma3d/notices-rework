@@ -43,7 +43,7 @@
     },
     {
       "media": {
-        "id": "PiLo3g9H1cY"
+        "id": "oi-8BEMXB7o"
       },
       "article": [
         {
@@ -62,7 +62,7 @@
           "text": "Prenez les deux petits supports et utilisez les mêmes repères pour les aligner convenablement."
         },
         {
-          "text": "Prenez les deux petits supports, ceux ci ne sont pas repérés."
+          "text": "Prenez les deux petits supports, ceux ci ne sont pas repérés mais les formes sont identiques."
         },
         {
           "help": {
@@ -74,67 +74,56 @@
     {
       "id": "du-courroie-y",
       "media": {
-        "id": "FzEq9P_YXcM"
+        "id": "99cQ7Z_Vt9A"
       },
       "article": [
         {
           "title": "Installation de la courroie de Y"
         },
         {
-          "text": "La courroie peut être recoupée à 85cm, cela sera amplement suffisant."
+          "text": [
+            "La courroie peut être recoupée à 85cm, cela sera amplement suffisant.",
+            "Nous vous conseillons de suivre la vidéo avec attention.",
+            "0:06 Passer la courroie au dessus des premiers roulements, les dents de la courroie vers le bas, jusqu’à sortir par le dessous de la base.",
+            "0:11 Retourner l'imprimante.",
+            "0:20 Reprendre la courroie qui est sortie",
+            "0:26 Insérez la entre la poulie crantée et les roulements, elle doit ressortir par le dessus.",
+            "0:42 Retourner à nouveau l'imprimante.",
+            "0:55 Prendre les deux morceaux de courroies et les faire coulisser pour vérifier que tout soit OK.",
+            "0:58 Faire passer la courroie avec les dents vers le haut sous le support plateau long.",
+            "1:14 Cette courroie doit être insérée dans la poulie de la face arrière, par le bas, pour qu'elle puisse sortir par le haut.",
+            "1:24 La courroie est ensuite coincée dans la pièce support plateau long comme le montre la vidéo.",
+            "1:42 Reprenons l'autre extrémité de la courroie pour également la bloquer dans le support plateau long.",
+            "Cette dernière opération permet de tendre la courroie"
+          ]
         },
         {
-          "text": "Nous vous conseillons de suivre la vidéo avec attention."
-        },
-        {
-          "text": "00:08 Passez la courroie au dessus des premiers roulements, les dents de la courroie vers le bas, jusqu’à sortir par le dessous de la base."
-        },
-        {
-          "text": "00:18 Faites la remonter en passant entre la poulie et les deuxièmes roulements jusqu’à sortir par le dessus de la base."
-        },
-        {
-          "text": "00:32 Tirez sur la courroie pour actionner la poulie."
-        },
-        {
-          "text": "00:41 La courroie doit passer sous la pièce support plateau et arriver jusqu’à la face arrière.Attention à ce que la courroie ne sorte pas de son logement."
-        },
-        {
-          "text": "00:45 Faites passer la courroie par le dessous de la poulie puis la faire sortir par le dessus."
-        },
-        {
-          "text": "00:54 Tirez sur la courroie et insérez la dans les crans du logement A du support plateau."
-        },
-        {
-          "text": "01:04 Tirez sur la courroie pour la tendre et faites la passer dans le logement B puis insérez la dans les crans."
-        },
-        {
-          "text": "01:30 Vérifiez que le support plateau va bien au contact de la butée de fin de course"
+          "help": {
+            "danger": "Si la courroie n'est pas tendue, la qualité de l'impression ne sera pas au rendez-vous et il y aura des risques de décalages pendant l'impression."
+          }
         }
       ]
     },
     {
       "media": {
-        "id": "V8G8F_E23sg"
+        "id": "_96EF16fUPw"
       },
       "article": [
         {
           "title": "Installation du plateau"
         },
         {
-          "text": "Alignez les trous du plateau avec ceux des supports."
-        },
-        {
-          "text": "Mettez en place les écrous dans les pièces, côté caoutchouc de l'écrou vers les logements qui accueilleront les roulements."
-        },
-        {
-          "text": "Serrez fermement à l'aide de 4 vis fraisée M3x10."
-        },
-        {
-          "text": "L'orientation des deux logements de vis supplémentaires n'importe pas. Nous choisissons de les monter vers l'arrière pour l'exemple."
+          "text": [
+            "Découper le scotch autour des logements de vis pour réaliser un montage propre",
+            "Aligner les trous du plateau avec ceux des supports.",
+            "Mettre en place les écrous dans les pièces, côté caoutchouc de l'écrou vers le bas.",
+            "Serrer fermement à l'aide de 4 vis fraisée M3x10.",
+            "L'orientation des deux logements de vis supplémentaires n'importe pas. Nous choisissons de les monter vers l'arrière."
+          ]
         },
         {
           "help": {
-            "quick_tips": "Le scotch bleu servira de surface d'accroche plus tard, ce n'est pas une protection à retirer."
+            "quick_tips": "Le scotch bleu servira de première surface d'accroche temporaire, ce n'est pas une protection à retirer, nous installerons la surface d'accroche définitive plus tard."
           }
         }
       ]
