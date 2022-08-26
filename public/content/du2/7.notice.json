@@ -43,29 +43,29 @@
     },
     {
       "media": {
-        "id": "aG_vpe3A7pw"
+        "id": "w4Ggp_Z7FV0"
       },
       "article": [
         {
           "title": "Montage des moteurs de Z"
         },
         {
-          "text": "Retirez les écrous anti-backslash (ça peut être un peu long)."
+          "text": "Retirez les écrous anti-backslash en les dévissant sur les deux tiges."
         },
         {
           "text": "Soulevez l'imprimante 3D et insérez les moteurs."
         },
         {
-          "text": "Tournez-les pour aligner le connecteur du moteur vers l'extrudeur."
+          "text": "Orientez les moteurs pour aligner le connecteur du moteur vers la face arrière de l'imprimante."
         },
         {
-          "text": "Vissez ensuite les moteurs avec les 4 vis M3x6."
+          "text": "Vissez ensuite les moteurs dans les pièces fixations cotés avec les 4 vis M3x6."
         }
       ]
     },
     {
       "media": {
-        "id": "jk-LfNvIg8s"
+        "id": "ct8mjzavEoU"
       },
       "article": [
         {
@@ -75,96 +75,78 @@
           "text": "Prenez les 4 barres longues."
         },
         {
-          "text": "Montez-les dans les trous des fixations latérales."
+          "text": "Montez-les dans les logements prévus des pièces fixations côtés."
         },
         {
-          "text": "Forcez bien pour que les barres soient au fond de chaque trou."
+          "text": "Les barres doivent être insérées au fond de leurs logements."
         },
         {
-          "italic": "Astuce : Un petit coup de maillet en caoutchouc aidera bien."
+          "help": {
+            "quick_tips": "L'utilisation d'un maillet en caoutchouc facilitera l'insertion des barres dans leurs logements.",
+            "danger": "Les vis dans les pièces fixations côtés sont déjà pré-serrés, si elles sont trop serrés alors les barres ne pourront pas rentrer, peut-être faut-il les desserrer légèrement avant de mettre les barres."
+          }
         }
       ]
     },
     {
       "media": {
-        "id": "w6QMes1YAks"
+        "id": "knc1WsUSawQ"
+      },
+      "article": [
+        {
+          "title": "Les écrous anti-backslash"
+        },
+        {
+          "text": "Récupérez les écrous anti-backslash que nous avons démonté des tiges tout à l'heure."
+        },
+        {
+          "text": "Insérez les dans leurs logements puis vissez les avec les vis M4x12."
+        },
+        {
+          "text": "."
+        },
+        {
+          "help": {
+            "quick_tips": "Il faudra visser les vis simultanément pour ne pas que l'écrou se place de biais.",
+            "danger": "La pièce imprimée n'est pas taraudée, il faudra bien appuyer sur le tournevis pour créé le filetage de la vis."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "2wRnwX3xgWw"
       },
       "article": [
         {
           "title": "Installation de l'axe X"
         },
         {
-          "text": "Prenez l'axe X, orientez-le pour que le moteur de X soit à gauche de la machine lorsque la face avant est devant vous."
+          "text": "Présentez l'axe X complet au dessus des barres de l'axe Z, attention au passage des câbles."
         },
         {
-          "text": "Insérez les barres dans les roulements sans forcer et faites coulisser l'axe jusqu'en bas."
+          "text": "Positionner les roulements dans les barres simultanément."
         },
         {
-          "text": "Faites quelques allers-retours pour que l'ensemble s'ajuste bien."
+          "text": "Enfoncer les roulements dans les barres, sans forcer"
         },
         {
-          "help": {
-            "quick_tips": "La pièce Axe X doit coulisser dans la barre sans forcer, dans le cas contraire, faire tourner la barre sur elle même peut décoincer le montage de celle ci.",
-            "danger": "La pièce doit être insérée délicatement pour que les billes du roulement ne sortent pas de leur logement."
-          }
-        }
-      ]
-    },
-    {
-      "media": {
-        "src": "DiscoUltimate2/Notice-with-screen/8-c-controle.jpg"
-      },
-      "article": [
-        {
-          "title": "Deuxième contrôle surprise"
+          "text": "Lorsque l'axe X est dans son logement, vous pouvez tourner les tiges trapézoïdale dans le sens inverse des aiguilles d'une montre."
         },
         {
-          "text": "Normalement voici ce que vous avez obtenu. Vérifiez bien le sens des éléments."
-        }
-      ]
-    },
-    {
-      "media": {
-        "id": "iECxDaGQSLI"
-      },
-      "article": [
-        {
-          "title": "Installation des écrous"
-        },
-        {
-          "text": "Si votre écrou s'est désassemblé, voici comment le remonter."
-        },
-        {
-          "text": "Présentez-le sur la tige, côté triangulaire vers le haut."
-        },
-        {
-          "text": "Maintenez le ressort pour pouvoir engager l'écrou en vissant."
-        },
-        {
-          "text": "Vissez l'écrou jusqu'en bas."
-        },
-        {
-          "text": "Faites de même pour le second."
-        },
-        {
-          "text": "Prenez ensuite les 6 vis M4x12 et vissez fermement les écrous dans les chariots."
-        },
-        {
-          "text": "Faites ensuite appel à un ami pour remonter l'axe X jusqu'en haut (5cm avant la fin des tiges)."
-        },
-        {
-          "text": "Montez équitablement le chariot pour le garder parallèle au plateau."
+          "text": "La descente et la montée de l'axe est maintenant gérée par les moteurs de l'axe Z."
         },
         {
           "help": {
-            "quick_tips": "Pour que les vis M4 prennent à la main, vous pouvez créer le filetage dans la pièce plastique de l’axe X en vissant une première fois “à vide”, hors montage.",
-            "danger": "Le filetage dans la pièce plastique n’existe pas il faut le créer en vissant dans un premier temps. Les vis M4 destinées à tenir les écrous dans la pièce plastique risquent de ne pas rentrer facilement dans l’immédiat."
+            "quick_tips": "Il est possible de remettre de l'huile sur les barres ou les roulements si ils ne rentrent pas facilement.",
+            "danger": "En forçant certaines billes pourraient sortir du roulement."
           }
         }
       ]
     }
   ],
   "footer": {
+    "flip": "true",
     "img": "DiscoUltimate2/Notice-with-screen/8-d-fin.jpg",
     "subtitle": "Montage de l'axe Z terminé.",
     "items": [
