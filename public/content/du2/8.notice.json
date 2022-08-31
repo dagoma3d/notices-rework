@@ -18,7 +18,7 @@
     {
       "media": {
         "src": "DiscoUltimate2/Notice-with-screen/9-b-prerequis.jpg",
-        "small": true
+        "small": "true"
       },
       "article": [
         {
@@ -43,26 +43,7 @@
     },
     {
       "media": {
-        "id": "QYGzMbwyWIA"
-      },
-      "article": [
-        {
-          "title": "Repérage du câble ventilateur arrière"
-        },
-        {
-          "text": "Prenez le câble du ventilateur arrière et faites un noeud à 2 cm du bout pour le repérer."
-        },
-        {
-          "help": {
-            "quick_tips": "Les câbles du ventilateur arrière sont équipés d'une petite étiquette pour ne pas se tromper.",
-            "danger": "Inverser les ventilateurs lors du montage pourrait endommager l’imprimante"
-          }
-        }
-      ]
-    },
-    {
-      "media": {
-        "id": "50a1FM7_5sw"
+        "id": "2qhUe_SycyI"
       },
       "article": [
         {
@@ -75,7 +56,11 @@
           "text": "Nous vous invitons à suivre la vidéo avec attention et de refaire la même chose."
         },
         {
+          "text": "Faire passer ensuite les câbles de la tête dans le trou du cache côté arrière."
+        },
+        {
           "help": {
+            "quick_tips": "Remonter l'axe empêchera de tordre les barres si l'imprimante n'est pas placé normalement.",
             "danger": "Ne pas tordre le câble gris du palpeur, c’est un composant fragile qui peut être facilement endommagé."
           }
         }
@@ -83,17 +68,17 @@
     },
     {
       "media": {
-        "id": "md_qbmMm7rc"
+        "id": "8FkyFCJ2Uvg"
       },
       "article": [
         {
           "title": "Installation de la carte de contrôle"
         },
         {
-          "text": "Sortez-la carte du sachet."
+          "text": "Placez l'imprimante comme sur la vidéo, la face arrière est donc en bas et la face avant en haut."
         },
         {
-          "warning": "Désormais la carte électronique est une D6, visuel en cours de réalisation"
+          "text": "Sortez la carte du sachet."
         },
         {
           "text": "Placez-la avec les connecteurs face à vous, en diagonale, le lecteur USB vers la barre transversale."
@@ -106,74 +91,15 @@
         },
         {
           "help": {
-            "quick_tips": "Encore une fois, il peut être compliqué de visser dans du PLA, vous pouvez pré-visser avant d’installer la carte pour créer le filetage dans la pièce plastique."
+            "quick_tips": "Il peut être compliqué de visser dans du PLA, vous pouvez pré-visser avant d’installer la carte pour créer le filetage dans la pièce plastique.",
+            "danger": "Attention à ne pas croquer de câble lors de la mise en place de la carte."
           }
         }
       ]
     },
     {
       "media": {
-        "id": "nsVMYjsB44Q"
-      },
-      "article": [
-        {
-          "title": "Câblage du moteur de X"
-        },
-        {
-          "text": "Prenez le câble moteur le plus long dans le sachet."
-        },
-        {
-          "text": "Branchez-le au moteur (pas de soucis de sens, il y a des détrompeurs)."
-        },
-        {
-          "text": "Faites-le ensuite passer au niveau de la fixation latérale gauche, passez dans la pièce plastique comme sur la vidéo."
-        },
-        {
-          "text": "Raccordez-le ensuite sur le connecteur X adapté."
-        }
-      ]
-    },
-    {
-      "media": {
-        "id": "rVgAaNeTDmA"
-      },
-      "article": [
-        {
-          "title": "Câblage de la butée de X"
-        },
-        {
-          "text": "Récupérez le câble de la butée de X."
-        },
-        {
-          "text": "Faites-le suivre le câble du moteur de X."
-        },
-        {
-          "text": "Raccordez-le ensuite sur le connecteur X adapté."
-        }
-      ]
-    },
-    {
-      "media": {
-        "id": "_9AG2FRfwLA"
-      },
-      "article": [
-        {
-          "title": "Passage des câbles de la tête"
-        },
-        {
-          "text": "Prenez l'ensemble des câbles de la tête."
-        },
-        {
-          "text": "Faites les passer dans le trou du cache côté arrière gauche"
-        },
-        {
-          "warning": "visuel en cours de réalisation"
-        }
-      ]
-    },
-    {
-      "media": {
-        "id": "JdfAnVkq19E"
+        "id": "KZLkM_2gNC0"
       },
       "article": [
         {
@@ -183,136 +109,160 @@
           "text": "Branchez le câble du palpeur (câble gris) sur le connecteur Z."
         },
         {
-          "warning": "Désormais la carte électronique est une D6, visuel en cours de réalisation"
-        }
-      ]
-    },
-    {
-      "media": {
-        "id": "qGup4l14zkU"
-      },
-      "article": [
-        {
-          "title": "Branchement de la sonde"
-        },
-        {
-          "text": "Branchez la sonde (câbles noires avec connecteur blanc) sur le connecteur T0."
-        },
-        {
-          "warning": "Désormais la carte électronique est une D6, visuel en cours de réalisation"
-        }
-      ]
-    },
-    {
-      "media": {
-        "id": "v-JsMGu6HQE"
-      },
-      "article": [
-        {
-          "title": "Branchement des câbles restants"
-        },
-        {
-          "text": "Dénudez tous les câbles avant de les brancher."
-        },
-        {
-          "text": "Branchez les câbles marrons sur le bornier Heater."
-        },
-        {
-          "text": "Branchez les câbles du ventilateur repéré (ceux avec la boucle)  sur le bornier FAN2."
-        },
-        {
-          "text": "Branchez les câbles du ventilateur restant sur le bornier FAN1."
-        },
-        {
-          "warning": "Désormais la carte électronique est une D6, visuel en cours de réalisation"
-        },
-        {
           "help": {
-            "danger": "Inverser les ventilateurs lors du montage pourrait endommager l’imprimante"
+            "danger": "Attention, ce câble est fragile, il est responsable de la detection du plateau lorsque la tête descend."
           }
         }
       ]
     },
     {
       "media": {
-        "id": "ILxua5HxRsk"
+        "id": "4pEa_mab41I"
       },
       "article": [
         {
-          "title": "Câblage de la butée de Y"
+          "title": "Branchement de la sonde"
         },
         {
-          "text": "Récupérez le câble de la butée de Y (celui qui vient de la face avant)."
-        },
-        {
-          "text": "Raccordez-le ensuite sur le connecteur Y adapté."
+          "text": "Branchez la sonde de température (câbles noires avec connecteur blanc) sur le connecteur T0."
         }
       ]
     },
     {
       "media": {
-        "id": "iXJM7TA8Tf4"
+        "id": "b68YUPpaZ4Q"
       },
       "article": [
         {
-          "title": "Câblage du moteur de Y"
+          "title": "Branchement des câbles de la tête restants"
         },
         {
-          "text": "Récupérez le câble moteur le plus court."
+          "text": "Saisir les câbles marron de la cartouche chauffante, branchez les sur le bornier \"Heater\". Il n'y a pas de polarité donc il n'y a pas de sens de branchement."
         },
         {
-          "text": "Raccordez-le ensuite sur le moteur de la face avant puis sur le connecteur Y adapté."
+          "text": "Prendre ensuite les fils rouge et noir seuls du ventilateur avant, branchez sur le bornier \"Fan 1\". Le rouge sur le bornier +, le noir sur le bornier -."
+        },
+        {
+          "text": "Pour finir, il reste les fils repérés par l'étiquette \"Ventilateur arrière\", branchez sur le bornier \"Fan 2\". Le rouge sur le bornier +, le noir sur le bornier -."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "help": {
+            "quick_tips": "Torsader les fils conducteur permet de mieux les positionner dans le bornier",
+            "danger": "Si les câbles dépassent du bornier, ils peuvent créer un court circuit ou endommager le bornier."
+          }
         }
       ]
     },
     {
       "media": {
-        "id": "xIVoaCOR8wQ"
+        "id": "dw3MwfsOb9U"
       },
       "article": [
         {
-          "title": "Branchement des moteurs de Z"
+          "title": "Câblage de l'axe X"
         },
         {
-          "text": "Récupérez le câble moteur double."
+          "text": "L'axe X est composé de son câble moteur et du câble monté précédemment qui servira de butée de fin de course."
         },
         {
-          "text": "Raccordez-le sur le connecteur Z adapté."
+          "text": "Le câble moteur X est le plus long du sachet."
         },
         {
-          "text": "Raccordez-le ensuite sur les moteurs de Z en passant entre la barre inférieure et la pièce plastique."
+          "text": "Branchez-le au moteur (pas de soucis de sens, il y a des détrompeurs)."
+        },
+        {
+          "text": "Faites-le ensuite passer, avec le câble de butée, au niveau de la fixation latérale gauche, passez les dans la pièce imprimée comme sur la vidéo."
+        },
+        {
+          "text": "Raccordez ensuite le câble moteur sur le connecteur X en haut de la carte électronique."
+        },
+        {
+          "text": "Pour finir, raccordez le câble de butée sur le connecteur X également mais cette fois-ci au centre de la carte."
         }
       ]
     },
     {
       "media": {
-        "id": "yI-7p9plZhI"
+        "id": "8qkear7LRJw"
       },
       "article": [
         {
-          "title": "Branchement du moteur d'extrudeur"
+          "title": "Câblage de l'axe Y"
+        },
+        {
+          "text": "Comme pour l'axe X, l'axe Y est composé d'un câble moteur et d'un câble butée de fin de course."
+        },
+        {
+          "text": "Prendre le câble de la butée de Y, il a été mis en place lors de l'assemblage de la face avant."
+        },
+        {
+          "text": "Branchez le sur bornier Y au centre de la carte électronique, comme sur la vidéo."
+        },
+        {
+          "text": "Prendre ensuite le câble moteur Y, c'est le câble moteur le plus petit du sachet."
+        },
+        {
+          "text": "Branchez-le sur le moteur de la face avant ainsi que sur la carte électronique, sur le bornier Y en haut de la carte."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "iY1I14VBq0M"
+      },
+      "article": [
+        {
+          "title": "Câblage de l'axe Z"
+        },
+        {
+          "text": "L'axe Z pour terminer, nous allons câbler uniquement son câble moteur, le câble de butée est déjà fait, c'est le palpeur."
+        },
+        {
+          "text": "Prendre le câble double avec les trois connecteurs."
+        },
+        {
+          "text": "Raccordez-le ensuite sur le connecteur Z en haut de la carte électronique et sur les moteurs de Z, de part et d'autre de l'imprimante, en passant entre la barre inférieure et la pièce imprimée."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "PZo19tNxqs0"
+      },
+      "article": [
+        {
+          "title": "Branchement de l'extrudeur"
         },
         {
           "text": "Récupérez le dernier câble moteur."
         },
         {
-          "text": "Raccordez-le ensuite sur le moteur d'extrudeur (sur la face arrière) puis sur le connecteur E0."
+          "text": "Raccordez-le sur le moteur extrudeur (face arrière de l'imprimante) puis sur le connecteur E0."
         }
       ]
     },
     {
       "media": {
-        "id": "DProRp7sjDY"
+        "id": "3fwwO6EjYE4"
       },
       "article": [
         {
-          "title": "Branchement des capteurs de l'extrudeur+"
+          "title": "Branchement du capteur de filament"
         },
         {
           "text": "Raccordez le câble rouge venant de l'extrudeur E0 sur le connecteur 2."
-        },
-        {
-          "warning": "Désormais plus de raccordement sur le connecteur 3, visuel en cours de réalisaton."
         }
       ]
     },
@@ -336,53 +286,55 @@
     },
     {
       "media": {
-        "id": "LzLgUxfijVA"
+        "id": "ZLlAcC288ho"
       },
       "article": [
         {
-          "title": "Branchement de l'alimentation (positive)"
+          "title": "Branchement de l'alimentation positive"
         },
         {
-          "text": "Récupérez le câble d'alimentation simple."
+          "text": "Prenez le câble d'alimentation simple rouge avec la cosse."
         },
         {
-          "text": "Branchez-le sur le connecteur de l'interrupteur (le plus bas). Recouvrez-le avec la protection en plastique."
+          "text": "Insérez la cosse sur la broche de l'interrupteur la plus éloignée, comme sur la vidéo."
         },
         {
-          "text": "Raccordez-le sur le + du bornier PWR IN."
+          "text": "Recouvrez-la avec la protection en plastique."
+        },
+        {
+          "text": "Vissez ensuite l'autre extrémité du câble sur le + du bornier \"PWR IN\"."
         }
       ]
     },
     {
       "media": {
-        "id": "neajSepsKoI"
+        "id": "-uzoElb68t0"
       },
       "article": [
         {
-          "title": "Branchement de l'alimentation (négative)"
+          "title": "Branchement de l'alimentation négative"
         },
         {
-          "text": "Récupérez le câble d'alimentation double avec le connecteur d'alimentation."
+          "text": "Prenez le câble d'alimentation double rouge et noir."
         },
         {
-          "text": "Dénudez le fil seul si ce n'est pas déjà fait."
+          "text": "Clipsez la prise femelle dans le logement du cache côté, vous pouvez le tourner pour l'insérer plus facilement."
         },
         {
-          "text": "Branchez le fil cossé sur l'un des connecteurs de l'interrupteur."
+          "text": "Insérez-la cosse du câble double sur la broche restante de l'interrupteur, comme sur la vidéo."
         },
         {
-          "text": "Recouvrez la cosse avec la protection en plastique."
+          "text": "Recouvrez-la avec la protection en plastique."
         },
         {
-          "text": "Vissez le fil dénudé sur le - du bornier PWR IN."
+          "text": "Optimisez le placement des câbles pour la suite."
         },
         {
-          "text": "Rentrez le connecteur d'alimentation de biais dans la pièce plastique arrière gauche prévue à cet effet. Poussez dessus pour le clipser."
+          "text": "Vissez maintenant le câble sur le - du bornier \"PWR IN\"."
         },
         {
           "help": {
-            "quick_tips": "Présentez-le de biais, poussez-le au fond et ensuite poussez vers le bas pour l'enclencher.",
-            "danger": "Si le câble d'alimentation double est de couleur noir, alors c'est le liseret blanc qui fera office de pôle positif."
+            "danger": "Attention à ne pas croquer les câbles d'alimentation."
           }
         }
       ]
