@@ -26,12 +26,12 @@
         },
         {
           "lettered-list": [
-            "Surface d'accroche Buildgrip",
+            "Surface d'accroche Buildgrip / Plaque de fond transparente (blanche sur l'image)",
             "Gaine torsadée (350mm) / Tube PTFE / 3 Serre-flex",
             "2x Barres courtes (270mm)",
             "Face avant et face arrière du boitier de l'écran",
             "12x Patins Push-On",
-            "Plaque de fond transparente (blanche sur l'image)",
+            "PI Maintien tête (ou casquette) / 2 colsons",
             "Couple de fixations hautes",
             "Sachet de vis pour écran",
             "Logo Imprimé / 2x Clip PTFE",
@@ -46,6 +46,34 @@
             "6x vis M3x16 (reste 5)",
             "6x écrous M3 (reste 3)"
           ]
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "EPyF6tisaCc"
+      },
+      "article": [
+        {
+          "title": "Installation du maintien tête"
+        },
+        {
+          "text": "Prenez la pièce imprimée maintien tête (ou casquette), elle sert de rallonge pour orienter les câbles de la tête d'impression vers l'arrière de l'imprimante."
+        },
+        {
+          "text": "Posez-la sur l'arrière de la tête d'impression en faisant concorder les emplacements pour le premier colson."
+        },
+        {
+          "text": "Insérez le premier colson pour faire tenir cette pièce."
+        },
+        {
+          "text": "Installez le deuxième colson comme sur la vidéo."
+        },
+        {
+          "help": {
+            "quick_tips": "Vous pouvez vous servir d'une pince pour mieux serrer les colsons",
+            "danger": "Attention à ne pas croquer les câbles de la tête d'impression."
+          }
         }
       ]
     },
@@ -92,7 +120,7 @@
     },
     {
       "media": {
-        "id": "abMPzUF0R04"
+        "id": "CO5r1YTYGpg"
       },
       "article": [
         {
@@ -114,6 +142,9 @@
           "text": "Coupez le bout pour laisser 3 cm de mou."
         },
         {
+          "text": "La tension de la courroie est bonne lorsqu'il est possible de toucher la bande inférieure avec la bande supérieure sans forcer et que la bande supérieure reprenne sa place immédiatement ensuite."
+        },
+        {
           "help": {
             "quick_tips": "Vous n’êtes pas obligé de couper le reste de la courroie, le mou restant pourra servir plus tard pour éventuellement retendre la courroie desserrée au cours du temps."
           }
@@ -122,7 +153,7 @@
     },
     {
       "media": {
-        "id": "x6cI4AT0AjI"
+        "id": "9MwJgfR5Aqk"
       },
       "article": [
         {
@@ -135,7 +166,7 @@
     },
     {
       "media": {
-        "id": "OftcXC-WJgs"
+        "id": "P2ehCxXcVZs"
       },
       "article": [
         {
@@ -151,7 +182,7 @@
     },
     {
       "media": {
-        "id": "uf4ckCovk-0"
+        "id": "GBJz-LzFK-M"
       },
       "article": [
         {
@@ -161,10 +192,10 @@
           "text": "Prenez la gaine torsadée."
         },
         {
-          "text": "Ajustez les longueurs de câble pour qu'elles soient identiques à l'extérieur de la machine."
+          "text": "Ajustez les longueurs de câble (butée X et câble moteur X) pour qu'elles soient identiques à l'extérieur de la machine."
         },
         {
-          "text": "Installez-la sur les câbles du moteur et de la butée de X."
+          "text": "Installez la gaine sur ces mêmes câbles, vous pouvez recouper la gaine si celle-ci est trop longue."
         },
         {
           "text": "Fixez-la ensuite à l'aide d'un collier de serrage au chariot (il y a un passage prévu à cet effet)."
@@ -173,7 +204,7 @@
     },
     {
       "media": {
-        "id": "IeVQ6mbno0s"
+        "id": "i4TZyrbWHSU"
       },
       "article": [
         {
@@ -195,7 +226,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate2/Notice/10-k-cable-management-controle.jpg"
+        "src": "DiscoUltimate2/Notice-with-screen/10-c-cable-management-control.jpg"
       },
       "article": [
         {
@@ -203,6 +234,9 @@
         },
         {
           "text": "Aucun câble maintenu ne doit dépasser de la machine."
+        },
+        {
+          "text": "Si un des câbles dépasse alors il sera impossible d'installer la plaque de protection transparente."
         }
       ]
     },
@@ -248,7 +282,7 @@
     },
     {
       "media": {
-        "id": "VWeRRay4tlQ"
+        "id": "5Rb4FchUYOM"
       },
       "article": [
         {
@@ -267,17 +301,20 @@
     },
     {
       "media": {
-        "id": "X5jWpPFEI54"
+        "id": "ekeUetTRVdc"
       },
       "article": [
         {
-          "title": "Installation de la plaque protectrice de fond"
+          "title": "Installation de la plaque protectrice du dessous"
         },
         {
-          "text": "Prenez la plaque de fond et retirez les films protecteurs."
+          "text": "Prenez la plaque et retirez les films protecteurs."
         },
         {
-          "text": "Alignez cette plaque avec le dessous de la machine. La petite ouverture doit être orientée vers le bas."
+          "text": "Préparez l'imprimante en la posant face avant sur le sol, en la posant sur la face arrière, cela croquerait le câble de la tête d'impression."
+        },
+        {
+          "text": "Alignez cette plaque avec le dessous de la machine. La petite ouverture doit être orientée vers le bloc extrudeur orange."
         },
         {
           "text": "Utilisez les 12 patins push-on pour maintenir la plaque."
@@ -286,18 +323,15 @@
           "text": "Appuyez fermement dessus pour les bloquer."
         },
         {
-          "warning": "Visuel en cours de réalisation."
-        },
-        {
           "help": {
-            "quick_tips": "Vous pouvez utiliser le tournevis pour aider les patins à rentrer dans leurs logements."
+            "quick_tips": "Vous pouvez utiliser le tournevis pour aider les patins à rentrer dans leurs logements comme sur la vidéo."
           }
         }
       ]
     },
     {
       "media": {
-        "id": "bpRxHKffj6Y"
+        "id": "eQeYvEpEiVM"
       },
       "article": [
         {
