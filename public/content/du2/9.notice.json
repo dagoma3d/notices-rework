@@ -70,6 +70,16 @@
           "text": "Installez le deuxième colson comme sur la vidéo."
         },
         {
+          "text": "Cette pièce a été ajouté après la sortie de l'imprimante, obtenez le fichier STL pour l'imprimer en cliquant sur le bouton ci-après."
+        },
+        {
+          "button": {
+            "href": "https://github.com/dagoma3d/STL-ADD-ON_XL/raw/master/Maintient%20fil%20Superieur%20tete.STL",
+            "color": "orange",
+            "label": "Télécharger"
+          }
+        },
+        {
           "help": {
             "quick_tips": "Vous pouvez vous servir d'une pince pour mieux serrer les colsons",
             "danger": "Attention à ne pas croquer les câbles de la tête d'impression."
