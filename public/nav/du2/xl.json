@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Démontage",
+    "href": "/du2/xl"
+  },
+  {
+    "label": "Montage base",
+    "href": "/du2/xl/1.montage-base"
+  },
+  {
+    "label": "Montage Z",
+    "href": "/du2/xl/2.montage-z"
+  },
+  {
+    "label": "Electronique et plateau",
+    "href": "/du2/xl/3.electronique-plateau"
+  },
+  {
+    "label": "Mise à jour",
+    "href": "/du2/xl/4.firmware"
+  },
+  {
+    "label": "Calibration",
+    "href": "/du2/xl/5.calibration"
+  }
+]

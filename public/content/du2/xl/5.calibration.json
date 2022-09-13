@@ -1,0 +1,41 @@
+{
+  "header": {
+    "img": "DiscoEasy/Software/a-intro-maj-disco.jpg",
+    "subtitle": "Calibrez votre imprimante",
+    "text": [
+      "Votre imprimante 3d a besoin de vous pour retrouver ses repères. Une bonne calibration permet d'obtenir une première couche propre."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "id": "MVFe7cqFBrU"
+      },
+      "article": [
+        {
+          "title": "Réglage du Z-offset"
+        },
+        {
+          "text": "Je vous invite à suivre attentivement cette vidéo"
+        },
+        {
+          "button": {
+            "href": "https://support.dagoma.fr/support/solutions/articles/36000382550-discoultimate-v2-tmc-r%C3%A9glage-de-l-offset",
+            "text": "Pour plus d'explication, la page vers le support se trouve"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Software/a-intro-maj-disco.jpg",
+    "items": [
+      {
+        "text": "Vous pourrez intervenir manuellement sur votre imprimante pour ajuster la hauteur de la première couche, mais ce réglage ne sera pas mémorisé."
+      },
+      {
+        "text": "Vous pourrez refaire cette calibration de temps en temps si la première couche n'est plus bonne."
+      }
+    ]
+  }
+}

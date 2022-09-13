@@ -1,0 +1,178 @@
+{
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "PARTIE 2.1 - montage de la base"
+    },
+    {
+      "media": {
+        "id": "QwIgUnDOkDI"
+      },
+      "article": [
+        {
+          "title": "10 - montage des fix cotés"
+        },
+        {
+          "text": "Nous commençons par le montage des fixations cotés :"
+        },
+        {
+          "text": "Prenez 8 écrous et 8 vis (M3x16). Placez les écrous dans les 4 logements comme sur la vidéo (sur les 2 fixations)."
+        },
+        {
+          "text": "Mettez en place les vis sans trop serrer, juste pour maintenir les écrous et éviter que les vis ne bougent. Nous les serrerons plus tard pour maintenir les barres."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "xXf14b-DbP4"
+      },
+      "article": [
+        {
+          "title": "11 - installation des moteurs de Z"
+        },
+        {
+          "text": "Utilisez pour fixer les moteurs les 2 x 2 vis de M3x6mm. Serrez 2 vis par moteur."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "W93wGs5CB2M"
+      },
+      "article": [
+        {
+          "title": "12 - installation de la barre transversale"
+        },
+        {
+          "text": "Rentrez la barre dans le logement transversal de la première fixation. Enfoncez-la avec force."
+        },
+        {
+          "text": "Prenez la seconde fixation et répétez l’opération. À la fin vous devez obtenir la même chose que sur la vidéo."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "-IEgs0SGApw"
+      },
+      "article": [
+        {
+          "title": "13 - préparation pour la suite"
+        },
+        {
+          "text": "Nous allons changer le support des plaques noires, le nouveau a un des 2 trous qui est oblon (vers l'arrière)."
+        },
+        {
+          "text": "Ensuite, nous allons installer maintenant la nouvelle cache coté arrière gauche. Celle-ci comporte 2 trous : une sortie pour les câbles de la tête, et toujours l'entrée de l'alimentation 12V."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "gsy0vK_4nPo"
+      },
+      "article": [
+        {
+          "title": "14 - installation des fix. cotés"
+        },
+        {
+          "text": "Faites coulisser les nouvelles fixations cotés dans la base de la disco, comme sur la vidéo."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "-QYSM411fWE"
+      },
+      "article": [
+        {
+          "title": "15 - ré-installation de la face avant"
+        },
+        {
+          "text": "Placez votre imprimante 3D sur le dos."
+        },
+        {
+          "text": "Positionnez la face avant et enfoncez fermement, afin que les 4 barres de la base soit enfoncés à fond dans la face avant."
+        },
+        {
+          "text": "Visser les 4 vis de la face avant afin qu'elle ne bouge pas."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "IomqJg7u0HE"
+      },
+      "article": [
+        {
+          "title": "16 - ré-installation des caches cotés avant"
+        },
+        {
+          "text": "Récupérez les caches cotés (carte SD et bouton pause) puis ré-installez les."
+        },
+        {
+          "text": "Sur la Disco Ultimate V2, le bouton pause du cache côté n'existe plus, tout se passe sur l'écran."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "Fp6Cgbit-S0"
+      },
+      "article": [
+        {
+          "title": "17 - désinstallation du plateau 200"
+        },
+        {
+          "text": "Nous allons maintenant enlever les 4 vis cruciformes du plateau, puis retirez-le."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "iJoezDMIQbY"
+      },
+      "article": [
+        {
+          "title": "18 - mise en place de la plaque de protection"
+        },
+        {
+          "text": "Placez tout d'abord le nouveau connecteur de plaques. Attention, le trou oblon doit se trouver vers l'arrière de votre disco."
+        },
+        {
+          "text": "Ensuite, placez la plaque avant noire."
+        },
+        {
+          "text": "Visez tout d'abord les 2 vis de maintien des plaques sur le connecteur. Pour cela utilisez 2 vis M3-6mm (c'est-à-dire dire les plus petites)."
+        },
+        {
+          "text": "Enfin re-placez les 3 vis sur la face avant et assurez vous de bien serrer l'ensemble des vis."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "vMlOiZ4p2VM"
+      },
+      "article": [
+        {
+          "title": "19 - re-mise en place de la courroie de Y"
+        },
+        {
+          "text": "Glissez la courroie de Y dans son logement puis tendez-là correctement."
+        },
+        {
+          "button": {
+            "text": "Pour la mise en place de la courroie de Y, ",
+            "to": "/du2/5.notice",
+            "label": "C'est par ici !"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "subtitle": "Montage de la base terminé"
+  }
+}

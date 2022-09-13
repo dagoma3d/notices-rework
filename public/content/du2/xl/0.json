@@ -1,0 +1,141 @@
+{
+  "header": {
+    "img": "DiscoUltimate2/Addon/Pack_XL/1-a-Header.jpg",
+    "text": [
+      "Bonjour ! Bienvenue sur cette notice de montage du plateau Flexible XL pour votre DiscoUltimate.",
+      "Votre ADD-ON XL est compatible avec toutes nos imprimantes. Cela fait beaucoup de possiblités ! C'est pourquoi nous n'avons pas re-fait 100% de la notice, mais nous avons travaillé les étapes les plus importantes, afin de vous guider tout au long de ce parcours.",
+      "N'hésitez pas à parcourir toutes les étapes avant de vous lancer, et surtout, ne jetez rien, nous allons ré-utilisez beaucoup de vos composants ! C'est parti, place au démontage !"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "Partie 1 - Démontage"
+    },
+    {
+      "media": {
+        "id": "D2N3U52IAVM"
+      },
+      "article": [
+        {
+          "title": "01 - démontage TOP"
+        },
+        {
+          "text": "Afin de démonter la partie supérieure (TOP), dévissez légèrement les 4 vis sur le coté droit et gauche."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "anmxMEYRhHc"
+      },
+      "article": [
+        {
+          "title": "02 - démontage chariot X"
+        },
+        {
+          "text": "Tout d'abord dévissez les 6 vis (3 par cotés) de maintient des tiges trapézoïdales."
+        },
+        {
+          "text": "Ensuite, enlevez les écrous anti back-lash."
+        },
+        {
+          "text": "Enfin, vous pouvez faire coulisser vers le haut le chariot et l'enlever de l'imprimante."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "2TfW-dSIywo"
+      },
+      "article": [
+        {
+          "title": "03 - démontage électronique"
+        },
+        {
+          "text": "Retournez l'imprimante 3D et placez là à l'envers. Ainsi, vous pouvez enlever la plaque transparente de protection."
+        },
+        {
+          "text": "Débranchez soigneusement l'ensemble des câbles de la carte électronique. Nous vous invitons en amont à repérer et disssocier les ventilateurs Avant et Arrière de la tête d'impression."
+        },
+        {
+          "text": "Dé-visser les 2 vis de maintient de la carte D6, et retirez là. Sur la vidéo c'est une carte F5, les branchements ne diffèrent pas."
+        },
+        {
+          "text": "Vous pouvez maintenant retirer les cache cotés avant : le lecteur de carte SD (ou l'écran)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "0HPpvWhwARk"
+      },
+      "article": [
+        {
+          "title": "04 - démontage face avant"
+        },
+        {
+          "text": "Afin de démonter la face avant, nous allons tout d'abord enlever la plaque de renfort noire avant. Pour cela, dévisser les 4 vis de maintien."
+        },
+        {
+          "text": "Ensuite, dévissez légèrement les 4 vis sur les cotés de la face avant."
+        },
+        {
+          "text": "N'oubliez pas d'enlever la courroie (le desserage se fait sous le plateau)."
+        },
+        {
+          "text": "Retirez soigneusement la face avant et placez là sur le coté tel quel."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "xHfAOKqOmBw"
+      },
+      "article": [
+        {
+          "title": "05 - démontage fix cotés"
+        },
+        {
+          "text": "Pour démonter les Fixations Cotés, retirez tout d'abord la vis de maintien de la plaque arrière noire. Vous pouvez également retirer le support, nous allons le changer."
+        },
+        {
+          "text": "Faites glisser l'ensemble des 2 fixations coté vers l'avant de l'imprimante, puis dé-solidarisez les cotés droit et gauche."
+        },
+        {
+          "text": "Enfin, vous pouvez enlever toutes les vis, barres et moteurs que nous réutiliserons plus tard. Les pièces imprimées, quand à elles, vont être changées."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "4TLf-LeGA68"
+      },
+      "article": [
+        {
+          "title": "06 - démontage axe X"
+        },
+        {
+          "text": "Afin de démonter l'axe X, il faut tout d'abord détendre et enlever la courroie vous pouvez la mettre de coté, tout comme les 2 barres, que nous allons changer."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "jZRgQxPn4DY"
+      },
+      "article": [
+        {
+          "title": "07 - démontage cache coté arrière"
+        },
+        {
+          "text": "Enfin, dernier détail du démontage, n'oublions pas d'enlever le cache coté arrière gauche, qui va lui aussi être changé."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoUltimate2/Addon/Pack_XL/1-a-Header.jpg",
+    "subtitle": "Démontage terminé"
+  }
+}

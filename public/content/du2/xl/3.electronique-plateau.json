@@ -1,0 +1,144 @@
+{
+  "blocks": [
+    {
+      "type": "banner",
+      "title": "PARTIE 2.3 - Electronique et le plateau XL !"
+    },
+    {
+      "media": {
+        "id": "jiuiyf_KJYA"
+      },
+      "article": [
+        {
+          "title": "30 - branchements électronique"
+        },
+        {
+          "text": "La première étape consiste à re-positionner la carte électronique. Vissez les 2 vis de maintien (M3-6mm)."
+        },
+        {
+          "text": "Petit rappel, pour la Disco Ultimate V2 TMC, la carte électronique est une D6. Les branchements ne diffèrent pas sauf pour le bouton pause du cache côté qui n'existe plus."
+        },
+        {
+          "button": {
+            "text": "Passez ensuite au câblage. Pour cela, suivez le guide par ",
+            "to": "/du2/8.notice",
+            "label": "ici"
+          }
+        },
+        {
+          "text": "Enfin, vous pouvez ré-installer la plaque de protection transparente en positionnant les 12 patins antis dérapant."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "3fJs_3eS3CI"
+      },
+      "article": [
+        {
+          "title": "31 - installation des patins extérieur"
+        },
+        {
+          "text": "Ajouter les 4 patins extérieur sur les fixations cotés."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "eGlCMGdKGGk"
+      },
+      "article": [
+        {
+          "title": "32 - préparation du plateau XL"
+        },
+        {
+          "text": "Prenez les vis M3-6mm et 2 écrous. Nous allons les installer sur les 2 oreilles. Attention au sens : la tête de la vis doit se trouver sur le plateau XL du coté des fraisages - comme montré sur la vidéo."
+        },
+        {
+          "text": "Serrez les vis M3-6mm à fond."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "q6KSlxXTL9Q"
+      },
+      "article": [
+        {
+          "title": "33 - installation du plateau XL"
+        },
+        {
+          "text": "Placez le plateau avec les oreilles vers l'arrière de la Disco."
+        },
+        {
+          "text": "Vissez légèrement les 4 vis fraisées de 10mm, (les écrous frein n'ont pas été enlevé), puis après avoir installé et pré-vissé les 4 vis, vous pouvez serrer à fond."
+        },
+        {
+          "text": "Il est important de visser correctement à ce moment là, tout en vérifiant que votre plateau XL coulisse correctement suivant l'axe Y (avant / arr.)."
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "Auvbl-zhMLE"
+      },
+      "article": [
+        {
+          "title": "34 - installation du plateau flex XL"
+        },
+        {
+          "text": "3 étapes dans cette vidéo :"
+        },
+        {
+          "text": "1- installation de l'aimant : nettoyer et enlevez la poussière sur le plateau en fibre, puis positionnez l'aimant : pour cela vous pouvez utiliser les 2 vis à l'arrière du plateau pour venir le bloquer. Attention, lors du collage, il est imporant de NE PAS créer de bulles d'air sous l'aimant. Retirez le film protecteur et collez l'aimant."
+        },
+        {
+          "text": "2- vous pouvez désormais placer la tole flexible XL sur l'aimant. les 2 vis au niveau des oreilles à l'arrière du plateau XL servent à venir le positionner."
+        },
+        {
+          "text": "3- coller le Buildgrip XL. Faire bien attention à ne pas créer de bulles sous le buildgrip."
+        },
+        {
+          "help": {
+            "quick_tips": "Il est possible de creuser des trous au niveau des logements de vis sur la partie aimant du plateau, ainsi il sera toujours possible de démonter le plateau sans devoir retirer l'aimant complètement."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "LYd8lqV80y4"
+      },
+      "article": [
+        {
+          "title": "35 - premier essai !"
+        },
+        {
+          "text": "Ne pas oublier de remettre le ou les tubes PTFE dans le buse, et vous pouvez tester votre plateau : voici la démo en vidéo !"
+        }
+      ]
+    },
+    {
+      "media": {
+        "id": "UJC7JPnJ0qo"
+      },
+      "article": [
+        {
+          "title": "36 - Option écran"
+        },
+        {
+          "text": "Vous avez l'add-on 1 : l'écran. vous êtes au bon endroit : suivez le dernier guide."
+        },
+        {
+          "text": "Vous avez une vis supplémentaire afin de viser le nouveau bloc de déport de l'écran sur le cache coté."
+        },
+        {
+          "text": "Pour l'écran de la DiscoUltimate V2 TMC, la pièce imprimée support pour l'écran sera plus grande, le système d'accroche est le même."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "subtitle": "Montage terminé"
+  }
+}

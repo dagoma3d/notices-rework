@@ -1,0 +1,46 @@
+{
+  "header": {
+    "img": "DiscoEasy/Software/a-intro-maj-disco.jpg",
+    "subtitle": "Mise à jour pour votre Imprimante",
+    "text": [
+      "Profitez de la mise à jour de votre firmware et bénéficiez de nouvelles fonctionnalités sur votre imprimante."
+    ]
+  },
+  "blocks": [
+    {
+      "media": {
+        "id": "UJC7JPnJ0qo"
+      },
+      "article": [
+        {
+          "title": "Dist"
+        },
+        {
+          "button": {
+            "text": "Rendez vous directement sur notre site hébergeur de l'ensemble de nos firmware",
+            "to": "//dist.dagoma.fr/",
+            "label": "ici"
+          }
+        },
+        {
+          "text": "Choisissez bien le marlin pour la Disco V2 TMC, remplissez bien les choix si vous avez l'option bicouleur ou non."
+        },
+        {
+          "text": "Il ne vous reste plus qu'à cliquer sur Oui pour l'option XL."
+        },
+        {
+          "text": "Le firmware est prêt, pour mettre à jour, rendez vous sur le tutoriel Windows ou Mac."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "img": "DiscoEasy/Software/a-intro-maj-disco.jpg",
+    "subtitle": "Mise à jour effectuée !",
+    "items": [
+      {
+        "text": "Après une mise à jour, il est nécessaire de recalibrer l'imprimante 3D."
+      }
+    ]
+  }
+}

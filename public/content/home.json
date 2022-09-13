@@ -97,6 +97,10 @@
           "title": "Caisson de protection"
         },
         {
+          "to": "/du2/xl",
+          "title": "Pack XL"
+        },
+        {
           "to": "/cura-by-dagoma",
           "src": "cura",
           "title": "Cura by Dagoma"
