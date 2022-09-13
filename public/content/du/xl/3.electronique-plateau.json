@@ -87,13 +87,18 @@
           "text": "3 étapes dans cette vidéo :"
         },
         {
-          "text": "1- installation de l'aimant : nettoyer et enlevez la poussière sur le plateau en fibre, puis positionnez l'aimant : pour cela vous pouvez utiliser les 2 vis à l'arrière du plateau pour venir le bloquer. Attention, lors du collage, il est imporant de NE PAS créer de bulles d'air sous l'aimant. Retirez le film protecteur et collez l'aimant."
+          "text": "1- installation de l'aimant : nettoyez et enlevez la poussière sur le plateau en fibre, puis positionnez l'aimant : pour cela vous pouvez utiliser les 2 vis à l'arrière du plateau pour venir le bloquer. Attention, lors du collage, il est imporant de NE PAS créer de bulles d'air sous l'aimant. Retirez le film protecteur et collez l'aimant."
         },
         {
           "text": "2- vous pouvez désormais placer la tole flexible XL sur l'aimant. les 2 vis au niveau des oreilles à l'arrière du plateau XL servent à venir le positionner."
         },
         {
           "text": "3- coller le Buildgrip XL. Faire bien attention à ne pas créer de bulles sous le buildgrip."
+        },
+        {
+          "help": {
+            "quick_tips": "Il est possible de creuser des trous au niveau des logements de vis sur la partie aimant du plateau, ainsi il sera toujours possible de démonter le plateau sans devoir retirer l'aimant complètement."
+          }
         }
       ]
     },
