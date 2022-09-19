@@ -2,7 +2,7 @@
   "header": {
     "img": "DiscoUltimate2/Notice-with-screen/6-a-intro.jpg",
     "title": [
-      "Notice de montage DISCO ULTIMATE avec écran de contrôle - assemblage du plateau"
+      "Notice de montage DISCO ULTIMATE V2 TMC avec écran de contrôle - assemblage du plateau"
     ],
     "subtitle": "Assemblage du plateau",
     "text": [
@@ -38,6 +38,16 @@
             "4x vis fraisées M3x10 (reste 1)",
             "4x écrous freins M3 (reste 1)"
           ]
+        },
+        {
+          "text": "Vous pouvez télécharger le guide et taille de vis ici."
+        },
+        {
+          "button": {
+            "href": "https://drive.google.com/file/d/1Fb5uiN115fOrOAP7yWONCOPgBpjEpkFQ/view?usp=sharing",
+            "color": "orange",
+            "label": "Télécharger"
+          }
         }
       ]
     },

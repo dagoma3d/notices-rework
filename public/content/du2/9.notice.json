@@ -2,7 +2,7 @@
   "header": {
     "img": "DiscoUltimate2/Notice-with-screen/10-a-intro.jpg",
     "title": [
-      "Notice de montage DISCO ULTIMATE avec écran de contrôle - finitions"
+      "Notice de montage DISCO ULTIMATE V2 TMC avec écran de contrôle - finitions"
     ],
     "subtitle": "Finitions",
     "text": [
@@ -46,6 +46,16 @@
             "6x vis M3x16 (reste 5)",
             "6x écrous M3 (reste 3)"
           ]
+        },
+        {
+          "text": "Vous pouvez télécharger le guide et taille de vis ici."
+        },
+        {
+          "button": {
+            "href": "https://drive.google.com/file/d/1Fb5uiN115fOrOAP7yWONCOPgBpjEpkFQ/view?usp=sharing",
+            "color": "orange",
+            "label": "Télécharger"
+          }
         }
       ]
     },

@@ -2,7 +2,7 @@
   "header": {
     "img": "DiscoUltimate2/Notice-with-screen/5-a-intro.jpg",
     "title": [
-      "Notice de montage DISCO ULTIMATE avec écran de contrôle - assemblage de la base"
+      "Notice de montage DISCO ULTIMATE V2 TMC avec écran de contrôle - assemblage de la base"
     ],
     "subtitle": "Assemblage de la base",
     "text": [
@@ -43,6 +43,16 @@
           "list": [
             "8x vis M3x10 (reste 0)"
           ]
+        },
+        {
+          "text": "Vous pouvez télécharger le guide et taille de vis ici."
+        },
+        {
+          "button": {
+            "href": "https://drive.google.com/file/d/1Fb5uiN115fOrOAP7yWONCOPgBpjEpkFQ/view?usp=sharing",
+            "color": "orange",
+            "label": "Télécharger"
+          }
         }
       ]
     },

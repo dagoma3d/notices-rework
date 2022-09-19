@@ -2,7 +2,7 @@
   "header": {
     "img": "DiscoUltimate2/Notice-with-screen/7-a-intro.jpg",
     "title": [
-      "Notice de montage DISCO ULTIMATE avec écran de contrôle - montage de l'axe X"
+      "Notice de montage DISCO ULTIMATE V2 TMC avec écran de contrôle - montage de l'axe X"
     ],
     "subtitle": "Montage de l'axe X",
     "text": [
@@ -42,6 +42,16 @@
             "3x vis M3x6 (reste 7)",
             "1x vis M3x25 (reste 0)"
           ]
+        },
+        {
+          "text": "Vous pouvez télécharger le guide et taille de vis ici."
+        },
+        {
+          "button": {
+            "href": "https://drive.google.com/file/d/1Fb5uiN115fOrOAP7yWONCOPgBpjEpkFQ/view?usp=sharing",
+            "color": "orange",
+            "label": "Télécharger"
+          }
         }
       ]
     },

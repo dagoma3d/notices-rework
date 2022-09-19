@@ -2,7 +2,7 @@
   "header": {
     "img": "DiscoUltimate2/Notice-with-screen/2-a-intro.jpg",
     "title": [
-      "Notice de montage DISCO ULTIMATE avec écran de contrôle - montage de la face avant"
+      "Notice de montage DISCO ULTIMATE V2 TMC avec écran de contrôle - montage de la face avant"
     ],
     "subtitle": "Montage de la face avant",
     "text": [
@@ -40,6 +40,16 @@
             "6x vis M3x16 (reste 23)",
             "4x écrous M3 (reste 21)"
           ]
+        },
+        {
+          "text": "Vous pouvez télécharger le guide et taille de vis ici."
+        },
+        {
+          "button": {
+            "href": "https://drive.google.com/file/d/1Fb5uiN115fOrOAP7yWONCOPgBpjEpkFQ/view?usp=sharing",
+            "color": "orange",
+            "label": "Télécharger"
+          }
         }
       ]
     },
