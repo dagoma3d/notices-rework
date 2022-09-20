@@ -13,16 +13,13 @@
       "Contrôlons le bon fonctionnement des éléments de la machine"
     ],
     "text": [
-      "Nous allons procéder à des vérifications de l'ensemble des composants à l'aide de fichiers de test.",
-      "Sur cette page le firware de l'imprimante est déjà prévu avec l'écran, lors des contrôles l'écran s'affichera correctement.",
-      "Si l'écran est acheté en Add-on, alors la mise à jour sera requise pour que l'écran soit fonctionnel.",
-      "La mise à jour se situe sur la page suivante."
+      "Nous allons procéder à des vérifications de l'ensemble des composants et du montage à l'aide de fichiers de test."
     ]
   },
   "blocks": [
     {
       "media": {
-        "id": "AJ2IO9JZsXg"
+        "id": "rktjgcrj1U8"
       },
       "article": [
         {
@@ -39,15 +36,12 @@
         },
         {
           "text": "Mettez de l’huile sur les tiges de l’axe Y (plateau qui coulisse d’avant en arrière), puis faire coulisser l’axe manuellement afin de disperser l’huile uniformément."
-        },
-        {
-          "text": "En déplaçant un axe manuellement, du courant est créé, l'écran peut donc s'illuminer, ce n'est pas un bug."
         }
       ]
     },
     {
       "media": {
-        "id": "BTJSEUbQVy4"
+        "id": "MNezfoBQXKo"
       },
       "article": [
         {
@@ -57,7 +51,7 @@
           "title": "Contrôle des butées et des moteurs"
         },
         {
-          "text": "Insérez manuellement du filament dans l'extrudeur, lorsque la machine est éteinte, pour que les tests se réalisent correctement."
+          "text": "Insérez manuellement du filament dans l'extrudeur en appuyant sur le bras de levier, lorsque la machine est éteinte, pour que les tests se réalisent correctement."
         },
         {
           "text": "Le fichier de test suivant fera quelques déplacements simples. Voyez la vidéo ci-contre."
@@ -67,7 +61,7 @@
             "Téléchargez le fichier \"Etape2.g\" ci-dessous et placez le à la racine de la carte SD.",
             "Allumez l’imprimante.",
             "Appuiez sur le bouton de sélection pour arriver au menu principal.",
-            "Sélectionnez le fichier\"Etape2.g\" depuis le menu \"Impr. depuis SD\""
+            "Sélectionnez le fichier\"Etape2.g\" depuis le menu \"Impression SD\" puis validez."
           ]
         },
         {
@@ -84,7 +78,7 @@
           "frame": [
             {
               "button": {
-                "href": "/du/du-with-screen/8.notice",
+                "href": "/du2/8.notice",
                 "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
               }
             }
@@ -100,7 +94,7 @@
     },
     {
       "media": {
-        "id": "fg327u5eiCw",
+        "id": "iE-LMx2RGek",
         "type": "yt"
       },
       "article": [
@@ -111,14 +105,14 @@
           "title": "Contrôle des déplacements des axes"
         },
         {
-          "text": "Le fichier suivant fera quelques déplacements sur toute la longueur des axes. Voyez la vidéo ci-contre. Lors du déplacement de la tête d'impression de haut en bas, huilez les barres."
+          "text": "Le fichier suivant fera quelques déplacements sur toute la longueur des axes. Voyez la vidéo ci-contre."
         },
         {
           "list": [
             "Téléchargez le fichier \"Etape3.g\" ci-dessous et placez le à la racine de la carte SD.",
             "Allumez l’imprimante.",
             "Appuiez sur le bouton de sélection pour arriver au menu principal.",
-            "Sélectionnez le fichier\"Etape3.g\" depuis le menu \"Impr. depuis SD\""
+            "Sélectionnez le fichier\"Etape3.g\" depuis le menu \"Impression SD\" puis validez."
           ]
         },
         {
@@ -135,17 +129,22 @@
           "frame": [
             {
               "button": {
-                "href": "/du/du-with-screen/8.notice",
+                "href": "/du2/8.notice",
                 "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
               }
             }
           ]
+        },
+        {
+          "help": {
+            "quick_tips": "Lors du déplacement de la tête d'impression de haut en bas, vous pouvez huilez les barres pour faciliter le coulissement de l'axe vertical."
+          }
         }
       ]
     },
     {
       "media": {
-        "id": "RZOy1Sy88uQ",
+        "id": "M3WQxZohY3w",
         "type": "yt"
       },
       "article": [
@@ -163,7 +162,7 @@
             "Téléchargez le fichier \"Etape4.g\" ci-dessous et placez le à la racine de la carte SD.",
             "Allumez l’imprimante.",
             "Appuiez sur le bouton de sélection pour arriver au menu principal.",
-            "Sélectionnez le fichier\"Etape4.g\" depuis le menu \"Impr. depuis SD\""
+            "Sélectionnez le fichier\"Etape4.g\" depuis le menu \"Impression SD\" puis validez."
           ]
         },
         {
@@ -183,7 +182,7 @@
           "frame": [
             {
               "button": {
-                "href": "/du/8.notice",
+                "href": "/du2/8.notice",
                 "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
               }
             }
@@ -191,7 +190,8 @@
         },
         {
           "help": {
-            "quick_tips": "Ne perdons pas de temps pour comprendre l'utilité des ventilateurs, rendez-vous sur le support."
+            "quick_tips": "Ne perdons pas de temps pour comprendre l'utilité des ventilateurs, rendez-vous sur le support.",
+            "danger": "Si les branchements des ventilateurs sont inversés alors il y a un risque d'endommager l'imprimante."
           }
         },
         {
@@ -204,7 +204,7 @@
     },
     {
       "media": {
-        "id": "kA3XjACemkU",
+        "id": "JPGws8tixrE",
         "type": "yt"
       },
       "article": [
@@ -222,7 +222,7 @@
             "Téléchargez le fichier \"Etape5.g\" ci-dessous et placez le à la racine de la carte SD.",
             "Allumez l’imprimante.",
             "Appuiez sur le bouton de sélection pour arriver au menu principal.",
-            "Sélectionnez le fichier\"Etape5.g\" depuis le menu \"Impr. depuis SD\""
+            "Sélectionnez le fichier\"Etape5.g\" depuis le menu \"Impression SD\" puis validez."
           ]
         },
         {
@@ -236,10 +236,13 @@
           "text": "Le ventilateur avant est asservi par la température, cela veut dire que pour fonctionner la température de la buse doit obligatoirement être supérieur à 50°."
         },
         {
+          "text": "Le fichier est prévu pour redescendre en température automatiquement, lorsque l'écran affichera une température inférieur à 50°, le ventilateur avant s'éteindra."
+        },
+        {
           "frame": [
             {
               "button": {
-                "href": "/du/du-with-screen/8.notice",
+                "href": "/du2/8.notice",
                 "text": "Si le comportement est différent de celui observé, vérifiez votre câblage"
               }
             }
@@ -250,7 +253,8 @@
         },
         {
           "help": {
-            "quick_tips": "Ne perdons pas de temps pour comprendre l'utilité des ventilateurs, rendez-vous sur le support."
+            "quick_tips": "Ne perdons pas de temps pour comprendre l'utilité des ventilateurs, rendez-vous sur le support.",
+            "danger": "Si les branchements des ventilateurs sont inversés alors il y a un risque d'endommager l'imprimante."
           }
         },
         {
@@ -263,7 +267,7 @@
     },
     {
       "media": {
-        "id": "RBdyTqP7-yw",
+        "id": "jp65gBkC-Lc",
         "type": "yt"
       },
       "article": [
@@ -274,41 +278,19 @@
           "title": "Insertion automatique du filament"
         },
         {
-          "text": "Retirez la carte sd."
-        },
-        {
-          "text": "Allumez l’imprimante."
-        },
-        {
-          "text": "Prenez l’échantillon de filament et couper le en biseau."
-        },
-        {
-          "text": "Présentez le dans l’extrudeur et insérez le jusqu’en butée."
-        },
-        {
-          "text": "(Vous devez entendre un petit “clic” révélateur du capteur mécanique de filament qui se ferme)"
-        },
-        {
-          "text": "Le filament doit être pincé par la roue dentée."
-        },
-        {
-          "text": "La tête d’impression se déplace lentement de gauche à droite en faisant des a-coups, elle décrit une barre de chargement de 0 vers 100%, de la température initial à la consigne de température pour l’insertion du filament."
-        },
-        {
-          "text": "La consigne est atteinte, le filament est acheminé automatiquement dans le tube PTFE jusqu’à la buse d’impression."
-        },
-        {
-          "text": "Le filament arrive à la buse, le filament est ralenti pour ne pas qu’il s’insère trop rapidement."
-        },
-        {
-          "text": "Le filament traverse la buse et sort fondue."
-        },
-        {
-          "text": "L’insertion automatique est réussie."
+          "text": [
+            "Préparez le filament qui sera inséré dans l'imprimante, pourquoi pas l'échantillon fourni ou alors, dans le cas de la vidéo, du Filo3D.",
+            "Coupez le filament en biseau permettra une insertion plus facile.",
+            "Insérez le filament dans l'extrudeur jusqu'au bout, il sera ensuite avalé automatiquement sur quelques centimètres.",
+            "Le menu de l'écran prend la relève, la buse monte en température.",
+            "Lorsque la consigne est atteinte le reste du filament est inséré jusqu'à la buse puis réalise une petite purge.",
+            "Lorsque l'écran revient au menu de surveillance, l'insertion est terminée",
+            "Il faudra attendre que le ventilateur s'éteigne automatiquement avant de lancer une impression ou pour réaliser une autre opéaration."
+          ]
         },
         {
           "help": {
-            "danger": "Laisser le ventilateur s’éteindre tout seul avant d’éteindre l’imprimante."
+            "quick_tips": "L'insertion se réalise à 190°, vous pouvez programmer une température plus haute si vous le souhaitez."
           }
         }
       ]
