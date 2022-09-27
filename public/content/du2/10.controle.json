@@ -284,13 +284,20 @@
             "Insérez le filament dans l'extrudeur jusqu'au bout, il sera ensuite avalé automatiquement sur quelques centimètres.",
             "Le menu de l'écran prend la relève, la buse monte en température.",
             "Lorsque la consigne est atteinte le reste du filament est inséré jusqu'à la buse puis réalise une petite purge.",
+            "L'insertion se réalise à 190°, vous pouvez programmer une température plus haute si vous le souhaitez.",
             "Lorsque l'écran revient au menu de surveillance, l'insertion est terminée",
-            "Il faudra attendre que le ventilateur s'éteigne automatiquement avant de lancer une impression ou pour réaliser une autre opéaration."
+            "Il faudra attendre que le ventilateur s'éteigne automatiquement avant de lancer une impression ou pour réaliser une autre opération."
           ]
         },
         {
+          "text": "Cette fonction a été retiré récemment pour privilégier les interactions avec l'écran."
+        },
+        {
+          "text": "L'insertion se réalise avec le bouton \"Charger filament\"."
+        },
+        {
           "help": {
-            "quick_tips": "L'insertion se réalise à 190°, vous pouvez programmer une température plus haute si vous le souhaitez."
+            "quick_tips": ""
           }
         }
       ]

@@ -21,7 +21,7 @@
     },
     {
       "media": {
-        "src": "NevaMagis/Notice/b-derouleur.jpg"
+        "src": "DiscoUltimate2/Notice/13-b-chooseafile.jpg"
       },
       "article": [
         {
@@ -37,8 +37,8 @@
           "button": {
             "color": "white",
             "text": "Téléchargez le fichier STL ci-dessous. Nous allons ensuite le préparer sur Cura.",
-            "href": "//drive.google.com/file/d/1_1N0OnGBdfcMY00hV2dENDK4LJA5IRyw/view?usp=sharing",
-            "download": "support-bobine.zip",
+            "href": "https://drive.google.com/file/d/1LaBiGc2gB7MpUa4CNYhMr_pKWD5UzJz_/view?usp=sharing",
+            "download": "Dérouleur de bobine_V1.1.zip",
             "label": "Télécharger"
           }
         }
@@ -46,7 +46,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate2/Notice-with-screen/15-c-cura.jpg"
+        "src": "DiscoUltimate2/Notice/13-c-prepareafile.jpg"
       },
       "article": [
         {
@@ -362,7 +362,7 @@
     },
     {
       "media": {
-        "src": "DiscoUltimate2/Addon/Screen/2-Menu-de-surveillance.jpg"
+        "src": "DiscoUltimate2/Notice/13-l-menusurveillance.jpg"
       },
       "article": [
         {
@@ -376,40 +376,38 @@
             "Vitesse d’impression en pourcentage",
             "Etat de l’imprimante",
             "Barre d’avancement de l’impression en cours",
-            "Bouton d’arrêt d’urgence",
-            "Buzzer sonore",
-            "Bouton de sélection"
+            "Bouton de sélection",
+            "Bouton d’arrêt d’urgence"
           ]
         },
         {
           "help": {
-            "danger": "Si le bouton est trop enfoncé alors il risque de ne pas fonctionner correctement."
+            "quick_tips": "Les points d'interrogation indiquent que l'imprimante n'a pas encore réalisé sa prise d'origine, en gros la tête d'impression ne se repère pas encore dans l'espace."
           }
         }
       ]
     },
     {
       "media": {
-        "src": "DiscoUltimate2/Addon/Screen/3-1-Deplacements.jpg"
+        "src": "DiscoUltimate2/Notice/13-m-mouvement1.jpg"
       },
       "article": [
         {
           "title": "Déplacement 1"
         },
         {
-          "text": "Pour déplacer la tête d’impression ou le plateau, il faudra à chaque fois sélectionner le pas de déplacement 10mm, 1mm ou 0,1mm."
-        },
-        {
-          "text": "En choisissant 10mm, seuls les axes X et Y seront déplaçables."
-        },
-        {
-          "text": "L’axe extrudeur ne sera déplaçable qu’une fois que la buse aura atteint la température minimum de 180°, l’extrusion à froid n’est pas possible."
+          "text": [
+            "Pour déplacer la tête d'impression ou le plateau dans l'espace, il faudra d'abord sélectionner l'axe sur lequel vous souhaitez le voir bouger.",
+            "L'axe X pour un déplacement horizontal, l'axe Y pour un déplacement en profondeur ou l'axe Z pour un déplacement vertical.",
+            "Vous pourrez ensuite sélectionner le pas de déplacement, 10mm, 1mm ou 0,1mm selon la précision du mouvement que vous souhaitez réaliser.",
+            "L’axe extrudeur ne sera déplaçable qu’une fois que la buse aura atteint la température minimal d'extrusion du PLA, l’extrusion à froid n’est pas possible."
+          ]
         }
       ]
     },
     {
       "media": {
-        "src": "DiscoUltimate2/Addon/Screen/3-2-Deplacements.jpg"
+        "src": "DiscoUltimate2/Notice/13-n-mouvement2.jpg"
       },
       "article": [
         {
@@ -419,56 +417,63 @@
           "text": "Au démarrage de l’imprimante, les axes clignotent avec des points d'interrogation car les butées ne sont pas encore réalisées. En lançant une impression, ce repérage est fait automatiquement. Il peut être fait manuellement avec l’option Origine auto."
         },
         {
-          "text": "L’activation du palpeur génère une matrice de compensation de la hauteur de la buse en fonction de sa position au-dessus du plateau. Cette matrice ne s’affiche pas sur l’écran mais si l’imprimante est reliée à un logiciel type Pronterface, alors le calcul de la matrice s'affichera en sélectionnant l’option Régl. Niv. Plateau."
+          "text": "L’activation du palpeur génère une matrice de compensation de la hauteur de la buse en fonction de sa position au-dessus du plateau sur 9 points. Cette matrice ne s’affiche pas sur l’écran mais si l’imprimante est reliée à un logiciel type Pronterface, alors le calcul de la matrice s'affichera en sélectionnant l’option \"Régler Niv. lit\" puis \"Niveau du lit\"."
         },
         {
-          "text": "Le réglage de la première couche ou offset peut se faire via l’écran en choisissant l’option Réinitialiser et en suivant les instructions. Vous pouvez peaufiner ce réglage au centième près en sélectionnant directement la valeur du décalage en Z."
+          "text": "Le réglage de la première couche ou offset peut se faire via l’écran dans le même menu que la fonction précédente puis en choisissant \"Décalage Z\", il faudra tourner le bouton pour sélectionner la bonne valeur."
         }
       ]
     },
     {
       "media": {
-        "src": "DiscoUltimate2/Addon/Screen/4-Temperature.jpg"
+        "src": "DiscoUltimate2/Notice/13-o-temperature.jpg"
       },
       "article": [
         {
           "title": "Température"
         },
         {
-          "text": "La température de la buse d’impression est modifiable depuis l’écran. Comme pour déplacer un axe, on vient sélectionner le menu Buse et il faudra tourner le bouton pour y indiquer la consigne de température souhaitée."
+          "text": "La température de la buse d’impression est modifiable depuis l’écran. Comme pour déplacer un axe, on vient sélectionner le menu Buse et il faudra tourner le bouton pour y indiquer la consigne de température souhaitée en tournant le bouton."
         },
         {
-          "text": "On peut modifier la vitesse de rotation du ventilateur pour souffler plus ou moins fort de la même manière, les valeurs seront les suivantes 0 : 0% / 255 : 100%."
+          "text": "On peut modifier la vitesse de rotation du ventilateur arrière pour souffler plus ou moins fort de la même manière, les valeurs seront les suivantes 0 : 0% / 255 : 100%."
         },
         {
-          "text": "Un préchauffage est également déjà paramétré, préchauffage PLA : 180°C / préchauffage ABS : 240°C."
-        }
-      ]
-    },
-    {
-      "media": {
-        "src": "DiscoUltimate2/Addon/Screen/5-Mouvements.jpg"
-      },
-      "article": [
-        {
-          "title": "Mouvement"
-        },
-        {
-          "text": "Les déplacements de la tête d’impression sont contrôlés et contrôlables depuis le menu Mouvement."
-        },
-        {
-          "text": "Ces paramètres sont modifiables pour améliorer la qualité de vos impressions. Il faut faire des tests, observer le résultat et en tirer des conclusions. Il n’y a pas de réglage type car chaque imprimante est différente."
+          "text": "Un préchauffage est également déjà paramétré, préchauffage PLA : 190°C / préchauffage ABS : 240°C."
         },
         {
           "help": {
-            "quick_tips": "Si l’imprimante ne réagit plus “normalement” et que vous souhaitez retrouver les paramètres par défaut, alors vous pouvez refaire une mise à jour du firmware."
+            "quick_tips": "Le paramètre ventilateur 2 n'est pas utilisé."
           }
         }
       ]
     },
     {
       "media": {
-        "src": "DiscoUltimate2/Addon/Screen/6-Insertion-Ejection.jpg"
+        "src": "DiscoUltimate2/Notice/13-p-configuration.jpg"
+      },
+      "article": [
+        {
+          "title": "Configuration"
+        },
+        {
+          "text": [
+            "Les paramètres de fonctionnement des moteurs sont réglés ici.",
+            "Vous retrouvez la valeur des pas moteur par millimètre.",
+            "Vous retrouvez également la valeur des drivers, le couple des moteurs est directement proportionnel à la tension d'alimentation."
+          ]
+        },
+        {
+          "help": {
+            "quick_tips": "Les pas moteur peuvent être modifiés pour peaufiner la taille de vos impressions si vous manquez de précision avec les valeurs par défaut.",
+            "danger": "Les valeurs doivent être identiques sur votre imprimante, si ce n'est pas le cas, nous vous invitons à les modifier et d'enregistrer la configuration pour prendre en compte les modifications."
+          }
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate2/Notice/13-q-insertion_ejectionSD.jpg"
       },
       "article": [
         {
@@ -478,29 +483,39 @@
           "text": "L’insertion de la carte SD peut se faire machine éteinte ou allumée."
         },
         {
-          "text": "L’écran vous informe de la bonne lecture de la carte SD (Carte insérée)."
+          "text": "L’écran vous informe de la bonne lecture de la carte SD avec le message \"Média inséré\". Ou alors la bonne éjection de la carte SD avec le message \"Média retiré\"."
         },
         {
           "text": "Lors de la mise sous tension de l’imprimante, le fichier ne se lancera pas automatiquement. Il faudra le sélectionner manuellement."
         },
         {
-          "text": "Le nom du fichier peut ne pas être “dagoma0.g”, il est possible de mettre plusieurs fichiers Gcode sur la carte SD et de les renommer après le passage dans Cura By Dagoma."
-        },
-        {
-          "text": "L’écran vous informe de l’éjection de la carte SD (Carte retirée)."
+          "text": "Le nom du fichier peut ne pas être “dagoma0.g”, il est également possible de mettre plusieurs fichiers Gcode sur la carte SD et de les renommer après le passage dans Cura By Dagoma."
         }
       ]
     },
     {
       "media": {
-        "src": "DiscoUltimate2/Addon/Screen/7-Modifications.jpg"
+        "src": "DiscoUltimate2/Notice/13-r-lumiere.jpg"
+      },
+      "article": [
+        {
+          "title": "Lumière de l'écran"
+        },
+        {
+          "text": "La couleur de l'écran peut être paramétrée depuis le menu de celui-ci."
+        },
+        {
+          "text": "La couleur varie également en fonction de l'état de celle-ci, la couleur changera si l'imprimante est en train d'imprimer ou non."
+        }
+      ]
+    },
+    {
+      "media": {
+        "src": "DiscoUltimate2/Notice/13-s-modification.jpg"
       },
       "article": [
         {
           "title": "Modification"
-        },
-        {
-          "text": "Une impression peut être arrêtée prématurément via le menu Arrêter impr."
         },
         {
           "text": "Après le lancement d’une impression, un nouveau menu apparaît : Régler."
@@ -510,13 +525,15 @@
         },
         {
           "list": [
-            "Vitesse d’impression (comme sur l’écran d’accueil)",
+            "Vitesse d’impression",
             "Température de la buse",
             "Vitesse du ventilateur",
             "Flux (débit d’extrusion)",
-            "Babystepping (déplacement d’un axe, au pas moteur près, souvent utilisé pour peaufiner la première couche en jouant sur le babystep Z)",
-            "Déclencher un changement de filament"
+            "Babystepping (déplacement d’un axe, au pas moteur près, souvent utilisé pour peaufiner la première couche en jouant sur le babystep Z)"
           ]
+        },
+        {
+          "text": "Une impression peut être arrêtée prématurément via le menu Arrêter impr."
         }
       ]
     },
@@ -540,6 +557,9 @@
             "href": "//github.com/dagoma3d/STL-DiscoEasy200-Official/tree/Release/Add-on%201%20-%20Ecran",
             "label": "C'est par ici"
           }
+        },
+        {
+          "text": "Les fichiers de l'écran arrivent prochainement."
         }
       ]
     }
