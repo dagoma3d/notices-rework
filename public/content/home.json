@@ -139,6 +139,11 @@
           "title": "Pack XL"
         },
         {
+          "to": "/du/pack-evo-ultimate-v2",
+          "src": "pack-evo",
+          "title": "Pack évolution Carte Ultimate v2"
+        },
+        {
           "to": "/du/box",
           "src": "caisson-disco",
           "title": "Caisson de protection"
@@ -184,6 +189,11 @@
           "to": "/de200/pack-evo-ultimate",
           "src": "pack-evo",
           "title": "Pack évolution Ultimate"
+        },
+        {
+          "to": "/de200/pack-evo-ultimate-v2",
+          "src": "pack-evo",
+          "title": "Pack évolution Ultimate V2"
         },
         {
           "to": "/de200/xl",
