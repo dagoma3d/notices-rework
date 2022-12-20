@@ -1,9 +1,7 @@
 {
   "header": {
     "img": "PRO430/0-a-header.jpg",
-    "title": [
-      "Notice d'installation - Impression"
-    ],
+    "title": ["Notice d'installation - Impression"],
     "subtitle": "Imprimante PRO 430",
     "text": [
       "Nous allons voir maintenant comment configurer Cura sur votre ordinateur pour imprimer avec la PRO 430 et ensuite comment lancer une impression depuis l'écran."
@@ -33,9 +31,10 @@
         },
         {
           "button": {
-            "href": "http://media.dagoma3d.com/pro430/Installation-files.zip",
+            "href": "https://media.dagoma3d.com/pro430/Installation-files.zip",
             "color": "orange",
-            "label": "Télécharger"
+            "label": "Télécharger",
+            "download": true
           }
         },
         {

@@ -111,16 +111,16 @@ function Button({ text, color, to, href, download, label, position }) {
       {t(label)}
     </Link>
   ) : (
-      <a
-        href={href}
-        className={getClasses(color)}
-        download={download}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {t(label)}
-      </a>
-    );
+    <a
+      href={href}
+      className={getClasses(color)}
+      download={download}
+      target={download ? '_self' : '_blank'}
+      rel="noopener noreferrer"
+    >
+      {t(label)}
+    </a>
+  );
   return (
     <p className={getPosition(position)}>
       {pre}
@@ -207,7 +207,9 @@ function Video({ content, flip }) {
       </p>
       <AdditionalInfo content={text} />
       <section
-        className={`block-video-${flip ? 'right' : 'left'}-translate block-video-hidden ${active ? 'active' : null}`}
+        className={`block-video-${flip ? 'right' : 'left'}-translate block-video-hidden ${
+          active ? 'active' : null
+        }`}
         style={{ border: 'none' }}
       >
         <div className="block-video-yt">
@@ -235,7 +237,7 @@ function Video({ content, flip }) {
 
 function Item({ content, flip }) {
   if (!content) return null;
-  const [k, v] = Object.entries(content).filter(entry => entry[0] !== 'type')[0];
+  const [k, v] = Object.entries(content).filter((entry) => entry[0] !== 'type')[0];
   if (!v) return null;
   const items = {
     container: <MyContainer content={v} />,
