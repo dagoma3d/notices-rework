@@ -4,6 +4,8 @@
 }
 
 .Interface-description {
+  position: fixed;
+  max-width: 50%;
   background-color: white;
   border: 1px solid #404041;
   border-radius: 5px;

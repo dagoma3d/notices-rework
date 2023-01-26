@@ -34,20 +34,29 @@ function List({ list }) {
 
 function Description({ content }) {
   const { t } = useTranslation();
+  const [mousePos, setMousePos] = useState({});
+
+  useEffect(() => {
+    const handleMouseMove = (event) => {
+      setMousePos({ x: event.clientX, y: event.clientY });
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+    };
+  }, []);
 
   if (!content) return null;
   const { messages, list } = content;
   return (
-    <Container>
-      <Row>
-        <Col className="Interface-description">
-          {messages.map((i, k) => (
-            <span key={k}>{t(i)}</span>
-          ))}
-          <List list={list} />
-        </Col>
-      </Row>
-    </Container>
+    <div className="Interface-description" style={{ top: mousePos.y, left: mousePos.x + 20 }}>
+      {messages.map((i, k) => (
+        <span key={k}>{t(i)}</span>
+      ))}
+      <List list={list} />
+    </div>
   );
 }
 
