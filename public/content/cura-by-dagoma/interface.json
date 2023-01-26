@@ -2,8 +2,8 @@
   "items": [
     {
       "bubble": {
-        "top": "12%",
-        "left": "3.5%",
+        "top": "8%",
+        "left": "3.6%",
         "title": "Ouvrir des fichiers"
       },
       "description": {
@@ -14,8 +14,8 @@
     },
     {
       "bubble": {
-        "top": "2%",
-        "left": "15.7%",
+        "top": "1%",
+        "left": "1.7%",
         "title": "Fichier"
       },
       "description": {
@@ -26,8 +26,8 @@
     },
     {
       "bubble": {
-        "top": "2%",
-        "left": "22%",
+        "top": "1%",
+        "left": "7%",
         "title": "Préférences"
       },
       "description": {
@@ -39,14 +39,12 @@
     {
       "bubble": {
         "type": "big",
-        "top": "52%",
-        "left": "37.5%",
+        "top": "51%",
+        "left": "37%",
         "title": "Mon objet"
       },
       "description": {
-        "messages": [
-          "Depuis l'onglet \"Préférences\", changez la langue du logiciel (prise en compte à la prochaine ouverture du logiciel) ou de modèle d'imprimante 3D Dagoma."
-        ]
+        "messages": ["Ici se trouve l'objet que vous avez ouvert, déposé sur le plateau à plat."]
       }
     },
     {
@@ -68,8 +66,8 @@
     },
     {
       "bubble": {
-        "top": "12%",
-        "left": "71.5%",
+        "top": "8%",
+        "left": "71%",
         "title": "Mode couches"
       },
       "description": {
@@ -94,7 +92,7 @@
     {
       "bubble": {
         "type": "big",
-        "top": "36%",
+        "top": "43%",
         "left": "87%",
         "title": "Paramètres d'impression"
       },
@@ -106,10 +104,10 @@
     },
     {
       "bubble": {
-        "type": "medium",
-        "top": "57.5%",
-        "left": "87.5%",
-        "title": "Supports pour impression"
+        "type": "big",
+        "top": "70.5%",
+        "left": "87%",
+        "title": "Paramètres d'objet"
       },
       "description": {
         "messages": [
@@ -119,8 +117,20 @@
     },
     {
       "bubble": {
-        "top": "66.5%",
-        "left": "82%",
+        "top": "86%",
+        "left": "75.5%",
+        "title": "Plateau magnétique"
+      },
+      "description": {
+        "messages": [
+          "Cette option permet à l'imprimante d'être encore plus précise lors de son palpage dans le cas où un plateau flex a été installé sur la machine."
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "top": "88%",
+        "left": "86%",
         "title": "Changement(s) de couleur"
       },
       "description": {
@@ -131,8 +141,8 @@
     },
     {
       "bubble": {
-        "top": "70%",
-        "left": "93%",
+        "top": "92%",
+        "left": "95%",
         "title": "Préparer l'impression"
       },
       "description": {
@@ -146,8 +156,8 @@
     {
       "bubble": {
         "type": "medium",
-        "top": "91%",
-        "left": "69%",
+        "top": "97%",
+        "left": "65%",
         "title": "Informations"
       },
       "description": {
@@ -158,8 +168,8 @@
     },
     {
       "bubble": {
-        "top": "91%",
-        "left": "3.5%",
+        "top": "95.5%",
+        "left": "3.6%",
         "title": "Orientation"
       },
       "description": {
@@ -170,8 +180,8 @@
     },
     {
       "bubble": {
-        "top": "91%",
-        "left": "8.5%",
+        "top": "95.5%",
+        "left": "9%",
         "title": "Dimensions"
       },
       "description": {
@@ -182,8 +192,8 @@
     },
     {
       "bubble": {
-        "top": "91%",
-        "left": "13.5%",
+        "top": "95.5%",
+        "left": "14.4%",
         "title": "Symétrie"
       },
       "description": {

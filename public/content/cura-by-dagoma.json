@@ -1,9 +1,7 @@
 {
   "header": {
     "img": "Cura/Notice/a-intro.jpg",
-    "title": [
-      "Notice d'utilisation du logiciel Cura"
-    ],
+    "title": ["Notice d'utilisation du logiciel Cura"],
     "subtitle": "Cura, Slicer, ... On vous explique tout !",
     "text": [
       "Ajustez la taille, la qualité ou le remplissage et maîtrisez la personnalisation de vos objets 3D à l'aide du logiciel Cura by Dagoma.",
@@ -146,9 +144,7 @@
     {
       "type": "banner",
       "title": "Les paramètres d'impression",
-      "subtitle": [
-        "Concrètement ça donne quoi ?"
-      ]
+      "subtitle": ["Concrètement ça donne quoi ?"]
     },
     {
       "id": "qualite",
@@ -266,7 +262,7 @@
     {
       "id": "warp",
       "media": {
-        "src": "Cura/Notice/j-warp.jpg"
+        "src": "Cura/Notice/adhesion.jpg"
       },
       "article": [
         {
@@ -276,7 +272,16 @@
           "text": "C'est malheureusement un impondérable de l'impression 3D. Selon les géométries, la qualité de la première couche, la qualité des surfaces d'accroches, la pièce peut se décoller. Un décollement partiel comme sur l'image (appelé warping) est gênant puisqu'il a déformé la pièce. Un décollement complet entraîne un échec total de l'impression et peut endommager l'imprimante."
         },
         {
-          "text": "La case à cocher \"Amélioration de la surface d'adhésion\" permet de limiter ce phénomène. Cette option vient ajouter une fine couche tout autour de la pièce et la stabilise sur la surface. Il faudra la retirer à la fin de l'impression."
+          "text": "La section \"Amélioration de la surface d'adhésion\" permet de limiter ce phénomène."
+        },
+        {
+          "text": "Ajouter une jupe : la tête d'impression réalise un cercle appelé \"jupe\" autour de la zone d'impression, afin d'extruder entièrement le filament précédent pour une couleur optimale !"
+        },
+        {
+          "text": "Ajouter une bordure : la tête imprime une légère couche de filament qui relie l'objet 3D au plateau, afin de maximiser l'adhérence."
+        },
+        {
+          "text": "Ajouter un radeau : la pièce est rattachée au plateau, grâce à un radeau (une base plate épaisse), ce qui permet de limiter fortement les risques de warping."
         }
       ]
     },
