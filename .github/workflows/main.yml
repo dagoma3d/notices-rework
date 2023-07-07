@@ -17,7 +17,7 @@ jobs:
       - name: NodeJS install
         uses: actions/setup-node@v3
         with:
-            node-version: 16
+            node-version: 14
       - name: npm install, check and build app
         run: |
           npm install
