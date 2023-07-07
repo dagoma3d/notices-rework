@@ -15,6 +15,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: npm install, check and build app
+        uses: actions/setup-node@v3
+        with:
+            node-version: 16
         run: |
           npm install
           npm run build
