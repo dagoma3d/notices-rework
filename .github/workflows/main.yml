@@ -14,10 +14,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: npm install, check and build app
+      - name: NodeJS install
         uses: actions/setup-node@v3
         with:
             node-version: 16
+      - name: npm install, check and build app
         run: |
           npm install
           npm run build
