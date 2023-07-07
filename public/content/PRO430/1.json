@@ -1,7 +1,9 @@
 {
   "header": {
     "img": "PRO430/0-a-header.jpg",
-    "title": ["Notice d'installation - Impression"],
+    "title": [
+      "Notice d'installation - Impression"
+    ],
     "subtitle": "Imprimante PRO 430",
     "text": [
       "Nous allons voir maintenant comment configurer Cura sur votre ordinateur pour imprimer avec la PRO 430 et ensuite comment lancer une impression depuis l'écran."
@@ -9,123 +11,29 @@
   },
   "blocks": [
     {
-      "type": "banner",
-      "title": "Préparation de l'ordinateur"
-    },
-    {
       "media": {
-        "src": "PRO430/1-b-fichiers-a-telecharger.jpg"
+        "src": "PRO430/0-d-cura.png"
       },
       "article": [
         {
           "pretitle": "Étape 1"
         },
         {
-          "title": "Fichiers d'installation"
-        },
-        {
-          "text": "Téléchargez les fichiers nécessaire au fonctionnement de l'imprimante en cliquant sur le bouton \"Télécharger\" ci-dessous."
-        },
-        {
-          "text": ""
-        },
-        {
-          "button": {
-            "href": "https://media.dagoma3d.com/pro430/Installation-files.zip",
-            "color": "orange",
-            "label": "Télécharger",
-            "download": true
-          }
-        },
-        {
-          "text": "Nous allons avoir besoin de chacun de ces fichiers sur les vidéos suivantes de cette notice."
-        }
-      ]
-    },
-    {
-      "media": {
-        "id": "tYOxFzKOmMQ"
-      },
-      "article": [
-        {
-          "pretitle": "Étape 2"
-        },
-        {
           "title": "Installer Cura"
         },
         {
-          "text": "Lorsque Cura est installé, il nous faut encore ajouter manuellement l'imprimante que nous souhaitons utiliser."
+          "button": {
+            "href": "https://ultimaker.com/software/ultimaker-cura/#links",
+            "text": "Pour installer Cura veuillez suivre le lien"
+          }
         },
         {
-          "text": "Suivez attentivement la vidéo suivante pour réaliser cette opération."
+          "text": "Lors de la configuration de Cura, sélectionner Non ultimaker Printer"
         },
         {
-          "text": "L'objectif est de compléter le dossier \"resources\" de Cura existant afin d'y ajouter les fichiers de la PRO 430."
-        },
-        {
-          "text": "Nous allons ensuite la sélectionner depuis Cura pour la faire apparaître."
+          "text": "Puis DAGOMA, ensuite choisissez votre version d'imprimante"
         }
       ]
-    },
-    {
-      "media": {
-        "id": "GD4pcMgXAQc"
-      },
-      "article": [
-        {
-          "pretitle": "Étape 3"
-        },
-        {
-          "title": "Modifier le Gstart"
-        },
-        {
-          "text": "Le Gstart est aussi appelé \"Phase d'initialisation de l'imprimante\"."
-        },
-        {
-          "text": "C'est l'ensemble des commandes qui seront réalisées avant de lancer une impression."
-        },
-        {
-          "text": "Dans une démarche d'optimisation constante, le Gstart présent dans Cura est déjà obsolète."
-        },
-        {
-          "text": "Nous allons donc le remplacer avec celui qui se trouve dans les fichiers d'installations."
-        },
-        {
-          "text": "Suivez attentivement la vidéo suivante pour réaliser cette opération."
-        }
-      ]
-    },
-    {
-      "media": {
-        "id": "NUL6iA7AB-Q"
-      },
-      "article": [
-        {
-          "pretitle": "Étape 4"
-        },
-        {
-          "title": "Ajout d'un profil d'impression"
-        },
-        {
-          "text": "Le but de cette vidéo est de remplacer le profil existant qui se nommme \"Low Quality - 0.4mm\"."
-        },
-        {
-          "text": "Le profil sera utilisé pour imprimer uniquement du PLA."
-        },
-        {
-          "text": "Dans un premier temps, nous activons la version complète des paramètres modifiable en séléctionnant \"All\" dans \"Paramètres\"."
-        },
-        {
-          "text": "Le profil est ensuite ajouté via la fonction \"Importer\" dans \"Profils\"."
-        },
-        {
-          "text": "Pour l'utiliser, il faut le sélectionner grace au bouton \"Activer\" toujours dans \"Profils\"."
-        }
-      ]
-    },
-    {
-      "type": "banner",
-      "title": "Nous sommes maintenant prêt à imprimer .."
     },
     {
       "media": {
@@ -133,7 +41,7 @@
       },
       "article": [
         {
-          "pretitle": "Étape 5"
+          "pretitle": "Étape 2"
         },
         {
           "title": "Préparer une impression"
@@ -164,7 +72,7 @@
       },
       "article": [
         {
-          "pretitle": "Étape 6"
+          "pretitle": "Étape 3"
         },
         {
           "title": "Lancer une impression"
@@ -202,7 +110,7 @@
       },
       "article": [
         {
-          "pretitle": "Étape 7"
+          "pretitle": "Étape 4"
         },
         {
           "title": "Arrêter l’imprimante"

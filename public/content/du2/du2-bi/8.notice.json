@@ -333,6 +333,22 @@
     },
     {
       "media": {
+        "src": "DiscoUltimate2/Notice/8-c-branchement.jpg"
+      },
+      "article": [
+        {
+          "title": "Branchement des capteurs de fin de fil"
+        },
+        {
+          "text": "Raccordez le câble rouge venant de l'extrudeur E1 sur le connecteur 1."
+        },
+        {
+          "text": "Branchez le câble rouge venant de l'extrudeur E0 sur le connecteur 2."
+        }
+      ]
+    },
+    {
+      "media": {
         "id": "Sl4kKxnIUv0"
       },
       "article": [

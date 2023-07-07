@@ -9,19 +9,19 @@
   "blocks": [
     {
       "media": {
-        "id": "MVFe7cqFBrU"
+        "src": "DiscoUltimate2/Notice/11-z-offset.png"
       },
       "article": [
         {
           "title": "Réglage du Z-offset"
         },
         {
-          "text": "Je vous invite à suivre attentivement cette vidéo"
+          "text": "Pour calibrer votre Z-offset"
         },
         {
           "button": {
             "href": "https://support.dagoma.fr/support/solutions/articles/36000382550-discoultimate-v2-tmc-r%C3%A9glage-de-l-offset",
-            "text": "Pour plus d'explication, la page vers le support se trouve"
+            "text": "Veuillez vous référer à la section 3 de la page du support qui se trouve"
           }
         }
       ]
